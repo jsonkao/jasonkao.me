@@ -14,7 +14,7 @@
   <div class="section section-header" id="section-header">
     <header>
       <p class="large">
-        I am a software engineer, data scientist and researcher in New York 
+        I am a software engineer, data scientist and researcher in New York
         City attending Stuyvesant High School.
       <div class="information">
         <p class="small">
@@ -29,8 +29,8 @@
             <a href="http://linkedin.com/in/jkao1">
               http://linkedin.com/in/jkao1
             </a>
-          </span> 
-          -->         
+          </span>
+          -->
           <span class="profile-mobile">
             <a href="https://github.com/jkao1" target="_blank">
               <img src="img/github.svg"/>
@@ -67,7 +67,7 @@
       <li>Leading development and launching a new website for <a href="https://www.github.com/stuyspec" class="external" target="_blank">The Spectator</a></li>
       <li>Teaching workshops for student entrepreneurs with <a href="http://www.launchx.com/" class="external" target="_blank">MIT LaunchX</a></li>
       <li>Exploring everything about everything at <a href="http://stuy.edu" class="external" target="_blank">Stuyvesant High School</a></li>
-      <li>Discovering the horribly underrated rock band <a href="http://www.thegrates.com/" class="external" target="_blank">THE GRATES</a></li> 
+      <li>Discovering the horribly underrated rock band <a href="http://www.thegrates.com/" class="external" target="_blank">THE GRATES</a></li>
     </ul>
   </div>
   <script
@@ -75,6 +75,7 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
   <script>
+  var scrollPosition = 0;
     $( document ).ready(function() {
       var hr = (new Date()).getHours();
       if (Math.abs(hr - 12) < 6) { // during the day is 6 to 18
@@ -82,6 +83,9 @@
       } else {
         $('#text-sun').remove();
       }
+    });
+    $(document).scroll(function(){
+      scrollPosition = $(document).scrollTop();
     });
     $(function(){
       var fadeDelay = 500;
@@ -101,19 +105,25 @@
               div.remove();
             });
           }, fadeDelay);
-        }        
+        }
       });
     });
     $('#circle').hover(
       function() {
-        $('#circle').siblings().hide()
-        $('#circle').parents().siblings().hide()
+        // $('#circle').siblings().hide()
+        // $('#circle').parents().siblings().hide()
+        $('#circle').siblings().css('visibility', 'hidden');
+        $('#circle').parents().siblings().css('visibility', 'hidden');
         $('#explainer').css('display', 'inline')
+        $(document).scrollTop(scrollPosition);
       }, function() {
-        $('#circle').siblings().show()
-        $('#circle').parents().siblings().show()
+        // $('#circle').siblings().show()
+        // $('#circle').parents().siblings().show()
+        $('#circle').siblings().css('visibility', 'visible');
+        $('#circle').parents().siblings().css('visibility', 'visible');
         $('#explainer').css('display', 'none')
         $('script').hide();
+        $(document).scrollTop(scrollPosition);
       }
     );
   </script>
