@@ -75,7 +75,9 @@
           })
           .appendTo(document.body);
         setTimeout(function() {
-          div.fadeOut(fadeDuration);
+          div.fadeOut(fadeDuration, function() {
+            div.remove();
+          });
         }, fadeDelay);
       });
     });
