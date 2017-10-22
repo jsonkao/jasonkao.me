@@ -22,10 +22,47 @@ body {
   font-family: "Helvetica Neue";
   font-size: 2.4vw;
   line-height: 1.3em;
-  opacity: 0;
-  transition: opacity .6s;
-  -webkit-transition: opacity .5s; /* Safari */
+  -moz-animation: pageFadeIn 600ms;
+  -ms-animation: pageFadeIn 600ms;
+  -webkit-animation: pageFadeIn 600ms;
+  animation: pageFadeIn 600ms;
 }
+
+@-moz-keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  } 
+}
+@-ms-keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  } 
+}
+@-webkit-keyframes pageFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1; 
+  } 
+}
+@keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 a {
   border-bottom: 1px solid rgba(10, 10, 10, 0.2);
   color: #111;
