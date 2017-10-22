@@ -13,28 +13,45 @@
 
 <body>
   <div class="section section-header">
-    <header>
-      <p class="large">
-        I am a web and digital design practice led by Jake Dow-Smith with a focus
-        on the design and build of unique websites for arts institutions.
-      </p>
-      <div class="information">
-        <p class="small">
-          <a href="tel:+13479331820">+1 347 933 1820</a>
-          &nbsp;·&nbsp;
-          <a href="mailto:jasonkao85@gmail.com">
-            <span class="email-desktop">jasonkao85@gmail.com</span>
-            <span class="email-mobile">Email</span>
-          </a>
+    <div id="container">
+      <header>
+        <p class="large">
+          I am a web and digital design practice led by Jake Dow-Smith with a focus
+          on the design and build of unique websites for arts institutions.
         </p>
-      </div>
-    </header>
-    <div class="circle">
-        <div class="explainer small">
+        <div class="information">
+          <p class="small">
+            <a href="tel:+13479331820">+1 347 933 1820</a>
+            &nbsp;·&nbsp;
+            <a href="mailto:jasonkao85@gmail.com">
+              <span class="email-desktop">jasonkao85@gmail.com</span>
+              <span class="email-mobile">Email</span>
+            </a>
+          </p>
+        </div>
+      </header>
+      <div id="circle">
+        <div class="small" id="explainer">
           The arc of the <span class="text-sun">sun</span><span class="text-moon">moon</span> at our location
         </div>
       </div>
+    </div>
   </div>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script>
+    $('#circle').hover(
+      function() {
+        $('#circle').siblings().hide()
+        $('#circle').parents().siblings().hide()
+      }, function() {
+        $('#circle').siblings().show()
+        $('#circle').parents().siblings().show()
+      }
+    );
+  </script>
 </body>
 
 </html>
