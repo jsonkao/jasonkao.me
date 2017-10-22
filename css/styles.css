@@ -1,3 +1,28 @@
+/* Fonts */
+
+@font-face {
+    font-family: StellarBold;
+    src: url(../fonts/Stellar-Bold.otf);
+}
+
+@font-face {
+    font-family: StellarMedium;
+    src: url(../fonts/Stellar-Medium.otf);
+}
+
+@font-face {
+    font-family: StellarRegular;
+    src: url(../fonts/Stellar-Regular.otf);
+}
+
+@font-face {
+    font-family: StellarLight;
+    src: url(../fonts/Stellar-Light.otf);
+}
+
+/* End fonts */
+
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -19,7 +44,7 @@ body {
   zoom: 1;
   -webkit-font-smoothing: antialiased;
   background: #fff;
-  font-family: "Helvetica Neue";
+  font-family: StellarRegular;
   font-size: 2.4vw;
   line-height: 1.3em;
   -moz-animation: pageFadeIn 600ms;
@@ -80,7 +105,7 @@ a:hover {
 .section-header {
   height: 100vh;
   width: 100vw;
-  font-family: "Helvetica Neue";
+  font-family: StellarMedium;
 }
 
 .section-header header {
@@ -123,7 +148,7 @@ a:hover {
 }
 
 .small {
-  font-family: "Helvetica Neue";
+  font-family: StellarLight;
   text-transform: uppercase;
   letter-spacing: 0.13em;
   font-weight: 400;
@@ -132,7 +157,7 @@ a:hover {
 }
 
 .normal {
-  font-family: "Helvetica Neue";
+  font-family: StellarRegular;
   font-size: 2.4vw;
   line-height: 1.3em;
 }
@@ -297,6 +322,6 @@ a.external:after {
   content: ' ↗';
   position: absolute;
   padding-left: 0.2em;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, StellarRegular, Helvetica, Arial, sans-serif;
 }
 
