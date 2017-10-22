@@ -61,7 +61,7 @@
     </div>
   </div>
   <div class="section section-latest" id="section-latest">
-    <p class="small">OCTOBER 2017 · LATELY I'VE BEEN —</p>
+    <p class="small" id="lately"></p>
     <ul class="latest-list normal">
       <li>Designing and building a Series A data-based apparel startup, <a href="https://prsbiznews.me/2017/09/25/2017-i-invest-national-youth-business-competition-winners-announced/" class="external" target="_blank">Face the Facts</a></li>
       <li>Leading development and launching a new website for <a href="https://www.github.com/stuyspec" class="external" target="_blank">The Spectator</a></li>
@@ -76,10 +76,16 @@
     crossorigin="anonymous"></script>
   <script>
   var scrollPosition = 0;
-    var isMobile = false; //initiate as false
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    const today = new Date();
+    $('#lately').text(`${monthNames[today.getMonth()]} ${today.getFullYear()} · LATELY I'VE BEEN —`);
+  </script>
+  <script>
     // device detection
     $( document ).ready(function() {
-      var hr = (new Date()).getHours();
+      const hr = (new Date()).getHours();
       if (Math.abs(hr - 12) < 6) { // during the day is 6 to 18
         $('#text-moon').remove();
       } else {
@@ -94,8 +100,8 @@
       scrollPosition = $(document).scrollTop();
     });
     $(function(){
-      var fadeDelay = 400;
-      var fadeDuration = 1000;
+      const fadeDelay = 400;
+      const fadeDuration = 1000;
       $(document).click(function(e){
         if (e.target.id == "section-latest" || $(e.target).parents("#section-latest").length) {
           var div = $('<div class="pop-circle">')
