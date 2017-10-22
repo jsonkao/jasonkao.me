@@ -3,6 +3,21 @@ html, body {
   padding: 0;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  zoom: 1;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 2.4vw;
+  line-height: 1.3em;
+  -moz-animation: pageFadeIn 600ms;
+  -ms-animation: pageFadeIn 600ms;
+  -webkit-animation: pageFadeIn 600ms;
+  animation: pageFadeIn 600ms;
+}
 a {
   border-bottom: 1px solid rgba(10, 10, 10, 0.2);
   color: #111;
@@ -28,7 +43,7 @@ a:hover {
 }
 
 .large {
-  font-size: 42px;
+  font-size: 3.6vw;
   line-height: 1.2em;
 }
 
@@ -42,6 +57,15 @@ a:hover {
   .section-header {
     height: 140vw;
   }
+  .section-header header {
+    width: auto;
+    bottom: 6vw;
+    left: 3vw;
+    right: 3vw;
+  }
+  .large {
+    font-size: 8.5vw;
+  }
 }
 
 .information {
@@ -54,13 +78,13 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.13em;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.1vw;
   line-height: 1.8em;
 }
 
 .normal {
   font-family: "Helvetica Neue";
-  font-size: 30px;
+  font-size: 2.4vw;
   line-height: 1.3em;
 }
 
@@ -68,15 +92,19 @@ a:hover {
   .normal {
     font-size: 5vw;
   }
+  .small {
+    font-size: 3.2vw;
+  }
 }
 
 .information .small img {
-  width: 17px;
+  max-width: 17px;
+  max-height: 17px
 }
 
 @media (min-width: 1300px) {
   .normal {
-    font-size: 2.4vw;
+    font-size: 30px;
   }
 }
 
