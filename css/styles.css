@@ -46,7 +46,7 @@ a:hover {
 
 .information {
   margin-top: 4vw;
-  width: 50vw;
+  width: 70vw;
 }
 
 .small {
@@ -70,10 +70,25 @@ a:hover {
   }
 }
 
+.information .small img {
+  width: 17px;
+}
+
 @media (min-width: 1300px) {
   .normal {
     font-size: 2.4vw;
   }
+}
+
+.profile-desktop {
+  display: none;
+}
+
+.profile-mobile {
+  display: inline;
+}
+.information .small .profile-mobile a {
+  border-bottom: none;
 }
 
 .email-desktop {
@@ -85,6 +100,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .profile-desktop {
+    display: none;
+  }
+  .profile-mobile {
+    display: inline;
+  }
   .email-desktop {
     display: none;
   }
