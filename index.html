@@ -32,7 +32,7 @@
       </header>
       <div id="circle">
         <div class="small" id="explainer">
-          The arc of the <span class="text-sun">sun</span><span class="text-moon">moon</span> at our location
+          The arc of the <span id="text-sun">sun</span><span id="text-moon">moon</span> at our location
         </div>
       </div>
     </div>
@@ -42,13 +42,23 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
   <script>
+    $( document ).ready(function() {
+      var hr = (new Date()).getHours();
+      if (Math.abs(hr - 12) < 6) { // during the day is 6 to 18
+        $('#text-moon').remove();
+      } else {
+        $('#text-sun').remove();
+      }
+    });
     $('#circle').hover(
       function() {
         $('#circle').siblings().hide()
         $('#circle').parents().siblings().hide()
+        $('#explainer').css('display', 'inline')
       }, function() {
         $('#circle').siblings().show()
         $('#circle').parents().siblings().show()
+        $('#explainer').css('display', 'none')
       }
     );
   </script>

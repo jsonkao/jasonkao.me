@@ -37,7 +37,7 @@ a {
 .small {
   text-transform: uppercase;
   letter-spacing: 0.13em;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.8em;
 }
@@ -70,6 +70,17 @@ a {
   z-index: 50;
 }
 
+#explainer {
+  position: absolute;
+  top: 50%;
+  left: 4vw;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  white-space: nowrap;
+  display: none;
+}
 @media (max-width: 768px) {
   #circle {
     top: 10vh;
@@ -83,6 +94,9 @@ a {
   #circle {
     width: 40px;
     height: 40px;
+  }
+  #explainer {
+    left: 60px;
   }
 }
 
