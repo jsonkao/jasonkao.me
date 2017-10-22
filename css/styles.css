@@ -50,6 +50,7 @@ a:hover {
 }
 
 .small {
+  font-family: "Helvetica Neue";
   text-transform: uppercase;
   letter-spacing: 0.13em;
   font-weight: 400;
