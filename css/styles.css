@@ -1,3 +1,28 @@
+/* Fonts */
+
+@font-face {
+    font-family: StellarBold;
+    src: url(../fonts/Stellar-Bold.otf);
+}
+
+@font-face {
+    font-family: StellarMedium;
+    src: url(../fonts/Stellar-Medium.otf);
+}
+
+@font-face {
+    font-family: StellarRegular;
+    src: url(../fonts/Stellar-Regular.otf);
+}
+
+@font-face {
+    font-family: StellarLight;
+    src: url(../fonts/Stellar-Light.otf);
+}
+
+/* End fonts */
+
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
