@@ -10,7 +10,7 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="container">
   <div class="section section-header" id="section-header">
     <header>
       <p class="large">
@@ -82,6 +82,7 @@
       } else {
         $('#text-sun').remove();
       }
+      $('#container').css('opacity', 1);
     });
     $(function(){
       var fadeDelay = 500;

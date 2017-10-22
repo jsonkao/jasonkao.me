@@ -22,10 +22,9 @@ body {
   font-family: "Helvetica Neue";
   font-size: 2.4vw;
   line-height: 1.3em;
-  -moz-animation: pageFadeIn 600ms;
-  -ms-animation: pageFadeIn 600ms;
-  -webkit-animation: pageFadeIn 600ms;
-  animation: pageFadeIn 600ms;
+  opacity: 0;
+  transition: opacity .6s;
+  -webkit-transition: opacity .5s; /* Safari */
 }
 a {
   border-bottom: 1px solid rgba(10, 10, 10, 0.2);
