@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="section section-header">
+  <div class="section section-header" id="section-header">
     <header>
       <p class="large">
         I am a software engineer, data scientist and researcher in New York 
@@ -34,7 +34,7 @@
       </div>
     </div>
   </div>
-  <div class="section section-latest">
+  <div class="section section-latest" id="section-latest">
     <p class="small">OCTOBER 2017 · LATELY I'VE BEEN —</p>
     <ul class="latest-list normal">
       <li>Designing and building a Series A data-based apparel startup, <a href="https://prsbiznews.me/2017/09/25/2017-i-invest-national-youth-business-competition-winners-announced/" class="external" target="_blank">Face the Facts</a></li>
@@ -56,6 +56,28 @@
       } else {
         $('#text-sun').remove();
       }
+    });
+    $(function(){
+      var fadeDelay = 500;
+      var fadeDuration = 1000;
+      $(document).click(function(e){
+        var color;
+        if (e.target.id == "section-header" || $(e.target).parents("#section-header").length) {
+          circleColor = "#fff000";
+        } else if (e.target.id == "section-latest" || $(e.target).parents("#section-latest").length) {
+          circleColor = "#fff";
+        } 
+        var div = $('<div class="pop-circle">')
+          .css({
+            "left": e.pageX + 'px',
+            "top": e.pageY + 'px',
+            "background": circleColor,
+          })
+          .appendTo(document.body);
+        setTimeout(function() {
+          div.fadeOut(fadeDuration);
+        }, fadeDelay);
+      });
     });
     $('#circle').hover(
       function() {

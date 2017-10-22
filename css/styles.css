@@ -92,6 +92,16 @@ a:hover {
   }
 }
 
+.pop-circle {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 6vw;
+  top: 15vh;
+  left: 30vw;
+  z-index: 50;
+}
+
 #circle {
   position: absolute;
   width: 3vw;
@@ -122,10 +132,20 @@ a:hover {
     width: 6vw;
     height: 6vw;
   }
+  .pop-circle {
+    top: 10vh;
+    left: 60vw;
+    width: 6vw;
+    height: 6vw;
+  }
 }
 
 @media (min-width: 1300px) {
   #circle {
+    width: 40px;
+    height: 40px;
+  }
+  .pop-circle {
     width: 40px;
     height: 40px;
   }
