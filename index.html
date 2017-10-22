@@ -61,24 +61,20 @@
       var fadeDelay = 500;
       var fadeDuration = 1000;
       $(document).click(function(e){
-        var color;
-        if (e.target.id == "section-header" || $(e.target).parents("#section-header").length) {
-          circleColor = "#fff000";
-        } else if (e.target.id == "section-latest" || $(e.target).parents("#section-latest").length) {
-          circleColor = "#fff";
-        } 
-        var div = $('<div class="pop-circle">')
+        if (e.target.id == "section-latest" || $(e.target).parents("#section-latest").length) {
+          var div = $('<div class="pop-circle">')
           .css({
             "left": e.pageX + 'px',
             "top": e.pageY + 'px',
-            "background": circleColor,
+            "background": "#fff",
           })
           .appendTo(document.body);
-        setTimeout(function() {
-          div.fadeOut(fadeDuration, function() {
-            div.remove();
-          });
-        }, fadeDelay);
+          setTimeout(function() {
+            div.fadeOut(fadeDuration, function() {
+              div.remove();
+            });
+          }, fadeDelay);
+        }        
       });
     });
     $('#circle').hover(
