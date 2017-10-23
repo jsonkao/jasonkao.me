@@ -5,7 +5,6 @@ html, body {
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, img {
   margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -297,3 +296,22 @@ a.external:after {
   padding-left: 0.2em;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.headshot {
+    max-width: 600px;
+    padding: 20px;
+    flex: 1;
+    flex-shrink: 2;
+}
+
+@media (max-width: 600px) {
+    .headshot {
+        max-width: 350px;
+        padding-top: 100px;
+    }
+}
