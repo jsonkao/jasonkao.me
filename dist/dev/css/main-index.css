@@ -19,3 +19,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+@-moz-keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  } 
+}
+@-ms-keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  } 
+}
+@-webkit-keyframes pageFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1; 
+  } 
+}
+@keyframes pageFadeIn {
+  0% {
+    opacity: 0; 
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
