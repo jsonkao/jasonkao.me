@@ -64,7 +64,11 @@
     "ejs": "^2.5.7",
     "envify": "^4.1.0",
     "express": "^4.16.2",
+    "locate-path": "^2.0.0",
+    "lru-cache": "^4.1.1",
+    "mime-db": "^1.32.0",
     "react-bootstrap": "^0.32.1",
+    "sigmund": "^1.0.1",
     "through2-filter": "^2.0.0",
     "yargs": "^8.0.2"
   }
