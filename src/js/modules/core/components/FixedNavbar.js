@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const styles = {};
 
-const FixedNavbar = ({ classes }) =>;
+const FixedNavbar = ({ classes }) => {
   return (
     <div>
       <Navbar />

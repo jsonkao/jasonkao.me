@@ -11,13 +11,13 @@ class RoutingApp extends Component {
   render() {
     return (
       <Provider store={store}>
-        <PageLayout>
-          <ConnectedRouter history={appHistory}>
+        <ConnectedRouter history={appHistory}>
+          <PageLayout>
             <Switch>
               <Route exact path="/" component={MainApp} />
             </Switch>
-          </ConnectedRouter>
-        </PageLayout>
+          </PageLayout>
+        </ConnectedRouter>
       </Provider>
     );
   }
