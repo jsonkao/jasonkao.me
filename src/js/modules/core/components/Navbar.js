@@ -27,6 +27,13 @@ const styles = {
       textDecoration: "none",
     },
   },
+  "@media (max-width: 575px)": {
+    Navbar: {
+      float: "none",
+      marginRight: 0,
+      textAlign: "center",
+    },
+  },
 };
 
 const Navbar = ({ classes, location }) => {
