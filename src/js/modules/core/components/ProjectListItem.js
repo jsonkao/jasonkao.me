@@ -8,8 +8,9 @@ const styles = {
     verticalAlign: "baseline",
     "& a": {
       color: "#888",
+      display: "block",
+      height: "45px",
       textDecoration: "none",
-      width: "55%",
       "&:hover": {
         color: "#000",
       },
@@ -22,37 +23,17 @@ const styles = {
     float: "right",
     fontFamily: "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
   },
-  demo: {
-    display: "inline"<
-    width: "45%",
-  }
 };
 
-class ProjectListItem extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isDemoVisible: true,
-    };
-  }
-
-  showProject = () => this.setState({ isDemoVisible: true });
-
-  hideProject = () => this.setState({ isDemoVisible: false });
-
-  render() {
-    const { classes, project } = this.props;
-    const { isDemoVisible } = this.state;
-    return (
-      <li className={classes.ProjectListItem} onMouseEnter={this.showProject} onMouseLeave={this.hideProject}>
-        <a href={project.url} target="_blank">
-          <div className={classes.title}>{project.title}</div>
-          <div className={classes.arrow}>↗</div>
-        </a>
-        <img src={project.imgPath} className={classes.demo} style={{ display: isDemoVisible ? "block" : "none" }}/>
-      </li>
-    );
-  }
-}
+const ProjectListItem = ({ classes, project, showProject }) => {
+  return (
+    <li className={classes.ProjectListItem} onMouseEnter={() => showProject(project)}>
+      <a href={project.url} target="_blank">
+        <div className={classes.title}>{project.title}</div>
+        <div className={classes.arrow}>↗</div>
+      </a>
+    </li>
+  );
+};
 
 export default injectSheet(styles)(ProjectListItem);
