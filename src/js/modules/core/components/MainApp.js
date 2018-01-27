@@ -11,11 +11,7 @@ const MainApp = ({ classes }) => {
 };
 
 const mapStateToProps = state => ({
-  language: state.core.language,
+  
 });
-
-const mapDispatchToProps = dispatch => {
-  return bindActionCreators({ refreshWindowDimensions }, dispatch);
-};
 
 export default connect(mapStateToProps)(injectSheet(styles)(MainApp));

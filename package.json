@@ -64,6 +64,8 @@
     "ejs": "^2.5.7",
     "envify": "^4.1.0",
     "express": "^4.16.2",
+    "react-bootstrap": "^0.32.1",
+    "through2-filter": "^2.0.0",
     "yargs": "^8.0.2"
   }
 }
