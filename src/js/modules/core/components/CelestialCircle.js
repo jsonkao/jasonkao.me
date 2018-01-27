@@ -20,7 +20,7 @@ const styles = {
     position: "absolute",
     textTransform: "uppercase",
     top: "50%",
-    transform: "translateY(-50%)",    
+    transform: "translateY(-50%)",
     whiteSpace: "nowrap",
   },
 };
@@ -36,24 +36,29 @@ class CelestialCircle extends PureComponent {
   handleMouseEnter = () => {
     this.props.hideContent();
     this.setState({ isCaptionVisible: true });
-  }
+  };
 
   handleMouseLeave = () => {
     this.props.showContent();
     this.setState({ isCaptionVisible: false });
-  }
+  };
 
   render() {
     const { classes } = this.props;
-    const celestialObject = Math.abs((new Date()).getHours() - 12) < 6 ? "sun" : "moon";
+    const celestialObject =
+      Math.abs(new Date().getHours() - 12) < 6 ? "sun" : "moon";
 
     return (
-      <div className={classes.CelestialCircle} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-      {this.state.isCaptionVisible && (
-        <div className={classes.explainer}>
-          The arc of the {celestialObject} at my location
-        </div>
-      )}        
+      <div
+        className={classes.CelestialCircle}
+        onMouseEnter={this.handleMouseEnter}
+        onMouseLeave={this.handleMouseLeave}
+      >
+        {this.state.isCaptionVisible && (
+          <div className={classes.explainer}>
+            The arc of the {celestialObject} at my location
+          </div>
+        )}
       </div>
     );
   }
