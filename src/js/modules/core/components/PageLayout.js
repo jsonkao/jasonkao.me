@@ -3,26 +3,39 @@ import injectSheet from "react-jss";
 import { connect } from "react-redux";
 import { Grid, Row, Col } from "react-bootstrap/lib";
 
-import { FixedNavbar, Navbar } from "./";
+import { FixedNavbar, Navbar, CelestialCircle } from "./";
 
-const styles = {};
+const styles = {
+  content: {
+  },
+};
 
 class PageLayout extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
       isFixedNavVisible: false,
+      isContentVisible: false,
     };
+  }
+
+  showContent = () => {
+    this.setState({ isContentVisible: true });
+  }
+
+  hideContent = () => {
+    this.setState({ isContentVisible: false });
   }
 
   render() {
     const { classes, children } = this.props;
-    const { isFixedNavVisible } = this.state;
+    const { isFixedNavVisible, isContentVisible } = this.state;
 
     return (
       <Grid fluid>
         {isFixedNavVisible ? <FixedNavbar /> : <Navbar />}
-        <div className={classes.content}>
+        <CelestialCircle hideContent={this.hideContent} showContent={this.showContent} />
+        <div className={classes.content} style={{ visibility: isContentVisible }}>
           {children}
         </div>
       </Grid>
