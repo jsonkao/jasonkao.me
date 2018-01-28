@@ -64,10 +64,15 @@ const roles = [
   "software engineer",
   "enterpreneur",
   "React nerd",
-  "software engineer",
+  "illustrator",
   "data scientist",
-  "hackathon hacker",
   "React nerd",
+  "animator",
+  "software engineer",
+  "writer",
+  "React nerd",
+  "hackathon hacker",
+  "software engineer",
 ];
 
 class MainApp extends PureComponent {
@@ -78,22 +83,22 @@ class MainApp extends PureComponent {
     };
   }
 
-  componentDidMount() {
-    this.interval = setInterval(this.updateRoleIndex, 500);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval);
-  }
-
-  updateRoleIndex = () => {
-    this.setState({ roleIndex: (this.state.roleIndex + 1) % roles.length });
+  handleMouseMove = e => {
+    const roleIndex =
+      Math.floor(
+        Math.abs(
+          Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5),
+        ) / 120,
+      ) % roles.length;
+    if (this.state.roleIndex !== roleIndex) {
+      this.setState({ roleIndex });
+    }
   };
 
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.MainApp}>
+      <div className={classes.MainApp} onMouseMove={this.handleMouseMove}>
         <div className={classes.contentSection}>
           <p className={classes.mobileFixedHeight}>
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
