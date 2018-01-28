@@ -14,7 +14,7 @@ const styles = {
       lineHeight: 1.1,
       marginRight: "4px",
       textDecoration: "none",
-      "&:hover, &:active, &:focus": {
+      "&:hover, &:active": {
         borderBottom: "1px solid #ddd",
       },
     },
