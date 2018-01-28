@@ -20,7 +20,7 @@ body {
     -ms-animation: pageFadeIn 600ms;
     -webkit-animation: pageFadeIn 600ms;
     animation: pageFadeIn 600ms;
-    font-size: 2.5vw;
+    font-size: 30px;
     line-height: 1.25em;
 }
 

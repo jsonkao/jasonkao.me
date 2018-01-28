@@ -9,7 +9,7 @@ const styles = {
     paddingTop: "270px",
   },
   contentSection: {
-    marginBottom: "5vw",
+    marginBottom: "3.5vw",
     width: "55%",
     "& p + p": {
       marginTop: "0.725em",
@@ -62,12 +62,12 @@ const styles = {
 
 const roles = [
   "software engineer",
-  "React nerd",
   "enterpreneur",
-  "illustrator",
+  "React nerd",
+  "software engineer",
   "data scientist",
-  "designer",
   "hackathon hacker",
+  "React nerd",
 ];
 
 class MainApp extends PureComponent {
@@ -100,7 +100,7 @@ class MainApp extends PureComponent {
           </p>
           <p>
             I am fascinated by the ability of technology to scale human impact,
-            and I am constantly looking for new projects to absorb myself in.
+            and I am constantly looking for new projects to immerse myself in.
           </p>
         </div>
         <SelectedProjects />
@@ -129,13 +129,13 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://github.com/jkao1">GitHub</a>
+              <a href="https://github.com/jkao1" target="_blank">GitHub</a>
               <br />
-              <a href="https://www.linkedin.com/in/jkao1/">LinkedIn</a>
+              <a href="https://linkedin.com/in/jkao1/" target="_blank">LinkedIn</a>
               <br />
-              <a href="https://www.meetup.com/members/209330217/">Meetup</a>
+              <a href="https://meetup.com/members/209330217/" target="_blank">Meetup</a>
               <br />
-              <a href="facebook.com/jasonkao85">Facebook</a>
+              <a href="https://facebook.com/jasonkao85" target="_blank">Facebook</a>
             </p>
           </div>
           <div className={classes.contentSection}>
