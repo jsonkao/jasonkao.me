@@ -60,8 +60,6 @@ const styles = {
   },
 };
 
-const IS_DEVICE_MOBILE = /Mobi/i.test(navigator.userAgent);
-
 const roles = [
   "software engineer",
   "enterpreneur",
@@ -81,22 +79,6 @@ class MainApp extends PureComponent {
     this.state = {
       roleIndex: 0,
     };
-  }
-
-  componentDidMount() {
-    if (IS_DEVICE_MOBILE) {
-      this.interval = setInterval(this.incrementRoleIndex, 500);
-    }
-  }
-
-  componentWillUnmount() {
-    if (IS_DEVICE_MOBILE) {
-      clearInterval(this.interval);
-    }
-  }
-
-  incrementRoleIndex = () => {
-    this.setState({ roleIndex: (this.state.roleIndex + 1) % roles.length });
   }
 
   handleMouseMove = e => {
