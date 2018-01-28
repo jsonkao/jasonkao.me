@@ -41,7 +41,7 @@ class PageLayout extends PureComponent {
           showContent={this.showContent}
         />
         <div className={classes.waypointContainer}>
-        {/* Uncommenting this waypoint will drop in a FixedNavbar after scrolling down a bit.
+          {/* Uncommenting this waypoint will drop in a FixedNavbar after scrolling down a bit.
           * <Waypoint onEnter={this.unfixNavbar} onLeave={this.fixNavbar} /> 
           */}
         </div>
