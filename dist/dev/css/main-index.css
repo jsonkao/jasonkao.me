@@ -20,6 +20,8 @@ body {
   -ms-animation: pageFadeIn 600ms;
   -webkit-animation: pageFadeIn 600ms;
   animation: pageFadeIn 600ms;
+  font-size: 2.5vw;
+  line-height: 1.25em;
 }
 
 * {
@@ -59,5 +61,12 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 6vw;
+    line-height: 1.4em;
   }
 }
