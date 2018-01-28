@@ -50,13 +50,23 @@ const Navbar = ({ classes, location }) => {
             : {};
         if (link.to.includes("http") || link.to.includes("mailto:")) {
           return (
-            <a key={link.to} href={link.to} {...highlighterProps} target="_blank">
+            <a
+              key={link.to}
+              href={link.to}
+              {...highlighterProps}
+              target="_blank"
+            >
               {link.label}.
             </a>
           );
         }
         return (
-          <Link key={link.to} to={link.to} {...highlighterProps} target="_blank">
+          <Link
+            key={link.to}
+            to={link.to}
+            {...highlighterProps}
+            target="_blank"
+          >
             {link.label}.
           </Link>
         );

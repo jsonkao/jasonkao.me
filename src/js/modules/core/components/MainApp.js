@@ -129,13 +129,21 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://github.com/jkao1" target="_blank">GitHub</a>
+              <a href="https://github.com/jkao1" target="_blank">
+                GitHub
+              </a>
               <br />
-              <a href="https://linkedin.com/in/jkao1/" target="_blank">LinkedIn</a>
+              <a href="https://linkedin.com/in/jkao1/" target="_blank">
+                LinkedIn
+              </a>
               <br />
-              <a href="https://meetup.com/members/209330217/" target="_blank">Meetup</a>
+              <a href="https://meetup.com/members/209330217/" target="_blank">
+                Meetup
+              </a>
               <br />
-              <a href="https://facebook.com/jasonkao85" target="_blank">Facebook</a>
+              <a href="https://facebook.com/jasonkao85" target="_blank">
+                Facebook
+              </a>
             </p>
           </div>
           <div className={classes.contentSection}>
