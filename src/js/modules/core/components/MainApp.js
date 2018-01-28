@@ -60,18 +60,18 @@ const styles = {
   },
 };
 
+const IS_DEVICE_MOBILE = /Mobi/i.test(navigator.userAgent);
+
 const roles = [
   "software engineer",
   "enterpreneur",
   "React nerd",
   "illustrator",
-  "data scientist",
-  "React nerd",
-  "animator",
   "software engineer",
-  "writer",
+  "data scientist",
+  "designer",
   "React nerd",
-  "hackathon hacker",
+  "enterpreneur",
   "software engineer",
 ];
 
@@ -82,6 +82,16 @@ class MainApp extends PureComponent {
       roleIndex: 0,
     };
   }
+
+  componentDidMount() {
+    if (IS_DEVICE_MOBILE) this.interval = setInterval(this.incrementRoleIndex, 500);
+  }
+
+  componentWillUnmount() {
+    if (IS_DEVICE_MOBILE) clearInterval(this.interval);
+  }
+
+  incrementRoleIndex = () => this.setState({ roleIndex: (this.state.roleIndex + 1) % roles.length });
 
   handleMouseMove = e => {
     const roleIndex =
@@ -148,6 +158,10 @@ class MainApp extends PureComponent {
               <br />
               <a href="https://facebook.com/jasonkao85" target="_blank">
                 Facebook
+              </a>
+              <br />
+              <a href="https://jasonkao.me/Resume.pdf" target="_blank">
+                Resume
               </a>
             </p>
           </div>
