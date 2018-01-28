@@ -129,11 +129,16 @@ let getLatestVersionStrInFile = ()=>
     }
 };
 
+const SEMVER_STR = getLatestVersionStrInFile().match(/([\d]+)[\.]([\d]+)[\.]([\d]+)/gi)[0]
+
 const VERSION_CONFIG = {
-  value: getLatestVersionStrInFile().match(/([\d]+)[\.]([\d]+)[\.]([\d]+)/gi)[0],
+  value: SEMVER_STR,
+  replaces: [
+    ['/build.js', `/build.js?v=${SEMVER_STR}`],
+  ],
   append: {
     key: 'v',
-    to: ['css', 'js'],
+    to: ['css'],
   },
 };
 
@@ -502,7 +507,7 @@ gulp.task('add-version-number', function()
     return gulp.src(Paths.DEST_DEV + '/index.html')
         .pipe(versionNumber(VERSION_CONFIG))
         .pipe(gulp.dest(Paths.DEST_PROD))
-})
+});
      
 gulp.task('build', function()
 {
