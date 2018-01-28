@@ -5,10 +5,11 @@ import injectSheet from "react-jss";
 const styles = {
   Navbar: {
     float: "right",
-    marginRight: "120px",
+    fontSize: "22px",
+    marginRight: "7.5vw",
     marginTop: "17px",
     "& a": {
-      color: "#888",
+      color: "#777",
       display: "inline-block",
       lineHeight: 1.1,
       marginRight: "4px",
@@ -22,14 +23,10 @@ const styles = {
     color: "#000 !important",
     borderBottom: "1px solid #ddd",
   },
-  "@media (min-width: 900px)": {
-    Navbar: {
-      fontSize: "22px",
-    },
-  },
   "@media (max-width: 767px)": {
     Navbar: {
       float: "none",
+      fontSize: "4vw",
       marginRight: 0,
       textAlign: "center",
     },
