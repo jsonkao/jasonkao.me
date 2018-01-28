@@ -79,7 +79,7 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
-    this.interval = setInterval(this.updateRoleIndex, 300);
+    this.interval = setInterval(this.updateRoleIndex, 500);
   }
 
   componentWillUnmount() {
@@ -96,7 +96,7 @@ class MainApp extends PureComponent {
       <div className={classes.MainApp}>
         <div className={classes.contentSection}>
           <p className={classes.mobileFixedHeight}>
-            Jason Kao&mdash;I am a {roles[this.state.roleIndex]}.
+            Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </p>
           <p>
             I am fascinated by the ability of technology to scale human impact,

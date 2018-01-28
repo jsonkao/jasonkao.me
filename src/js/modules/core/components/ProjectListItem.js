@@ -43,9 +43,6 @@ const styles = {
     fontFamily:
       "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
   },
-  "@media (max-width: 767px)": {
-    width: "auto",
-  },
 };
 
 const ProjectListItem = ({ classes, project, showProject }) => {
