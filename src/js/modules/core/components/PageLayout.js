@@ -41,11 +41,11 @@ class PageLayout extends PureComponent {
           showContent={this.showContent}
         />
         <div className={classes.waypointContainer}>
-          {/* <Waypoint onEnter={this.unfixNavbar} onLeave={this.fixNavbar} /> */}
+        {/* Uncommenting this waypoint will drop in a FixedNavbar after scrolling down a bit.
+          * <Waypoint onEnter={this.unfixNavbar} onLeave={this.fixNavbar} /> 
+          */}
         </div>
-        <div
-          style={{ visibility: isContentVisible ? "visible" : "hidden" }}
-        >
+        <div style={{ visibility: isContentVisible ? "visible" : "hidden" }}>
           {children}
         </div>
       </div>

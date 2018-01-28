@@ -30,7 +30,7 @@ const styles = {
     },
     "&:hover": {
       cursor: "pointer",
-      "& a": {      
+      "& a": {
         color: "#000",
       },
     },

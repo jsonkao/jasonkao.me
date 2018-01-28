@@ -95,7 +95,9 @@ class MainApp extends PureComponent {
     return (
       <div className={classes.MainApp}>
         <div className={classes.contentSection}>
-          <p className={classes.mobileFixedHeight}>Jason Kao&mdash;I am a {roles[this.state.roleIndex]}.</p>
+          <p className={classes.mobileFixedHeight}>
+            Jason Kao&mdash;I am a {roles[this.state.roleIndex]}.
+          </p>
           <p>
             I am fascinated by the ability of technology to scale human impact,
             and I am constantly looking for new projects to absorb myself in.
@@ -112,7 +114,13 @@ class MainApp extends PureComponent {
             AWS, GCP, Digital Ocean, Nginx
           </p>
           <p>
-            <a className={classes.highlightRed} href="https://jasonkao.me/Resume.pdf" target="_blank">Resume</a>
+            <a
+              className={classes.highlightRed}
+              href="https://jasonkao.me/Resume.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
           </p>
         </div>
         <div className={classes.contactMe}>
