@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
 import { connect } from "react-redux";
-import { Container } from "react-grid-system";
 
 import { FixedNavbar, Navbar, CelestialCircle } from "./";
 
@@ -31,7 +30,7 @@ class PageLayout extends PureComponent {
     const { isFixedNavVisible, isContentVisible } = this.state;
 
     return (
-      <Container fluid>
+      <div>
         {isFixedNavVisible ? <FixedNavbar /> : <Navbar />}
         <CelestialCircle
           hideContent={this.hideContent}
@@ -43,7 +42,7 @@ class PageLayout extends PureComponent {
         >
           {children}
         </div>
-      </Container>
+      </div>
     );
   }
 }

@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
 import { Link } from "react-router-dom";
-import { Row, Col, Hidden } from "react-grid-system";
 
 import ProjectListItem from "./ProjectListItem";
 
@@ -35,19 +34,28 @@ const projects = [
 
 const styles = {
   SelectedProjects: {
-    fontSize: "36px",
-    lineHeight: "45px",
-    marginBottom: "54px",
+    marginBottom: "5vw",
   },
   listHeader: {
-    marginBottom: "18px",
+    marginBottom: "0.725em",
   },
   projectsList: {
     listStyle: "none",
     padding: 0,
+    "& li:last-child": {      
+      clear: "both",
+      color: "#000",
+      display: "block",
+      verticalAlign: "baseline",
+      "& a": {
+        display: "block",
+        textDecoration: "none",
+      },
+    }
   },
   projectDemo: {
-    overflow: "visible !important",
+    float: "left",
+    width: "45%",
     "& img": {
       width: "100%",
       position: "absolute",
@@ -69,16 +77,9 @@ class SelectedProjects extends PureComponent {
     const { classes } = this.props;
     const { displayedProject } = this.state;
     return (
-      <Row className={classes.SelectedProjects}>
-        <Col
-          xs={12}
-          sm={6}
-          md={6}
-          lg={6}
-          offset={{ sm: 1, md: 1, lg: 1 }}
-          className={classes.intro}
-        >
-          <p className={classes.listHeader}>Selected projects&mdash;</p>
+      <div className={classes.SelectedProjects}>
+        <p className={classes.listHeader}>Selected projects&mdash;</p>
+        <div>
           <ul className={classes.projectsList} onMouseLeave={this.hideProject}>
             {projects.map(project => (
               <ProjectListItem
@@ -87,10 +88,11 @@ class SelectedProjects extends PureComponent {
                 project={project}
               />
             ))}
+            <li>
+              <a href="https://github.com/jkao1" target="_blank">...</a>
+            </li>
           </ul>
-        </Col>
-        <Col sm={5} md={5} lg={5} className={classes.projectDemo}>
-          <Hidden xs>
+          <div className={classes.projectDemo}>
             {projects.map(project => (
               <img
                 key={project.url}
@@ -98,9 +100,9 @@ class SelectedProjects extends PureComponent {
                 style={{ visibility: displayedProject === project ? "visible" : "hidden" }}
               />
             ))}
-          </Hidden>
-        </Col>
-      </Row>
+          </div>
+        </div>
+      </div>
     );
   }
 }

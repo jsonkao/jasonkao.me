@@ -1,19 +1,33 @@
 import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
-import { Row, Col } from "react-grid-system";
 
 const styles = {
   ProjectListItem: {
     clear: "both",
-    verticalAlign: "baseline",
+    display: "block",
+    width: "55%",
     "& a": {
       color: "#888",
       display: "block",
-      height: "45px",
+      height: "100%",
       textDecoration: "none",
+      width: "100%",
       "&:hover": {
         color: "#000",
       },
+      "&:before": {
+        content: '" "',
+        display: "table",
+      },
+    },
+    "&:before": {
+      content: '" "',
+      display: "table",
+    },
+    "&:after": {
+      clear: "both",
+      content: '" "',
+      display: "table",
     },
   },
   title: {
@@ -22,6 +36,9 @@ const styles = {
   arrow: {
     float: "right",
     fontFamily: "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
+  },
+  "@media (max-width: 767px)": {
+    width: "auto",
   },
 };
 
