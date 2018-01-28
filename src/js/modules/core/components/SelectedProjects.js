@@ -47,7 +47,7 @@ const styles = {
     flexBasis: "50%",
     listStyle: "none",
     padding: 0,
-    "& li:last-child": {      
+    "& li:last-child": {
       clear: "both",
       color: "#000",
       display: "block",
@@ -56,10 +56,11 @@ const styles = {
         display: "block",
         textDecoration: "none",
       },
-    }
+    },
   },
   projectDemo: {
     flexBasis: "45%",
+    marginTop: "-1.975em",
     "& img": {
       border: "1px solid #000",
       position: "absolute",
@@ -102,7 +103,9 @@ class SelectedProjects extends PureComponent {
               />
             ))}
             <li>
-              <a href="https://github.com/jkao1" target="_blank">...</a>
+              <a href="https://github.com/jkao1" target="_blank">
+                ...
+              </a>
             </li>
           </ul>
           <div className={classes.projectDemo}>
@@ -110,7 +113,10 @@ class SelectedProjects extends PureComponent {
               <img
                 key={project.url}
                 src={project.imgPath}
-                style={{ visibility: displayedProject === project ? "visible" : "hidden" }}
+                style={{
+                  visibility:
+                    displayedProject === project ? "visible" : "hidden",
+                }}
               />
             ))}
           </div>
@@ -119,6 +125,5 @@ class SelectedProjects extends PureComponent {
     );
   }
 }
-
 
 export default injectSheet(styles)(SelectedProjects);

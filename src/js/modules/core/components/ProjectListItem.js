@@ -6,7 +6,7 @@ const styles = {
     clear: "both",
     display: "block",
     "& a": {
-      color: "#888",
+      color: "#777",
       display: "block",
       height: "100%",
       textDecoration: "none",
@@ -28,13 +28,20 @@ const styles = {
       content: '" "',
       display: "table",
     },
+    "&:hover": {
+      cursor: "pointer",
+      "& a": {      
+        color: "#000",
+      },
+    },
   },
   title: {
     float: "left",
   },
   arrow: {
     float: "right",
-    fontFamily: "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
+    fontFamily:
+      "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
   },
   "@media (max-width: 767px)": {
     width: "auto",
@@ -43,7 +50,10 @@ const styles = {
 
 const ProjectListItem = ({ classes, project, showProject }) => {
   return (
-    <li className={classes.ProjectListItem} onMouseEnter={() => showProject(project)}>
+    <li
+      className={classes.ProjectListItem}
+      onMouseEnter={() => showProject(project)}
+    >
       <a href={project.url} target="_blank">
         <div className={classes.title}>{project.title}</div>
         <div className={classes.arrow}>↗</div>
