@@ -84,14 +84,20 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
-    if (IS_DEVICE_MOBILE) this.interval = setInterval(this.incrementRoleIndex, 500);
+    if (IS_DEVICE_MOBILE) {
+      this.interval = setInterval(this.incrementRoleIndex, 500);
+    }
   }
 
   componentWillUnmount() {
-    if (IS_DEVICE_MOBILE) clearInterval(this.interval);
+    if (IS_DEVICE_MOBILE) {
+      clearInterval(this.interval);
+    }
   }
 
-  incrementRoleIndex = () => this.setState({ roleIndex: (this.state.roleIndex + 1) % roles.length });
+  incrementRoleIndex = () => {
+    this.setState({ roleIndex: (this.state.roleIndex + 1) % roles.length });
+  }
 
   handleMouseMove = e => {
     const roleIndex =
