@@ -5,7 +5,6 @@ const styles = {
   ProjectListItem: {
     clear: "both",
     display: "block",
-    width: "55%",
     "& a": {
       color: "#888",
       display: "block",

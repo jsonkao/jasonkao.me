@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "The Spectator",
-    imgPath: "/img/spectator.jpg",
+    imgPath: "/img/spectator.png",
     url: "https://stuyspec.com/",
   },
   {
@@ -39,7 +39,12 @@ const styles = {
   listHeader: {
     marginBottom: "0.725em",
   },
+  projectSelection: {
+    display: "flex",
+    justifyContent: "space-between",
+  },
   projectsList: {
+    flexBasis: "50%",
     listStyle: "none",
     padding: 0,
     "& li:last-child": {      
@@ -54,11 +59,19 @@ const styles = {
     }
   },
   projectDemo: {
-    float: "left",
-    width: "45%",
+    flexBasis: "45%",
     "& img": {
-      width: "100%",
+      border: "1px solid #000",
       position: "absolute",
+      width: "45%",
+    },
+  },
+  "@media (max-width: 767px)": {
+    projectSelection: {
+      display: "block",
+    },
+    projectDemo: {
+      display: "none",
     },
   },
 };
@@ -79,7 +92,7 @@ class SelectedProjects extends PureComponent {
     return (
       <div className={classes.SelectedProjects}>
         <p className={classes.listHeader}>Selected projects&mdash;</p>
-        <div>
+        <div className={classes.projectSelection}>
           <ul className={classes.projectsList} onMouseLeave={this.hideProject}>
             {projects.map(project => (
               <ProjectListItem
