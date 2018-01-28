@@ -38,7 +38,7 @@ const Navbar = ({ classes, location }) => {
     { label: "About", to: "/" },
     { label: "GitHub", to: "https://github.com/jkao1" },
     { label: "Resume", to: "https://jasonkao.me/Resume.pdf" },
-    { label: "Contact", to: "/contact" },
+    { label: "Contact", to: "mailto:jasonkao85@gmail.com" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const Navbar = ({ classes, location }) => {
           link.to == location.pathname
             ? { className: classes.highlightedLink }
             : {};
-        if (link.to.includes("http")) {
+        if (link.to.includes("http") || link.to.includes("mailto:")) {
           return (
             <a key={link.to} href={link.to} {...highlighterProps}>
               {link.label}.

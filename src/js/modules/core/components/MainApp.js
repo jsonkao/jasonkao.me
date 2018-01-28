@@ -113,6 +113,7 @@ class MainApp extends PureComponent {
             React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, Heroku,
             AWS, GCP, Digital Ocean, Nginx
           </p>
+          {/*
           <p>
             <a
               className={classes.highlightRed}
@@ -122,6 +123,7 @@ class MainApp extends PureComponent {
               Resume
             </a>
           </p>
+        */}
         </div>
         <div className={classes.contactMe}>
           <div className={classes.contentSection}>
