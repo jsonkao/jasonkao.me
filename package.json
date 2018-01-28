@@ -67,6 +67,7 @@
     "lru-cache": "^4.1.1",
     "mime-db": "^1.32.0",
     "react-dom": "^16.2.0",
+    "serve-index": "^1.6.3",
     "sigmund": "^1.0.1",
     "through2-filter": "^2.0.0",
     "yargs": "^8.0.2"
