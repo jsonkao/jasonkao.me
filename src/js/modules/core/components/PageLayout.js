@@ -1,11 +1,15 @@
 import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
 import { connect } from "react-redux";
+import Waypoint from "react-waypoint";
 
 import { FixedNavbar, Navbar, CelestialCircle } from "./";
 
 const styles = {
-  content: {},
+  waypointContainer: {
+    position: "relative",
+    top: "90px",
+  },
 };
 
 class PageLayout extends PureComponent {
@@ -17,13 +21,13 @@ class PageLayout extends PureComponent {
     };
   }
 
-  showContent = () => {
-    this.setState({ isContentVisible: true });
-  };
+  fixNavbar = () => this.setState({ isFixedNavVisible: true });
 
-  hideContent = () => {
-    this.setState({ isContentVisible: false });
-  };
+  unfixNavbar = () => this.setState({ isFixedNavVisible: false });
+
+  showContent = () => this.setState({ isContentVisible: true });
+
+  hideContent = () => this.setState({ isContentVisible: false });
 
   render() {
     const { classes, children } = this.props;
@@ -36,8 +40,10 @@ class PageLayout extends PureComponent {
           hideContent={this.hideContent}
           showContent={this.showContent}
         />
+        <div className={classes.waypointContainer}>
+          {/* <Waypoint onEnter={this.unfixNavbar} onLeave={this.fixNavbar} /> */}
+        </div>
         <div
-          className={classes.content}
           style={{ visibility: isContentVisible ? "visible" : "hidden" }}
         >
           {children}
