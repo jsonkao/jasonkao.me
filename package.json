@@ -63,6 +63,7 @@
     "ejs": "^2.5.7",
     "envify": "^4.1.0",
     "express": "^4.16.2",
+    "gulp-version-number": "^0.1.7",
     "locate-path": "^2.0.0",
     "lru-cache": "^4.1.1",
     "mime-db": "^1.32.0",

@@ -15,6 +15,7 @@ var gulp          = require('gulp'),
     streamify     = require('gulp-streamify'),
     envify        = require('envify/custom'),
     fs            = require('fs'),
+    versionNumber = require('gulp-version-number'),
     colors        = require('colors'),
     imagemin      = require('gulp-imagemin'),
     useref        = require('gulp-useref'),
@@ -126,6 +127,14 @@ let getLatestVersionStrInFile = ()=>
     {
         return fileContent.match(/VERSION[\s]*:[\s]*'([\d]+)[\.]([\d]+)[\.]([\d]+)'/gi)[0];
     }
+};
+
+const VERSION_CONFIG = {
+  value: getLatestVersionStrInFile().match(/([\d]+)[\.]([\d]+)[\.]([\d]+)/gi)[0],
+  append: {
+    key: 'v',
+    to: ['css', 'js'],
+  },
 };
 
 let Notices =
@@ -482,11 +491,19 @@ gulp.task('create-js-build', function()
         return scripts({ watch : false })
             .pipe(buffer())
             .pipe(uglify().on('error', gulpUtil.log))
-            .pipe(stripDebug())                         //remove console logging
+            .pipe(stripDebug())                     //remove console logging
             .pipe(gulp.dest(Paths.DEST_PROD));
     }
 });
 
+
+gulp.task('add-version-number', function()
+{   
+    return gulp.src(Paths.DEST_DEV + '/index.html')
+        .pipe(versionNumber(VERSION_CONFIG))
+        .pipe(gulp.dest(Paths.DEST_PROD))
+})
+     
 gulp.task('build', function()
 {
     return runSequence(
@@ -498,6 +515,7 @@ gulp.task('build', function()
             'minify-images',
             'create-js-build',
         ],
+        'add-version-number',
         'export-standalone-build'
     );
 });
