@@ -5,7 +5,6 @@ import injectSheet from "react-jss";
 const styles = {
   Navbar: {
     float: "right",
-    fontSize: "22px",
     marginRight: "120px",
     marginTop: "17px",
     "& a": {
@@ -23,7 +22,12 @@ const styles = {
     color: "#000 !important",
     borderBottom: "1px solid #ddd",
   },
-  "@media (max-width: 575px)": {
+  "@media (min-width: 900px)": {
+    Navbar: {
+      fontSize: "22px",
+    },
+  },
+  "@media (max-width: 767px)": {
     Navbar: {
       float: "none",
       marginRight: 0,
