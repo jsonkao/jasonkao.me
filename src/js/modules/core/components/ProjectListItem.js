@@ -18,6 +18,11 @@ const styles = {
         content: '" "',
         display: "table",
       },
+      "&:after": {
+        clear: "both",
+        content: '" "',
+        display: "table",
+      },
     },
     "&:before": {
       content: '" "',
