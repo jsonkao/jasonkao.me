@@ -74,14 +74,14 @@ const styles = {
 
 const roles = [
   "software engineer",
-  "enterpreneur",
+  "entrepreneur",
   "React nerd",
   "illustrator",
   "software engineer",
   "data scientist",
   "designer",
   "React nerd",
-  "enterpreneur",
+  "entrepreneur",
   "software engineer",
 ];
 
