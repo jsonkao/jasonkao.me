@@ -43,6 +43,18 @@ const styles = {
       borderRadius: "10px",
     },
   },
+  footer: {
+    borderTop: "1px solid #000",
+    fontSize: "16px",
+    marginTop: "1vw",
+    paddingTop: "5px",
+    textAlign: "center",
+  },
+  reactLogo: {
+    position: "relative",
+    top: "7px",
+    width: "28px",
+  },
   "@media (max-width: 767px)": {
     MainApp: {
       padding: "7.5vw 5vw",
@@ -161,6 +173,13 @@ class MainApp extends PureComponent {
               <a href="tel:+01-347-933-1820">+1 347 933 1820</a>
             </p>
           </div>
+        </div>
+        <div className={classes.footer}>
+          Made with{" "}
+          <a href="https://reactjs.org/" target="_blank">
+            <img src="/img/react.svg" className={classes.reactLogo} />
+          </a>{" "}
+          by Jason Kao.
         </div>
       </div>
     );
