@@ -11,7 +11,7 @@ const styles = {
   contentSection: {
     marginBottom: "3.5vw",
     width: "55%",
-    "& p + p": {
+    "& p + p, & h1 + h1": {
       marginTop: "0.725em",
     },
   },
@@ -110,13 +110,13 @@ class MainApp extends PureComponent {
     return (
       <div className={classes.MainApp} onMouseMove={this.handleMouseMove}>
         <div className={classes.contentSection}>
-          <p className={classes.mobileFixedHeight}>
+          <h1 className={classes.mobileFixedHeight}>
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
-          </p>
-          <p>
+          </h1>
+          <h1>
             I am fascinated by the ability of technology to scale human impact,
             and I am constantly looking for new projects to immerse myself in.
-          </p>
+          </h1>
         </div>
         <SelectedProjects />
         <div className={classes.contentSection}>
