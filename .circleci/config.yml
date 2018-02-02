@@ -27,7 +27,7 @@ jobs:
           name: Deploy to AWS S3
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              aws s3 sync ~/jkao1.github.io/dist/prod s3://jasonkao.me
+              aws s3 sync ~/jasonkao.me/dist/prod s3://jasonkao.me
             else
               echo "We do not deploy on the ${CIRCLE_BRANCH}."
             fi
