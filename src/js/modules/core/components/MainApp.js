@@ -160,8 +160,8 @@ class MainApp extends PureComponent {
                 Meetup
               </a>
               <br />
-              <a href="https://facebook.com/jasonkao85" target="_blank">
-                Facebook
+              <a href="https://stackoverflow.com/users/6174302/jason-kao" target="_blank">
+                Stack Overflow
               </a>
               <br />
               <a href="https://jasonkao.me/Resume.pdf" target="_blank">
