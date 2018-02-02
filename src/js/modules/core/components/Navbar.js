@@ -16,6 +16,7 @@ const styles = {
       textDecoration: "none",
       "&:hover, &:active": {
         borderBottom: "1px solid #ddd",
+        cursor: "pointer",
       },
     },
   },
@@ -38,7 +39,6 @@ const Navbar = ({ classes, location }) => {
     { label: "About", to: "/" },
     { label: "GitHub", to: "https://github.com/jkao1" },
     { label: "Resume", to: "https://jasonkao.me/Resume.pdf" },
-    { label: "Contact", to: "mailto:jasonkao85@gmail.com" },
   ];
 
   return (
@@ -71,6 +71,12 @@ const Navbar = ({ classes, location }) => {
           </Link>
         );
       })}
+      <a
+        key="scroll-link"
+        onClick={() => document.getElementById("contactme-scroll-target").scrollIntoView({ behavior: "smooth" })}
+      >
+        Contact
+      </a>
     </div>
   );
 };

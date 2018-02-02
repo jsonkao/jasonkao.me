@@ -122,11 +122,11 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES7), Python, Java, Ruby, C, SQL, CSS, JSS
+            JavaScript (ES7), Python, Java, Ruby, C, SQL
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, Heroku,
-            AWS, GCP, Digital Ocean, Nginx
+            React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB, Heroku,
+            AWS, GCP
           </p>
           {/*
           <p>
@@ -140,7 +140,7 @@ class MainApp extends PureComponent {
           </p>
         */}
         </div>
-        <div className={classes.contactMe}>
+        <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
