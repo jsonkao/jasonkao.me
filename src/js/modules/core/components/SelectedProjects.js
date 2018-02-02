@@ -53,8 +53,14 @@ const styles = {
       display: "block",
       verticalAlign: "baseline",
       "& a": {
-        display: "block",
         textDecoration: "none",
+        "& span": {
+          color: "#000",
+          display: "none",
+        },
+        "&:hover span": {
+          display: "inline",
+        },
       },
     },
   },
@@ -103,8 +109,8 @@ class SelectedProjects extends PureComponent {
               />
             ))}
             <li>
-              <a href="https://github.com/jkao1" target="_blank">
-                ...
+              <a className={classes.rawLink} href="https://github.com/jkao1" target="_blank">
+                ... <span>(github)</span>
               </a>
             </li>
           </ul>
