@@ -73,7 +73,10 @@ const Navbar = ({ classes, location }) => {
       })}
       <a
         key="scroll-link"
-        onClick={() => document.getElementById("contactme-scroll-target").scrollIntoView({ behavior: "smooth" })}
+        onClick={() =>
+          document
+            .getElementById("contactme-scroll-target")
+            .scrollIntoView({ behavior: "smooth" })}
       >
         Contact
       </a>
