@@ -152,6 +152,10 @@ class MainApp extends PureComponent {
                 LinkedIn
               </a>
               <br />
+              <a href="https://twitter.com/jsonthekao/" target="_blank">
+                Twitter
+              </a>
+              <br />
               <a href="https://meetup.com/members/209330217/" target="_blank">
                 Meetup
               </a>
