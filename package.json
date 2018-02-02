@@ -1,8 +1,8 @@
 {
-  "name": "awesome-react-app",
-  "displayName": "awesome-react-app",
+  "name": "jasonkao.me",
+  "displayName": "jasonkao.me",
   "version": "0.0.1",
-  "description": "Time to get to making stuff!",
+  "description": "Personal website",
   "main": "app.js",
   "scripts": {
     "start": "gulp build && node app",
