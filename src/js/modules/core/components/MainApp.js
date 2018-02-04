@@ -122,7 +122,7 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES7), Python, Java, Ruby, C, SQL
+            JavaScript (ES7), Python, Java, Ruby, HTML, CSS, C, SQL
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB,
