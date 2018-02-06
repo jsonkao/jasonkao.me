@@ -6,6 +6,13 @@ import ProjectListItem from "./ProjectListItem";
 
 const projects = [
   {
+    title: "Free Code Camp [beta]",
+    imgPath: "/img/freecodecamp.png",
+    url: "https://github.com/freeCodeCamp/freeCodeCamp",
+    // TODO: Once I have at least 5 PR's, link
+    // https://github.com/freeCodeCamp/freeCodeCamp/pulls/jkao1
+  },
+  {
     title: "Gerry",
     imgPath: "/img/gerry.png",
     url: "https://gerryapp.com",
