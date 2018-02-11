@@ -18,6 +18,15 @@ const styles = {
         borderBottom: "1px solid #ddd",
         cursor: "pointer",
       },
+      "&:hover": {
+        transform: "scaleY(-1)",
+      },
+      "& > span": {
+        transitionDuration: "0.3s",
+        "&:hover": {
+          color: "#0043ff !important",
+        },
+      },
     },
   },
   highlightedLink: {
@@ -56,7 +65,7 @@ const Navbar = ({ classes, location }) => {
               {...highlighterProps}
               target="_blank"
             >
-              {link.label}.
+              <span>{link.label}.</span>
             </a>
           );
         }
@@ -67,7 +76,7 @@ const Navbar = ({ classes, location }) => {
             {...highlighterProps}
             target="_blank"
           >
-            {link.label}.
+            <span>{link.label}.</span>
           </Link>
         );
       })}
@@ -78,7 +87,7 @@ const Navbar = ({ classes, location }) => {
             .getElementById("contactme-scroll-target")
             .scrollIntoView({ behavior: "smooth" })}
       >
-        Contact
+        <span>Contact</span>
       </a>
     </div>
   );
