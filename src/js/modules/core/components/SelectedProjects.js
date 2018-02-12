@@ -23,11 +23,6 @@ const projects = [
     url: "https://stuyspec.com/",
   },
   {
-    title: "Story Pop",
-    imgPath: "/img/story-pop.gif",
-    url: "https://github.com/jkao1/story-pop-client",
-  },
-  {
     title: "Alfred Prufrock Editor",
     imgPath: "/img/alfred.gif",
     url: "https://github.com/jkao1/alfred-prufrock-editor",
@@ -41,6 +36,11 @@ const projects = [
     title: "Citi Dots",
     imgPath: "/img/citidots.gif",
     url: "https://github.com/ashneeldas2/citidots",
+  },
+  {
+    title: "Story Pop",
+    imgPath: "/img/story-pop.gif",
+    url: "https://github.com/jkao1/story-pop-client",
   },
 ];
 
