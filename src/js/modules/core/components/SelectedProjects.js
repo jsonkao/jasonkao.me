@@ -13,7 +13,7 @@ const projects = [
     // https://github.com/freeCodeCamp/freeCodeCamp/pulls/jkao1
   },
   {
-    title: "Gerry",
+    title: "Gerry App",
     imgPath: "/img/gerry.gif",
     url: "https://gerryapp.com",
   },

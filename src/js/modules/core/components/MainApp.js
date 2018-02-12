@@ -98,7 +98,7 @@ class MainApp extends PureComponent {
       Math.floor(
         Math.abs(
           Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5),
-        ) / 120,
+        ) / 90,
       ) % roles.length;
     if (this.state.roleIndex !== roleIndex) {
       this.setState({ roleIndex });
