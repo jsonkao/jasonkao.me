@@ -18,9 +18,6 @@ const styles = {
         borderBottom: "1px solid #ddd",
         cursor: "pointer",
       },
-      "&:hover": {
-        transform: "scaleY(-1)",
-      },
       "& > span": {
         transitionDuration: "0.3s",
         "&:hover": {
