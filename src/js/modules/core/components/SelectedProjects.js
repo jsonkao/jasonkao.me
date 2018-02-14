@@ -28,11 +28,6 @@ const projects = [
     url: "https://github.com/jkao1/alfred-prufrock-editor",
   },
   {
-    title: "Fashion Tree",
-    imgPath: "/img/fashion-tree.png",
-    url: "https://github.com/NicholasLYang/fashion-tree",
-  },
-  {
     title: "Citi Dots",
     imgPath: "/img/citidots.gif",
     url: "https://github.com/ashneeldas2/citidots",
