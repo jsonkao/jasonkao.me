@@ -44,6 +44,9 @@ const styles = {
       position: "absolute",
       width: "45%",
     },
+    "& p": {
+      position: "absolute",
+    },
   },
   "@media (max-width: 767px)": {
     projectSelection: {
@@ -66,7 +69,7 @@ class SelectedProjects extends PureComponent {
   showProject = project => this.setState({ displayedProject: project });
 
   render() {
-    const { classes } = this.props;
+    const { classes, projects } = this.props;
     const { displayedProject } = this.state;
     return (
       <div className={classes.SelectedProjects}>
@@ -91,16 +94,32 @@ class SelectedProjects extends PureComponent {
             </li>
           </ul>
           <div className={classes.projectDemo}>
-            {projects.map(project => (
-              <img
-                key={project.url}
-                src={project.imgPath}
-                style={{
-                  visibility:
-                    displayedProject === project ? "visible" : "hidden",
-                }}
-              />
-            ))}
+            {projects.map(project => {
+              if (project.imgPath) {
+                return (
+                  <img
+                    key={project.url}
+                    src={project.imgPath}
+                    style={{
+                      visibility:
+                        displayedProject === project ? "visible" : "hidden",
+                    }}
+                  />
+                );
+              } else if (project.description) {
+                return (
+                  <p
+                    key={project.url}
+                    style={{
+                      visibility:
+                      displayedProject === project ? "visible" : "hidden",
+                    }}
+                  >
+                    {project.description}
+                  </p>
+                );
+              }
+            })}
           </div>
         </div>
       </div>
