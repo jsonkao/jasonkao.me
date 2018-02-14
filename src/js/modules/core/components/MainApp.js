@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import injectSheet from "react-jss";
 
 import SelectedProjects from "./SelectedProjects";
+import { projects } from "../../projects";
 
 const styles = {
   MainApp: {
@@ -27,21 +28,6 @@ const styles = {
   },
   contactMe: {
     display: "flex",
-  },
-  highlightRed: {
-    color: "#000",
-    position: "relative",
-    textDecoration: "none",
-    "&:after": {
-      bottom: 0,
-      content: "''",
-      position: "absolute",
-      right: 0,
-      left: 0,
-      height: "3px",
-      background: "#f00",
-      borderRadius: "10px",
-    },
   },
   footer: {
     borderTop: "1px solid #000",
@@ -118,7 +104,7 @@ class MainApp extends PureComponent {
             and I am constantly looking for new projects to immerse myself in.
           </h1>
         </div>
-        <SelectedProjects />
+        <SelectedProjects projects={projects} />
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
@@ -128,17 +114,6 @@ class MainApp extends PureComponent {
             React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB,
             Heroku, AWS, GCP
           </p>
-          {/*
-          <p>
-            <a
-              className={classes.highlightRed}
-              href="https://jasonkao.me/Resume.pdf"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </p>
-        */}
         </div>
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
