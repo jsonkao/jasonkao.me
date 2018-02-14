@@ -17,6 +17,16 @@ export const projects = [
     url: "https://stuyspec.com/",
   },
   {
+    title: "React-Redux-Gulp Generator",
+    url: "https://github.com/rob2d/generator-react-redux-gulp",
+    description: "A modular, clean and scalable modern workflow template for React/Redux development."
+  },
+  {
+    title: "Story Pop",
+    imgPath: "/img/story-pop.gif",
+    url: "https://github.com/jkao1/story-pop-client",
+  },
+  {
     title: "Alfred Prufrock Editor",
     imgPath: "/img/alfred.gif",
     url: "https://github.com/jkao1/alfred-prufrock-editor",
@@ -27,23 +37,13 @@ export const projects = [
     description: "Maps that tell stories, created by Northwestern University's Knight Lab.",
   },
   {
-    title: "React-Redux-Gulp Generator",
-    url: "https://github.com/rob2d/generator-react-redux-gulp",
-    description: "A modular, clean and scalable modern workflow template for React/Redux development."
-  },
-  {
     title: "Citi Dots",
     imgPath: "/img/citidots.gif",
     url: "https://github.com/ashneeldas2/citidots",
   },
   {
     title: "React Slick",
-    url: "http://neostack.com/opensource/react-slick",
-    description: "React carousel component",
-  },
-  {
-    title: "Story Pop",
-    imgPath: "/img/story-pop.gif",
-    url: "https://github.com/jkao1/story-pop-client",
+    url: "https://github.com/akiran/react-slick",
+    description: "A React carousel component.",
   },
 ];

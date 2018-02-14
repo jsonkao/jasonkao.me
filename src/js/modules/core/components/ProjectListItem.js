@@ -5,6 +5,7 @@ const styles = {
   ProjectListItem: {
     clear: "both",
     display: "block",
+    margin: "4px auto",
     "& a": {
       color: "#777",
       display: "block",

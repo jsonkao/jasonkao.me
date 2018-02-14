@@ -45,7 +45,9 @@ const styles = {
       width: "45%",
     },
     "& p": {
-      position: "absolute",
+      color: "#088d63",
+      paddingRight: "7.5vw",
+      position: "absolute",      
     },
   },
   "@media (max-width: 767px)": {
@@ -112,7 +114,7 @@ class SelectedProjects extends PureComponent {
                     key={project.url}
                     style={{
                       visibility:
-                      displayedProject === project ? "visible" : "hidden",
+                        displayedProject === project ? "visible" : "hidden",
                     }}
                   >
                     {project.description}
