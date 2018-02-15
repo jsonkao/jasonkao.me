@@ -7,23 +7,6 @@ const styles = {
     display: "block",
     margin: "4px auto",
     "& a": {
-      color: "#777",
-      display: "block",
-      height: "100%",
-      textDecoration: "none",
-      width: "100%",
-      "&:hover": {
-        color: "#000",
-      },
-      "&:before": {
-        content: '" "',
-        display: "table",
-      },
-      "&:after": {
-        clear: "both",
-        content: '" "',
-        display: "table",
-      },
     },
     "&:before": {
       content: '" "',
@@ -41,11 +24,21 @@ const styles = {
       },
     },
   },
+  link: {
+    display: "flex",
+    justifyContent: "space-between",
+    color: "#777",
+    height: "100%",
+    textDecoration: "none",
+    width: "100%",
+    "&:hover": {
+      color: "#000",
+    },
+  },
   title: {
-    float: "left",
   },
   arrow: {
-    float: "right",
+    alignSelf: "flex-end",
     fontFamily:
       "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
   },
@@ -57,7 +50,7 @@ const ProjectListItem = ({ classes, project, showProject }) => {
       className={classes.ProjectListItem}
       onMouseEnter={() => showProject(project)}
     >
-      <a href={project.url} target="_blank">
+      <a href={project.url} target="_blank" className={classes.link}>
         <div className={classes.title}>{project.title}</div>
         <div className={classes.arrow}>↗</div>
       </a>
