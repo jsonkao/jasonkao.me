@@ -104,7 +104,7 @@ class MainApp extends PureComponent {
             and I am constantly looking for new projects to immerse myself in.
           </h1>
         </div>
-        <SelectedProjects projects={projects} />
+        <SelectedProjects title="Selected projects" projects={projects.personal} />
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
@@ -115,6 +115,7 @@ class MainApp extends PureComponent {
             Heroku, AWS, GCP
           </p>
         </div>
+        <SelectedProjects title="Catch me at" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>

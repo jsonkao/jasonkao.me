@@ -71,11 +71,11 @@ class SelectedProjects extends PureComponent {
   showProject = project => this.setState({ displayedProject: project });
 
   render() {
-    const { classes, projects } = this.props;
+    const { classes, projects, title } = this.props;
     const { displayedProject } = this.state;
     return (
       <div className={classes.SelectedProjects}>
-        <p className={classes.listHeader}>Selected projects&mdash;</p>
+        <p className={classes.listHeader}>{title}&mdash;</p>
         <div className={classes.projectSelection}>
           <ul className={classes.projectsList} onMouseLeave={this.hideProject}>
             {projects.map(project => (
