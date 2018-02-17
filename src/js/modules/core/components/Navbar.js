@@ -1,53 +1,53 @@
-import React from "react";
-import { withRouter, Link } from "react-router-dom";
-import injectSheet from "react-jss";
+import React from 'react';
+import { withRouter, Link } from 'react-router-dom';
+import injectSheet from 'react-jss';
 
 const styles = {
   Navbar: {
-    float: "right",
-    fontSize: "22px",
-    marginRight: "7.5vw",
-    marginTop: "17px",
-    "& a": {
-      color: "#777",
-      display: "inline-block",
+    float: 'right',
+    fontSize: '22px',
+    marginRight: '7.5vw',
+    marginTop: '17px',
+    '& a': {
+      color: '#777',
+      display: 'inline-block',
       lineHeight: 1.1,
-      marginRight: "4px",
-      textDecoration: "none",
-      "&:hover, &:active": {
-        borderBottom: "1px solid #ddd",
-        cursor: "pointer",
+      marginRight: '4px',
+      textDecoration: 'none',
+      '&:hover, &:active': {
+        borderBottom: '1px solid #ddd',
+        cursor: 'pointer',
       },
-      "&:hover": {
-        transform: "scaleY(-1)",
+      '&:hover': {
+        transform: 'scaleY(-1)',
       },
-      "& > span": {
-        transitionDuration: "0.3s",
-        "&:hover": {
-          color: "#0043ff !important",
+      '& > span': {
+        transitionDuration: '0.3s',
+        '&:hover': {
+          color: '#0043ff !important',
         },
       },
     },
   },
   highlightedLink: {
-    color: "#000 !important",
-    borderBottom: "1px solid #ddd",
+    color: '#000 !important',
+    borderBottom: '1px solid #ddd',
   },
-  "@media (max-width: 767px)": {
+  '@media (max-width: 767px)': {
     Navbar: {
-      float: "none",
-      fontSize: "4vw",
+      float: 'none',
+      fontSize: '4vw',
       marginRight: 0,
-      textAlign: "center",
+      textAlign: 'center',
     },
   },
 };
 
 const Navbar = ({ classes, location }) => {
   const links = [
-    { label: "About", to: "/" },
-    { label: "GitHub", to: "https://github.com/jkao1" },
-    { label: "Resume", to: "https://jasonkao.me/Resume.pdf" },
+    { label: 'About', to: '/' },
+    { label: 'GitHub', to: 'https://github.com/jkao1' },
+    { label: 'Resume', to: 'https://jasonkao.me/Resume.pdf' },
   ];
 
   return (
@@ -57,7 +57,7 @@ const Navbar = ({ classes, location }) => {
           link.to == location.pathname
             ? { className: classes.highlightedLink }
             : {};
-        if (link.to.includes("http") || link.to.includes("mailto:")) {
+        if (link.to.includes('http') || link.to.includes('mailto:')) {
           return (
             <a
               key={link.to}
@@ -84,8 +84,8 @@ const Navbar = ({ classes, location }) => {
         key="scroll-link"
         onClick={() =>
           document
-            .getElementById("contactme-scroll-target")
-            .scrollIntoView({ behavior: "smooth" })}
+            .getElementById('contactme-scroll-target')
+            .scrollIntoView({ behavior: 'smooth' })}
       >
         <span>Contact</span>
       </a>

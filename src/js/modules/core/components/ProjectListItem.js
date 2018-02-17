@@ -1,46 +1,44 @@
-import React, { PureComponent } from "react";
-import injectSheet from "react-jss";
+import React, { PureComponent } from 'react';
+import injectSheet from 'react-jss';
 
 const styles = {
   ProjectListItem: {
-    clear: "both",
-    display: "block",
-    margin: "4px auto",
-    "& a": {
-    },
-    "&:before": {
+    clear: 'both',
+    display: 'block',
+    margin: '4px auto',
+    '& a': {},
+    '&:before': {
       content: '" "',
-      display: "table",
+      display: 'table',
     },
-    "&:after": {
-      clear: "both",
+    '&:after': {
+      clear: 'both',
       content: '" "',
-      display: "table",
+      display: 'table',
     },
-    "&:hover": {
-      cursor: "pointer",
-      "& a": {
-        color: "#000",
+    '&:hover': {
+      cursor: 'pointer',
+      '& a': {
+        color: '#000',
       },
     },
   },
   link: {
-    display: "flex",
-    justifyContent: "space-between",
-    color: "#777",
-    height: "100%",
-    textDecoration: "none",
-    width: "100%",
-    "&:hover": {
-      color: "#000",
+    display: 'flex',
+    justifyContent: 'space-between',
+    color: '#777',
+    height: '100%',
+    textDecoration: 'none',
+    width: '100%',
+    '&:hover': {
+      color: '#000',
     },
   },
-  title: {
-  },
+  title: {},
   arrow: {
-    alignSelf: "flex-end",
+    alignSelf: 'flex-end',
     fontFamily:
-      "-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif",
+      '-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif',
   },
 };
 

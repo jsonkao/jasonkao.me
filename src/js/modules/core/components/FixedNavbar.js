@@ -1,13 +1,13 @@
-import React, { PureComponent } from "react";
-import injectSheet from "react-jss";
+import React, { PureComponent } from 'react';
+import injectSheet from 'react-jss';
 
-import Navbar from "./Navbar";
+import Navbar from './Navbar';
 
 const styles = {
   FixedNavbar: {
-    position: "fixed",
-    transition: "transform 300ms",
-    width: "100%",
+    position: 'fixed',
+    transition: 'transform 300ms',
+    width: '100%',
     zIndex: 100,
   },
 };
@@ -17,7 +17,7 @@ class FixedNavbar extends PureComponent {
     super(props);
     this.state = {
       style: {
-        transform: "translateY(-100%)",
+        transform: 'translateY(-100%)',
       },
     };
   }
@@ -25,7 +25,7 @@ class FixedNavbar extends PureComponent {
   componentDidMount() {
     this.setState({
       style: {
-        transform: "translateY(0%)",
+        transform: 'translateY(0%)',
       },
     });
   }
@@ -33,7 +33,7 @@ class FixedNavbar extends PureComponent {
   componentWillUnmount() {
     this.setState({
       style: {
-        transform: "translateY(-100%)",
+        transform: 'translateY(-100%)',
       },
     });
   }

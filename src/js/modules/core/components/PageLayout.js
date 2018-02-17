@@ -1,14 +1,14 @@
-import React, { PureComponent } from "react";
-import injectSheet from "react-jss";
-import { connect } from "react-redux";
-import Waypoint from "react-waypoint";
+import React, { PureComponent } from 'react';
+import injectSheet from 'react-jss';
+import { connect } from 'react-redux';
+import Waypoint from 'react-waypoint';
 
-import { FixedNavbar, Navbar, CelestialCircle } from "./";
+import { FixedNavbar, Navbar, CelestialCircle } from './';
 
 const styles = {
   waypointContainer: {
-    position: "relative",
-    top: "90px",
+    position: 'relative',
+    top: '90px',
   },
 };
 
@@ -45,7 +45,7 @@ class PageLayout extends PureComponent {
           * <Waypoint onEnter={this.unfixNavbar} onLeave={this.fixNavbar} /> 
           */}
         </div>
-        <div style={{ visibility: isContentVisible ? "visible" : "hidden" }}>
+        <div style={{ visibility: isContentVisible ? 'visible' : 'hidden' }}>
           {children}
         </div>
       </div>
