@@ -6,7 +6,7 @@ import ProjectListItem from './ProjectListItem';
 
 const styles = {
   SelectedProjects: {
-    marginBottom: '5vw',
+    marginBottom: '3.5vw',
   },
   listHeader: {
     marginBottom: '0.725em',
