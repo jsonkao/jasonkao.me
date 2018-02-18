@@ -115,7 +115,7 @@ class MainApp extends PureComponent {
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB,
-            Heroku, AWS, GCP
+            AWS, GCP, webpack, Gulp
           </p>
         </div>
         <SelectedProjects title='Catch me at' projects={projects.events} />
