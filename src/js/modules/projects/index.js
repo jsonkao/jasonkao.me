@@ -59,6 +59,11 @@ export const projects = {
       description: 'February 28; Workbench.'
     },
     {
+      title: 'International Open Data Day',
+      url: 'http://opendataday.org/',
+      description: 'March 3; BetaNYC.'
+    },
+    {
       title: "DataEngConf SF '18",
       url: 'http://www.dataengconf.com/',
       description: 'April 17; San Francisco.'
