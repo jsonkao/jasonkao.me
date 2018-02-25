@@ -61,14 +61,12 @@ const styles = {
 const roles = [
   'software engineer',
   'entrepreneur',
-  'React nerd',
   'illustrator',
-  'software engineer',
+  'writer',
   'data scientist',
   'designer',
   'React nerd',
-  'entrepreneur',
-  'software engineer',
+  'journalist',
 ];
 
 class MainApp extends PureComponent {
