@@ -64,13 +64,13 @@ const roles = [
   'illustrator',
   'statistician',
   'writer',
-  'data scientist',
+  'Go nerd',
   'React nerd',
   'designer',
   'journalist',
   'statistician',
   'software engineer',
-  'React nerd',
+  'Go nerd',
   'data scientist',
 ];
 
@@ -118,7 +118,7 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES7), Python, Java, Go, Ruby, PostgreSQL, CSS, HTML
+            JavaScript (ES7), Python, Go, Java, Ruby, PostgreSQL, CSS, HTML
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB,

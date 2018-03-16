@@ -35,6 +35,12 @@ export const projects = {
       // https://github.com/freeCodeCamp/freeCodeCamp/pulls/jkao1
     },
     {
+      title: 'Go GraphQL',
+      url: 'https://github.com/machinebox/graphql',
+      description:
+        'A simple, low-level GraphQL HTTP client for Go.',
+    },
+    {
       title: 'React-Redux-Gulp Generator',
       url: 'https://github.com/rob2d/generator-react-redux-gulp',
       description:
@@ -64,7 +70,7 @@ export const projects = {
       description: 'March 3; BetaNYC.'
     },
     {
-      title: "DataEngConf SF '18",
+      title: 'DataEngConf SF \'18',
       url: 'http://www.dataengconf.com/',
       description: 'April 17; San Francisco.'
     },
