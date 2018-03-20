@@ -72,12 +72,17 @@ export const projects = {
     {
       title: 'DataEngConf SF \'18',
       url: 'http://www.dataengconf.com/',
-      description: 'April 17; San Francisco.'
+      description: 'April 17-18; San Francisco.'
     },
     {
       title: 'TechDay New York 2018',
       url: 'https://techdayhq.com/new-york',
-      description: 'May 10; New York'
+      description: 'May 10; New York.'
+    },
+    {
+      title: 'AWS Public Sector Summit Washington, DC | 2018',
+      url: 'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
+      description: 'June 20-21; Washington, DC.'
     },
   ],
 };
