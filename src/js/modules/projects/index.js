@@ -41,8 +41,8 @@ export const projects = {
         'A simple, low-level GraphQL HTTP client for Go.',
     },
     {
-      title: 'React-Redux-Gulp Generator',
-      url: 'https://github.com/rob2d/generator-react-redux-gulp',
+      title: 'Greedux',
+      url: 'https://github.com/rob2d/greedux',
       description:
         'A modular, clean and scalable modern workflow template for React/Redux development.',
     },
@@ -59,16 +59,6 @@ export const projects = {
     },
   ],
   events: [
-    {
-      title: 'Navigate 2018: Women in Enterprise Technology Summit',
-      url: 'http://navigate2018.com/',
-      description: 'February 28; Workbench.'
-    },
-    {
-      title: 'International Open Data Day',
-      url: 'http://opendataday.org/',
-      description: 'March 3; BetaNYC.'
-    },
     {
       title: 'DataEngConf SF \'18',
       url: 'http://www.dataengconf.com/',
