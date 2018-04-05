@@ -121,7 +121,7 @@ class MainApp extends PureComponent {
             JavaScript (ES7), Python, Go, Java, Ruby, PostgreSQL, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, Rails, GraphQL, Docker, Git, Node, MongoDB,
+            React / Redux / Apollo, Rails, GraphQL, D3, Docker, Git, Node, MongoDB,
             AWS, GCP, webpack, Gulp
           </p>
         </div>
