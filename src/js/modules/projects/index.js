@@ -6,7 +6,7 @@ export const projects = {
       url: 'https://gerryapp.com',
     },
     {
-      title: 'The Spectator',
+      title: 'The Stuyvesant Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
     },
@@ -51,6 +51,11 @@ export const projects = {
       url: 'https://storymap.knightlab.com/',
       description:
         "Maps that tell stories, created by Northwestern University's Knight Lab.",
+    },
+    {
+      title: 'MIT\'s Complete Works of William Shakespeare',
+      url: 'http://shakespeare.mit.edu/',
+      description: 'The Complete Works of William Shakespeare, operated by The MIT Tech.',
     },
     {
       title: 'React Slick',
