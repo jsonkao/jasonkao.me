@@ -53,14 +53,14 @@ export const projects = {
         "Maps that tell stories, created by Northwestern University's Knight Lab.",
     },
     {
-      title: 'MIT\'s Complete Works of William Shakespeare',
-      url: 'http://shakespeare.mit.edu/',
-      description: 'The Complete Works of William Shakespeare, operated by The MIT Tech.',
-    },
-    {
       title: 'React Slick',
       url: 'https://github.com/akiran/react-slick',
       description: 'A React carousel component.',
+    },
+    {
+      title: 'MIT\'s Complete Works of William Shakespeare',
+      url: 'http://shakespeare.mit.edu/',
+      description: 'The Complete Works of William Shakespeare, operated by The MIT Tech.',
     },
   ],
   events: [
