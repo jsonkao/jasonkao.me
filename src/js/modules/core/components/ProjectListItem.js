@@ -34,7 +34,9 @@ const styles = {
       color: '#000',
     },
   },
-  title: {},
+  noticeMe: {
+    color: '#f00',
+  },
   arrow: {
     alignSelf: 'flex-end',
     fontFamily:
@@ -49,7 +51,12 @@ const ProjectListItem = ({ classes, project, showProject }) => {
       onMouseEnter={() => showProject(project)}
     >
       <a href={project.url} target="_blank" className={classes.link}>
-        <div className={classes.title}>{project.title}</div>
+        <div>
+          {project.title}
+          {project.noticeMe && (
+            <span className={classes.noticeMe}> ({project.noticeMe})</span>
+          )}
+        </div>
         <div className={classes.arrow}>↗</div>
       </a>
     </li>

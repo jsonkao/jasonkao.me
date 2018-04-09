@@ -6,6 +6,13 @@ export const projects = {
       url: 'https://gerryapp.com',
     },
     {
+      title: 'The Brass Tacks',
+      noticeMe: 'new!',
+      description:
+        'The Brass Tacks is an online magazine that explores ideas with visual essays.',
+      url: 'https://github.com/brass-tacks/',
+    },
+    {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
@@ -37,8 +44,7 @@ export const projects = {
     {
       title: 'Go GraphQL',
       url: 'https://github.com/machinebox/graphql',
-      description:
-        'A simple, low-level GraphQL HTTP client for Go.',
+      description: 'A simple, low-level GraphQL HTTP client for Go.',
     },
     {
       title: 'Greedux',
@@ -47,37 +53,28 @@ export const projects = {
         'A modular, clean and scalable modern workflow template for React/Redux development.',
     },
     {
-      title: 'StoryMapJS',
-      url: 'https://storymap.knightlab.com/',
-      description:
-        "Maps that tell stories, created by Northwestern University's Knight Lab.",
-    },
-    {
-      title: 'React Slick',
-      url: 'https://github.com/akiran/react-slick',
-      description: 'A React carousel component.',
-    },
-    {
-      title: 'MIT\'s Complete Works of William Shakespeare',
+      title: "MIT's Complete Works of William Shakespeare",
       url: 'http://shakespeare.mit.edu/',
-      description: 'The Complete Works of William Shakespeare, operated by The MIT Tech.',
+      description:
+        'The Complete Works of William Shakespeare, operated by The MIT Tech.',
     },
   ],
   events: [
     {
-      title: 'DataEngConf SF \'18',
+      title: "DataEngConf SF '18",
       url: 'http://www.dataengconf.com/',
-      description: 'April 17-18; San Francisco.'
+      description: 'April 17-18; San Francisco.',
     },
     {
       title: 'TechDay New York 2018',
       url: 'https://techdayhq.com/new-york',
-      description: 'May 10; New York.'
+      description: 'May 10; New York.',
     },
     {
       title: 'AWS Public Sector Summit Washington, DC | 2018',
-      url: 'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
-      description: 'June 20-21; Washington, DC.'
+      url:
+        'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
+      description: 'June 20-21; Washington, DC.',
     },
   ],
 };

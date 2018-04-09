@@ -107,11 +107,11 @@ class MainApp extends PureComponent {
           </h1>
         </div>
         <SelectedProjects
-          title='Selected projects'
+          title="Selected projects"
           projects={projects.selected}
         />
         <SelectedProjects
-          title='Projects I contribute to'
+          title="Projects I contribute to"
           projects={projects.contributions}
         />
         <div className={classes.contentSection}>
@@ -120,39 +120,39 @@ class MainApp extends PureComponent {
             JavaScript (ES7), Python, Go, Java, Ruby, PostgreSQL, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, Rails, GraphQL, D3, Docker, Git, Node, MongoDB,
-            AWS, GCP, webpack, Gulp
+            React / Redux / Apollo, Rails, GraphQL, D3, Docker, Git, Node,
+            MongoDB, AWS, GCP, webpack, Gulp
           </p>
         </div>
-        <SelectedProjects title='Catch me at' projects={projects.events} />
-        <div className={classes.contactMe} id='contactme-scroll-target'>
+        <SelectedProjects title="Catch me at" projects={projects.events} />
+        <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href='https://github.com/jkao1' target='_blank'>
+              <a href="https://github.com/jkao1" target="_blank">
                 GitHub
               </a>
               <br />
-              <a href='https://linkedin.com/in/jkao1/' target='_blank'>
+              <a href="https://linkedin.com/in/jkao1/" target="_blank">
                 LinkedIn
               </a>
               <br />
-              <a href='https://twitter.com/jsonthekao/' target='_blank'>
+              <a href="https://twitter.com/jsonthekao/" target="_blank">
                 Twitter
               </a>
               <br />
-              <a href='https://meetup.com/members/209330217/' target='_blank'>
+              <a href="https://meetup.com/members/209330217/" target="_blank">
                 Meetup
               </a>
               <br />
               <a
-                href='https://stackoverflow.com/users/6174302/jason-kao'
-                target='_blank'
+                href="https://stackoverflow.com/users/6174302/jason-kao"
+                target="_blank"
               >
                 Stack Overflow
               </a>
               <br />
-              <a href='https://jasonkao.me/Resume.pdf' target='_blank'>
+              <a href="https://jasonkao.me/Resume.pdf" target="_blank">
                 Resume
               </a>
             </p>
@@ -160,16 +160,16 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Contact&mdash;</p>
             <p className={classes.subText}>
-              <a href='mailto:jasonkao85@gmail.com'>jasonkao85@gmail.com</a>
+              <a href="mailto:jasonkao85@gmail.com">jasonkao85@gmail.com</a>
               <br />
-              <a href='tel:+01-347-933-1820'>+1 347 933 1820</a>
+              <a href="tel:+01-347-933-1820">+1 347 933 1820</a>
             </p>
           </div>
         </div>
         <div className={classes.footer}>
           Made with{' '}
-          <a href='https://reactjs.org/' target='_blank'>
-            <img src='/img/react.svg' className={classes.reactLogo} />
+          <a href="https://reactjs.org/" target="_blank">
+            <img src="/img/react.svg" className={classes.reactLogo} />
           </a>{' '}
           by Jason Kao.
         </div>
