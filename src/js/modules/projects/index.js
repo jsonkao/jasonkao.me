@@ -7,7 +7,6 @@ export const projects = {
     },
     {
       title: 'The Brass Tacks',
-      noticeMe: 'new!',
       description:
         'The Brass Tacks is an online magazine that explores ideas with visual essays.',
       url: 'https://github.com/brass-tacks/',
