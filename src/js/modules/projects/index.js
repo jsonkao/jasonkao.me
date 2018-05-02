@@ -70,6 +70,21 @@ export const projects = {
       description: 'May 10; New York.',
     },
     {
+      title: 'Collaborative Journalism Summit',
+      url: 'https://www.eventbrite.com/e/2018-collaborative-journalism-summit-tickets-42048839210',
+      description: 'May 10-11; Montclair.',
+    },
+    {
+      title: 'RightsCon Youth Leaders Summit',
+      url: 'https://www.rightscon.org/youngleaders',
+      description: 'May 15; Toronto.',
+    },
+    {
+      title: 'RightsCon Toronto 2018',
+      url: 'https://www.rightscon.org/',
+      description: 'May 16-18; Toronto.',
+    },
+    {
       title: 'AWS Public Sector Summit Washington, DC | 2018',
       url:
         'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
