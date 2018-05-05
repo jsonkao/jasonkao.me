@@ -8,7 +8,7 @@ export const projects = {
     {
       title: 'The Brass Tacks',
       description:
-        'The Brass Tacks is an online magazine that explores ideas with visual essays.',
+        'The Brass Tacks is a statistics-based apparel startup. It concurrently runs an online magazine that explores cultural and political ideas with visual essays.',
       url: 'https://github.com/brass-tacks/',
     },
     {

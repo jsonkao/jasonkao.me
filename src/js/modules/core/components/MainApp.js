@@ -59,18 +59,17 @@ const styles = {
 };
 
 const roles = [
+  'policy analyst',
+  'illustrator',
   'data scientist',
   'software engineer',
-  'React nerd',
-  'illustrator',
   'statistician',
+  'journalist',
   'writer',
-  'Go nerd',
   'React nerd',
   'designer',
-  'journalist',
-  'statistician',
-  'Go nerd',
+  'software engineer',
+  'data scientist',
 ];
 
 class MainApp extends PureComponent {
