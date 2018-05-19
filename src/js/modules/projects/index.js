@@ -95,5 +95,10 @@ export const projects = {
         'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
       description: 'June 20-21; Washington, DC.',
     },
+    {
+      title: 'RightsCon Tunisia 2019',
+      url: 'https://www.rightscon.org/',
+      description: 'May 2019; Tunis.',
+    },
   ],
 };
