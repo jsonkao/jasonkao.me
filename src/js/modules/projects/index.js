@@ -75,7 +75,7 @@ export const projects = {
       description: 'May 10-11; Montclair.',
     },
     {
-      title: 'RightsCon Youth Leaders Summit',
+      title: 'RightsCon Young Leaders Summit',
       url: 'https://www.rightscon.org/youngleaders',
       description: 'May 15; Toronto.',
     },

@@ -59,7 +59,7 @@ const styles = {
 };
 
 const roles = [
-  'policy analyst',
+  'data journalist',
   'illustrator',
   'data scientist',
   'software engineer',
