@@ -69,7 +69,7 @@ const roles = [
   'React nerd',
   'designer',
   'software engineer',
-  'data scientist',
+  'freelance developer',
 ];
 
 class MainApp extends PureComponent {
