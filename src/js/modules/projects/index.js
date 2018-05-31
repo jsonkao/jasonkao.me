@@ -37,8 +37,6 @@ export const projects = {
       title: 'Free Code Camp [beta]',
       imgPath: '/img/freecodecamp.gif',
       url: 'https://github.com/freeCodeCamp/freeCodeCamp',
-      // TODO: Once I have at least 5 PR's, link
-      // https://github.com/freeCodeCamp/freeCodeCamp/pulls/jkao1
     },
     {
       title: 'Go GraphQL',
@@ -60,31 +58,6 @@ export const projects = {
   ],
   events: [
     {
-      title: "DataEngConf SF '18",
-      url: 'http://www.dataengconf.com/',
-      description: 'April 17-18; San Francisco.',
-    },
-    {
-      title: 'TechDay New York 2018',
-      url: 'https://techdayhq.com/new-york',
-      description: 'May 10; New York.',
-    },
-    {
-      title: 'Collaborative Journalism Summit',
-      url: 'https://www.eventbrite.com/e/2018-collaborative-journalism-summit-tickets-42048839210',
-      description: 'May 10-11; Montclair.',
-    },
-    {
-      title: 'RightsCon Young Leaders Summit',
-      url: 'https://www.rightscon.org/youngleaders',
-      description: 'May 15; Toronto.',
-    },
-    {
-      title: 'RightsCon Toronto 2018',
-      url: 'https://www.rightscon.org/',
-      description: 'May 16-18; Toronto.',
-    },
-    {
       title: 'The Impact Summit',
       url: 'http://www.theimpactsummit.org/',
       description: 'June 1-13; New York.',
@@ -94,6 +67,12 @@ export const projects = {
       url:
         'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
       description: 'June 20-21; Washington, DC.',
+    },
+    {
+      title: 'SRCCON 2018',
+      url: 'https://srccon.org',
+      description:
+        'A conference focused on the practical challenges that news technology and data teams encounter every day.',
     },
     {
       title: 'RightsCon Tunisia 2019',
