@@ -157,7 +157,7 @@ class MainApp extends PureComponent {
             </p>
           </div>
           <div className={classes.contentSection}>
-            <p>Contact&mdash;</p>
+            <p>If you&rsquo;d like to get in touch&mdash;</p>
             <p className={classes.subText}>
               <a href="mailto:jasonkao85@gmail.com">jasonkao85@gmail.com</a>
               <br />
