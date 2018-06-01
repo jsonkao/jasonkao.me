@@ -58,11 +58,6 @@ export const projects = {
   ],
   events: [
     {
-      title: 'The Impact Summit',
-      url: 'http://www.theimpactsummit.org/',
-      description: 'June 1-13; New York.',
-    },
-    {
       title: 'AWS Public Sector Summit Washington, DC | 2018',
       url:
         'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
