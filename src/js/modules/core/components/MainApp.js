@@ -132,16 +132,12 @@ class MainApp extends PureComponent {
                 GitHub
               </a>
               <br />
-              <a href="https://linkedin.com/in/jkao1/" target="_blank">
-                LinkedIn
-              </a>
-              <br />
               <a href="https://twitter.com/jsonthekao/" target="_blank">
                 Twitter
               </a>
               <br />
-              <a href="https://meetup.com/members/209330217/" target="_blank">
-                Meetup
+              <a href="https://gitlab.com/jkao1" target="_blank">
+                GitLab 😐
               </a>
               <br />
               <a
@@ -149,6 +145,10 @@ class MainApp extends PureComponent {
                 target="_blank"
               >
                 Stack Overflow
+              </a>
+              <br />
+              <a href="https://linkedin.com/in/jkao1/" target="_blank">
+                LinkedIn
               </a>
               <br />
               <a href="https://jasonkao.me/Resume.pdf" target="_blank">
