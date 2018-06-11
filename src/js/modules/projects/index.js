@@ -50,6 +50,12 @@ export const projects = {
         'A modular, clean and scalable modern workflow template for React/Redux development.',
     },
     {
+      title: 'The Knight Lab',
+      url: 'https://github.com/NUKnightLab',
+      description:
+        'A community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces.',
+    },
+    {
       title: "MIT's Complete Works of William Shakespeare",
       url: 'http://shakespeare.mit.edu/',
       description:
