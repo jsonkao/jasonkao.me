@@ -1,20 +1,20 @@
 export const projects = {
   selected: [
     {
-      title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
-      url: 'https://gerryapp.com',
-    },
-    {
       title: 'The Brass Tacks',
-      description:
-        'The Brass Tacks is a statistics-based apparel startup. It concurrently runs an online magazine that explores cultural and political ideas with visual essays.',
-      url: 'https://github.com/brass-tacks/',
+      imgPath: '/img/brtacks.png'
+      url: 'https://github.com/brtacks/',
     },
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
+    },
+    {
+      title: 'Gerry App',
+      imgPath: '/img/gerry.gif',
+      url: 
+        'https://s3.console.aws.amazon.com/s3/buckets/gerryapp.com/?region=us-east-1&tab=properties',
     },
     {
       title: 'Story Pop',
@@ -64,16 +64,15 @@ export const projects = {
   ],
   events: [
     {
-      title: 'AWS Public Sector Summit Washington, DC | 2018',
-      url:
-        'https://aws.amazon.com/summits/public-sector-summit-washington-dc-2018/',
-      description: 'June 20-21; Washington, DC.',
-    },
-    {
       title: 'SRCCON 2018',
       url: 'https://srccon.org',
       description:
         'A conference focused on the practical challenges that news technology and data teams encounter every day.',
+    },
+    {
+      title: 'AWS Summit New York',
+      url: 'https://aws.amazon.com/summits/new-york/',
+      description: 'July 16-17; New York, NY.',
     },
     {
       title: 'RightsCon Tunisia 2019',
