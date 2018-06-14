@@ -2,11 +2,11 @@ export const projects = {
   selected: [
     {
       title: 'The Brass Tacks',
-      imgPath: '/img/brtacks.png'
-      url: 'https://github.com/brtacks/',
+      imgPath: '/img/brtacks.png',
+      url: 'https://brtacks.com',
     },
     {
-      title: 'The Stuyvesant Spectator',
+      title: 'The Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
     },
