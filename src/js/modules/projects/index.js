@@ -13,7 +13,7 @@ export const projects = {
     {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
-      url: 
+      url:
         'https://s3.console.aws.amazon.com/s3/buckets/gerryapp.com/?region=us-east-1&tab=properties',
     },
     {
