@@ -79,5 +79,10 @@ export const projects = {
       url: 'https://www.rightscon.org/',
       description: 'May 2019; Tunis.',
     },
+    {
+      title: 'MisinfoCon D.C.',
+      url: 'https://misinfocon.com/misinfocon-4-0-washington-dc-1b6ed42c5514',
+      description: 'August 6-7; Washington, D.C.'
+    }
   ],
 };
