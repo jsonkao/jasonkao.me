@@ -42,7 +42,7 @@ const styles = {
 const Navbar = ({ classes, location }) => {
   const links = [
     { label: 'About', to: '/' },
-    { label: 'GitHub', to: 'https://github.com/jkao1' },
+    { label: 'GitHub', to: 'https://github.com/jsonkao' },
     { label: 'Resume', to: 'https://jasonkao.me/Resume.pdf' },
   ];
 
@@ -52,29 +52,20 @@ const Navbar = ({ classes, location }) => {
         const highlighterProps =
           link.to == location.pathname
             ? { className: classes.highlightedLink }
-            : {};
-        if (link.to.includes('http') || link.to.includes('mailto:')) {
+            : null;
+        if (highlighterProps) {
+          return <Link key={link.to} {...highlighterProps} to={link.to}><span>{link.label}.</span></Link>;
+        } else {
           return (
             <a
               key={link.to}
               href={link.to}
-              {...highlighterProps}
               target="_blank"
             >
               <span>{link.label}.</span>
             </a>
           );
         }
-        return (
-          <Link
-            key={link.to}
-            to={link.to}
-            {...highlighterProps}
-            target="_blank"
-          >
-            <span>{link.label}.</span>
-          </Link>
-        );
       })}
       <a
         key="scroll-link"

@@ -63,13 +63,13 @@ const roles = [
   'illustrator',
   'data scientist',
   'software engineer',
-  'statistician',
-  'journalist',
+  'journalist engineer',
   'writer',
   'React nerd',
   'designer',
-  'software engineer',
-  'freelance developer',
+  'journalist',
+  'floutist',
+  'theater geek',
 ];
 
 class MainApp extends PureComponent {
@@ -127,11 +127,11 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://github.com/jkao1" target="_blank">
+              <a href="https://github.com/jsonkao" target="_blank">
                 GitHub
               </a>
               <br />
-              <a href="https://twitter.com/jsonthekao/" target="_blank">
+              <a href="https://twitter.com/jsonkao/" target="_blank">
                 Twitter
               </a>
               <br />

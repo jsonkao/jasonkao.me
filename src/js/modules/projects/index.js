@@ -64,25 +64,19 @@ export const projects = {
   ],
   events: [
     {
-      title: 'SRCCON 2018',
-      url: 'https://srccon.org',
-      description:
-        'A conference focused on the practical challenges that news technology and data teams encounter every day.',
-    },
-    {
       title: 'AWS Summit New York',
       url: 'https://aws.amazon.com/summits/new-york/',
       description: 'July 16-17; New York, NY.',
     },
     {
+      title: 'MisinfoCon D.C.',
+      url: 'https://misinfocon.com/misinfocon-4-0-washington-dc-1b6ed42c5514',
+      description: 'August 6-7; Washington, D.C.'
+    }, 
+    {
       title: 'RightsCon Tunisia 2019',
       url: 'https://www.rightscon.org/',
       description: 'May 2019; Tunis.',
     },
-    {
-      title: 'MisinfoCon D.C.',
-      url: 'https://misinfocon.com/misinfocon-4-0-washington-dc-1b6ed42c5514',
-      description: 'August 6-7; Washington, D.C.'
-    }
   ],
 };
