@@ -50,6 +50,9 @@ const styles = {
       position: 'absolute',
     },
   },
+  rawLink: {
+    color: '#000',
+  },
   '@media (max-width: 767px)': {
     projectSelection: {
       display: 'block',
