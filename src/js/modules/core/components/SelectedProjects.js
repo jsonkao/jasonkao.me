@@ -91,7 +91,7 @@ class SelectedProjects extends PureComponent {
             <li>
               <a
                 className={classes.rawLink}
-                href="https://github.com/jkao1"
+                href="https://github.com/jsonkao"
                 target="_blank"
               >
                 ... <span>(github)</span>
