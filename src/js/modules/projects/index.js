@@ -19,12 +19,12 @@ export const projects = {
     {
       title: 'Story Pop',
       imgPath: '/img/story-pop.gif',
-      url: 'https://github.com/jkao1/story-pop-client',
+      url: 'https://github.com/jsonkao/story-pop-client',
     },
     {
       title: 'Alfred Prufrock Editor',
       imgPath: '/img/alfred.gif',
-      url: 'https://github.com/jkao1/alfred-prufrock-editor',
+      url: 'https://github.com/jsonkao/alfred-prufrock-editor',
     },
     {
       title: 'Citi Dots',
