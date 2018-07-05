@@ -14,7 +14,7 @@ const styles = {
     width: '55%',
     '& p + p, & h1 + h1': {
       marginTop: '0.725em',
-    },
+    },      
   },
   subText: {
     color: '#777',
@@ -63,7 +63,7 @@ const roles = [
   'illustrator',
   'data scientist',
   'software engineer',
-  'journalist engineer',
+  "Columbia '22",
   'writer',
   'React nerd',
   'designer',
@@ -101,8 +101,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I am fascinated by the ability of technology to scale human impact,
-            and I am constantly looking for new projects to immerse myself in.
+            I'm just here to create some beauty. Visual journalism, computer science, musical theatre, political science&mdash;it's all art, and it's all enthralling.
           </h1>
         </div>
         <SelectedProjects

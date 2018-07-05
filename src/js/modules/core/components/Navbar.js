@@ -54,14 +54,14 @@ const Navbar = ({ classes, location }) => {
             ? { className: classes.highlightedLink }
             : null;
         if (highlighterProps) {
-          return <Link key={link.to} {...highlighterProps} to={link.to}><span>{link.label}.</span></Link>;
+          return (
+            <Link key={link.to} {...highlighterProps} to={link.to}>
+              <span>{link.label}.</span>
+            </Link>
+          );
         } else {
           return (
-            <a
-              key={link.to}
-              href={link.to}
-              target="_blank"
-            >
+            <a key={link.to} href={link.to} target="_blank">
               <span>{link.label}.</span>
             </a>
           );
