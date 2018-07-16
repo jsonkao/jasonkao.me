@@ -44,6 +44,10 @@ const styles = {
     top: "7px",
     width: "28px"
   },
+    mobileFixedHeight: {
+	fontFamily: "Papyrus, sans-serif",
+	fontSize: "1.4em"
+    },
   "@media (max-width: 767px)": {
     MainApp: {
       padding: "7.5vw 5vw",
@@ -55,7 +59,7 @@ const styles = {
     contactMe: {
       display: "block"
     },
-    mobileFixedHeight: {
+      mobileFixedHeight: {
       height: "2.8em"
     }
   }
