@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:9.4.0
+      - image: circleci/python:3.6.1
+    working_directory: ~/jasonkao.me
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+      - run: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: sudo apt-get install python-dev python-pip
+      - run: sudo pip install awscli
+      - run: sudo npm install -g gulp-cli
+      - run: gulp build
+      - deploy:
+          name: Deploy to AWS S3
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              aws s3 sync ~/jasonkao.me/dist/prod s3://jasonkao.me
+            else
+              echo "We do not deploy on the ${CIRCLE_BRANCH}."
+            fi
