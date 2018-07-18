@@ -6,7 +6,7 @@ export const projects = {
       url: 'https://brtacks.com',
     },
     {
-      title: 'The Spectator',
+      title: 'The Stuyvesant Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
     },
