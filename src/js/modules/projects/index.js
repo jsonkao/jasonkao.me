@@ -74,6 +74,11 @@ export const projects = {
       description: 'August 6-7; Washington, D.C.',
     },
     {
+      title: 'DataEngConf Barcelona',
+      url: 'http://www.dataengconf.com/',
+      description: 'September 25-26; Barcelona.',
+    },
+    {
       title: 'RightsCon Tunisia 2019',
       url: 'https://www.rightscon.org/',
       description: 'May 2019; Tunis.',
