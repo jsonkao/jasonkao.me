@@ -1,82 +1,91 @@
-import React, { PureComponent } from 'react';
-import injectSheet from 'react-jss';
+import React, { PureComponent } from "react";
+import injectSheet from "react-jss";
 
-import SelectedProjects from './SelectedProjects';
-import { projects } from '../../projects';
+import SelectedProjects from "./SelectedProjects";
+import { projects } from "../../projects";
 
 const styles = {
   MainApp: {
-    padding: '7.5vw',
-    paddingTop: '270px',
+    padding: "7.5vw",
+    paddingTop: "270px"
   },
   contentSection: {
-    marginBottom: '3.5vw',
-    width: '55%',
-    '& p + p, & h1 + h1': {
-      marginTop: '0.725em',
-    },      
+    marginBottom: "3.5vw",
+    width: "55%",
+    "& p + p, & h1 + h1": {
+      marginTop: "0.725em"
+    }
   },
   subText: {
-    color: '#777',
-    '& a': {
-      color: '#777',
-      textDecoration: 'none',
-      '&:hover': {
-        color: '#000',
-      },
-    },
+    color: "#777",
+    "& a": {
+      color: "#777",
+      textDecoration: "none",
+      "&:hover": {
+        color: "#000"
+      }
+    }
+  },
+  youLazyAppointmentDroppingBastard: {
+    color: "red"
   },
   contactMe: {
-    display: 'flex',
+    display: "flex"
   },
   footer: {
-    borderTop: '1px solid #000',
-    fontSize: '16px',
-    marginTop: '1vw',
-    paddingTop: '5px',
-    textAlign: 'center',
+    borderTop: "1px solid #000",
+    fontSize: "16px",
+    marginTop: "1vw",
+    paddingTop: "5px",
+    textAlign: "center"
   },
   reactLogo: {
-    position: 'relative',
-    top: '7px',
-    width: '28px',
+    position: "relative",
+    top: "7px",
+    width: "28px"
   },
-  '@media (max-width: 767px)': {
+    mobileFixedHeight: {
+	fontFamily: "Papyrus, sans-serif",
+	fontSize: "1.4em"
+    },
+  "@media (max-width: 767px)": {
     MainApp: {
-      padding: '7.5vw 5vw',
-      paddingTop: '180px',
+      padding: "7.5vw 5vw",
+      paddingTop: "180px"
     },
     contentSection: {
-      width: 'auto',
+      width: "auto"
     },
     contactMe: {
-      display: 'block',
+      display: "block"
     },
-    mobileFixedHeight: {
-      height: '2.8em',
-    },
-  },
+      mobileFixedHeight: {
+      height: "2.8em"
+    }
+  }
 };
 
 const roles = [
-  'data journalist',
-  'illustrator',
-  'data scientist',
-  'software engineer',
-  "Columbia '22",
-  'writer',
-  'React nerd',
-  'designer',
-  'journalist',
-  'floutist',
-  'theater geek',
+  "lazy bastard",
+  "tiny data journalist",
+  "ugly illustrator",
+  "small data scientist",
+  "appointment dropping jerk",
+  "BMCC '22",
+  "riter",
+  "Angular nerd",
+  "script kiddie",
+  "uninspired designer",
+  "hack journalist",
+  "(bad) floutist",
+  "theater geek"
 ];
 
 class MainApp extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      roleIndex: 0,
+      roleIndex: 0
     };
   }
 
@@ -84,8 +93,8 @@ class MainApp extends PureComponent {
     const roleIndex =
       Math.floor(
         Math.abs(
-          Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5),
-        ) / 110,
+          Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5)
+        ) / 110
       ) % roles.length;
     if (this.state.roleIndex !== roleIndex) {
       this.setState({ roleIndex });
@@ -100,8 +109,13 @@ class MainApp extends PureComponent {
           <h1 className={classes.mobileFixedHeight}>
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
+          <h1 className={classes.youLazyAppointmentDroppingBastard}>
+            I DO NOT KEEP APPOINTMENTS. I AM A LAZY BASTARD
+          </h1>
           <h1>
-            I'm just here to create some beauty. Visual journalism, computer science, musical theatre, political science&mdash;it's all art, and it's all enthralling.
+            I'm just here to create some beauty. Visual journalism, computer
+            science, musical theatre, political science&mdash;it's all art, and
+            it's all enthralling.
           </h1>
         </div>
         <SelectedProjects
@@ -160,10 +174,10 @@ class MainApp extends PureComponent {
           </div>
         </div>
         <div className={classes.footer}>
-          Made with{' '}
+          Made with{" "}
           <a href="https://reactjs.org/" target="_blank">
             <img src="/img/react.svg" className={classes.reactLogo} />
-          </a>{' '}
+          </a>{" "}
           by Jason Kao.
         </div>
       </div>
