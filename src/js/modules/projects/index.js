@@ -17,9 +17,10 @@ export const projects = {
         'https://s3.console.aws.amazon.com/s3/buckets/gerryapp.com/?region=us-east-1&tab=properties',
     },
     {
-      title: 'Story Pop',
-      imgPath: '/img/story-pop.gif',
-      url: 'https://github.com/jsonkao/story-pop-client',
+      title: 'React Scrollama',
+      description:
+        'Scrollyteling library for React with Intersection Observer.',
+      url: 'https://github.com/jsonkao/react-scrollama',
     },
     {
       title: 'Alfred Prufrock Editor',

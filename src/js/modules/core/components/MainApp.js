@@ -14,7 +14,7 @@ const styles = {
     width: '55%',
     '& p + p, & h1 + h1': {
       marginTop: '0.725em',
-    },      
+    },
   },
   subText: {
     color: '#777',
@@ -101,7 +101,9 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I'm just here to create some beauty. Visual journalism, computer science, musical theatre, political science&mdash;it's all art, and it's all enthralling.
+            I'm just here to create some beauty. Visual journalism, computer
+            science, musical theatre, political science&mdash;it's all art, and
+            it's all enthralling.
           </h1>
         </div>
         <SelectedProjects
