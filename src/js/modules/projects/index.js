@@ -11,16 +11,16 @@ export const projects = {
       url: 'https://stuyspec.com/',
     },
     {
+      title: 'React Scrollama',
+      description:
+        'Scrollytelling library for React with Intersection Observer.',
+      url: 'https://github.com/jsonkao/react-scrollama',
+    },
+    {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url:
         'https://s3.console.aws.amazon.com/s3/buckets/gerryapp.com/?region=us-east-1&tab=properties',
-    },
-    {
-      title: 'React Scrollama',
-      description:
-        'Scrollyteling library for React with Intersection Observer.',
-      url: 'https://github.com/jsonkao/react-scrollama',
     },
     {
       title: 'Alfred Prufrock Editor',
