@@ -6,15 +6,14 @@ export const projects = {
       url: 'https://brtacks.com',
     },
     {
+      title: 'React Scrollama',
+      imgPath: '/img/im-a-narcissist.gif',
+      url: 'https://github.com/jsonkao/react-scrollama',
+    },
+    {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/spectator.png',
       url: 'https://stuyspec.com/',
-    },
-    {
-      title: 'React Scrollama',
-      description:
-        'Scrollytelling library for React with Intersection Observer.',
-      url: 'https://github.com/jsonkao/react-scrollama',
     },
     {
       title: 'Gerry App',
