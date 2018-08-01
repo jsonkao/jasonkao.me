@@ -79,9 +79,19 @@ export const projects = {
       description: 'October 22-28; London.',
     },
     {
+      title: '2019 CAR Conference',
+      url: 'https://ire.org/events-and-training/event/3433/',
+      description: 'March 7-10; Newport Beach, California.'
+    },
+    {
       title: 'RightsCon Tunisia 2019',
       url: 'https://www.rightscon.org/',
       description: 'May 2019; Tunis.',
+    },
+    {
+      title: '2019 IRE Conference',
+      url: 'https://ire.org/events-and-training/event/3434/',
+      description: 'June 13-16; Houston.',
     },
   ],
 };
