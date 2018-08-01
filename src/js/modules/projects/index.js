@@ -50,7 +50,7 @@ export const projects = {
         'A modular, clean and scalable modern workflow template for React/Redux development.',
     },
     {
-      title: 'The Knight Lab',
+      title: 'Northwestern University Knight Lab',
       url: 'https://github.com/NUKnightLab',
       description:
         'A community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces.',
@@ -64,11 +64,6 @@ export const projects = {
   ],
   events: [
     {
-      title: 'AWS Summit New York',
-      url: 'https://aws.amazon.com/summits/new-york/',
-      description: 'July 16-17; New York, NY.',
-    },
-    {
       title: 'MisinfoCon D.C.',
       url: 'https://misinfocon.com/misinfocon-4-0-washington-dc-1b6ed42c5514',
       description: 'August 6-7; Washington, D.C.',
@@ -77,6 +72,11 @@ export const projects = {
       title: 'DataEngConf Barcelona',
       url: 'http://www.dataengconf.com/',
       description: 'September 25-26; Barcelona.',
+    },
+    {
+      title: 'MozFest London 2018',
+      url: 'https://mozillafestival.org/',
+      description: 'October 22-28; London.',
     },
     {
       title: 'RightsCon Tunisia 2019',

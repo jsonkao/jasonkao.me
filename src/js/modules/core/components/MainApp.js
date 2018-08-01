@@ -117,10 +117,10 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES7), Python, Go, Java, Ruby, SQL, CSS, HTML
+            JavaScript (ES7), Python, Java, Go, C, PostgreSQL, Ruby, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, Rails, GraphQL, D3, Node, AWS, webpack, Gulp
+            React / Redux / Apollo, Rails, GraphQL, D3, Node, AWS, GCP, Illustrator, Sketch
           </p>
         </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
