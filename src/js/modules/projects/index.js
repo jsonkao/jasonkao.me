@@ -34,14 +34,14 @@ export const projects = {
   ],
   contributions: [
     {
-      title: 'Free Code Camp [beta]',
-      imgPath: '/img/freecodecamp.gif',
-      url: 'https://github.com/freeCodeCamp/freeCodeCamp',
-    },
-    {
       title: 'Go GraphQL',
       url: 'https://github.com/machinebox/graphql',
       description: 'A simple, low-level GraphQL HTTP client for Go.',
+    },
+    {
+      title: 'Free Code Camp [beta]',
+      imgPath: '/img/freecodecamp.gif',
+      url: 'https://github.com/freeCodeCamp/freeCodeCamp',
     },
     {
       title: 'Greedux',
@@ -50,10 +50,10 @@ export const projects = {
         'A modular, clean and scalable modern workflow template for React/Redux development.',
     },
     {
-      title: 'Northwestern University Knight Lab',
-      url: 'https://github.com/NUKnightLab',
+      title: 'Scrollama',
+      url: 'https://github.com/russellgoldenberg/scrollama',
       description:
-        'A community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces.',
+        'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
     },
     {
       title: "MIT's Complete Works of William Shakespeare",
