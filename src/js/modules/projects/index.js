@@ -81,7 +81,7 @@ export const projects = {
     {
       title: '2019 CAR Conference',
       url: 'https://ire.org/events-and-training/event/3433/',
-      description: 'March 7-10; Newport Beach, California.'
+      description: 'March 7-10; Newport Beach, California.',
     },
     {
       title: 'RightsCon Tunisia 2019',
