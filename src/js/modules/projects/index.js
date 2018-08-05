@@ -1,19 +1,19 @@
 export const projects = {
   selected: [
     {
-      title: 'The Brass Tacks',
-      imgPath: '/img/brtacks.png',
-      url: 'https://brtacks.com',
-    },
-    {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
       url: 'https://github.com/jsonkao/react-scrollama',
     },
     {
       title: 'The Stuyvesant Spectator',
-      imgPath: '/img/spectator.png',
+      imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
+    },
+    {
+      title: 'The Brass Tacks',
+      imgPath: '/img/brtacks.png',
+      url: 'https://brtacks.com',
     },
     {
       title: 'Gerry App',
