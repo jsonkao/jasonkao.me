@@ -34,14 +34,14 @@ export const projects = {
   ],
   contributions: [
     {
-      title: 'Go GraphQL',
-      url: 'https://github.com/machinebox/graphql',
-      description: 'A simple, low-level GraphQL HTTP client for Go.',
-    },
-    {
       title: 'Free Code Camp [beta]',
       imgPath: '/img/freecodecamp.gif',
       url: 'https://github.com/freeCodeCamp/freeCodeCamp',
+    },
+    {
+      title: 'Go GraphQL',
+      url: 'https://github.com/machinebox/graphql',
+      description: 'A simple, low-level GraphQL HTTP client for Go.',
     },
     {
       title: 'Greedux',
