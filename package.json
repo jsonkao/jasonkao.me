@@ -1,12 +1,17 @@
 {
   "name": "jasonkao.me",
   "displayName": "jasonkao.me",
-  "version": "0.0.1",
-  "description": "Personal website",
+  "version": "1.0.0",
+  "description": "Jason Kao's personal website.",
   "main": "app.js",
   "scripts": {
     "start": "gulp build && node app",
     "dev": "node app --dev & gulp dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jsonkao/jasonkao.me.git"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
