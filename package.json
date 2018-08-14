@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jsonkao/jasonkao.me.git"
+    "type": "git",
+    "url": "https://github.com/jsonkao/jasonkao.me.git"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -68,8 +68,10 @@
     "ejs": "^2.5.7",
     "envify": "^4.1.0",
     "express": "^4.16.2",
+    "fresh": "^0.5.2",
     "gulp-version-number": "^0.1.7",
     "locate-path": "^2.0.0",
+    "lodash": "^4.17.10",
     "lru-cache": "^4.1.1",
     "mime": "^2.3.1",
     "mime-db": "^1.32.0",
