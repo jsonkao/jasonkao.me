@@ -144,7 +144,7 @@ class MainApp extends PureComponent {
                 Stack Overflow
               </a>
               <br />
-              <a href="https://linkedin.com/in/jkao1/" target="_blank">
+              <a href="https://linkedin.com/in/jsonkao/" target="_blank">
                 LinkedIn
               </a>
               <br />
