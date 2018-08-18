@@ -120,8 +120,10 @@ class MainApp extends PureComponent {
             JavaScript (ES7), Python, Java, Go, C, PostgreSQL, Ruby, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, Rails, GraphQL, D3, Node, AWS, GCP,
-            Illustrator, Sketch
+            React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
+          </p>
+          <p className={classes.subText}>
+            pandas, R, D3, Illustrator, QGIS
           </p>
         </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
