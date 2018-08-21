@@ -11,15 +11,14 @@ export const projects = {
       url: 'https://stuyspec.com/',
     },
     {
+      title: 'Gerry App',
+      imgPath: '/img/gerry.gif',
+      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+    },
+    {
       title: 'The Brass Tacks',
       imgPath: '/img/brtacks.png',
       url: 'https://brtacks.com',
-    },
-    {
-      title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
-      url:
-        'https://s3.console.aws.amazon.com/s3/buckets/gerryapp.com/?region=us-east-1&tab=properties',
     },
     {
       title: 'Alfred Prufrock Editor',
