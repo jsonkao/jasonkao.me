@@ -63,11 +63,6 @@ export const projects = {
   ],
   events: [
     {
-      title: 'MisinfoCon D.C.',
-      url: 'https://misinfocon.com/misinfocon-4-0-washington-dc-1b6ed42c5514',
-      description: 'August 6-7; Washington, D.C.',
-    },
-    {
       title: 'DataEngConf Barcelona',
       url: 'http://www.dataengconf.com/',
       description: 'September 25-26; Barcelona.',
