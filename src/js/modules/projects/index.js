@@ -63,11 +63,6 @@ export const projects = {
   ],
   events: [
     {
-      title: 'DataEngConf Barcelona',
-      url: 'http://www.dataengconf.com/',
-      description: 'September 25-26; Barcelona.',
-    },
-    {
       title: 'MozFest London 2018',
       url: 'https://mozillafestival.org/',
       description: 'October 22-28; London.',
