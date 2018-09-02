@@ -73,6 +73,11 @@ export const projects = {
       description: 'March 7-10; Newport Beach, California.',
     },
     {
+      title: 'The Web Conference 2019',
+      url: 'https://www2019.thewebconf.org/',
+      description: 'May 13-17; San Francisco.',
+    },
+    {
       title: 'RightsCon Tunisia 2019',
       url: 'https://www.rightscon.org/',
       description: 'May 2019; Tunis.',
