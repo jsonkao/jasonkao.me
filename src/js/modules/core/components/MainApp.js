@@ -123,7 +123,7 @@ class MainApp extends PureComponent {
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
           </p>
           <p className={classes.subText}>
-            pandas, R, D3, Illustrator, QGIS
+            R, MATLAB, D3, Illustrator, QGIS
           </p>
         </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
