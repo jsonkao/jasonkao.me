@@ -101,7 +101,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I'm just here to create some beauty. Visual journalism, computer
+            I just want to create a few beautiful things. Visual journalism, computer
             science, musical theatre, political science&mdash;it's all art, and
             it's all enthralling.
           </h1>
