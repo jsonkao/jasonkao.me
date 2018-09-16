@@ -74,7 +74,7 @@ const Navbar = ({ classes, location }) => {
             .getElementById('contactme-scroll-target')
             .scrollIntoView({ behavior: 'smooth' })}
       >
-        <span>Contact</span>
+        <span>Contact.</span>
       </a>
     </div>
   );
