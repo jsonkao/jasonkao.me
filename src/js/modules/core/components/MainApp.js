@@ -63,11 +63,10 @@ const roles = [
   'illustrator',
   'data scientist',
   'software engineer',
-  "Columbia '22",
-  'writer',
+  "Columbia University '22",
+  'visual journalist',
   'React nerd',
   'designer',
-  'journalist',
   'floutist',
   'theater geek',
 ];
@@ -102,8 +101,7 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I just want to create a few beautiful things. Visual journalism, computer
-            science, musical theatre, political science&mdash;it's all art, and
-            it's all enthralling.
+            science, musical theatre, statistics, and political science make up my jam.
           </h1>
         </div>
         <SelectedProjects
