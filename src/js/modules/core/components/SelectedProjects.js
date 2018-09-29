@@ -1,8 +1,7 @@
 import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
-import { Link } from 'react-router-dom';
 
-import ProjectListItem from './ProjectListItem';
+import ProjectText from './ProjectText';
 
 const styles = {
   SelectedProjects: {
@@ -64,10 +63,9 @@ const styles = {
 };
 
 class SelectedProjects extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = { displayedProject: null };
-  }
+  state = {
+    displayedProject: null,
+  };
 
   hideProject = () => this.setState({ displayedProject: null });
 
@@ -82,7 +80,7 @@ class SelectedProjects extends PureComponent {
         <div className={classes.projectSelection}>
           <ul className={classes.projectsList} onMouseLeave={this.hideProject}>
             {projects.map(project => (
-              <ProjectListItem
+              <ProjectText
                 key={project.url}
                 showProject={this.showProject}
                 project={project}

@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
 
 const styles = {
-  ProjectListItem: {
+  ProjectText: {
     clear: 'both',
     display: 'block',
     margin: '4px auto',
@@ -44,10 +44,10 @@ const styles = {
   },
 };
 
-const ProjectListItem = ({ classes, project, showProject }) => {
+const ProjectText = ({ classes, project, showProject }) => {
   return (
     <li
-      className={classes.ProjectListItem}
+      className={classes.ItemText}
       onMouseEnter={() => showProject(project)}
     >
       <a href={project.url} target="_blank" className={classes.link}>
@@ -63,4 +63,4 @@ const ProjectListItem = ({ classes, project, showProject }) => {
   );
 };
 
-export default injectSheet(styles)(ProjectListItem);
+export default injectSheet(styles)(ProjectText);
