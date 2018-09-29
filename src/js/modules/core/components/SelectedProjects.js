@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
 
 import ProjectText from './ProjectText';
+import ProjectDescription from './ProjectDescription';
 
 const styles = {
   SelectedProjects: {
@@ -97,32 +98,13 @@ class SelectedProjects extends PureComponent {
             </li>
           </ul>
           <div className={classes.projectDemo}>
-            {projects.map(project => {
-              if (project.imgPath) {
-                return (
-                  <img
-                    key={project.url}
-                    src={project.imgPath}
-                    style={{
-                      visibility:
-                        displayedProject === project ? 'visible' : 'hidden',
-                    }}
-                  />
-                );
-              } else if (project.description) {
-                return (
-                  <p
-                    key={project.url}
-                    style={{
-                      visibility:
-                        displayedProject === project ? 'visible' : 'hidden',
-                    }}
-                  >
-                    {project.description}
-                  </p>
-                );
-              }
-            })}
+            {projects.map(project =>
+              <ProjectDescription
+                key={project.url}
+                project={project}
+                isVisible={displayedProject === project}
+              />
+            )}
           </div>
         </div>
       </div>
