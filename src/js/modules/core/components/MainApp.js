@@ -124,6 +124,12 @@ class MainApp extends PureComponent {
             R, MATLAB, D3, Illustrator, QGIS
           </p>
         </div>
+        <div className={classes.contentSection}>
+          <p>Living heroes&mdash;</p>
+          <p className={classes.subText}>
+            <a href="http://juliaangwin.com/">Julia Angwin</a>, <a href="https://twitter.com/blumysden?lang=en">Scott Blumenthal</a>, <a href="http://www.ariciano.com/home" target="_blank">Ari Melenciano</a>, <a href="https://craphound.com/" target="_blank">Cory Doctorow</a>, <a href="https://www.c-span.org/person/?emmallanso">Emma LLanso</a>
+          </p>
+        </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
