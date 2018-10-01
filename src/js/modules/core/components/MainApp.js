@@ -100,8 +100,9 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I just want to create a few beautiful things. Visual journalism, computer
-            science, musical theatre, statistics, and political science make up my jam.
+            I just want to create a few beautiful things. Visual journalism,
+            computer science, musical theatre, statistics, and political science
+            make up my jam.
           </h1>
         </div>
         <SelectedProjects
@@ -120,14 +121,25 @@ class MainApp extends PureComponent {
           <p className={classes.subText}>
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
           </p>
-          <p className={classes.subText}>
-            R, MATLAB, D3, Illustrator, QGIS
-          </p>
+          <p className={classes.subText}>R, MATLAB, D3, Illustrator, QGIS</p>
         </div>
         <div className={classes.contentSection}>
           <p>Living heroes&mdash;</p>
           <p className={classes.subText}>
-            <a href="http://juliaangwin.com/">Julia Angwin</a>, <a href="https://twitter.com/blumysden?lang=en">Scott Blumenthal</a>, <a href="http://www.ariciano.com/home" target="_blank">Ari Melenciano</a>, <a href="https://craphound.com/" target="_blank">Cory Doctorow</a>, <a href="https://www.c-span.org/person/?emmallanso">Emma LLanso</a>
+            <a href="http://juliaangwin.com/">Julia Angwin</a>,{' '}
+            <a href="https://twitter.com/blumysden?lang=en">
+              Scott Blumenthal
+            </a>,{' '}
+            <a href="http://www.ariciano.com/home" target="_blank">
+              Ari Melenciano
+            </a>,{' '}
+            <a href="https://craphound.com/" target="_blank">
+              Cory Doctorow
+            </a>,{' '}
+            <a href="https://www.c-span.org/person/?emmallanso">Emma LLanso</a>,{' '}
+            <a href="https://www.nytimes.com/by/anjali-singhvi">
+              Anjali Singhvi
+            </a>
           </p>
         </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
