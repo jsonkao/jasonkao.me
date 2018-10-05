@@ -155,10 +155,7 @@ class MainApp extends PureComponent {
                 Twitter
               </a>
               <br />
-              <a
-                href="https://stackoverflow.com/users/6174302/jason-kao"
-                target="_blank"
-              >
+              <a href="https://stackoverflow.com/story/jsonkao" target="_blank">
                 Stack Overflow
               </a>
               <br />
