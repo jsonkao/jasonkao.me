@@ -127,6 +127,9 @@ class MainApp extends PureComponent {
           <p>Living heroes&mdash;</p>
           <p className={classes.subText}>
             <a href="http://juliaangwin.com/">Julia Angwin</a>,{' '}
+            <a href="https://www.nytimes.com/column/kara-swisher">
+              Kara Swisher
+            </a>,{' '}
             <a href="https://twitter.com/blumysden?lang=en">
               Scott Blumenthal
             </a>,{' '}
