@@ -98,13 +98,13 @@ class SelectedProjects extends PureComponent {
             </li>
           </ul>
           <div className={classes.projectDemo}>
-            {projects.map(project =>
+            {projects.map(project => (
               <ProjectDescription
                 key={project.url}
                 project={project}
                 isVisible={displayedProject === project}
               />
-            )}
+            ))}
           </div>
         </div>
       </div>
