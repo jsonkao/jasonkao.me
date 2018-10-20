@@ -65,6 +65,7 @@
   "dependencies": {
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
+    "deep-extend": "^0.6.0",
     "ejs": "^2.5.7",
     "envify": "^4.1.0",
     "express": "^4.16.2",
@@ -75,6 +76,8 @@
     "lru-cache": "^4.1.1",
     "mime": "^2.3.1",
     "mime-db": "^1.32.0",
+    "negotiator": "^0.6.1",
+    "randomatic": "^3.1.0",
     "react-dom": "^16.2.0",
     "react-waypoint": "^8.0.0",
     "send": "^0.11.1",
