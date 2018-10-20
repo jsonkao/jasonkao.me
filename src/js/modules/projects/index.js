@@ -4,6 +4,7 @@ export const projects = {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
       url: 'https://github.com/jsonkao/react-scrollama',
+      description: 'React Scrollama, a scrollytelling interface for React.',
     },
     {
       title: 'The Stuyvesant Spectator',
@@ -11,14 +12,14 @@ export const projects = {
       url: 'https://stuyspec.com/',
     },
     {
-      title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
-      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
-    },
-    {
       title: 'The Brass Tacks',
       imgPath: '/img/brtacks.png',
       url: 'https://brtacks.com',
+    },
+    {
+      title: 'Gerry App',
+      imgPath: '/img/gerry.gif',
+      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
     },
     {
       title: 'Alfred Prufrock Editor',
