@@ -139,7 +139,7 @@ class MainApp extends PureComponent {
             <a href="https://craphound.com/" target="_blank">
               Cory Doctorow
             </a>,{' '}
-            <a href="https://www.c-span.org/person/?emmallanso">Emma LLanso</a>,{' '}
+            <a href="https://www.c-span.org/person/?emmallanso">Emma Llanso</a>,{' '}
             <a href="https://www.nytimes.com/by/anjali-singhvi">
               Anjali Singhvi
             </a>
