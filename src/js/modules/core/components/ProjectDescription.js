@@ -5,14 +5,15 @@ const ProjectDescription = ({
   isVisible,
 }) => {
   const isBlock = isVisible && description;
+  const visibility = isVisible ? 'visible' : 'hidden';
   const output = [];
   if (imgPath) {
     output.push(
       <img
-        key={url}
+        key={url + '-img'}
         src={imgPath}
         style={{
-          visibility: isVisible ? 'visible' : 'hidden',
+          visibility,
           position: isBlock && 'relative',
           width: isBlock && '100%',
         }}
@@ -22,9 +23,9 @@ const ProjectDescription = ({
   if (description) {
     output.push(
       <p
-        key={url}
+        key={url + '-p'}
         style={{
-          visibility: isVisible ? 'visible' : 'hidden',
+          visibility,
           marginTop: '0.4em',
         }}
       >

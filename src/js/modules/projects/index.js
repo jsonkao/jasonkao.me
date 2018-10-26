@@ -12,6 +12,13 @@ export const projects = {
       url: 'https://stuyspec.com/',
     },
     {
+      title: 'Female Representation at Columbia',
+      imgPath: '/img/female-rep.png',
+      url: 'https://github.com/jsonkao/CU-female-representation',
+      description:
+        'Data analysis and interactive on female representation.',
+    },
+    {
       title: 'The Brass Tacks',
       imgPath: '/img/brtacks.png',
       url: 'https://brtacks.com',

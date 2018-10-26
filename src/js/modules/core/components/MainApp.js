@@ -63,7 +63,7 @@ const roles = [
   'illustrator',
   'data scientist',
   'software engineer',
-  "Columbia University '22",
+  "Columbia '22",
   'visual journalist',
   'React nerd',
   'designer',
@@ -71,13 +71,36 @@ const roles = [
   'theater geek',
 ];
 
+const isMobile = true;
+
 class MainApp extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
       roleIndex: 0,
     };
+
+    this.headRef = React.createRef();
+    if (isMobile) {
+      // this is the hackiest thing ever
+      let initOffset;
+      window.addEventListener('scroll', e => {
+        const { current } = this.headRef;
+        if (current) {
+          const { top, height } = current.getBoundingClientRect();
+          const offset = top + height;
+          if (offset > 0) {
+            initOffset = initOffset || offset;
+            this.changeRole(
+              Math.floor(offset / roles.length / 2) % roles.length,
+            );
+          }
+        }
+      });
+    }
   }
+
+  changeRole = roleIndex => roleIndex !== this.setState({ roleIndex });
 
   handleMouseMove = e => {
     const roleIndex =
@@ -94,9 +117,12 @@ class MainApp extends PureComponent {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.MainApp} onMouseMove={this.handleMouseMove}>
+      <div
+        className={classes.MainApp}
+        onMouseMove={isMobile ? undefined : this.handleMouseMove}
+      >
         <div className={classes.contentSection}>
-          <h1 className={classes.mobileFixedHeight}>
+          <h1 className={classes.mobileFixedHeight} ref={this.headRef}>
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
