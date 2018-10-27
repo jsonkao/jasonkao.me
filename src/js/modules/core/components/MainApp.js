@@ -71,7 +71,7 @@ const roles = [
   'theater geek',
 ];
 
-const isMobile = true;
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 class MainApp extends PureComponent {
   constructor(props) {
@@ -92,7 +92,7 @@ class MainApp extends PureComponent {
           if (offset > 0) {
             initOffset = initOffset || offset;
             this.changeRole(
-              Math.floor(offset / roles.length / 2) % roles.length,
+              Math.floor(offset / roles.length / 3) % roles.length,
             );
           }
         }
