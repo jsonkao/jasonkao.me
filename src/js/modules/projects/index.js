@@ -37,6 +37,7 @@ export const projects = {
       title: 'Female Representation at Columbia',
       imgPath: '/img/female-rep.png',
       url: 'https://jsonkao.github.io/CU-female-representation/',
+      noticeMe: 'draft, coming soon!'
     },
     {
       title: 'Moral Foundations in Politics',
