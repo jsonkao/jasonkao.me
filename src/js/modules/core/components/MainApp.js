@@ -132,8 +132,12 @@ class MainApp extends PureComponent {
           </h1>
         </div>
         <SelectedProjects
-          title="Selected projects"
-          projects={projects.selected}
+          title="My projects"
+          projects={projects.myProjects}
+        />
+        <SelectedProjects
+          title="Interactives"
+          projects={projects.interactives}
         />
         <SelectedProjects
           title="Projects I contribute to"

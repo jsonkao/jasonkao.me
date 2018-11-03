@@ -73,7 +73,7 @@ class SelectedProjects extends PureComponent {
   showProject = project => this.setState({ displayedProject: project });
 
   render() {
-    const { classes, projects, title } = this.props;
+    const { classes, projects = [], title } = this.props;
     const { displayedProject } = this.state;
     return (
       <div className={classes.SelectedProjects}>

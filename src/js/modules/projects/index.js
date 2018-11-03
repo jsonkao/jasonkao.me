@@ -1,5 +1,5 @@
 export const projects = {
-  selected: [
+  myProjects: [
     {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
@@ -10,13 +10,6 @@ export const projects = {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
-    },
-    {
-      title: 'Female Representation at Columbia',
-      imgPath: '/img/female-rep.png',
-      url: 'https://github.com/jsonkao/CU-female-representation',
-      description:
-        'Data analysis and interactive on female representation.',
     },
     {
       title: 'The Brass Tacks',
@@ -37,6 +30,18 @@ export const projects = {
       title: 'Citi Dots',
       imgPath: '/img/citidots.gif',
       url: 'https://github.com/ashneeldas2/citidots',
+    },
+  ],
+  interactives: [
+    {
+      title: 'Female Representation at Columbia',
+      imgPath: '/img/female-rep.png',
+      url: 'https://jsonkao.github.io/CU-female-representation/',
+    },
+    {
+      title: 'Moral Foundations in Politics',
+      imgPath: '/img/foundations.png',
+      url: 'https://brtacks.github.io/foundations/',
     },
   ],
   contributions: [
