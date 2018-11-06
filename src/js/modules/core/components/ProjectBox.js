@@ -15,7 +15,6 @@ const styles = {
     height: '100%',
     width: '100%',
     border: '1px solid black',
-    maxHeight: '400px',
   },
   blue: { color: '#0041FF' },
   red: { color: '#D91F25' },
