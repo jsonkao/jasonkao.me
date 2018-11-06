@@ -24,9 +24,13 @@ const styles = {
   green: { color: '#004F50' },
 };
 
-const ProjectBox = ({ classes, index, project: { imgPath, url, description, title } }) => {
+const ProjectBox = ({
+  classes,
+  index,
+  project: { imgPath, url, description, title },
+}) => {
   const { blue, red, cherry, indigo, gold, green } = classes;
-  const colors = [ blue, red, cherry, indigo, gold, green ];
+  const colors = [blue, red, cherry, indigo, gold, green];
   return (
     <div className={classes.ProjectBox}>
       {imgPath ? (
