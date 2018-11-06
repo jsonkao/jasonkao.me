@@ -72,7 +72,9 @@ const roles = [
   'theater geek',
 ];
 
-const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+  navigator.userAgent,
+);
 
 class MainApp extends PureComponent {
   constructor(props) {
@@ -132,14 +134,8 @@ class MainApp extends PureComponent {
             make up my jam.
           </h1>
         </div>
-        <ProjectGrid
-          title="Featured projects"
-          projects={projects.featured}
-        />
-        <SelectedProjects
-          title="My projects"
-          projects={projects.myProjects}
-        />
+        <ProjectGrid title="Featured projects" projects={projects.featured} />
+        <SelectedProjects title="My projects" projects={projects.myProjects} />
         <SelectedProjects
           title="Interactives"
           projects={projects.interactives}

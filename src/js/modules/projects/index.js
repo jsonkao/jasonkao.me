@@ -25,7 +25,7 @@ export const projects = {
       title: 'Female Representation at Columbia',
       imgPath: '/img/female-rep.png',
       url: 'https://www.columbiaspectator.com/',
-      noticeMe: 'draft, coming soon!'
+      noticeMe: 'draft, coming soon!',
     },
     {
       title: 'Moral Foundations in Politics',
@@ -71,7 +71,7 @@ export const projects = {
       title: 'Female Representation at Columbia',
       imgPath: '/img/female-rep.png',
       url: 'https://www.columbiaspectator.com/',
-      noticeMe: 'draft, coming soon!'
+      noticeMe: 'draft, coming soon!',
     },
     {
       title: 'Moral Foundations in Politics',
