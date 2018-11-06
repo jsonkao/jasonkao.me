@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
 
 import SelectedProjects from './SelectedProjects';
+import ProjectGrid from './ProjectGrid';
 import { projects } from '../../projects';
 
 const styles = {
@@ -131,6 +132,10 @@ class MainApp extends PureComponent {
             make up my jam.
           </h1>
         </div>
+        <ProjectGrid
+          title="Featured projects"
+          projects={projects.featured}
+        />
         <SelectedProjects
           title="My projects"
           projects={projects.myProjects}

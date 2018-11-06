@@ -1,5 +1,39 @@
 export const projects = {
-  myProjects: [
+  featured: [
+    {
+      title: 'React Scrollama',
+      imgPath: '/img/im-a-narcissist.gif',
+      url: 'https://github.com/jsonkao/react-scrollama',
+      description: 'React Scrollama, a scrollytelling interface for React.',
+    },
+    {
+      title: 'The Stuyvesant Spectator',
+      imgPath: '/img/stuyspec.gif',
+      url: 'https://stuyspec.com/',
+    },
+    {
+      title: 'The Brass Tacks',
+      imgPath: '/img/brtacks.png',
+      url: 'https://brtacks.com',
+    },
+    {
+      title: 'Gerry App',
+      imgPath: '/img/gerry.gif',
+      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+    },
+    {
+      title: 'Female Representation at Columbia',
+      imgPath: '/img/female-rep.png',
+      url: 'https://www.columbiaspectator.com/',
+      noticeMe: 'draft, coming soon!'
+    },
+    {
+      title: 'Moral Foundations in Politics',
+      imgPath: '/img/foundations.png',
+      url: 'https://brtacks.github.io/foundations/',
+    },
+  ],
+  original: [
     {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
