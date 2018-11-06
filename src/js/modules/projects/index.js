@@ -4,56 +4,42 @@ export const projects = {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
       url: 'https://github.com/jsonkao/react-scrollama',
-      description: 'React Scrollama, a scrollytelling interface for React.',
+      description:
+        'A scrollytelling interface for React using the new Intersection Observer API.',
     },
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
+      description: 'Built website, API, database, and uploader for StuySpec.',
     },
     {
       title: 'The Brass Tacks',
       imgPath: '/img/brtacks.png',
       url: 'https://brtacks.com',
+      description: 'A data visualization apparel line and visual magazine.',
     },
     {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+      description:
+        "A gerrymandering interactive built on public elections data and district GeoJSON's.",
     },
     {
       title: 'Female Representation at Columbia',
       imgPath: '/img/female-rep.png',
       url: 'https://www.columbiaspectator.com/',
       noticeMe: 'draft, coming soon!',
+      description:
+        'An interactive on female representation at Columbia University.',
     },
     {
       title: 'Moral Foundations in Politics',
       imgPath: '/img/foundations.png',
       url: 'https://brtacks.github.io/foundations/',
-    },
-  ],
-  original: [
-    {
-      title: 'React Scrollama',
-      imgPath: '/img/im-a-narcissist.gif',
-      url: 'https://github.com/jsonkao/react-scrollama',
-      description: 'React Scrollama, a scrollytelling interface for React.',
-    },
-    {
-      title: 'The Stuyvesant Spectator',
-      imgPath: '/img/stuyspec.gif',
-      url: 'https://stuyspec.com/',
-    },
-    {
-      title: 'The Brass Tacks',
-      imgPath: '/img/brtacks.png',
-      url: 'https://brtacks.com',
-    },
-    {
-      title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
-      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+      description:
+        'A visual essay on moral foundations and political ideology.',
     },
     {
       title: 'Alfred Prufrock Editor',
@@ -64,19 +50,6 @@ export const projects = {
       title: 'Citi Dots',
       imgPath: '/img/citidots.gif',
       url: 'https://github.com/ashneeldas2/citidots',
-    },
-  ],
-  interactives: [
-    {
-      title: 'Female Representation at Columbia',
-      imgPath: '/img/female-rep.png',
-      url: 'https://www.columbiaspectator.com/',
-      noticeMe: 'draft, coming soon!',
-    },
-    {
-      title: 'Moral Foundations in Politics',
-      imgPath: '/img/foundations.png',
-      url: 'https://brtacks.github.io/foundations/',
     },
   ],
   contributions: [

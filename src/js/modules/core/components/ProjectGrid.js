@@ -12,10 +12,20 @@ const styles = {
   container: {
     display: 'flex',
     justifyContent: 'space-between',
-    marginBottom: '1.4em',
     fontSize: '26px',
+    textAlign: 'center',
     '& > div': {
       flexBasis: '48%',
+    },
+  },
+
+  '@media (max-width: 767px)': {
+    container: {
+      flexWrap: 'wrap',
+      fontSize: 'inherit',
+      '& > div': {
+        flexBasis: '100%',
+      },
     },
   },
 };

@@ -134,12 +134,7 @@ class MainApp extends PureComponent {
             make up my jam.
           </h1>
         </div>
-        <ProjectGrid title="Featured projects" projects={projects.featured} />
-        <SelectedProjects title="My projects" projects={projects.myProjects} />
-        <SelectedProjects
-          title="Interactives"
-          projects={projects.interactives}
-        />
+        <ProjectGrid title="Selected projects" projects={projects.featured} />
         <SelectedProjects
           title="Projects I contribute to"
           projects={projects.contributions}
@@ -147,14 +142,15 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES7), Python, Java, Go, C, PostgreSQL, Ruby, CSS, HTML
+            JavaScript (ES8), Python, Java, Go, C, PostgreSQL, Ruby, CSS (SASS),
+            HTML
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
           </p>
-          <p className={classes.subText}>R, MATLAB, D3, Illustrator, QGIS</p>
+          <p className={classes.subText}>D3, Illustrator, QGIS, R, MATLAB</p>
         </div>
-        <div className={classes.contentSection}>
+        {/*<div className={classes.contentSection}>
           <p>Living heroes&mdash;</p>
           <p className={classes.subText}>
             <a href="http://juliaangwin.com/">Julia Angwin</a>,{' '}
@@ -175,7 +171,7 @@ class MainApp extends PureComponent {
               Anjali Singhvi
             </a>
           </p>
-        </div>
+        </div>*/}
         <SelectedProjects title="Catch me at" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
