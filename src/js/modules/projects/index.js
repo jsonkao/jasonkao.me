@@ -45,6 +45,7 @@ export const projects = {
       title: 'Alfred Prufrock Editor',
       imgPath: '/img/alfred.gif',
       url: 'https://github.com/jsonkao/alfred-prufrock-editor',
+      description: 'A tree-based freewriting application.',
     },
     {
       title: 'Citi Dots',
