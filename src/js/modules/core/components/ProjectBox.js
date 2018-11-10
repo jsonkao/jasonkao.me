@@ -4,6 +4,11 @@ import injectSheet from 'react-jss';
 const styles = {
   ProjectBox: {
     marginBottom: '1em',
+    flexBasis: '48%',
+  },
+  anchor: {
+    display: 'block',
+    textDecoration: 'none',
   },
   imgContainer: {
     // maxHeight: '40vw', // TODO: MAKE IT TWO COLUMNS NOT ROWS
@@ -29,6 +34,9 @@ const styles = {
   },
 
   '@media (max-width: 767px)': {
+    ProjectBox: {
+      flexBasis: '100%',
+    },
     imgContainer: {
       height: '85vw',
     },
@@ -44,16 +52,18 @@ const ProjectBox = ({
   const colors = [blue, red, cherry, indigo, gold, green];
   return (
     <div className={classes.ProjectBox}>
-      {imgPath ? (
-        <div className={classes.imgContainer}>
-          <img className={classes.img} src={imgPath} />
-        </div>
-      ) : (
-        <p className={classes.description}>{description}</p>
-      )}
-      <p className={colors[index % colors.length]}>{title}</p>
+      <a href={url} className={classes.anchor} target="_blank">
+        {imgPath ? (
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={imgPath} />
+          </div>
+        ) : (
+          <p className={classes.description}>{description}</p>
+        )}
+        <p className={colors[index % colors.length]}>{title}</p>
+      </a>
       <p className={classes.description}>{description}</p>
-    </div>
+    </div>  
   );
 };
 
