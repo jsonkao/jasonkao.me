@@ -14,18 +14,12 @@ const styles = {
     justifyContent: 'space-between',
     fontSize: '26px',
     textAlign: 'center',
-    '& > div': {
-      flexBasis: '48%',
-    },
   },
 
   '@media (max-width: 767px)': {
     container: {
       flexWrap: 'wrap',
       fontSize: 'inherit',
-      '& > div': {
-        flexBasis: '100%',
-      },
     },
   },
 };
