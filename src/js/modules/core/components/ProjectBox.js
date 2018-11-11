@@ -4,7 +4,7 @@ import injectSheet from 'react-jss';
 const styles = {
   ProjectBox: {
     marginBottom: '1em',
-    flexBasis: '48%',
+    width: '48%',
   },
   anchor: {
     display: 'block',
@@ -12,13 +12,10 @@ const styles = {
   },
   imgContainer: {
     // maxHeight: '40vw', // TODO: MAKE IT TWO COLUMNS NOT ROWS
-    height: '40vw',
+    maxHeight: '40vw',
     marginBottom: '0.5em',
   },
   img: {
-    width: '100%',
-    objectFit: 'contain',
-    height: '100%',
     width: '100%',
     border: '1px solid black',
   },
@@ -35,10 +32,10 @@ const styles = {
 
   '@media (max-width: 767px)': {
     ProjectBox: {
-      flexBasis: '100%',
+      width: '100%',
     },
     imgContainer: {
-      height: '85vw',
+      maxHeight: '85vw',
     },
   },
 };
