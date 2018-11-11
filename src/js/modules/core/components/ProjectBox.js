@@ -29,6 +29,9 @@ const styles = {
     color: '#999',
     textAlign: 'left',
   },
+  noticeMe: {
+    color: '#000',
+  },
 
   '@media (max-width: 767px)': {
     ProjectBox: {
@@ -43,7 +46,7 @@ const styles = {
 const ProjectBox = ({
   classes,
   index,
-  project: { imgPath, url, description, title },
+  project: { imgPath, url, description, title, noticeMe },
 }) => {
   const { blue, red, cherry, indigo, gold, green } = classes;
   const colors = [blue, red, cherry, indigo, gold, green];
@@ -59,7 +62,12 @@ const ProjectBox = ({
         )}
         <p className={colors[index % colors.length]}>{title}</p>
       </a>
-      <p className={classes.description}>{description}</p>
+      <p className={classes.description}>
+        {description}
+        {noticeMe && (
+          <span className={classes.noticeMe}> ({noticeMe})</span>
+        )}
+      </p>
     </div>  
   );
 };
