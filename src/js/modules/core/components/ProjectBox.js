@@ -64,11 +64,9 @@ const ProjectBox = ({
       </a>
       <p className={classes.description}>
         {description}
-        {noticeMe && (
-          <span className={classes.noticeMe}> ({noticeMe})</span>
-        )}
+        {noticeMe && <span className={classes.noticeMe}> ({noticeMe})</span>}
       </p>
-    </div>  
+    </div>
   );
 };
 

@@ -30,7 +30,7 @@ const ProjectGrid = ({ classes, title, projects = [] }) => (
     <p className={classes.listHeader}>{title}&mdash;</p>
     <div className={classes.container}>
       {projects.map((proj, i) => (
-        <ProjectBox project={proj} key={proj.url} index={i}/>
+        <ProjectBox project={proj} key={proj.url} index={i} />
       ))}
     </div>
   </div>
