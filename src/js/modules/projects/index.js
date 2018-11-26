@@ -91,6 +91,11 @@ export const projects = {
       description: 'October 22-28; London.',
     },
     {
+      title: 'Tapestry Conference 2018',
+      url: 'http://tapestryconference.com',
+      description: 'November 29-30; Miami, FL.',
+    },
+    {
       title: '2019 CAR Conference',
       url: 'https://ire.org/events-and-training/event/3433/',
       description: 'March 7-10; Newport Beach, California.',
