@@ -51,7 +51,7 @@ export const projects = {
       title: 'Citi Dots',
       imgPath: '/img/citidots.gif',
       url: 'https://github.com/ashneeldas2/citidots',
-      description: 'A data visualization of New York\'s CitiBikes.'
+      description: "A data visualization of New York's CitiBikes.",
     },
   ],
   contributions: [

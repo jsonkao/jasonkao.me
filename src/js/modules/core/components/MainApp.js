@@ -150,28 +150,35 @@ class MainApp extends PureComponent {
           </p>
           <p className={classes.subText}>D3, Illustrator, QGIS, R, MATLAB</p>
         </div>
-        {/*<div className={classes.contentSection}>
+        <div className={classes.contentSection}>
           <p>Living heroes&mdash;</p>
           <p className={classes.subText}>
-            <a href="http://juliaangwin.com/">Julia Angwin</a>,{' '}
-            <a href="https://www.nytimes.com/column/kara-swisher">
+            <a href="http://juliaangwin.com/" target="_blank">
+              Julia Angwin
+            </a>,{' '}
+            <a
+              href="https://www.nytimes.com/column/kara-swisher"
+              target="_blank"
+            >
               Kara Swisher
             </a>,{' '}
-            <a href="https://twitter.com/blumysden?lang=en">
-              Scott Blumenthal
-            </a>,{' '}
-            <a href="http://www.ariciano.com/home" target="_blank">
-              Ari Melenciano
+            <a
+              href="https://muckrack.com/tyler-fisher-1/articles"
+              target="_blank"
+            >
+              Tyler Fisher
             </a>,{' '}
             <a href="https://craphound.com/" target="_blank">
               Cory Doctorow
             </a>,{' '}
-            <a href="https://www.c-span.org/person/?emmallanso">Emma Llanso</a>,{' '}
-            <a href="https://www.nytimes.com/by/anjali-singhvi">
+            <a href="https://www.c-span.org/person/?emmallanso" target="_blank">
+              Emma Llanso
+            </a>,{' '}
+            <a href="https://www.nytimes.com/by/anjali-singhvi" target="_blank">
               Anjali Singhvi
             </a>
           </p>
-        </div>*/}
+        </div>
         <SelectedProjects title="Catch me at" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
