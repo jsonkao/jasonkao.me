@@ -4,10 +4,12 @@ import injectSheet from 'react-jss';
 
 const styles = {
   Navbar: {
-    float: 'right',
+    position: 'fixed',
+    display: 'flex',
+    justifyContent: 'flex-end',
+    width: '100%',
     fontSize: '22px',
-    marginRight: '7.5vw',
-    marginTop: '17px',
+    marginTop: '20px',
     '& a': {
       color: '#777',
       display: 'inline-block',
@@ -24,6 +26,9 @@ const styles = {
         },
       },
     },
+  },
+  innerContainer: {
+    paddingRight: '7.5vw',
   },
   highlightedLink: {
     color: '#000 !important',
@@ -48,34 +53,36 @@ const Navbar = ({ classes, location }) => {
 
   return (
     <div className={classes.Navbar}>
-      {links.map(link => {
-        const highlighterProps =
-          link.to == location.pathname
-            ? { className: classes.highlightedLink }
-            : null;
-        if (highlighterProps) {
-          return (
-            <Link key={link.to} {...highlighterProps} to={link.to}>
-              <span>{link.label}.</span>
-            </Link>
-          );
-        } else {
-          return (
-            <a key={link.to} href={link.to} target="_blank">
-              <span>{link.label}.</span>
-            </a>
-          );
-        }
-      })}
-      <a
-        key="scroll-link"
-        onClick={() =>
-          document
-            .getElementById('contactme-scroll-target')
-            .scrollIntoView({ behavior: 'smooth' })}
-      >
-        <span>Contact.</span>
-      </a>
+      <div className={classes.innerContainer}>
+        {links.map(link => {
+          const highlighterProps =
+            link.to == location.pathname
+              ? { className: classes.highlightedLink }
+              : null;
+          if (highlighterProps) {
+            return (
+              <Link key={link.to} {...highlighterProps} to={link.to}>
+                <span>{link.label}.</span>
+              </Link>
+            );
+          } else {
+            return (
+              <a key={link.to} href={link.to} target="_blank">
+                <span>{link.label}.</span>
+              </a>
+            );
+          }
+        })}
+        <a
+          key="scroll-link"
+          onClick={() =>
+            document
+              .getElementById('contactme-scroll-target')
+              .scrollIntoView({ behavior: 'smooth' })}
+        >
+          <span>Contact.</span>
+        </a>
+      </div>
     </div>
   );
 };
