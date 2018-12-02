@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
+import rp from 'request-promise';
+import dateFormat from 'dateformat';
 
 import SelectedProjects from './SelectedProjects';
 import ProjectGrid from './ProjectGrid';
@@ -42,6 +44,13 @@ const styles = {
     top: '7px',
     width: '28px',
   },
+  lastUpdated: {
+    textTransform: 'uppercase',
+    fontSize: '12px',
+    color: 'rgba(0, 0, 0, 0.82)',
+    display: 'block',
+    lineHeight: 1.9,
+  },
   '@media (max-width: 767px)': {
     MainApp: {
       padding: '7.5vw 5vw',
@@ -81,11 +90,12 @@ class MainApp extends PureComponent {
     super(props);
     this.state = {
       roleIndex: 0,
+      lastUpdated: null,
     };
 
     this.headRef = React.createRef();
     if (isMobile) {
-      // this is the hackiest thing ever
+      // this is the worst, hackiest thing ever
       let initOffset;
       window.addEventListener('scroll', e => {
         const { current } = this.headRef;
@@ -103,6 +113,22 @@ class MainApp extends PureComponent {
     }
   }
 
+  componentDidMount() {
+    const options = {
+      uri: 'https://api.github.com/repos/jsonkao/jasonkao.me/git/refs/heads/master',
+      json: true,
+    };
+
+    rp(options)
+      .then(lastCommit => {
+        options.uri = lastCommit.object.url;
+        return rp(options);
+      })
+      .then(commitNode => {
+        this.setState({ lastUpdated: commitNode.committer.date });
+      });
+  }
+
   changeRole = roleIndex => roleIndex !== this.setState({ roleIndex });
 
   handleMouseMove = e => {
@@ -118,6 +144,7 @@ class MainApp extends PureComponent {
   };
 
   render() {
+    const { lastUpdated } = this.state;
     const { classes } = this.props;
     return (
       <div
@@ -220,6 +247,11 @@ class MainApp extends PureComponent {
             <img src="/img/react.svg" className={classes.reactLogo} />
           </a>{' '}
           by Jason Kao.
+          {lastUpdated && (
+            <span className={classes.lastUpdated}>
+              Last updated {dateFormat(lastUpdated, 'longDate')}.
+            </span>
+          )}
         </div>
       </div>
     );
