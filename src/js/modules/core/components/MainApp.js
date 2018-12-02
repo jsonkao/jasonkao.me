@@ -184,6 +184,9 @@ class MainApp extends PureComponent {
             <a href="http://juliaangwin.com/" target="_blank">
               Julia Angwin
             </a>,{' '}
+            <a href="https://monachalabi.com/" target="_blank">
+              Mona Chalabi
+            </a>
             <a
               href="https://www.nytimes.com/column/kara-swisher"
               target="_blank"
@@ -201,9 +204,6 @@ class MainApp extends PureComponent {
             </a>,{' '}
             <a href="https://www.c-span.org/person/?emmallanso" target="_blank">
               Emma Llanso
-            </a>,{' '}
-            <a href="https://www.nytimes.com/by/anjali-singhvi" target="_blank">
-              Anjali Singhvi
             </a>
           </p>
         </div>
