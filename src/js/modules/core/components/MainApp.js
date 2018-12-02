@@ -115,7 +115,8 @@ class MainApp extends PureComponent {
 
   componentDidMount() {
     const options = {
-      uri: 'https://api.github.com/repos/jsonkao/jasonkao.me/git/refs/heads/master',
+      uri:
+        'https://api.github.com/repos/jsonkao/jasonkao.me/git/refs/heads/master',
       json: true,
     };
 
