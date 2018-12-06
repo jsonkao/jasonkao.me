@@ -185,7 +185,7 @@ class MainApp extends PureComponent {
               Julia Angwin
             </a>,{' '}
             <a href="https://monachalabi.com/" target="_blank">
-              Mona Chalabi
+              Mona Chalabi,{' '}
             </a>
             <a
               href="https://www.nytimes.com/column/kara-swisher"
