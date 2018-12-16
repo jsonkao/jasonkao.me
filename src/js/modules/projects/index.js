@@ -96,6 +96,11 @@ export const projects = {
       description: 'November 29-30; Miami, FL.',
     },
     {
+      title: 'Computation + Journalism Symposium 2019',
+      urll: 'http://cplusj.org/',
+      description: 'February 1-2; Miami, FL.'
+    }
+    {
       title: '2019 CAR Conference',
       url: 'https://ire.org/events-and-training/event/3433/',
       description: 'March 7-10; Newport Beach, California.',
@@ -113,7 +118,7 @@ export const projects = {
     {
       title: '2019 IRE Conference',
       url: 'https://ire.org/events-and-training/event/3434/',
-      description: 'June 13-16; Houston.',
+      description: 'June 13-16; Houston, TX.',
     },
   ],
 };
