@@ -75,9 +75,8 @@ const roles = [
   'software engineer',
   "Columbia '22",
   'visual journalist',
-  'React nerd',
+  'JavaScript nerd',
   'designer',
-  'floutist',
   'theater geek',
 ];
 
