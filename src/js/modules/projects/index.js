@@ -97,9 +97,9 @@ export const projects = {
     },
     {
       title: 'Computation + Journalism Symposium 2019',
-      urll: 'http://cplusj.org/',
-      description: 'February 1-2; Miami, FL.'
-    }
+      url: 'http://cplusj.org/',
+      description: 'February 1-2; Miami, FL.',
+    },
     {
       title: '2019 CAR Conference',
       url: 'https://ire.org/events-and-training/event/3433/',
