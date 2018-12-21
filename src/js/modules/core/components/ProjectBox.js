@@ -17,7 +17,7 @@ const styles = {
   },
   img: {
     width: '100%',
-    border: '1px solid black',
+    boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.75)',
   },
   blue: { color: '#0041FF' },
   red: { color: '#D91F25' },
