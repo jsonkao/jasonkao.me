@@ -126,6 +126,9 @@ class MainApp extends PureComponent {
       })
       .then(commitNode => {
         this.setState({ lastUpdated: commitNode.committer.date });
+      })
+      .catch(err => {
+        console.error(err);
       });
   }
 
