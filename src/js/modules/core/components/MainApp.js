@@ -249,7 +249,7 @@ class MainApp extends PureComponent {
           by Jason Kao.
           {lastUpdated && (
             <span className={classes.lastUpdated}>
-              Last updated {dateFormat(lastUpdated, 'longDate')}.
+              Updated {dateFormat(lastUpdated, 'longDate')}.
             </span>
           )}
         </div>
