@@ -75,8 +75,7 @@ const roles = [
   'software engineer',
   "Columbia '22",
   'visual journalist',
-  'JavaScript nerd',
-  'designer',
+  'full stack web developer',
   'theater geek',
 ];
 
@@ -159,9 +158,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I just want to create a few beautiful things. Visual journalism,
-            computer science, musical theatre, statistics, and political science
-            make up my jam.
+            I am passionate about good code and good journalism.
           </h1>
         </div>
         <ProjectGrid title="Selected projects" projects={projects.featured} />
