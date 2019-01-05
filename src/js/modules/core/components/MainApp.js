@@ -73,10 +73,11 @@ const roles = [
   'illustrator',
   'data scientist',
   'software engineer',
+  'computational journalist',
   "Columbia '22",
   'visual journalist',
   'full stack developer',
-  'theater geek',
+  'theatre geek',
 ];
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -158,7 +159,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I am passionate about good code and good journalism. Data visualization, web policy, and musical theatre make up the rest of my jam.
+            I am passionate about good code, good journalism, and a good web. I am the Graphics Deputy Editor of The Columbia Daily Spectator.
           </h1>
         </div>
         <ProjectGrid title="Selected projects" projects={projects.featured} />
