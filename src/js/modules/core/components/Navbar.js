@@ -4,7 +4,6 @@ import injectSheet from 'react-jss';
 
 const styles = {
   Navbar: {
-    position: 'fixed',
     display: 'flex',
     justifyContent: 'flex-end',
     width: '100%',

@@ -75,7 +75,7 @@ const roles = [
   'software engineer',
   "Columbia '22",
   'visual journalist',
-  'full stack web developer',
+  'full stack developer',
   'theater geek',
 ];
 
@@ -158,7 +158,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I am passionate about good code and good journalism.
+            I am passionate about good code and good journalism. Data visualization, web policy, and musical theatre make up the rest of my jam.
           </h1>
         </div>
         <ProjectGrid title="Selected projects" projects={projects.featured} />
@@ -175,7 +175,7 @@ class MainApp extends PureComponent {
           <p className={classes.subText}>
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
           </p>
-          <p className={classes.subText}>D3, Illustrator, QGIS, R, MATLAB</p>
+          <p className={classes.subText}>D3, Illustrator, QGIS, R</p>
         </div>
         <div className={classes.contentSection}>
           <p>Living heroes&mdash;</p>
@@ -191,12 +191,6 @@ class MainApp extends PureComponent {
               target="_blank"
             >
               Kara Swisher
-            </a>,{' '}
-            <a
-              href="https://muckrack.com/tyler-fisher-1/articles"
-              target="_blank"
-            >
-              Tyler Fisher
             </a>,{' '}
             <a href="https://craphound.com/" target="_blank">
               Cory Doctorow

@@ -14,25 +14,11 @@ export const projects = {
       description: 'Built website, API, database, and uploader for StuySpec.',
     },
     {
-      title: 'The Brass Tacks',
-      imgPath: '/img/brtacks.png',
-      url: 'https://brtacks.com',
-      description: 'A data visualization apparel line and visual magazine.',
-    },
-    {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
       description:
         "A gerrymandering interactive built on public elections data and district GeoJSON's.",
-    },
-    {
-      title: 'Female Representation at Columbia',
-      imgPath: '/img/female-rep.png',
-      url: 'https://www.columbiaspectator.com/',
-      noticeMe: 'draft, coming soon!',
-      description:
-        'An interactive on female representation at Columbia University.',
     },
     {
       title: 'Moral Foundations in Politics',
