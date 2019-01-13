@@ -113,6 +113,10 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
+    if (process.env.NODE_ENV == 'development') {
+      return;
+    }
+
     const options = {
       uri:
         'https://api.github.com/repos/jsonkao/jasonkao.me/git/refs/heads/master',
@@ -180,7 +184,7 @@ class MainApp extends PureComponent {
           <p className={classes.subText}>D3, Illustrator, QGIS, R</p>
         </div>
         <div className={classes.contentSection}>
-          <p>Living heroes&mdash;</p>
+          <p>Those who inspire me&mdash;</p>
           <p className={classes.subText}>
             <a href="http://juliaangwin.com/" target="_blank">
               Julia Angwin

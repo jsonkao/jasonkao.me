@@ -1,11 +1,11 @@
 export const projects = {
   featured: [
     {
-      title: 'React Scrollama',
-      imgPath: '/img/im-a-narcissist.gif',
-      url: 'https://github.com/jsonkao/react-scrollama',
+      title: 'Gerry App',
+      imgPath: '/img/gerry.gif',
+      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
       description:
-        'A scrollytelling interface for React using the new Intersection Observer API.',
+        "A gerrymandering interactive built on public elections data and district GeoJSON's.",
     },
     {
       title: 'The Stuyvesant Spectator',
@@ -14,11 +14,11 @@ export const projects = {
       description: 'Built website, API, database, and uploader for StuySpec.',
     },
     {
-      title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
-      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+      title: 'React Scrollama',
+      imgPath: '/img/im-a-narcissist.gif',
+      url: 'https://github.com/jsonkao/react-scrollama',
       description:
-        "A gerrymandering interactive built on public elections data and district GeoJSON's.",
+        'A scrollytelling interface for React using the new Intersection Observer API.',
     },
     {
       title: 'Moral Foundations in Politics',
