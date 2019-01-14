@@ -1,6 +1,12 @@
 export const projects = {
   featured: [
     {
+      title: 'Gender Diversity in the Tenure Track',
+      imgPath: '/img/tenure-track.gif',
+      url: 'https://jsonkao.github.io/tenure-track/',
+      description: 'Gender and the tenure track at Columbia University.',
+    },
+    {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
