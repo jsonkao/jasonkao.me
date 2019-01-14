@@ -39,12 +39,13 @@ export const projects = {
       url: 'https://github.com/jsonkao/alfred-prufrock-editor',
       description: 'A tree-based freewriting application.',
     },
+    /*
     {
       title: 'Citi Dots',
       imgPath: '/img/citidots.gif',
       url: 'https://github.com/ashneeldas2/citidots',
       description: "A data visualization of New York's CitiBikes.",
-    },
+    },*/
   ],
   contributions: [
     {
