@@ -1,6 +1,13 @@
 export const projects = {
   featured: [
     {
+      title: 'Net price inequities at Columbia University',
+      imgPath: '/img/net-price.png',
+      url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
+      description:
+        'Data and graphics reporting on net price inequities at the School of General Studies.',
+    },
+    {
       title: 'Gender Diversity in the Tenure Track',
       imgPath: '/img/tenure-track.gif',
       url: 'https://jsonkao.github.io/tenure-track/',
@@ -25,13 +32,6 @@ export const projects = {
       url: 'https://github.com/jsonkao/react-scrollama',
       description:
         'A scrollytelling interface for React using the new Intersection Observer API.',
-    },
-    {
-      title: 'Moral Foundations in Politics',
-      imgPath: '/img/foundations.png',
-      url: 'https://brtacks.github.io/foundations/',
-      description:
-        'A visual essay on moral foundations and political ideology.',
     },
     {
       title: 'Alfred Prufrock Editor',
