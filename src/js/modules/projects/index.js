@@ -18,34 +18,27 @@ export const projects = {
       imgPath: '/img/gerry.gif',
       url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
       description:
-        "A gerrymandering interactive built on public elections data and district GeoJSON's.",
+        "A gerrymandering interactive data visualization built on public elections data.",
     },
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
-      description: 'Built website, API, database, and uploader for StuySpec.',
+      description: 'Led development for website, API, database, and uploader.',
     },
     {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
       url: 'https://github.com/jsonkao/react-scrollama',
       description:
-        'A scrollytelling interface for React using the new Intersection Observer API.',
+        'A scrollytelling interface for React using the Intersection Observer API.',
     },
     {
       title: 'Alfred Prufrock Editor',
       imgPath: '/img/alfred.gif',
       url: 'https://github.com/jsonkao/alfred-prufrock-editor',
-      description: 'A tree-based freewriting application.',
+      description: 'Freewriting augmented by information visualization.',
     },
-    /*
-    {
-      title: 'Citi Dots',
-      imgPath: '/img/citidots.gif',
-      url: 'https://github.com/ashneeldas2/citidots',
-      description: "A data visualization of New York's CitiBikes.",
-    },*/
   ],
   contributions: [
     {
@@ -79,22 +72,7 @@ export const projects = {
   ],
   events: [
     {
-      title: 'MozFest London 2018',
-      url: 'https://mozillafestival.org/',
-      description: 'October 22-28; London.',
-    },
-    {
-      title: 'Tapestry Conference 2018',
-      url: 'http://tapestryconference.com',
-      description: 'November 29-30; Miami, FL.',
-    },
-    {
-      title: 'Computation + Journalism Symposium 2019',
-      url: 'http://cplusj.org/',
-      description: 'February 1-2; Miami, FL.',
-    },
-    {
-      title: '2019 CAR Conference',
+      title: 'NICAR',
       url: 'https://ire.org/events-and-training/event/3433/',
       description: 'March 7-10; Newport Beach, California.',
     },
