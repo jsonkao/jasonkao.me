@@ -77,7 +77,6 @@ const roles = [
   "Columbia '22",
   'visual journalist',
   'full stack developer',
-  'theatre geek',
 ];
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -94,7 +93,7 @@ class MainApp extends PureComponent {
 
     this.headRef = React.createRef();
     if (isMobile) {
-      // this is the worst, hackiest thing ever
+      // If you have hacky things avert your eyes
       let initOffset;
       window.addEventListener('scroll', e => {
         const { current } = this.headRef;
@@ -113,7 +112,7 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
-    if (process.env.NODE_ENV == 'development') {
+    if (process.env.NODE_ENV === 'development') {
       return;
     }
 
