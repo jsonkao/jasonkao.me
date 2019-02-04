@@ -70,12 +70,11 @@ const styles = {
 
 const roles = [
   'data journalist',
-  'illustrator',
   'data scientist',
   'software engineer',
-  'computational journalist',
   "Columbia '22",
   'visual journalist',
+  'journalist',
   'full stack developer',
 ];
 
