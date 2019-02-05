@@ -18,7 +18,7 @@ export const projects = {
       imgPath: '/img/gerry.gif',
       url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
       description:
-        "A gerrymandering interactive data visualization built on public elections data.",
+        "A gerrymandering interactive built on public elections data.",
     },
     {
       title: 'The Stuyvesant Spectator',
