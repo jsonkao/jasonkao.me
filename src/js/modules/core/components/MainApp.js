@@ -181,7 +181,7 @@ class MainApp extends PureComponent {
           </p>
           <p className={classes.subText}>D3, Illustrator, QGIS, R</p>
         </div>
-        <div className={classes.contentSection}>
+        {/*<div className={classes.contentSection}>
           <p>Those who inspire me&mdash;</p>
           <p className={classes.subText}>
             <a href="http://juliaangwin.com/" target="_blank">
@@ -203,7 +203,7 @@ class MainApp extends PureComponent {
               Emma Llanso
             </a>
           </p>
-        </div>
+        </div>*/}
         <SelectedProjects title="Catch me at" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
