@@ -84,7 +84,7 @@ export const projects = {
     {
       title: 'RightsCon Tunisia 2019',
       url: 'https://www.rightscon.org/',
-      description: 'May 2019; Tunis.',
+      description: 'June 11-13; Tunis.',
     },
     {
       title: '2019 IRE Conference',
