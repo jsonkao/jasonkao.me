@@ -16,7 +16,7 @@ export const projects = {
     {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
-      url: 'http://gerryapp.com.s3-website-us-east-1.amazonaws.com/',
+      url: 'https://github.com/gerry-app',
       description:
         "A gerrymandering interactive built on public elections data.",
     },
