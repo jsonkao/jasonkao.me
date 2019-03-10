@@ -3,7 +3,7 @@ import injectSheet from 'react-jss';
 import rp from 'request-promise';
 import dateFormat from 'dateformat';
 
-import SelectedProjects from './SelectedProjects';
+import List from './List';
 import ProjectGrid from './ProjectGrid';
 import ReactIcon from './ReactIcon';
 import { projects } from '../../projects';
@@ -162,22 +162,22 @@ class MainApp extends PureComponent {
           </h1>
         </div>
         <ProjectGrid title="Selected projects" projects={projects.featured} />
-        <SelectedProjects
+        <List
           title="Projects I contribute to"
           projects={projects.contributions}
         />
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES9), Python, Java, C, Go, PostgreSQL, Ruby, CSS (SASS),
+            JavaScript (ES9), Python, Java, C, R, Go, PostgreSQL, Ruby, CSS (SASS),
             HTML
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
           </p>
-          <p className={classes.subText}>D3, Illustrator, QGIS, R</p>
+          <p className={classes.subText}>D3, Illustrator, QGIS</p>
         </div>
-        <SelectedProjects title="Catch me at" projects={projects.events} />
+        <List title="Let&rsquo;s meet up" projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
