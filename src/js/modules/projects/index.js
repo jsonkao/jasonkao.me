@@ -14,18 +14,25 @@ export const projects = {
       description: 'Gender and the tenure track at Columbia University.',
     },
     {
+      title: 'CDS Data & Graphics Team',
+      imgPath: '/img/spec-journo.png',
+      url: 'https://github.com/spec-journalism/',
+      description: 'Building the data and graphics team at The Columbia Daily Spectator.',
+    },
+    {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
       description:
         'A gerrymandering interactive built on public elections data.',
     },
+    /*
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description: 'Led development for website, API, database, and uploader.',
-    },
+    },*/
     {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',

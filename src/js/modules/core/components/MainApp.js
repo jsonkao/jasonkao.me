@@ -157,8 +157,8 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about good journalism, computer science, and visual
-            narratives. I am the Graphics Deputy Editor of the Columbia Daily
-            Spectator.
+            narratives. Next summer, I am interning at the New York Times
+            Graphics desk.
           </h1>
         </div>
         <ProjectGrid title="Selected projects" projects={projects.featured} />
