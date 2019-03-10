@@ -18,7 +18,7 @@ export const projects = {
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
       description:
-        "A gerrymandering interactive built on public elections data.",
+        'A gerrymandering interactive built on public elections data.',
     },
     {
       title: 'The Stuyvesant Spectator',
@@ -72,24 +72,24 @@ export const projects = {
   ],
   events: [
     {
-      title: 'NICAR',
+      title: 'NICAR19',
       url: 'https://ire.org/events-and-training/event/3433/',
       description: 'March 7-10; Newport Beach, California.',
     },
     {
-      title: 'The Web Conference 2019',
-      url: 'https://www2019.thewebconf.org/',
-      description: 'May 13-17; San Francisco.',
+      title: 'New York Times',
+      url: 'https://twitter.com/nytgraphics',
+      description: 'Summer 2019; graphics internship.',
     },
     {
-      title: 'RightsCon Tunisia 2019',
-      url: 'https://www.rightscon.org/',
-      description: 'June 11-13; Tunis.',
-    },
-    {
-      title: '2019 IRE Conference',
+      title: 'IRE19',
       url: 'https://ire.org/events-and-training/event/3434/',
       description: 'June 13-16; Houston, TX.',
+    },
+    {
+      title: 'SRCCON 2019',
+      url: 'https://srccon.org/',
+      description: 'July 11-12; Minneapolis, MN.',
     },
   ],
 };
