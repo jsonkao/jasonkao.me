@@ -206,7 +206,7 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>If you&rsquo;d like to get in touch&mdash;</p>
             <p className={classes.subText}>
-              <a href="mailto:jason.kao@columbia.edu">jason.kao@columbia.edu</a>
+              <a>jason.kao at columbia.edu</a>
               <br />
               <a href="tel:+01-347-933-1820">+1 347 933 1820</a>
             </p>
