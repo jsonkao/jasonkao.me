@@ -82,7 +82,7 @@ export const projects = {
     {
       title: 'NICAR19',
       url: 'https://ire.org/events-and-training/event/3433/',
-      description: 'March 7-10; Newport Beach, California.',
+      description: 'March 7-10; Newport Beach, CA.',
     },
     {
       title: 'New York Times',
