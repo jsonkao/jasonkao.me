@@ -4,7 +4,7 @@ import rp from 'request-promise';
 import dateFormat from 'dateformat';
 
 import List from './List';
-import ProjectGrid from './ProjectGrid';
+import Grid from './Grid';
 import ReactIcon from './ReactIcon';
 import { projects } from '../../projects';
 
@@ -156,12 +156,12 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;{roles[this.state.roleIndex]}.
           </h1>
           <h1>
-            I am passionate about good journalism, computer science, and visual
-            narratives. Next summer, I am interning at the New York Times
-            Graphics desk.
+            I am passionate about journalism, computer science, and visual
+            narratives. I am interning at the New York Times
+            Graphics desk next summer.
           </h1>
         </div>
-        <ProjectGrid title="Selected projects" projects={projects.featured} />
+        <Grid title="Selected projects" projects={projects.featured} />
         <List
           title="Projects I contribute to"
           projects={projects.contributions}

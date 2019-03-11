@@ -3,7 +3,7 @@ import injectSheet from 'react-jss';
 import ProjectBox from './ProjectBox';
 
 const styles = {
-  ProjectGrid: {
+  Grid: {
     marginBottom: '3.5vw',
   },
   listHeader: {
@@ -25,8 +25,8 @@ const styles = {
   },
 };
 
-const ProjectGrid = ({ classes, title, projects = [] }) => (
-  <div className={classes.ProjectGrid}>
+const Grid = ({ classes, title, projects = [] }) => (
+  <div className={classes.Grid}>
     <p className={classes.listHeader}>{title}&mdash;</p>
     <div className={classes.container}>
       {projects.map((proj, i) => (
@@ -36,4 +36,4 @@ const ProjectGrid = ({ classes, title, projects = [] }) => (
   </div>
 );
 
-export default injectSheet(styles)(ProjectGrid);
+export default injectSheet(styles)(Grid);
