@@ -157,8 +157,8 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. I am interning at the New York Times
-            Graphics desk next summer.
+            narratives. I am interning at the New York Times Graphics desk next
+            summer.
           </h1>
         </div>
         <Grid title="Selected projects" projects={projects.featured} />
@@ -169,8 +169,8 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES9), Python, Java, C, R, Go, PostgreSQL, Ruby, CSS (SASS),
-            HTML
+            JavaScript (ES9), Python, Java, C, R, Go, PostgreSQL, Ruby, CSS
+            (SASS), HTML
           </p>
           <p className={classes.subText}>
             React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP

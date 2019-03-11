@@ -17,7 +17,8 @@ export const projects = {
       title: 'CDS Data & Graphics Team',
       imgPath: '/img/spec-journo.png',
       url: 'https://github.com/spec-journalism/',
-      description: 'Building the data and graphics team at The Columbia Daily Spectator.',
+      description:
+        'Building the data and graphics team at The Columbia Daily Spectator.',
     },
     {
       title: 'Gerry App',
@@ -86,7 +87,7 @@ export const projects = {
     {
       title: 'New York Times',
       url: 'https://twitter.com/nytgraphics',
-      description: 'Summer 2019; graphics internship.',
+      description: 'Summer 2019; Graphics internship.',
     },
     {
       title: 'IRE19',
