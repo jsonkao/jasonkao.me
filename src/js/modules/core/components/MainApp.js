@@ -67,7 +67,7 @@ const styles = {
 const roles = [
   'data journalist',
   'software engineer',
-  "Columbia '22",
+  "Columbia \u201922",
   'visual journalist',
   'journalist',
   'full stack developer',
@@ -177,7 +177,7 @@ class MainApp extends PureComponent {
           </p>
           <p className={classes.subText}>D3, Illustrator, QGIS</p>
         </div>
-        <List title="Let&rsquo;s meet up" projects={projects.events} />
+        <List title={'Let\u2019s meet up'} projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
