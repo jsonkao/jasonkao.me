@@ -27,13 +27,18 @@ export const projects = {
       description:
         'A gerrymandering interactive built on public elections data.',
     },
-    /*
+    {
+      title: 'The Brass Tacks',
+      imgPath: '/img/properly_partisan.gif',
+      url: 'https://github.com/brtacks',
+      description: 'Discussing cultural patterns with visual, data-driven essays.',
+    },
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description: 'Led development for website, API, database, and uploader.',
-    },*/
+    },
     {
       title: 'React Scrollama',
       imgPath: '/img/im-a-narcissist.gif',
@@ -70,12 +75,6 @@ export const projects = {
       url: 'https://github.com/russellgoldenberg/scrollama',
       description:
         'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
-    },
-    {
-      title: "MIT's Complete Works of William Shakespeare",
-      url: 'http://shakespeare.mit.edu/',
-      description:
-        'The Complete Works of William Shakespeare, operated by The MIT Tech.',
     },
   ],
   events: [
