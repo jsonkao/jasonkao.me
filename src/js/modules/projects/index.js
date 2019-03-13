@@ -31,7 +31,8 @@ export const projects = {
       title: 'The Brass Tacks',
       imgPath: '/img/properly_partisan.gif',
       url: 'https://github.com/brtacks',
-      description: 'Discussing cultural patterns with visual, data-driven essays.',
+      description:
+        'Discussing cultural patterns with visual, data-driven essays.',
     },
     {
       title: 'The Stuyvesant Spectator',
