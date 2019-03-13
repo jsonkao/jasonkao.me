@@ -66,10 +66,8 @@ const styles = {
 
 const roles = [
   'data journalist',
-  'software engineer',
-  "Columbia \u201922",
+  'Columbia \u201922',
   'visual journalist',
-  'journalist',
   'full stack developer',
 ];
 
@@ -87,7 +85,7 @@ class MainApp extends PureComponent {
 
     this.headRef = React.createRef();
     if (isMobile) {
-      // If you hate hacky things avert your eyes
+      // If you don't like hacky things please avert your eyes
       let initOffset;
       window.addEventListener('scroll', e => {
         const { current } = this.headRef;
@@ -136,7 +134,7 @@ class MainApp extends PureComponent {
       Math.floor(
         Math.abs(
           Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5),
-        ) / 110,
+        ) / 100,
       ) % roles.length;
     if (this.state.roleIndex !== roleIndex) {
       this.setState({ roleIndex });
@@ -157,8 +155,8 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. I am interning at the New York Times Graphics desk next
-            summer.
+            narratives. Currently, I am the Graphics Deputy Editor of the
+            Columbia Daily Spectator.
           </h1>
         </div>
         <Grid title="Selected projects" projects={projects.featured} />
