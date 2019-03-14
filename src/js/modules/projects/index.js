@@ -99,5 +99,10 @@ export const projects = {
       url: 'https://srccon.org/',
       description: 'July 11-12; Minneapolis, MN.',
     },
+    {
+      title: 'ONA19',
+      url: 'https://ona19.journalists.org/',
+      description: 'September 12-14; New Orleans, LA.',
+    },
   ],
 };
