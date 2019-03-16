@@ -5,16 +5,17 @@ export const projects = {
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
-        'Data and graphics reporting on net price inequities at the School of General Studies.',
+        'Data and graphics reporting on net price inequities in the School of General Studies.',
     },
     {
       title: 'Gender Diversity in the Tenure Track',
       imgPath: '/img/tenure-track.gif',
       url: 'https://jsonkao.github.io/tenure-track/',
-      description: 'Gender and the tenure track at Columbia University.',
+      description:
+        'You-draw-it: Gender representation in Columbia\u2019s tenure track.',
     },
     {
-      title: 'CDS Data & Graphics Team',
+      title: 'CDS Data & Graphics Department',
       imgPath: '/img/spec-journo.png',
       url: 'https://github.com/spec-journalism/',
       description:
@@ -32,13 +33,14 @@ export const projects = {
       imgPath: '/img/properly_partisan.gif',
       url: 'https://github.com/brtacks',
       description:
-        'Discussing cultural patterns with visual, data-driven essays.',
+        'Discussing cultural patterns with data-driven visual essays.',
     },
     {
       title: 'The Stuyvesant Spectator',
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
-      description: 'Led development for website, API, database, and uploader.',
+      description:
+        'Led creation of website, API, database, and article uploader.',
     },
     {
       title: 'React Scrollama',
@@ -56,9 +58,15 @@ export const projects = {
   ],
   contributions: [
     {
-      title: 'Free Code Camp [beta]',
+      title: 'Free Code Camp',
       imgPath: '/img/freecodecamp.gif',
       url: 'https://github.com/freeCodeCamp/freeCodeCamp',
+    },
+    {
+      title: 'Scrollama',
+      url: 'https://github.com/russellgoldenberg/scrollama',
+      description:
+        'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
     },
     {
       title: 'Go GraphQL',
@@ -70,12 +78,6 @@ export const projects = {
       url: 'https://github.com/rob2d/greedux',
       description:
         'A modular, clean and scalable modern workflow template for React/Redux development.',
-    },
-    {
-      title: 'Scrollama',
-      url: 'https://github.com/russellgoldenberg/scrollama',
-      description:
-        'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
     },
   ],
   events: [

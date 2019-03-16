@@ -69,6 +69,7 @@ const roles = [
   'Columbia \u201922',
   'visual journalist',
   'full stack developer',
+  'software engineer',
 ];
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -155,8 +156,7 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. Currently, I am the Graphics Deputy Editor of the
-            Columbia Daily Spectator.
+            narratives. I am a graphics deputy at the Columbia Daily Spectator.
           </h1>
         </div>
         <Grid title="Selected projects" projects={projects.featured} />
