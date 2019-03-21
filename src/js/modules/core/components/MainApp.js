@@ -19,6 +19,9 @@ const styles = {
     '& p + p, & h1 + h1': {
       marginTop: '0.725em',
     },
+    '& h1': {
+      lineHeight: 1.3,
+    },
   },
   subText: {
     color: '#777',
