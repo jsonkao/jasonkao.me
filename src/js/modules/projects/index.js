@@ -92,11 +92,6 @@ export const projects = {
       description: 'Summer 2019; Graphics internship.',
     },
     {
-      title: 'IRE19',
-      url: 'https://ire.org/events-and-training/event/3434/',
-      description: 'June 13-16; Houston, TX.',
-    },
-    {
       title: 'SRCCON 2019',
       url: 'https://srccon.org/',
       description: 'July 11-12; Minneapolis, MN.',
