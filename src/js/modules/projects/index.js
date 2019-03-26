@@ -87,11 +87,6 @@ export const projects = {
       description: 'March 7-10; Newport Beach, CA.',
     },
     {
-      title: 'New York Times',
-      url: 'https://twitter.com/nytgraphics',
-      description: 'Summer 2019; Graphics internship.',
-    },
-    {
       title: 'SRCCON 2019',
       url: 'https://srccon.org/',
       description: 'July 11-12; Minneapolis, MN.',
