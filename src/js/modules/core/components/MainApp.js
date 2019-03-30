@@ -209,7 +209,7 @@ class MainApp extends PureComponent {
             <p className={classes.subText}>
               <a>jason.kao at columbia.edu</a>
               <br />
-              <a href="tel:+01-347-933-1820">+1 347 933 1820</a>
+              <a>+1 347 933 1820</a>
             </p>
           </div>
         </div>
