@@ -8,6 +8,12 @@ export const projects = {
         'Data and graphics reporting on net price inequities in the School of General Studies.',
     },
     {
+      title: 'East Asian Ancestral Records',
+      imgPath: '/img/genealogy.png',
+      url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
+      description: 'Interactive visuals exploring Columbia Libraries\u2019 Chinese ancestral records.',
+    },
+    {
       title: 'Gender Diversity in the Tenure Track',
       imgPath: '/img/tenure-track.gif',
       url: 'https://jsonkao.github.io/tenure-track/',
@@ -26,7 +32,7 @@ export const projects = {
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
       description:
-        'A gerrymandering interactive built on public elections data.',
+        'Gerrymandering interactive built on public elections data.',
     },
     {
       title: 'The Brass Tacks',
@@ -48,12 +54,6 @@ export const projects = {
       url: 'https://github.com/jsonkao/react-scrollama',
       description:
         'A scrollytelling interface for React using the Intersection Observer API.',
-    },
-    {
-      title: 'Alfred Prufrock Editor',
-      imgPath: '/img/alfred.gif',
-      url: 'https://github.com/jsonkao/alfred-prufrock-editor',
-      description: 'Freewriting augmented by information visualization.',
     },
   ],
   contributions: [
