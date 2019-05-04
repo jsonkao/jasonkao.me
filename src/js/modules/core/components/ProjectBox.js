@@ -17,7 +17,7 @@ const styles = {
   },
   img: {
     width: '100%',
-    boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.75)',
+    boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.5)',
   },
   blue: { color: '#0041FF' },
   red: { color: '#D91F25' },
@@ -55,7 +55,7 @@ const ProjectBox = ({
       <a href={url} className={classes.anchor} target="_blank">
         {imgPath ? (
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={imgPath} />
+            <img className={classes.img} src={imgPath} alt={description} />
           </div>
         ) : (
           <p className={classes.description}>{description}</p>
