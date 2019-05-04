@@ -3,7 +3,8 @@ export const projects = {
     {
       title: 'Sex diversity among science and engineering graduate students',
       imgPath: '/img/graduate-sex-diversity.png',
-      url: 'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse/',
+      url:
+        'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse/',
       description:
         'Data and graphics reporting on graduate student demographic data from the NSF.',
     },
@@ -18,7 +19,8 @@ export const projects = {
       title: 'East Asian Ancestral Records',
       imgPath: '/img/genealogy.png',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
-      description: 'Interactive visuals exploring Columbia Libraries\u2019 Chinese ancestral records.',
+      description:
+        'Interactive visuals exploring Columbia Libraries\u2019 Chinese ancestral records.',
     },
     {
       title: 'Gender Diversity in the Tenure Track',
@@ -38,8 +40,7 @@ export const projects = {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
-      description:
-        'Gerrymandering interactive built on public elections data.',
+      description: 'Gerrymandering interactive built on public elections data.',
     },
     {
       title: 'The Brass Tacks',
