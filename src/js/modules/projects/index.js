@@ -1,6 +1,13 @@
 export const projects = {
   featured: [
     {
+      title: 'Sex diversity among science and engineering graduate students',
+      imgPath: '/img/graduate-sex-diversity.png',
+      url: 'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse/',
+      description:
+        'Data and graphics reporting on graduate student demographic data from the NSF.',
+    },
+    {
       title: 'Net price inequities at Columbia University',
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
