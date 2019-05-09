@@ -1,53 +1,61 @@
 export const projects = {
   featured: [
     {
-      title: 'Graduate student sex diversity in science and engineering',
+      title: 'Graduate Student Sex Diversity',
       imgPath: '/img/graduate-student-sex-diversity.png',
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse/',
       description:
-        'Data and graphics reporting on graduate student demographic data from the NSF.',
+        'Data and graphics reporting on graduate student sex diversity in science and engineering.',
     },
     {
-      title: 'Net price inequities at Columbia University',
+      title: 'Net Price Inequities',
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
         'Data and graphics reporting on net price inequities in the School of General Studies.',
     },
     {
-      title: 'East Asian Ancestral Records',
+      title: 'East Asian Genealogical Records',
       imgPath: '/img/genealogy.png',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
-        'Interactive visuals exploring Columbia Libraries\u2019 Chinese ancestral records.',
+        'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
     },
     {
       title: 'Gender Diversity in the Tenure Track',
       imgPath: '/img/tenure-track.gif',
       url: 'https://jsonkao.github.io/tenure-track/',
       description:
-        'You-draw-it: Gender representation in Columbia\u2019s tenure track.',
+        'You-draw-it: Female representation in Columbia\u2019s tenure track.',
     },
     {
-      title: 'CDS Data & Graphics Department',
+      title: 'Spectator Data & Graphics GitHub',
       imgPath: '/img/spec-journo.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'Building the data and graphics team at The Columbia Daily Spectator.',
+        'Building the data and graphics team at the Columbia Daily Spectator.',
     },
     {
       title: 'Gerry App',
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
-      description: 'Gerrymandering interactive built on public elections data.',
+      description:
+        'Interactive data visualization and gerrymandering simulation (deprecated).',
     },
     {
       title: 'The Brass Tacks',
       imgPath: '/img/properly_partisan.gif',
       url: 'https://github.com/brtacks',
       description:
-        'Discussing cultural patterns with data-driven visual essays.',
+        'Discussing cultural patterns with interactive, data-based features.',
+    },
+    {
+      title: 'React Scrollama',
+      imgPath: '/img/im-a-narcissist.gif',
+      url: 'https://github.com/jsonkao/react-scrollama',
+      description:
+        'A scrollytelling library for React using the Intersection Observer API.',
     },
     {
       title: 'The Stuyvesant Spectator',
@@ -55,13 +63,6 @@ export const projects = {
       url: 'https://stuyspec.com/',
       description:
         'Led creation of website, API, database, and article uploader.',
-    },
-    {
-      title: 'React Scrollama',
-      imgPath: '/img/im-a-narcissist.gif',
-      url: 'https://github.com/jsonkao/react-scrollama',
-      description:
-        'A scrollytelling interface for React using the Intersection Observer API.',
     },
   ],
   contributions: [

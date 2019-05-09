@@ -71,8 +71,9 @@ const roles = [
   'data journalist',
   'Columbia \u201922',
   'visual journalist',
+  'student journalist',
   'full stack developer',
-  'software engineer',
+  'software developer',
 ];
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -162,7 +163,7 @@ class MainApp extends PureComponent {
             narratives. I am a graphics deputy for the Columbia Daily Spectator.
           </h1>
         </div>
-        <Grid title="Selected projects" projects={projects.featured} />
+        <Grid title="Selected work" projects={projects.featured} />
         <List
           title="Projects I contribute to"
           projects={projects.contributions}
@@ -170,13 +171,13 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES9), Python, Java, C, R, Go, PostgreSQL, Ruby, CSS
-            (SASS), HTML
+            JavaScript (ES9), Python, C, C++, Java, Go, SQL, Ruby, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, GraphQL, Rails, Node, AWS, GCP
+            React / Redux / Apollo, GraphQL, Rails, Node, AWS (full stack), GCP
+            (databases)
           </p>
-          <p className={classes.subText}>D3, Illustrator, QGIS</p>
+          <p className={classes.subText}>Illustrator, QGIS, WebStorm</p>
         </div>
         <List title={'Let\u2019s meet up'} projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
