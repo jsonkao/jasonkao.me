@@ -174,10 +174,10 @@ class MainApp extends PureComponent {
             JavaScript (ES9), Python, C, C++, Java, Go, SQL, Ruby, CSS, HTML
           </p>
           <p className={classes.subText}>
-            React / Redux / Apollo, GraphQL, Rails, Node, AWS (full stack), GCP
+            React / Redux / Apollo, Node, GraphQL, Rails, AWS (full stack), GCP
             (databases)
           </p>
-          <p className={classes.subText}>Illustrator, QGIS, WebStorm</p>
+          <p className={classes.subText}>Illustrator, Sketch, WebStorm, Jupyter, QGIS</p>
         </div>
         <List title={'Let\u2019s meet up'} projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
