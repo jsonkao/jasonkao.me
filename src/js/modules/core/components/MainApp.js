@@ -15,12 +15,15 @@ const styles = {
   },
   contentSection: {
     marginBottom: '3.5vw',
-    width: '55%',
+    width: '60%',
     '& p + p, & h1 + h1': {
       marginTop: '0.725em',
     },
     '& h1': {
       lineHeight: 1.3,
+    },
+    '& h1 a': {
+      color: '#000',
     },
   },
   subText: {
@@ -160,7 +163,11 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. I am a graphics deputy for the Columbia Daily Spectator.
+            narratives. I am a graphics deputy for the Columbia Daily Spectator
+            (check out our{' '}
+            <a href="https://github.com/spec-journalism" target="_blank">
+              GitHub
+            </a>).
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
@@ -177,7 +184,9 @@ class MainApp extends PureComponent {
             React / Redux / Apollo, Node, GraphQL, Rails, AWS (full stack), GCP
             (databases)
           </p>
-          <p className={classes.subText}>Illustrator, Sketch, WebStorm, Jupyter, QGIS</p>
+          <p className={classes.subText}>
+            Illustrator, Sketch, WebStorm, Jupyter, QGIS
+          </p>
         </div>
         <List title={'Let\u2019s meet up'} projects={projects.events} />
         <div className={classes.contactMe} id="contactme-scroll-target">
