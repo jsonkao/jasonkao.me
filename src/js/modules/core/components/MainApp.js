@@ -218,6 +218,7 @@ class MainApp extends PureComponent {
             <p>If you&rsquo;d like to get in touch&mdash;</p>
             <p className={classes.subText}>
               <a>jason.kao at nytimes.com</a>
+              <br />
               <a>jason.kao at columbia.edu</a>
               <br />
               <a>+1 347 933 1820</a>
