@@ -3,7 +3,8 @@ export const projects = {
     {
       title: 'Graduate Student Sex Diversity',
       imgPath: '/img/graduate-student-sex-diversity.png',
-      url: 'https://www.columbiaspectator.com/eye/',
+      url:
+        'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
         'Data and graphics reporting on graduate student sex diversity in science and engineering.',
     },
