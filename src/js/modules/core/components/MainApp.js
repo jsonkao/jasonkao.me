@@ -220,8 +220,6 @@ class MainApp extends PureComponent {
               <a>jason.kao at nytimes.com</a>
               <br />
               <a>jason.kao at columbia.edu</a>
-              <br />
-              <a>+1 347 933 1820</a>
             </p>
           </div>
         </div>
