@@ -163,11 +163,10 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. I am a graphics deputy for the Columbia Daily Spectator
-            (check out our{' '}
+            narratives. I am a graphics deputy for the{' '}
             <a href="https://github.com/spec-journalism" target="_blank">
-              GitHub
-            </a>).
+              Columbia Daily Spectator
+            </a>.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
