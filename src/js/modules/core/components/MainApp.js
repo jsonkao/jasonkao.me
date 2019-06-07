@@ -71,9 +71,10 @@ const styles = {
 };
 
 const roles = [
+  'visual journalist',
+  'multimedia journalist',
   'data journalist',
   'Columbia \u201922',
-  'visual journalist',
   'student journalist',
   'full stack developer',
   'software developer',
@@ -93,7 +94,7 @@ class MainApp extends PureComponent {
 
     this.headRef = React.createRef();
     if (isMobile) {
-      // If you don't like hacky things please avert your eyes
+      // If you don't like hacky things, avert your eyes :(
       let initOffset;
       window.addEventListener('scroll', e => {
         const { current } = this.headRef;
@@ -112,9 +113,8 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
-    if (process.env.NODE_ENV === 'development') {
+    if (process.env.NODE_ENV === 'development')
       return;
-    }
 
     const options = {
       uri:
@@ -163,10 +163,7 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            narratives. I am a graphics deputy for the{' '}
-            <a href="https://github.com/spec-journalism" target="_blank">
-              Columbia Daily Spectator
-            </a>.
+            art. I am a Graphics intern at The New York Times.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
