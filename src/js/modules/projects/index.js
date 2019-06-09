@@ -48,7 +48,7 @@ export const projects = {
       imgPath: '/img/properly_partisan.gif',
       url: 'https://github.com/brtacks',
       description:
-        'Discussing cultural patterns with interactive, data-based features.',
+        'Blog discussing cultural patterns with interactive, data-based features. Also T-shirts.',
     },
     {
       title: 'React Scrollama',
