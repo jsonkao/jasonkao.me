@@ -163,7 +163,7 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            art. I am a Graphics intern at The New York Times.
+            art. I am a Graphics Intern at <a href="https://www.nytimes.com/by/jason-kao" target="_blank">The New York Times</a>.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
