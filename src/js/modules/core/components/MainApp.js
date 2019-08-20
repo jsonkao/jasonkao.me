@@ -36,6 +36,9 @@ const styles = {
       },
     },
   },
+  lineThrough: {
+    textDecoration: 'line-through !important',
+  },
   contactMe: {
     display: 'flex',
   },
@@ -205,7 +208,7 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>If you&rsquo;d like to get in touch&mdash;</p>
             <p className={classes.subText}>
-              <a>jason.kao at nytimes.com</a>
+              <a className={classes.lineThrough}>jason.kao at nytimes.com</a>
               <br />
               <a>jason.kao at columbia.edu</a>
             </p>
