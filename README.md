@@ -1,3 +1,3 @@
 # jasonkao.me
 
-[Portfolio website](https://jasonkao.me); built with React.
+[Portfolio website](https://www.nytimes.com/by/jason-kao); built with React.
