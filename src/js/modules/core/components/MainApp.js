@@ -36,9 +36,6 @@ const styles = {
       },
     },
   },
-  lineThrough: {
-    textDecoration: 'line-through !important',
-  },
   contactMe: {
     display: 'flex',
   },
@@ -166,7 +163,7 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual
-            art. I am a Graphics Intern at <a href="https://www.nytimes.com/by/jason-kao" target="_blank">The New York Times</a>.
+            art. Last summer, I <a href="https://www.nytimes.com/by/jason-kao" target="_blank">interned</a> on The New York Times Graphics desk.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
@@ -208,9 +205,9 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>If you&rsquo;d like to get in touch&mdash;</p>
             <p className={classes.subText}>
-              <a className={classes.lineThrough}>jason.kao at nytimes.com</a>
-              <br />
               <a>jason.kao at columbia.edu</a>
+              <br/>
+              <a>jason.kao at columbiaspectator.com</a>
             </p>
           </div>
         </div>
