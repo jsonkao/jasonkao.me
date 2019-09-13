@@ -1,6 +1,12 @@
 export const projects = {
   featured: [
     {
+      title: 'NYT Graphics',
+      imgPath: '/img/hongkong.png',
+      url: 'https://www.nytimes.com/by/jason-kao',
+      description: 'Data, visual, and graphics reporting during my internship.',
+    },
+    {
       title: 'Graduate Student Sex Diversity',
       imgPath: '/img/graduate-student-sex-diversity.png',
       url:
