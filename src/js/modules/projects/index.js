@@ -1,6 +1,13 @@
 export const projects = {
   featured: [
     {
+      title: 'Spectator Graphics',
+      imgPath: '/img/spec-github.png',
+      url: 'https://github.com/spec-journalism/',
+      description:
+        'Leading the graphics and data team at the Columbia Daily Spectator.',
+    },
+    {
       title: 'NYT Graphics',
       imgPath: '/img/hongkong.png',
       url: 'https://www.nytimes.com/by/jason-kao',
@@ -34,13 +41,6 @@ export const projects = {
       url: 'https://jsonkao.github.io/tenure-track/',
       description:
         'You-draw-it: Female representation in Columbia\u2019s tenure track.',
-    },
-    {
-      title: 'Spectator Data & Graphics GitHub',
-      imgPath: '/img/spec-journo.png',
-      url: 'https://github.com/spec-journalism/',
-      description:
-        'Building the data and graphics team at the Columbia Daily Spectator.',
     },
     {
       title: 'Gerry App',
