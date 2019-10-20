@@ -11,7 +11,7 @@ export const projects = {
       title: 'NYT Graphics',
       imgPath: '/img/hongkong.png',
       url: 'https://www.nytimes.com/by/jason-kao',
-      description: 'Data, visual, and graphics reporting during a summer internship.',
+      description: 'Reporting, data, and visuals during my internship.',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -104,12 +104,17 @@ export const projects = {
     {
       title: 'SRCCON 2019',
       url: 'https://srccon.org/',
-      description: 'July 11-12; Minneapolis, MN.',
+      description: 'July 11-12; Minneapolis.',
     },
     {
       title: 'ONA19',
       url: 'https://ona19.journalists.org/',
-      description: 'September 12-14; New Orleans, LA.',
+      description: 'September 12-14; New Orleans.',
     },
+    {
+      title: 'SRCCON:LEAD',
+      url: 'https://lead.srccon.org',
+      description: 'November 19-20; Philadelphia.'
+    }
   ],
 };

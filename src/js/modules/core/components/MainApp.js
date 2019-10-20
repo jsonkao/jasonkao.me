@@ -163,7 +163,7 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;<span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
           </h1>
           <h1>
-            I am passionate about journalism, computer science, and visual
+            I am a sophomore at Columbia University passionate about journalism, computer science, and visual
             art. Last summer, I interned on The New York Times Graphics desk.
           </h1>
         </div>
