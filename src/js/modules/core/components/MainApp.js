@@ -76,7 +76,6 @@ const roles = [
   'data journalist',
   'Columbia \u201922',
   'student journalist',
-  'full stack developer',
   'software developer',
 ];
 
@@ -94,6 +93,8 @@ class MainApp extends PureComponent {
 
     this.headRef = React.createRef();
     if (isMobile) {
+      roles[1] = 'multimedia<br>journalist';
+
       // If you don't like hacky things, avert your eyes :(
       let initOffset;
       window.addEventListener('scroll', e => {
@@ -159,7 +160,7 @@ class MainApp extends PureComponent {
       >
         <div className={classes.contentSection}>
           <h1 className={classes.mobileFixedHeight} ref={this.headRef}>
-            Jason Kao&mdash;{roles[this.state.roleIndex]}.
+            Jason Kao&mdash;<span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
           </h1>
           <h1>
             I am passionate about journalism, computer science, and visual

@@ -5,13 +5,13 @@ export const projects = {
       imgPath: '/img/spec-github.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'Leading the graphics and data team at the Columbia Daily Spectator.',
+        'Leading a multimedia and data journalism desk at the Columbia Daily Spectator.',
     },
     {
       title: 'NYT Graphics',
       imgPath: '/img/hongkong.png',
       url: 'https://www.nytimes.com/by/jason-kao',
-      description: 'Data, visual, and graphics reporting during my internship.',
+      description: 'Data, visual, and graphics reporting during a summer internship.',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -19,7 +19,7 @@ export const projects = {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
-        'Data and graphics reporting on graduate student sex diversity in science and engineering.',
+        'Data, reporting, and graphics on graduate student sex diversity in science and engineering.',
     },
     {
       title: 'Net Price Inequities',
