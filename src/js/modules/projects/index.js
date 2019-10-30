@@ -5,7 +5,7 @@ export const projects = {
       imgPath: '/img/spec-github.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'Leading a multimedia and data journalism desk at the Columbia Daily Spectator.',
+        'I lead a multimedia and data journalism desk at the Columbia Daily Spectator.',
     },
     {
       title: 'NYT Graphics',
@@ -68,7 +68,7 @@ export const projects = {
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
-        'Led creation of website, API, database, and article uploader.',
+        'I led the creation of a website, database, and command-line CMS for my high school paper.',
     },
   ],
   contributions: [

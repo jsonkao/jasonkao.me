@@ -143,7 +143,7 @@ class MainApp extends PureComponent {
       Math.floor(
         Math.abs(
           Math.pow(Math.pow(e.screenX, 2) + Math.pow(e.screenY, 2), 0.5),
-        ) / 100,
+        ) / 150,
       ) % roles.length;
     if (this.state.roleIndex !== roleIndex) {
       this.setState({ roleIndex });
@@ -163,8 +163,8 @@ class MainApp extends PureComponent {
             Jason Kao&mdash;<span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
           </h1>
           <h1>
-            I am a sophomore at Columbia University. I do journalism, computer science, and visual
-            art. Last summer, I interned on the New York Times Graphics desk.
+            I am a sophomore at Columbia and an ex-intern on the New York Times Graphics desk.
+            I spend my time doing journalism, visual art, and computer science.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
