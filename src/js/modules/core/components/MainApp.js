@@ -164,7 +164,8 @@ class MainApp extends PureComponent {
           </h1>
           <h1>
             I am a sophomore at Columbia and an ex-intern on the New York Times Graphics desk.
-            I spend my time doing journalism, visual art, and computer science.
+            I spend my time doing journalism, visual art, and computer science. I direct Graphics
+            at the Columbia Daily Spectator.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
@@ -175,11 +176,10 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript (ES9), Python, R, D3, C, C++, Java, Go, SQL, CSS, HTML
+            R, Python, D3, C, Java, Go, SQL, CSS, HTML
           </p>
           <p className={classes.subText}>
-            Node, React / Redux / Apollo, Node, GraphQL, Rails, AWS (full stack), GCP
-            (data)
+            JavaScript (ES9), Node, React / Redux, GraphQL, AWS (full stack)
           </p>
           <p className={classes.subText}>
             Illustrator, QGIS, PhotoShop, Sketch, WebStorm, Jupyter
@@ -196,10 +196,6 @@ class MainApp extends PureComponent {
               <br />
               <a href="https://twitter.com/jsonkao/" target="_blank">
                 Twitter
-              </a>
-              <br />
-              <a href="https://jasonkao.me/Resume.pdf" target="_blank">
-                Resume
               </a>
             </p>
           </div>

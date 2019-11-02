@@ -47,7 +47,6 @@ const Navbar = ({ classes, location }) => {
   const links = [
     { label: 'About', to: '/' },
     { label: 'GitHub', to: 'https://github.com/jsonkao' },
-    { label: 'Resume', to: 'https://jasonkao.me/Resume.pdf' },
   ];
 
   return (
