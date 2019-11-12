@@ -5,13 +5,13 @@ export const projects = {
       imgPath: '/img/spec-github.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'I lead a multimedia and data journalism desk at the Columbia Daily Spectator.',
+        'I direct a data and visual journalism desk at the Columbia Daily Spectator.',
     },
     {
-      title: 'NYT Graphics',
+      title: 'New York Times Graphics',
       imgPath: '/img/hongkong.png',
       url: 'https://www.nytimes.com/by/jason-kao',
-      description: 'Reporting, data, and visuals during my internship.',
+      description: 'I did reporting, data analysis, visualization, and story production at the Times.',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -19,28 +19,21 @@ export const projects = {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
-        'Data, reporting, and graphics on graduate student sex diversity in science and engineering.',
+        'A visual exploration of graduate student sex diversity in science and engineering.',
     },
     {
       title: 'Net Price Inequities',
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
-        'Data and graphics reporting on net price inequities in the School of General Studies.',
+        'Data and graphics reporting to show net price inequities for students of different income levels.',
     },
     {
       title: 'East Asian Genealogical Records',
       imgPath: '/img/genealogy.png',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
-        'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
-    },
-    {
-      title: 'Gender Diversity in the Tenure Track',
-      imgPath: '/img/tenure-track.gif',
-      url: 'https://jsonkao.github.io/tenure-track/',
-      description:
-        'You-draw-it: Female representation in Columbia\u2019s tenure track.',
+        'Produced an interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
     },
     {
       title: 'Gerry App',
@@ -48,6 +41,13 @@ export const projects = {
       url: 'https://github.com/gerry-app',
       description:
         'Interactive data visualization and gerrymandering simulation (deprecated).',
+    },
+    {
+      title: 'Gender Diversity in the Tenure Track',
+      imgPath: '/img/tenure-track.gif',
+      url: 'https://jsonkao.github.io/tenure-track/',
+      description:
+        'A you-draw-it of female representation in Columbia\u2019s tenure track.',
     },
     {
       title: 'The Brass Tacks',
@@ -68,7 +68,7 @@ export const projects = {
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
-        'I led the creation of a website, database, and command-line CMS for my high school paper.',
+        'Led the creation of a website, database, and content management system for my high school paper.',
     },
   ],
   contributions: [
