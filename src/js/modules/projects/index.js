@@ -45,7 +45,7 @@ export const projects = {
     {
       title: 'Gender Diversity in the Tenure Track',
       imgPath: '/img/tenure-track.gif',
-      url: 'https://jsonkao.github.io/tenure-track/',
+      url: 'https://jsonkao.github.io/pipeline/',
       description:
         'A you-draw-it of female representation in Columbia\u2019s tenure track.',
     },
