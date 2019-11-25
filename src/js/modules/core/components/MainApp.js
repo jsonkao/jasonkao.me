@@ -200,7 +200,7 @@ class MainApp extends PureComponent {
             </p>
           </div>
           <div className={classes.contentSection}>
-            <p>If you&rsquo;d like to get in touch&mdash;</p>
+            <p>Email&mdash;</p>
             <p className={classes.subText}>
               <a>jason.kao at columbia.edu</a>
               <br/>
@@ -213,10 +213,10 @@ class MainApp extends PureComponent {
           <a href="https://reactjs.org/" target="_blank">
             <ReactIcon />
           </a>{' '}
-          by Jason Kao.
+          by Jason Kao
           {lastUpdated && (
             <span className={classes.lastUpdated}>
-              Updated {dateFormat(lastUpdated, 'longDate')}.
+              Updated {dateFormat(lastUpdated, 'longDate')}
             </span>
           )}
         </div>

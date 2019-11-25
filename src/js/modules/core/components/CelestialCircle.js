@@ -56,7 +56,7 @@ class CelestialCircle extends PureComponent {
       >
         {this.state.isCaptionVisible && (
           <div className={classes.explainer}>
-            The arc of the {celestialObject} at my location
+            {celestialObject}
           </div>
         )}
       </div>

@@ -11,7 +11,7 @@ export const projects = {
       title: 'New York Times Graphics',
       imgPath: '/img/hongkong.png',
       url: 'https://www.nytimes.com/by/jason-kao',
-      description: 'I did reporting, data analysis, visualization, and story production at the Times.',
+      description: 'Reporting, visualization, data analysis and story production for The Times.',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -19,21 +19,21 @@ export const projects = {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
-        'A visual exploration of graduate student sex diversity in science and engineering.',
+        'A visual dive into graduate student sex diversity in science and engineering.',
     },
     {
       title: 'Net Price Inequities',
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
-        'Data and graphics reporting to show net price inequities for students of different income levels.',
+        'Data and graphics reporting around net price inequities for students of different income levels.',
     },
     {
       title: 'East Asian Genealogical Records',
       imgPath: '/img/genealogy.png',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
-        'Produced an interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
+        'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
     },
     {
       title: 'Gerry App',
@@ -54,11 +54,11 @@ export const projects = {
       imgPath: '/img/properly_partisan.gif',
       url: 'https://github.com/brtacks',
       description:
-        'Blog discussing cultural patterns with interactive, data-based features. Also T-shirts.',
+        'Discussing cultural patterns with interactive, data-based features. Also T-shirts.',
     },
     {
       title: 'React Scrollama',
-      imgPath: '/img/im-a-narcissist.gif',
+      imgPath: '/img/sticky.png',
       url: 'https://github.com/jsonkao/react-scrollama',
       description:
         'A scrollytelling library for React using the Intersection Observer API.',
