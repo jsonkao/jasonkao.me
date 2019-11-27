@@ -5,7 +5,7 @@ export const projects = {
       imgPath: '/img/spec-github.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'I direct a data and visual journalism desk at the Columbia Daily Spectator.',
+        'I do visuals and reporting at the Columbia Daily Spectator.',
     },
     {
       title: 'New York Times Graphics',
