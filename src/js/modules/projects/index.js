@@ -9,7 +9,7 @@ export const projects = {
     },
     {
       title: 'New York Times Graphics',
-      imgPath: '/img/hongkong.png',
+      imgPath: '/img/Artboard 1-2.png',
       url: 'https://www.nytimes.com/by/jason-kao',
       description: 'Reporting, visualization, data analysis and story production for The Times.',
     },
