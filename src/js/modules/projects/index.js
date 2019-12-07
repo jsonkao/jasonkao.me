@@ -11,7 +11,7 @@ export const projects = {
       title: 'New York Times Graphics',
       imgPath: '/img/Artboard 1-2.png',
       url: 'https://www.nytimes.com/by/jason-kao',
-      description: 'Reporting, visualization, data analysis and story production for The Times.',
+      description: 'Reporting, visualization, and story production at NYT.',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -19,7 +19,7 @@ export const projects = {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
-        'A visual dive into graduate student sex diversity in science and engineering.',
+        'How has graduate student sex diversity in science and engineering?',
     },
     {
       title: 'Net Price Inequities',
@@ -40,7 +40,7 @@ export const projects = {
       imgPath: '/img/gerry.gif',
       url: 'https://github.com/gerry-app',
       description:
-        'Interactive data visualization and gerrymandering simulation (deprecated).',
+        'Interactive gerrymandering playground (deprecated).',
     },
     {
       title: 'Gender Diversity in the Tenure Track',
@@ -68,7 +68,7 @@ export const projects = {
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
-        'Led the creation of a website, database, and content management system for my high school paper.',
+        'Created a website, database, and CMS for my high school paper.',
     },
   ],
   contributions: [
@@ -97,24 +97,19 @@ export const projects = {
   ],
   events: [
     {
-      title: 'NICAR19',
-      url: 'https://ire.org/events-and-training/event/3433/',
-      description: 'March 7-10; Newport Beach, CA.',
-    },
-    {
       title: 'SRCCON 2019',
       url: 'https://srccon.org/',
       description: 'July 11-12; Minneapolis.',
     },
     {
-      title: 'ONA19',
-      url: 'https://ona19.journalists.org/',
-      description: 'September 12-14; New Orleans.',
-    },
-    {
       title: 'SRCCON:LEAD',
       url: 'https://lead.srccon.org',
       description: 'November 19-20; Philadelphia.'
-    }
+    },
+    {
+      title: 'NICAR20',
+      url: 'https://www.ire.org/events-and-training/conferences/nicar-2020',
+      description: 'March 5-8; New Orleans.',
+    },
   ],
 };

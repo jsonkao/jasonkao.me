@@ -4,7 +4,7 @@ import injectSheet from 'react-jss';
 const styles = {
   ProjectBox: {
     marginBottom: '1em',
-    width: '48%',
+    width: '48.5%',
   },
   anchor: {
     display: 'block',

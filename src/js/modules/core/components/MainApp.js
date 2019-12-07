@@ -175,13 +175,13 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            R, Python, D3, C, Java, Go, SQL, CSS, HTML
+            D3, R, Python, C, Java, Go, SQL, CSS, HTML
           </p>
           <p className={classes.subText}>
-            JavaScript (ES9), Node, React / Redux, GraphQL, AWS (full stack)
+            JavaScript, Node, React / Redux, GraphQL, AWS
           </p>
           <p className={classes.subText}>
-            Illustrator, QGIS, PhotoShop, Sketch, WebStorm, Jupyter
+            Illustrator, QGIS, PhotoShop, Sketch, Jupyter, Observable
           </p>
         </div>
         <List title={'Let\u2019s meet up'} projects={projects.events} />
@@ -189,12 +189,12 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://github.com/jsonkao" target="_blank">
-                GitHub
-              </a>
-              <br />
               <a href="https://twitter.com/jsonkao/" target="_blank">
                 Twitter
+              </a>
+              <br />
+              <a href="https://github.com/jsonkao" target="_blank">
+                GitHub
               </a>
             </p>
           </div>
