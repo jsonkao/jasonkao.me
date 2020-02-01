@@ -2,7 +2,7 @@ export const projects = {
   featured: [
     {
       title: 'Spectator Graphics',
-      imgPath: '/img/spec-github.png',
+      imgPath: '/img/spec-graphics.png',
       url: 'https://github.com/spec-journalism/',
       description:
         'I am a reporter and a Graphics Deputy Editor at the Columbia Daily Spectator.',
