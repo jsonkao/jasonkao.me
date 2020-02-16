@@ -5,7 +5,7 @@ export const projects = {
       imgPath: '/img/spec-graphics.png',
       url: 'https://github.com/spec-journalism/',
       description:
-        'I am a reporter and a Graphics Deputy Editor at the Columbia Daily Spectator.',
+        'I am a reporter and Graphics Deputy Editor at the Columbia Daily Spectator.',
     },
     {
       title: 'New York Times Graphics',
@@ -19,14 +19,14 @@ export const projects = {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
-        'How has graduate student sex diversity in science and engineering?',
+        'How has graduate student sex diversity changed in science and engineering?',
     },
     {
       title: 'Net Price Inequities',
       imgPath: '/img/net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
-        'Data and graphics reporting around net price inequities for students of different income levels.',
+        'Revealing tuition and net price inequities for students of different income levels.',
     },
     {
       title: 'East Asian Genealogical Records',
@@ -68,7 +68,7 @@ export const projects = {
       imgPath: '/img/stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
-        'Created a website, database, and CMS for my high school paper.',
+        'Created a website, server and CLI, data store, and CMS for my high school paper.',
     },
   ],
   contributions: [
@@ -82,6 +82,11 @@ export const projects = {
       url: 'https://github.com/russellgoldenberg/scrollama',
       description:
         'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
+    },
+    {
+      title: 'React Scrollama',
+      url: 'https://github.com/jsonkao/react-scrollama',
+      description: 'Scrollama in React.',
     },
     {
       title: 'Go GraphQL',
