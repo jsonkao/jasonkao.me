@@ -177,13 +177,15 @@ class MainApp extends PureComponent {
             D3, R, Python, C, Java, Go, SQL, CSS, HTML
           </p>
           <p className={classes.subText}>
-            JavaScript, Node, React / Redux, GraphQL, AWS
+            JavaScript, React / Redux, Node, GraphQL, AWS
           </p>
           <p className={classes.subText}>
             Illustrator, QGIS, PhotoShop, Sketch, Jupyter, Observable
           </p>
         </div>
-        <List title={'Let\u2019s meet up'} projects={projects.events} />
+
+        {/* <List title={'Let\u2019s meet up'} projects={projects.events} /> */}
+
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
