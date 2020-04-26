@@ -3,7 +3,7 @@ export const projects = {
     {
       title: 'Spectator Graphics',
       imgPath: '/img/spec-graphics.png',
-      url: 'https://github.com/spec-journalism/',
+      url: 'https://github.com/graphicsdesk/',
       description:
         'I am a reporter and Graphics Deputy Editor at the Columbia Daily Spectator.',
     },

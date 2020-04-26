@@ -160,7 +160,7 @@ class MainApp extends PureComponent {
       >
         <div className={classes.contentSection}>
           <h1 className={classes.mobileFixedHeight} ref={this.headRef}>
-            Jason Kao&mdash;<span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
+            Jason Kao &mdash; <span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
           </h1>
           <h1>
             I am a sophomore at Columbia and a reporter at the Columbia Daily Spectator. I like to spend my time doing journalism, computer science, and visual art.
@@ -177,10 +177,10 @@ class MainApp extends PureComponent {
             JavaScript, Python, R, SQL, C, Go, CSS, HTML
           </p>
           <p className={classes.subText}>
-            D3, Node, React & Redux, GraphQL, MongoDB, AWS
+            D3, Node, React, Redux, Svelte, GraphQL, MongoDB, AWS
           </p>
           <p className={classes.subText}>
-            Illustrator, QGIS, mapshaper, Jupyter, Observable, PhotoShop, Sketch
+            Illustrator, QGIS, mapshaper, Jupyter, Photoshop, Sketch
           </p>
         </div>
 
