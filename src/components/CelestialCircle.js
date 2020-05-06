@@ -55,9 +55,7 @@ class CelestialCircle extends PureComponent {
         onMouseLeave={this.handleMouseLeave}
       >
         {this.state.isCaptionVisible && (
-          <div className={classes.explainer}>
-            {celestialObject}
-          </div>
+          <div className={classes.explainer}>{celestialObject}</div>
         )}
       </div>
     );

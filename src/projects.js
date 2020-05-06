@@ -39,8 +39,7 @@ export const projects = {
       title: 'Gerry App',
       imgPath: 'gerry.gif',
       url: 'https://github.com/gerry-app',
-      description:
-        'Interactive gerrymandering playground (deprecated).',
+      description: 'Interactive gerrymandering playground (deprecated).',
     },
     {
       title: 'Gender Diversity in the Tenure Track',

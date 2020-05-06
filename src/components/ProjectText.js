@@ -47,7 +47,12 @@ const styles = {
 const ProjectText = ({ classes, project, showProject }) => {
   return (
     <li className={classes.ItemText} onMouseEnter={() => showProject(project)}>
-      <a href={project.url} target="_blank" rel="noopener noreferrer" className={classes.link}>
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={classes.link}
+      >
         <div>
           {project.title}
           {project.noticeMe && (

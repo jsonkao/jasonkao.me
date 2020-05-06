@@ -1,72 +1,154 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, img {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    min-width: 360px !important;
-    background-color: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 360px !important;
+  background-color: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-body {  
-    -moz-animation: pageFadeIn 600ms;
-    -ms-animation: pageFadeIn 600ms;
-    -webkit-animation: pageFadeIn 600ms;
-    animation: pageFadeIn 600ms;
-    font-size: 30px;
-    line-height: 1.25em;
+body {
+  -moz-animation: pageFadeIn 600ms;
+  -ms-animation: pageFadeIn 600ms;
+  -webkit-animation: pageFadeIn 600ms;
+  animation: pageFadeIn 600ms;
+  font-size: 30px;
+  line-height: 1.25em;
 }
 
 * {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 @-moz-keyframes pageFadeIn {
-    0% {
-        opacity: 0; 
-    }
-    100% {
-        opacity: 1; 
-    } 
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-ms-keyframes pageFadeIn {
-    0% {
-        opacity: 0; 
-    }
-    100% {
-        opacity: 1; 
-    } 
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-webkit-keyframes pageFadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1; 
-    } 
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes pageFadeIn {
-    0% {
-        opacity: 0; 
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 767px) {
-    body {
-        font-size: 6vw;
-        line-height: 1.4em;
-    }
+  body {
+    font-size: 6vw;
+    line-height: 1.4em;
+  }
 }

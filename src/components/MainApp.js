@@ -236,9 +236,7 @@ class MainApp extends PureComponent {
           </a>{' '}
           by Jason Kao
           {lastUpdated && (
-            <span className={classes.lastUpdated}>
-              Updated {lastUpdated}
-            </span>
+            <span className={classes.lastUpdated}>Updated {lastUpdated}</span>
           )}
         </div>
       </div>
