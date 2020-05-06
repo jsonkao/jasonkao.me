@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dateformat": "^3.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-jss": "^10.1.1",
+    "react-scripts": "3.4.1",
+    "request-promise": "^4.2.5"
   },
   "scripts": {
     "start": "react-scripts start",

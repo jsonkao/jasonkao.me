@@ -6,7 +6,7 @@ import dateFormat from 'dateformat';
 import List from './List';
 import Grid from './Grid';
 import ReactIcon from './ReactIcon';
-import { projects } from '../../projects';
+import { projects } from '../projects';
 
 const styles = {
   MainApp: {
@@ -114,8 +114,7 @@ class MainApp extends PureComponent {
   }
 
   componentDidMount() {
-    if (process.env.NODE_ENV === 'development')
-      return;
+    if (process.env.NODE_ENV === 'development') return;
 
     const options = {
       uri:
@@ -160,10 +159,16 @@ class MainApp extends PureComponent {
       >
         <div className={classes.contentSection}>
           <h1 className={classes.mobileFixedHeight} ref={this.headRef}>
-            Jason Kao &mdash; <span dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}></span>.
+            Jason Kao &mdash;{' '}
+            <span
+              dangerouslySetInnerHTML={{ __html: roles[this.state.roleIndex] }}
+            ></span>
+            .
           </h1>
           <h1>
-            I am a sophomore at Columbia and a reporter at the Columbia Daily Spectator. I like to spend my time doing journalism, computer science, and visual art.
+            I am a sophomore at Columbia and a reporter at the Columbia Daily
+            Spectator. I like to spend my time doing journalism, computer
+            science, and visual art.
           </h1>
         </div>
         <Grid title="Selected work" projects={projects.featured} />
@@ -203,7 +208,7 @@ class MainApp extends PureComponent {
             <p>Email&mdash;</p>
             <p className={classes.subText}>
               <a>jason.kao at columbia.edu</a>
-              <br/>
+              <br />
               <a>jason.kao at columbiaspectator.com</a>
             </p>
           </div>
