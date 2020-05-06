@@ -59,12 +59,13 @@ const styles = {
     },
     contentSection: {
       width: 'auto',
+
+      '& h1:first-child': {
+        height: '2.8em'
+      }
     },
     contactMe: {
       display: 'block',
-    },
-    mobileFixedHeight: {
-      height: '2.8em',
     },
   },
 };
