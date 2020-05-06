@@ -2,20 +2,20 @@ export const projects = {
   featured: [
     {
       title: 'Spectator Graphics',
-      imgPath: '/img/spec-graphics.png',
+      imgPath: 'spec-graphics.png',
       url: 'https://github.com/graphicsdesk/',
       description:
         'I am a reporter and Graphics Deputy Editor at the Columbia Daily Spectator.',
     },
     {
       title: 'New York Times Graphics',
-      imgPath: '/img/Artboard 1-2.png',
+      imgPath: 'Artboard 1-2.png',
       url: 'https://www.nytimes.com/by/jason-kao',
       description: 'Reporting, visualization, and story production at NYT.',
     },
     {
       title: 'Graduate Student Sex Diversity',
-      imgPath: '/img/graduate-student-sex-diversity.png',
+      imgPath: 'graduate-student-sex-diversity.png',
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
@@ -23,49 +23,49 @@ export const projects = {
     },
     {
       title: 'Net Price Inequities',
-      imgPath: '/img/net-price.png',
+      imgPath: 'net-price.png',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
         'Revealing tuition and net price inequities for students of different income levels.',
     },
     {
       title: 'East Asian Genealogical Records',
-      imgPath: '/img/genealogy.png',
+      imgPath: 'genealogy.png',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
         'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
     },
     {
       title: 'Gerry App',
-      imgPath: '/img/gerry.gif',
+      imgPath: 'gerry.gif',
       url: 'https://github.com/gerry-app',
       description:
         'Interactive gerrymandering playground (deprecated).',
     },
     {
       title: 'Gender Diversity in the Tenure Track',
-      imgPath: '/img/tenure-track.gif',
+      imgPath: 'tenure-track.gif',
       url: 'https://jsonkao.github.io/pipeline/',
       description:
         'A you-draw-it of female representation in Columbia\u2019s tenure track.',
     },
     {
       title: 'The Brass Tacks',
-      imgPath: '/img/properly_partisan.gif',
+      imgPath: 'properly_partisan.gif',
       url: 'https://github.com/brtacks',
       description:
         'Discussing cultural patterns with interactive, data-based features. Also T-shirts.',
     },
     {
       title: 'React Scrollama',
-      imgPath: '/img/sticky.png',
+      imgPath: 'sticky.png',
       url: 'https://github.com/jsonkao/react-scrollama',
       description:
         'A scrollytelling library for React using the Intersection Observer API.',
     },
     {
       title: 'The Stuyvesant Spectator',
-      imgPath: '/img/stuyspec.gif',
+      imgPath: 'stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
         'Created a website, server and CLI, data store, and CMS for my high school paper.',
@@ -74,7 +74,7 @@ export const projects = {
   contributions: [
     {
       title: 'Free Code Camp',
-      imgPath: '/img/freecodecamp.gif',
+      imgPath: 'freecodecamp.gif',
       url: 'https://github.com/freeCodeCamp/freeCodeCamp',
     },
     {

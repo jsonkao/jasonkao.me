@@ -40,7 +40,6 @@ class FixedNavbar extends PureComponent {
 
   render() {
     const { classes } = this.props;
-    const { style } = this.state;
 
     return (
       <div className={classes.FixedNavbar} {...this.state}>

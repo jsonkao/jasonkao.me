@@ -52,7 +52,7 @@ const ProjectBox = ({
   const colors = [blue, red, cherry, indigo, gold, green];
   return (
     <div className={classes.ProjectBox}>
-      <a href={url} className={classes.anchor} target="_blank">
+      <a href={url} className={classes.anchor} target="_blank" rel="noopener noreferrer">
         {imgPath ? (
           <div className={classes.imgContainer}>
             <img className={classes.img} src={imgPath} alt={description} />

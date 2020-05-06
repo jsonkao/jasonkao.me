@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectDescription = ({
-  project: { imgPath, url, description },
+  project: { imgPath, url, title, description },
   isVisible,
 }) => {
   const isBlock = isVisible && description;
@@ -11,7 +11,8 @@ const ProjectDescription = ({
     output.push(
       <img
         key={url + '-img'}
-        src={imgPath}
+        alt={title}
+        src={require(`../images/${imgPath}`)}
         style={{
           visibility,
           position: isBlock && 'relative',

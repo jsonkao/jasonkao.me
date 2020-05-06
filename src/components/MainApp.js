@@ -195,11 +195,11 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://twitter.com/jsonkao/" target="_blank">
+              <a href="https://twitter.com/jsonkao/" target="_blank" rel="noopener noreferrer">
                 Twitter
               </a>
               <br />
-              <a href="https://github.com/jsonkao" target="_blank">
+              <a href="https://github.com/jsonkao" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </p>
@@ -207,15 +207,15 @@ class MainApp extends PureComponent {
           <div className={classes.contentSection}>
             <p>Email&mdash;</p>
             <p className={classes.subText}>
-              <a>jason.kao at columbia.edu</a>
+              jason.kao at columbia.edu
               <br />
-              <a>jason.kao at columbiaspectator.com</a>
+              jason.kao at columbiaspectator.com
             </p>
           </div>
         </div>
         <div className={classes.footer}>
           Made with{' '}
-          <a href="https://reactjs.org/" target="_blank">
+          <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
             <ReactIcon />
           </a>{' '}
           by Jason Kao
