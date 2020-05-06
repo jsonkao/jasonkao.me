@@ -6,12 +6,16 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-end',
     width: '100%',
-    fontSize: '22px',
     marginTop: '20px',
-    '& a': {
-      color: '#777',
+
+    '& button': {
+      border: 'none',
+      background: 'none',
+      padding: 0,
+    },
+
+    '& a, button': {
       display: 'inline-block',
-      lineHeight: 1.1,
       marginRight: '4px',
       textDecoration: 'none',
       '&:hover, &:active': {
@@ -19,6 +23,9 @@ const styles = {
         cursor: 'pointer',
       },
       '& > span': {
+        lineHeight: 1.1,
+        fontSize: '22px',
+        color: '#777',
         '&:hover': {
           color: '#000 !important',
         },
@@ -49,11 +56,11 @@ const Navbar = ({ classes }) => {
     <div className={classes.Navbar}>
       <div className={classes.innerContainer}>
         {links.map(({ text, href }) => (
-          <a key={href} href={href} target="_blank">
+          <a key={href} href={href}>
             <span>{text}.</span>
           </a>
         ))}
-        <a
+        <button
           key="scroll-link"
           onClick={() =>
             document
@@ -62,7 +69,7 @@ const Navbar = ({ classes }) => {
           }
         >
           <span>Contact.</span>
-        </a>
+        </button>
       </div>
     </div>
   );

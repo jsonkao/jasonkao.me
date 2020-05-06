@@ -76,7 +76,7 @@ export const projects = {
       url: 'https://jsonkao.github.io/react-scrollama/',
       githubLink: 'https://github.com/jsonkao/react-scrollama',
       description:
-        'A scrollytelling library for React using the Intersection Observer API.',
+        'Lightweight scrollytelling with the IntersectionObserver in React.',
     },
     {
       title: 'The Stuyvesant Spectator',
@@ -96,13 +96,13 @@ export const projects = {
     {
       title: 'React Scrollama',
       url: 'https://github.com/jsonkao/react-scrollama',
-      description: 'Scrollama in React.',
+      description: 'Lightweight scrollytelling with the IntersectionObserver in React.',
     },
     {
       title: 'Scrollama',
       url: 'https://github.com/russellgoldenberg/scrollama',
       description:
-        'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
+        'A simple JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
     },
     {
       title: 'Go GraphQL',

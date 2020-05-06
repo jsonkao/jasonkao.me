@@ -1,7 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
 import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai';
-import { FiLink, FiGithub } from 'react-icons/fi';
 
 const styles = {
   ProjectBox: {
