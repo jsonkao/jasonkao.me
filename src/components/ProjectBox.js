@@ -73,7 +73,7 @@ const ProjectBox = ({
             {!imgPath.includes('.mp4') ? (
               <img src={require(`../images/${imgPath}`)} alt={description} />
             ) : (
-              <video autoPlay loop>
+              <video autoPlay playsInline muted loop>
                 <source src={require(`../images/${imgPath}`)} />
               </video>
             )}
