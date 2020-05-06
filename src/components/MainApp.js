@@ -61,8 +61,8 @@ const styles = {
       width: 'auto',
 
       '& h1:first-child': {
-        height: '2.8em'
-      }
+        height: '2.8em',
+      },
     },
     contactMe: {
       display: 'block',

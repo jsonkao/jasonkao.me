@@ -29,7 +29,7 @@ jobs:
 
       - aws-s3/sync:
           from: build
-          to: "s3://jasonkao.me"
+          to: 's3://jasonkao.me'
           arguments: |
             --acl public-read \
             --cache-control "max-age=86400"

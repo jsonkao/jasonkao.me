@@ -96,7 +96,8 @@ export const projects = {
     {
       title: 'React Scrollama',
       url: 'https://github.com/jsonkao/react-scrollama',
-      description: 'Lightweight scrollytelling with the IntersectionObserver in React.',
+      description:
+        'Lightweight scrollytelling with the IntersectionObserver in React.',
     },
     {
       title: 'Scrollama',
