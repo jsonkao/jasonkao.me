@@ -1,9 +1,9 @@
 {
   "name": "jasonkao.me",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
-    "dateformat": "^3.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
