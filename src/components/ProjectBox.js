@@ -55,7 +55,7 @@ const ProjectBox = ({
       <a href={url} className={classes.anchor} target="_blank" rel="noopener noreferrer">
         {imgPath ? (
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={imgPath} alt={description} />
+            <img className={classes.img} src={require(`../images/${imgPath}`)} alt={description} />
           </div>
         ) : (
           <p className={classes.description}>{description}</p>

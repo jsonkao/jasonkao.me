@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import injectSheet from 'react-jss';
 import rp from 'request-promise';
-import dateFormat from 'dateformat';
 
 import List from './List';
 import Grid from './Grid';
@@ -128,7 +127,14 @@ class MainApp extends PureComponent {
         return rp(options);
       })
       .then(commitNode => {
-        this.setState({ lastUpdated: commitNode.committer.date });
+        const { date } = commitNode.committer;
+        this.setState({
+          lastUpdated: new Intl.DateTimeFormat('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          }).format(new Date(date)),
+        });
       })
       .catch(err => {
         console.error(err);
@@ -189,17 +195,23 @@ class MainApp extends PureComponent {
           </p>
         </div>
 
-        {/* <List title={'Let\u2019s meet up'} projects={projects.events} /> */}
-
         <div className={classes.contactMe} id="contactme-scroll-target">
           <div className={classes.contentSection}>
             <p>Social&mdash;</p>
             <p className={classes.subText}>
-              <a href="https://twitter.com/jsonkao/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://twitter.com/jsonkao/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Twitter
               </a>
               <br />
-              <a href="https://github.com/jsonkao" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/jsonkao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
             </p>
@@ -215,13 +227,17 @@ class MainApp extends PureComponent {
         </div>
         <div className={classes.footer}>
           Made with{' '}
-          <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <ReactIcon />
           </a>{' '}
           by Jason Kao
           {lastUpdated && (
             <span className={classes.lastUpdated}>
-              Updated {dateFormat(lastUpdated, 'longDate')}
+              Updated {lastUpdated}
             </span>
           )}
         </div>
