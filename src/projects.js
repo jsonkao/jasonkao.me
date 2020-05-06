@@ -78,15 +78,15 @@ export const projects = {
       url: 'https://github.com/freeCodeCamp/freeCodeCamp',
     },
     {
+      title: 'React Scrollama',
+      url: 'https://github.com/jsonkao/react-scrollama',
+      description: 'Scrollama in React.',
+    },
+    {
       title: 'Scrollama',
       url: 'https://github.com/russellgoldenberg/scrollama',
       description:
         'A lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.',
-    },
-    {
-      title: 'React Scrollama',
-      url: 'https://github.com/jsonkao/react-scrollama',
-      description: 'Scrollama in React.',
     },
     {
       title: 'Go GraphQL',
@@ -98,23 +98,6 @@ export const projects = {
       url: 'https://github.com/rob2d/greedux',
       description:
         'A modular, clean and scalable modern workflow template for React/Redux development.',
-    },
-  ],
-  events: [
-    {
-      title: 'SRCCON 2019',
-      url: 'https://srccon.org/',
-      description: 'July 11-12; Minneapolis.',
-    },
-    {
-      title: 'SRCCON:LEAD',
-      url: 'https://lead.srccon.org',
-      description: 'November 19-20; Philadelphia.'
-    },
-    {
-      title: 'NICAR20',
-      url: 'https://www.ire.org/events-and-training/conferences/nicar-2020',
-      description: 'March 5-8; New Orleans.',
     },
   ],
 };
