@@ -1,5 +1,7 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import { AiOutlineGithub, AiOutlineLink } from 'react-icons/ai';
+import { FiLink, FiGithub } from 'react-icons/fi';
 
 const styles = {
   ProjectBox: {
@@ -10,14 +12,28 @@ const styles = {
     display: 'block',
     textDecoration: 'none',
   },
+  titleContainer: {
+    '& span a': {
+      textDecoration: 'none',
+      color: 'inherit',
+      '&:hover svg': {
+        borderColor: 'inherit',
+      },
+    },
+    '& svg': {
+      position: 'relative',
+      top: 5,
+      borderBottom: '2px solid transparent',
+    },
+  },
   imgContainer: {
     // maxHeight: '40vw', // TODO: MAKE IT TWO COLUMNS NOT ROWS
     maxHeight: '40vw',
     marginBottom: '0.5em',
-  },
-  img: {
-    width: '100%',
-    boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.5)',
+    '& img, video': {
+      width: '100%',
+      boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.5)',
+    },
   },
   blue: { color: '#0041FF' },
   red: { color: '#D91F25' },
@@ -46,31 +62,40 @@ const styles = {
 const ProjectBox = ({
   classes,
   index,
-  project: { imgPath, url, description, title, noticeMe },
+  project: { imgPath, url, description, title, noticeMe, githubLink },
 }) => {
   const { blue, red, cherry, indigo, gold, green } = classes;
   const colors = [blue, red, cherry, indigo, gold, green];
   return (
     <div className={classes.ProjectBox}>
-      <a
-        href={url}
-        className={classes.anchor}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={url} className={classes.anchor}>
         {imgPath ? (
           <div className={classes.imgContainer}>
-            <img
-              className={classes.img}
-              src={require(`../images/${imgPath}`)}
-              alt={description}
-            />
+            {!imgPath.includes('.mp4') ? (
+              <img src={require(`../images/${imgPath}`)} alt={description} />
+            ) : (
+              <video autoPlay loop>
+                <source src={require(`../images/${imgPath}`)} />
+              </video>
+            )}
           </div>
         ) : (
           <p className={classes.description}>{description}</p>
         )}
-        <p className={colors[index % colors.length]}>{title}</p>
       </a>
+      <p className={classes.titleContainer}>
+        <span className={colors[index % colors.length]}>
+          <a href={url}>
+            {title} <AiOutlineLink />
+          </a>
+          {githubLink && (
+            <a href={githubLink}>
+              {' '}
+              <AiOutlineGithub />
+            </a>
+          )}
+        </span>
+      </p>
       <p className={classes.description}>
         {description}
         {noticeMe && <span className={classes.noticeMe}> ({noticeMe})</span>}

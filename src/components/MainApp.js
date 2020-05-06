@@ -177,7 +177,14 @@ class MainApp extends PureComponent {
             science, and visual art.
           </h1>
         </div>
-        <Grid title="Selected work" projects={projects.featured} />
+
+        <Grid
+          title="Selected work from the Spectator and The New York Times"
+          projects={projects.specAndNyt}
+        />
+
+        <Grid title="Some other stuff" projects={projects.featured} />
+
         <List
           title="Projects I contribute to"
           projects={projects.contributions}

@@ -1,17 +1,19 @@
 export const projects = {
-  featured: [
-    {
-      title: 'Spectator Graphics',
-      imgPath: 'spec-graphics.png',
-      url: 'https://github.com/graphicsdesk/',
-      description:
-        'I am a reporter and Graphics Deputy Editor at the Columbia Daily Spectator.',
-    },
+  specAndNyt: [
     {
       title: 'New York Times Graphics',
       imgPath: 'Artboard 1-2.png',
       url: 'https://www.nytimes.com/by/jason-kao',
       description: 'Reporting, visualization, and story production at NYT.',
+    },
+    {
+      title: 'Higher Ed Coronavirus Response',
+      imgPath: 'ivy-response.mp4',
+      url:
+        'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
+      description:
+        'Analyzing response rates in higher education to the novel coronavirus.',
+      githubLink: 'https://github.com/graphicsdesk/ivy-coronavirus-response',
     },
     {
       title: 'Graduate Student Sex Diversity',
@@ -20,6 +22,7 @@ export const projects = {
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
         'How has graduate student sex diversity changed in science and engineering?',
+      githubLink: 'https://github.com/graphicsdesk/gss-diversity',
     },
     {
       title: 'Net Price Inequities',
@@ -27,6 +30,7 @@ export const projects = {
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
         'Revealing tuition and net price inequities for students of different income levels.',
+      githubLink: 'https://github.com/graphicsdesk/net-price-inequity',
     },
     {
       title: 'East Asian Genealogical Records',
@@ -34,11 +38,21 @@ export const projects = {
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
         'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
+      githubLink: 'https://github.com/graphicsdesk/genealogy',
     },
+    {
+      title: 'See more Spec work at @graphicsdesk',
+      imgPath: 'spec-graphics.png',
+      url: 'https://github.com/graphicsdesk/',
+      description:
+        'I am a reporter and Graphics Deputy Editor at the Columbia Daily Spectator.',
+    },
+  ],
+  featured: [
     {
       title: 'Gerry App',
       imgPath: 'gerry.gif',
-      url: 'https://github.com/gerry-app',
+      githubLink: 'https://github.com/gerry-app',
       description: 'Interactive gerrymandering playground (deprecated).',
     },
     {
@@ -47,18 +61,20 @@ export const projects = {
       url: 'https://jsonkao.github.io/pipeline/',
       description:
         'A you-draw-it of female representation in Columbia\u2019s tenure track.',
+      githubLink: 'https://github.com/jsonkao/pipeline',
     },
     {
       title: 'The Brass Tacks',
       imgPath: 'properly_partisan.gif',
-      url: 'https://github.com/brtacks',
+      githubLink: 'https://github.com/brtacks',
       description:
         'Discussing cultural patterns with interactive, data-based features. Also T-shirts.',
     },
     {
       title: 'React Scrollama',
       imgPath: 'sticky.png',
-      url: 'https://github.com/jsonkao/react-scrollama',
+      url: 'https://jsonkao.github.io/react-scrollama/',
+      githubLink: 'https://github.com/jsonkao/react-scrollama',
       description:
         'A scrollytelling library for React using the Intersection Observer API.',
     },
@@ -68,6 +84,7 @@ export const projects = {
       url: 'https://stuyspec.com/',
       description:
         'Created a website, server and CLI, data store, and CMS for my high school paper.',
+      githubLink: 'https://github.com/stuyspec/',
     },
   ],
   contributions: [
