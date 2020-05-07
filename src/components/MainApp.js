@@ -193,10 +193,10 @@ class MainApp extends PureComponent {
         <div className={classes.contentSection}>
           <p>Buzzwords&mdash;</p>
           <p className={classes.subText}>
-            JavaScript, Python, R, SQL, C, Go, CSS, HTML
+            JavaScript, Python, R, Go, SQL, C++, Java
           </p>
           <p className={classes.subText}>
-            D3, Node, React, Redux, Svelte, GraphQL, MongoDB, AWS
+            Node, D3, React, Svelte, Redux, GraphQL, MongoDB
           </p>
           <p className={classes.subText}>
             Illustrator, QGIS, mapshaper, Jupyter, Photoshop, Sketch

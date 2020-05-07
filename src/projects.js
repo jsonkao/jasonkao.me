@@ -17,7 +17,7 @@ export const projects = {
     },
     {
       title: 'Graduate Student Sex Diversity',
-      imgPath: 'graduate-student-sex-diversity.png',
+      imgPath: 'graduate-sex-diversity.mp4',
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       description:
@@ -26,7 +26,7 @@ export const projects = {
     },
     {
       title: 'Net Price Inequities',
-      imgPath: 'net-price.png',
+      imgPath: 'net-price-inequity.mp4',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity/',
       description:
         'Revealing tuition and net price inequities for students of different income levels.',
@@ -34,7 +34,7 @@ export const projects = {
     },
     {
       title: 'East Asian Genealogical Records',
-      imgPath: 'genealogy.png',
+      imgPath: 'genealogical-records.mp4',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       description:
         'Interactive feature exploring Columbia Libraries\u2019 East Asian genealogical records.',
@@ -83,7 +83,7 @@ export const projects = {
       imgPath: 'stuyspec.gif',
       url: 'https://stuyspec.com/',
       description:
-        'Created a website, server and CLI, data store, and CMS for my high school paper.',
+        'Created a React website, Postgres database, Rails API, and command-line CMS for my high school paper.',
       githubLink: 'https://github.com/stuyspec/',
     },
   ],
@@ -95,9 +95,8 @@ export const projects = {
     },
     {
       title: 'React Scrollama',
+      imgPath: 'im-a-narcissist.gif',
       url: 'https://github.com/jsonkao/react-scrollama',
-      description:
-        'Lightweight scrollytelling with the IntersectionObserver in React.',
     },
     {
       title: 'Scrollama',

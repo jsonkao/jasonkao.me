@@ -65,16 +65,17 @@ const ProjectBox = ({
 }) => {
   const { blue, red, cherry, indigo, gold, green } = classes;
   const colors = [blue, red, cherry, indigo, gold, green];
+  const asset = require('../media/' + imgPath);
   return (
     <div className={classes.ProjectBox}>
       <a href={url} className={classes.anchor}>
         {imgPath ? (
           <div className={classes.imgContainer}>
             {!imgPath.includes('.mp4') ? (
-              <img src={require(`../images/${imgPath}`)} alt={description} />
+              <img src={asset} alt={description} />
             ) : (
               <video autoPlay playsInline muted loop>
-                <source src={require(`../images/${imgPath}`)} />
+                <source src={asset} />
               </video>
             )}
           </div>

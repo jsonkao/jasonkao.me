@@ -12,7 +12,7 @@ const ProjectDescription = ({
       <img
         key={url + '-img'}
         alt={title}
-        src={require(`../images/${imgPath}`)}
+        src={require(`../media/${imgPath}`)}
         style={{
           visibility,
           position: isBlock && 'relative',
