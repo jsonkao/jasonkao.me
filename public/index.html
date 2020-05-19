@@ -6,26 +6,22 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="%PUBLIC_URL%/icons/apple-touch-icon.png"
+      href="/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="%PUBLIC_URL%/icons/favicon-32x32.png"
+      href="/icons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="%PUBLIC_URL%/icons/favicon-16x16.png"
+      href="/icons/favicon-16x16.png"
     />
-    <link rel="manifest" href="%PUBLIC_URL%/icons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="%PUBLIC_URL%/icons/safari-pinned-tab.svg"
-      color="#fff000"
-    />
+    <link rel="manifest" href="/icons/manifest.json" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#fff000" />
     <meta name="theme-color" content="#ffffff" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -63,7 +59,7 @@
       property="og:description"
       content="I am a sophomore at Columbia and an ex-intern on the New York Times Graphics desk. I like to spend my time doing journalism, visual art, and computer science."
     />
-    <meta property="og:image" content="%PUBLIC_URL%/promo.png" />
+    <meta property="og:image" content="/promo.png" />
     <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://jasonkao.me" />
 
@@ -76,25 +72,29 @@
     <script type="text/javascript" id="inspectletjs">
       (function () {
         window.__insp = window.__insp || [];
-        __insp.push(['wid', 1624065813]);
+        __insp.push(["wid", 1624065813]);
         var ldinsp = function () {
-          if (typeof window.__inspld != 'undefined') return;
+          if (typeof window.__inspld != "undefined") return;
           window.__inspld = 1;
-          var insp = document.createElement('script');
-          insp.type = 'text/javascript';
+          var insp = document.createElement("script");
+          insp.type = "text/javascript";
           insp.async = true;
-          insp.id = 'inspsync';
+          insp.id = "inspsync";
           insp.src =
-            ('https:' == document.location.protocol ? 'https' : 'http') +
-            '://cdn.inspectlet.com/inspectlet.js?wid=1624065813&r=' +
+            ("https:" == document.location.protocol ? "https" : "http") +
+            "://cdn.inspectlet.com/inspectlet.js?wid=1624065813&r=" +
             Math.floor(new Date().getTime() / 3600000);
-          var x = document.getElementsByTagName('script')[0];
+          var x = document.getElementsByTagName("script")[0];
           x.parentNode.insertBefore(insp, x);
         };
         setTimeout(ldinsp, 0);
       })();
     </script>
     <!-- End Inspectlet Embed Code -->
+
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+    <script defer src="/build/bundle.js"></script>
   </head>
   <body>
     <div id="root"></div>
@@ -109,11 +109,10 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'UA-113163495-1');
+      gtag("config", "UA-113163495-1");
     </script>
 
-    <!-- <script src="/build.js"></script> -->
   </body>
 </html>
