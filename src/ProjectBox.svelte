@@ -18,9 +18,11 @@
     width: 100%;
     height: 340px;
     margin-bottom: 14px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    img, video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .description {
@@ -29,7 +31,15 @@
 </style>
 
 <div>
-  <div class="media" style="background-image: url('{image}')" />
+  <div class="media">
+    {#if image.includes('.mp4')}
+      <video autoPlay playsInline muted loop>
+        <source src={image}>
+      </video>
+    {:else}
+      <img src={image} alt={name} />
+    {/if}
+  </div>
   <p style="color: {colors[index]}">{name}</p>
   <p class="description">Description</p>
 </div>

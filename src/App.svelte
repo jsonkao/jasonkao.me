@@ -1,11 +1,11 @@
 <script>
   import Grid from './Grid.svelte';
-  import ProjectBox from './ProjectBox.svelte';
+  import SectionHeader from './SectionHeader.svelte';
 
   const projects = [
     {
       name: 'The Stuyvesant Spectator',
-      image: 'https://jasonkao.me/static/media/sticky.945ff6cf.png',
+      image: 'images/ivy-response.mp4',
     },
     {
       name: 'Higher Ed Coronavirus Response',
@@ -60,10 +60,9 @@
     visual art.
   </p>
 
-  <Grid>
-    {#each projects as project, index}
-      <ProjectBox {project} {index} />
-    {/each}
-  </Grid>
+  <Grid {projects} />
+
+  <SectionHeader>More work from The New York Times:</SectionHeader>
+  <Grid {projects} columns="3"/>
 
 </main>

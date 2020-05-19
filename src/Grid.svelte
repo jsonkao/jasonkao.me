@@ -1,11 +1,19 @@
+<script>
+  import ProjectBox from './ProjectBox.svelte';
+
+  export let projects;
+  export let columns = 2;
+</script>
+
 <style lang="scss">
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 25px;
   }
 </style>
 
-<div class="grid">
-  <slot />
+<div class="grid" style="grid-template-columns: {'1fr '.repeat(columns)}">
+  {#each projects as project, index}
+    <ProjectBox {project} {index} />
+  {/each}
 </div>
