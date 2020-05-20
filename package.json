@@ -20,6 +20,7 @@
     "svelte-preprocess-sass": "^0.2.0"
   },
   "dependencies": {
+    "scroll-behavior-polyfill": "^2.0.13",
     "sirv-cli": "^0.4.4"
   },
   "prettier": {
