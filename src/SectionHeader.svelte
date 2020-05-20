@@ -3,7 +3,7 @@
     background-color: #ddd;
     height: 1px;
     border: 0;
-    margin: 64px 0 23px;
+    margin: 60px 0 23px;
   }
 
   p {
