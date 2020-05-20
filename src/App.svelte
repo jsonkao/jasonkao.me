@@ -7,45 +7,88 @@
     topLevel: [
       {
         name: 'New York Times Graphics',
-        image: 'images/output.webp',
+        image: 'images/nyt-promo.webp',
+        url: '#more-work',
       },
       {
         name: 'Student Job Losses',
-        image: 'images/job-loss.png',
+        image: 'images/job-loss.webp',
+        url:
+          'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
       },
       {
         name: 'Higher Ed Coronavirus Response',
         image: 'images/ivy-response.mp4',
+        url:
+          'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
       },
       {
         name: 'Interactive gerrymandering playground',
-        image: 'https://jasonkao.me/static/media/gerry.0f32dbdd.gif',
+        image: 'images/gerry.gif',
+        url: 'https://github.com/gerry-app',
+      },
+      {
+        name: 'Graduate Student Sex Diversity',
+        image: 'images/graduate-sex-diversity.mp4',
+        url:
+          'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
+      },
+      {
+        name: 'The Brass Tacks',
+        image: 'images/properly_partisan.gif',
+        url: 'https://github.com/brtacks',
+      },
+      {
+        name: 'The Stuyvesant Spectator',
+        image: 'images/stuyspec.gif',
+        url: 'https://github.com/brtacks',
       },
     ],
-    moreNYT: [
+    secondLevel: [
       {
-        name: 'Clint Border Patrol Station',
-        image: 'http://placekitten.com/200/300',
+        name:
+          'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
+        image: 'images/clint.webp',
+        url:
+          'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
       },
       {
-        name: 'Clint Border Patrol Station',
-        image: 'http://placekitten.com/200/300',
+        name:
+          'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
+        image: 'images/hong-kong.webp',
+        url:
+          'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
       },
       {
-        name: 'Clint Border Patrol Station',
-        image: 'http://placekitten.com/200/300',
+        name:
+          'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
+        image: 'images/asylum-seekers.webp',
+        url:
+          'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
       },
       {
-        name: 'Remain in Mexico',
-        image: 'http://placekitten.com/200/300',
+        name: 'East Asian Genealogical Records',
+        image: 'images/genealogical-records.mp4',
+        url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
       },
       {
-        name: 'Hong Kong Protest',
-        image: 'http://placekitten.com/200/300',
+        name: 'React Scrollama',
+        image: 'images/react-scrollama.mp4',
+        url: 'https://jsonkao.github.io/react-scrollama',
       },
       {
-        name: 'Hong Kong Protest',
-        image: 'http://placekitten.com/200/300',
+        name: 'Net Price Inequity',
+        image: 'images/net-price-inequity.mp4',
+      },
+      {
+        name: 'Gender Diversity in the Tenure Track',
+        image: 'images/tenure-track.gif',
+        url: 'https://jsonkao.github.io/pipeline',
+      },
+      {
+        name: 'See more Spec work at @graphicsdesk',
+        image: 'images/spec-graphics.webp',
+        url: 'https://graphicsdesk.github.io',
       },
     ],
   };
@@ -98,18 +141,32 @@
 
   <Grid projects={projects.topLevel} />
 
-  <SectionHeader>
-    More work from The New York Times and the Columbia Spectator:
+  <SectionHeader id="more-work">
+    More work at
+    <a href="https://www.nytimes.com/by/jason-kao">
+      <b>The New York Times</b>
+    </a>
+    , at
+    <a href="https://www.columbiaspectator.com/contributors/Jason-Kao">
+      the Columbia Spectator
+    </a>
+    , and in
+    <a href="https://www.github.com/jsonkao">open source</a>
   </SectionHeader>
   <Grid
-    projects={projects.moreNYT}
-    columns="2"
+    projects={projects.secondLevel.slice(0, projects.secondLevel.length - 4)}
+    columns={2}
     colorOffset={projects.topLevel.length}
   />
   <Grid
-    projects={projects.moreNYT.slice(projects.moreNYT.length - 3)}
-    columns="3"
-    colorOffset={projects.topLevel.length}
+    projects={projects.secondLevel.slice(projects.secondLevel.length - 4, projects.secondLevel.length - 1)}
+    columns={3}
+    colorOffset={projects.topLevel.length + projects.secondLevel.length - 4}
+  />
+  <Grid
+    projects={projects.secondLevel.slice(projects.secondLevel.length - 1)}
+    columns={1}
+    colorOffset={projects.topLevel.length + projects.secondLevel.length - 1}
   />
 
   <SectionHeader>Buzzwords</SectionHeader>

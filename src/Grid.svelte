@@ -18,7 +18,7 @@
 
   $: mediaHeight = (((pageWidth - 25) / columns) * 2) / 3;
 
-  $: trackWidth = `minmax(${600 - 100 * columns}px, 1fr)`;
+  $: trackWidth = columns > 1 ? `minmax(${600 - 100 * columns}px, 1fr)` : '1fr';
 
   function handleResize() {
     pageWidth = Math.min(document.body.clientWidth, MAX_WIDTH);
@@ -30,7 +30,6 @@
 <style lang="scss">
   .grid {
     display: grid;
-    column-gap: 25px;
     row-gap: 50px;
   }
 
@@ -44,8 +43,10 @@
     img,
     video {
       object-fit: cover;
+      object-position: 50% top;
       width: 100%;
       height: 100%;
+      border: 1px solid #000;
     }
   }
 
@@ -58,20 +59,27 @@
 
 <div
   class="grid"
-  style="grid-template-columns: repeat(auto-fill, {trackWidth})"
+  style="grid-template-columns: repeat(auto-fill, {trackWidth}); column-gap: {columns > 1 ? 25 : 0}px; {columns === 1 && 'text-align: center'}"
 >
-  {#each projects as { name, image }, index}
+  {#each projects as { name, image, url }, index}
     <div>
-      <div class="media" style="height: {Math.round(mediaHeight)}px">
-        {#if image.includes('.mp4')}
-          <video autoPlay playsInline muted loop>
-            <source src={image} />
-          </video>
-        {:else}
-          <img src={image} alt={name} />
-        {/if}
-      </div>
-      <p style="color: {color(index)}">{name}</p>
+      <a href={url} style="color: {color(index)}">
+        <div class="media" style="height: {Math.round(mediaHeight)}px">
+          {#if image.includes('.mp4')}
+            <video autoPlay playsInline muted loop>
+              <source src={image} />
+            </video>
+          {:else}
+          <picture>
+            {#if image.includes('.webp')}
+              <source srcset="{image} 1x" type="image/webp">
+            {/if}
+            <img src={image.replace('.webp', '.png')} alt={name} />
+          </picture>
+          {/if}
+        </div>
+        <p>{name}</p>
+      </a>
       <p class="description">Description</p>
     </div>
   {/each}
