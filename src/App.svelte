@@ -8,7 +8,7 @@
     topLevel: [
       {
         name: 'New York Times Graphics',
-        image: 'images/nyt-promo.webp',
+        image: 'images/nyt-top-level.webp',
         url: '#more-work',
       },
       {
@@ -39,11 +39,6 @@
         image: 'images/properly_partisan.gif',
         url: 'https://github.com/brtacks',
       },
-      {
-        name: 'The Stuyvesant Spectator',
-        image: 'images/stuyspec.gif',
-        url: 'https://github.com/brtacks',
-      },
     ],
     secondLevel: [
       {
@@ -68,9 +63,19 @@
           'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
       },
       {
+        name: 'More NYT at <code>nytimes.com/by/jason-kao</code>',
+        image: 'images/nyt-byline-refer.webp',
+        url: 'https://www.nytimes.com/by/jason-kao',
+      },
+      {
         name: 'East Asian Genealogical Records',
         image: 'images/genealogical-records.mp4',
         url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
+      },
+      {
+        name: 'The Stuyvesant Spectator',
+        image: 'images/stuyspec.gif',
+        url: 'https://github.com/stuyspec',
       },
       {
         name: 'React Scrollama',
@@ -89,7 +94,7 @@
       },
       {
         name: 'See more of our work at the Spectator at <code>@graphicsdesk</code>',
-        image: 'images/spec.png',
+        image: 'images/spec.webp',
         url: 'https://github.com/graphicsdesk',
       },
     ],
@@ -202,18 +207,19 @@
     </p>
   </div>
 
+  <!-- <SectionHeader hideHr>Featured work</SectionHeader> -->
   <Grid projects={projects.topLevel} />
 
   <SectionHeader id="more-work">
     More work at
     <a href="https://www.nytimes.com/by/jason-kao">
-      <b>The New York Times</b>
+      The New York Times
     </a>
-    , at
+    and
     <a href="https://www.columbiaspectator.com/contributors/Jason-Kao">
       the Columbia Spectator
     </a>
-    , and in
+    and in
     <a href="https://www.github.com/jsonkao">open source</a>
   </SectionHeader>
   <Grid
