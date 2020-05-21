@@ -1,5 +1,7 @@
 <script>
-  export let id;
+  export let id = undefined;
+
+  export let empty = false;
 </script>
 
 <style lang="scss">
@@ -35,6 +37,8 @@
 </style>
 
 <hr {id} />
-<p>
-  <slot />:
-</p>
+{#if !empty}
+  <p>
+    <slot />:
+  </p>
+{/if}

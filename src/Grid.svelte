@@ -1,9 +1,15 @@
+<script context="module">
+  let totalItems = 0;
+</script>
+
 <script>
   import { MAX_WIDTH } from './constants';
 
   export let projects;
   export let columns = 2;
-  export let colorOffset = 0;
+
+  let colorOffset = totalItems;
+  totalItems += projects.length;
 
   const colors = [
     '#A32251',
@@ -50,6 +56,10 @@
     }
   }
 
+  :global(code) {
+    font-family: Inconsolata;
+  }
+
   .description {
     color: #888;
   }
@@ -78,7 +88,7 @@
           </picture>
           {/if}
         </div>
-        <p>{name}</p>
+        <p>{@html name}</p>
       </a>
       <p class="description">Description</p>
     </div>
