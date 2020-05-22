@@ -2,6 +2,7 @@
   export let id = undefined;
   export let empty = false;
   export let hideHr = false;
+  export let centered = false;
 </script>
 
 <style lang="scss">
@@ -9,7 +10,8 @@
     background-color: #ccc;
     height: 1px;
     border: 0;
-    margin: 60px 0 23px;
+    margin: 60px auto 23px;
+    max-width: 700px;
   }
 
   p {
@@ -18,7 +20,6 @@
     font-family: Inconsolata;
     font-size: 18px;
     font-weight: 600;
-    text-align: center;
 
     :global(a) {
       color: #fff;
@@ -31,13 +32,17 @@
       }
     }
   }
+
+  .centered {
+    text-align: center;
+  }
 </style>
 
 {#if !hideHr}
   <hr {id} />
 {/if}
 {#if !empty}
-  <p>
+  <p class:centered>
     <slot />:
   </p>
 {/if}

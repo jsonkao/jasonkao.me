@@ -66,6 +66,7 @@ input[type="range"] {
 
 button {
 	border: none;
+	background: none;
 	padding: 0;
 	margin: 0;
 	color: inherit;
@@ -78,4 +79,21 @@ button:hover {
 
 p {
 	margin: 0;
+}
+
+header {
+	font-size: 22px;
+	line-height: 29px;
+}
+
+@media (max-width: 660px) {
+	body {
+		font-size: 21px;
+		line-height: 27px;
+	}
+
+	header {
+		font-size: 19px;
+		line-height: 26px;
+	}
 }

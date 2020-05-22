@@ -20,14 +20,18 @@
     '#EBAB3D',
   ];
 
-  let pageWidth = Math.min(document.body.clientWidth, MAX_WIDTH);
+  const minFr = 600 - 100 * columns;
 
-  $: mediaHeight = (((pageWidth - 25) / columns) * 2) / 3;
-
-  $: trackWidth = columns > 1 ? `minmax(${600 - 100 * columns}px, 1fr)` : '1fr';
-
-  function handleResize() {
-    pageWidth = Math.min(document.body.clientWidth, MAX_WIDTH);
+  let clientWidth, mediaHeight, gridColumns;
+  $: {
+    let fr = (clientWidth - 25 * (columns - 1)) / columns; // 1fr
+    if (fr < minFr) {
+      fr = clientWidth;
+      gridColumns = '1fr';
+    } else {
+      gridColumns = '1fr '.repeat(columns);
+    }
+    mediaHeight = fr * (2 / 3);
   }
 
   const color = index => colors[(colorOffset + index) % colors.length];
@@ -65,14 +69,13 @@
   }
 </style>
 
-<svelte:window on:resize={handleResize} />
-
 <div
   class="grid"
-  style="grid-template-columns: repeat(auto-fill, {trackWidth}); column-gap: {columns > 1 ? 25 : 0}px; {columns === 1 && 'text-align: center'}"
+  style="grid-template-columns: {gridColumns}; column-gap: {columns > 1 ? 25 : 0}px; {columns === 1 && 'text-align: center'}"
+  bind:clientWidth
 >
-  {#each projects as { name, image, url }, index}
-    <div>
+  {#each projects as { name, image, description, url }, index}
+    <div >
       <a href={url} style="color: {color(index)}">
         <div class="media" style="height: {Math.round(mediaHeight)}px">
           {#if image.includes('.mp4')}
@@ -90,7 +93,9 @@
         </div>
         <p>{@html name}</p>
       </a>
-      <p class="description">Description</p>
+      {#if description}
+        <p class="description">{description}</p>
+      {/if}
     </div>
   {/each}
 </div>
