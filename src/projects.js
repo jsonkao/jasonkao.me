@@ -1,7 +1,7 @@
 export default {
   topLevel: [
     {
-      name: 'Graphics at The New York Times',
+      name: 'Graphics at The New York Times (click for more)',
       image: 'images/nyt-top-level.webp',
       description: 'Visualization, reporting, and visual production during NYT internship.',
       url: '#extended-portfolio',

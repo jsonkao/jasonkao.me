@@ -11,11 +11,11 @@
     height: 1px;
     border: 0;
     margin: 60px auto 23px;
-    max-width: 700px;
+    max-width: 730px;
   }
 
   p {
-    margin-bottom: 23px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-family: Inconsolata;
     font-size: 18px;
@@ -25,6 +25,7 @@
       color: #fff;
       background: #121212;
       text-decoration: underline;
+      padding: 2px 4px;
 
       &:hover {
         color: #121212;

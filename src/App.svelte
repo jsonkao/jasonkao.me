@@ -66,8 +66,14 @@
       margin-right: 5px;
     }
 
-    &.contactFocused p {
-      background-color: #fbe1c4;
+    &.contactFocused {
+      p {
+        background-color: #fbe1c4;
+      }
+      a {
+        border-bottom-color: rgba(255, 255, 255, 0.8);
+        border-bottom-width: 1.5px;
+      }
     }
   }
 
