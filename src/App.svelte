@@ -180,7 +180,7 @@
     </div>
 
     <SectionHeader empty />
-    <p class="updated-text">Updated May 15, 2020.</p>
+    <p class="updated-text">Updated May 24, 2020.</p>
   </footer>
 
 </main>
