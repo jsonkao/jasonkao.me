@@ -3,13 +3,15 @@ export default {
     {
       name: 'Graphics at The New York Times (click for more)',
       image: 'images/nyt-top-level.webp',
-      description: 'Visualization, reporting, and visual production during NYT internship.',
+      description:
+        'Visualization, reporting, and visual production during NYT internship.',
       url: '#extended-portfolio',
     },
     {
       name: 'Uncertainty Looms as Student Jobs Disappear',
       image: 'images/job-loss.webp',
-      description: 'Analyzing the industries losing jobs during the coronavirus recession.',
+      description:
+        'Analyzing the industries losing jobs during the coronavirus recession.',
       url:
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
     },
@@ -22,7 +24,8 @@ export default {
     {
       name: 'Gerrymandering playground',
       image: 'images/gerry.gif',
-      description: 'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
+      description:
+        'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
       url: 'https://github.com/gerry-app',
     },
     {
@@ -42,7 +45,8 @@ export default {
       name:
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
       image: 'images/clint.webp',
-      description: 'Investigative reporting and graphics on the Clint Border Patrol Station.',
+      description:
+        'Investigative reporting and graphics on the Clint Border Patrol Station.',
       url:
         'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
     },
@@ -50,7 +54,8 @@ export default {
       name:
         'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
       image: 'images/hong-kong.webp',
-      description: 'Multimedia and map elements depict the scale of early protests in Hong Kong.',
+      description:
+        'Multimedia and map elements depict the scale of early protests in Hong Kong.',
       url:
         'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
     },
@@ -58,7 +63,8 @@ export default {
       name:
         'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
       image: 'images/asylum-seekers.webp',
-      description: 'Visualizations explaining the impact of the metering and Remain in Mexico programs.',
+      description:
+        'Visualizations explaining the impact of the metering and Remain in Mexico programs.',
       url:
         'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
     },
@@ -70,19 +76,22 @@ export default {
     {
       name: 'East Asian Genealogical Records',
       image: 'images/genealogical-records.mp4',
-      description: 'A feature exploring Columbia Libraries’ East Asian genealogical records.',
+      description:
+        'A feature exploring Columbia Libraries’ East Asian genealogical records.',
       url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
     },
     {
       name: 'The Stuyvesant Spectator (high school paper)',
       image: 'images/stuyspec.gif',
-      description: 'Led the creation of a React website, a Postgres database, an API, and a CMS in Go.',
+      description:
+        'Led the creation of a React website, a Postgres database, an API, and a CMS in Go.',
       url: 'https://github.com/stuyspec',
     },
     {
       name: 'React Scrollama',
       image: 'images/react-scrollama.mp4',
-      description: 'Scrollytelling library with the IntersectionObserver in React.',
+      description:
+        'Scrollytelling library with the IntersectionObserver in React.',
       url: 'https://jsonkao.github.io/react-scrollama',
     },
     {
@@ -98,8 +107,7 @@ export default {
       url: 'https://jsonkao.github.io/pipeline',
     },
     {
-      name:
-        'More of our Spec work at <code>@graphicsdesk</code>',
+      name: 'More of our Spec work at <code>@graphicsdesk</code>',
       image: 'images/spec.webp',
       url: 'https://github.com/graphicsdesk',
     },
