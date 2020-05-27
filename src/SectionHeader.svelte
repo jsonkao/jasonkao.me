@@ -11,7 +11,7 @@
     height: 1px;
     border: 0;
     margin: 60px auto 23px;
-    max-width: 730px;
+    max-width: 645px;
   }
 
   p {

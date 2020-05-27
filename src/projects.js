@@ -39,6 +39,13 @@ export default {
       image: 'images/properly_partisan.gif',
       url: 'https://github.com/brtacks',
     },
+    {
+      name: 'React Scrollama',
+      image: 'images/react-scrollama.mp4',
+      description:
+        'Scrollytelling library with the IntersectionObserver in React.',
+      url: 'https://jsonkao.github.io/react-scrollama',
+    },
   ],
   secondLevel: [
     {
@@ -88,6 +95,13 @@ export default {
       url: 'https://github.com/stuyspec',
     },
     {
+      name: 'More of our Spec work at <code>@graphicsdesk</code>',
+      image: 'images/spec.webp',
+      url: 'https://github.com/graphicsdesk',
+    },
+  ],
+  openSource: [
+    {
       name: 'React Scrollama',
       image: 'images/react-scrollama.mp4',
       description:
@@ -95,21 +109,17 @@ export default {
       url: 'https://jsonkao.github.io/react-scrollama',
     },
     {
-      name: 'Net Price Inequities',
-      image: 'images/net-price-inequity.mp4',
-      description: 'Data reporting on income-based tuition inequities.',
+      name: 'Free Code Camp',
+      image: 'images/freecodecamp.gif',
+      description:
+        'Contributions to lessons and interactive coding architecture',
       url: 'https://www.columbiaspectator.com/news/net-price-inequity',
     },
     {
-      name: 'Tenure Track Sex Diversity',
-      image: 'images/tenure-track.gif',
-      description: 'A you-draw-it.',
-      url: 'https://jsonkao.github.io/pipeline',
-    },
-    {
-      name: 'More of our Spec work at <code>@graphicsdesk</code>',
-      image: 'images/spec.webp',
-      url: 'https://github.com/graphicsdesk',
+      name: 'A simple low-level GraphQL HTTP client for Go',
+      image: 'https://i.imgur.com/4Vz0dPa.png',
+      description: '',
+      url: 'https://github.com/machinebox/graphql',
     },
   ],
 };

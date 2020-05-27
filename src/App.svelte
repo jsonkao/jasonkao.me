@@ -86,9 +86,13 @@
     }
   }
 
-  footer {
+  .skinny {
     width: 56%;
-    margin: 0 auto 40px;
+    margin: 0 auto;
+  }
+
+  footer.skinny {
+    margin-bottom: 40px;
   }
 
   .updated-text {
@@ -105,7 +109,7 @@
     }
 
     .nutgraf,
-    footer {
+    .skinny {
       width: 100%;
     }
   }
@@ -155,23 +159,25 @@
     <a href="https://www.columbiaspectator.com/contributors/Jason-Kao">
       the Columbia Spectator
     </a>
-    and in
-    <a href="https://www.github.com/jsonkao">open source</a>
   </SectionHeader>
   <Grid
-    projects={projects.secondLevel.slice(0, projects.secondLevel.length - 4)}
+    projects={projects.secondLevel.slice(0, projects.secondLevel.length - 1)}
     columns={2}
-  />
-  <Grid
-    projects={projects.secondLevel.slice(projects.secondLevel.length - 4, projects.secondLevel.length - 1)}
-    columns={3}
   />
   <Grid
     projects={projects.secondLevel.slice(projects.secondLevel.length - 1)}
     columns={1}
   />
 
-  <footer>
+  <div class="skinny">
+    <SectionHeader centered>
+      <a href="https://www.github.com/jsonkao">Open source</a>
+      software
+    </SectionHeader>
+  </div>
+  <Grid projects={projects.openSource} columns={3} />
+
+  <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
       <p>D3, Svelte, Node, Redux, React, GraphQL, TypeScript, Mongo, AWS</p>
