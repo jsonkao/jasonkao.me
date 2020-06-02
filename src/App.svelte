@@ -33,8 +33,19 @@
   }
 
   .nutgraf {
-    width: 56%;
+    width: 50%;
     margin: 0 auto 21px;
+
+    &>a {
+      color: #121212;
+      border-bottom: 1px solid #121212;
+      transition-duration: .15s;
+      &:hover {
+        text-decoration: none;
+        border-bottom-color: #e4e4e4;
+        background: #e4e4e4;
+      }
+    }
   }
 
   .contact {
@@ -57,13 +68,13 @@
     a {
       color: #121212;
       text-decoration: none;
-      border-bottom: 1px solid #cdcdcd;
+      border-bottom: 1px solid #ccc;
       &:hover {
         border-bottom-color: #121212;
       }
     }
-    a:not(:nth-child(2)) {
-      margin-right: 5px;
+    a:not(:last-child) {
+      margin-right: 6px;
     }
 
     &.contactFocused {
@@ -71,8 +82,8 @@
         background-color: #fbe1c4;
       }
       a {
-        border-bottom-color: rgba(255, 255, 255, 0.8);
-        border-bottom-width: 1.5px;
+        transition-duration: 0.1s;
+        border-bottom-color: rgba(0, 0, 0, 0.8);
       }
     }
   }
@@ -132,9 +143,10 @@
   </header>
 
   <p class="nutgraf">
-    I am a sophomore at Columbia and a graphics editor at the Columbia
-    Spectator. I like to spend my time doing journalism, computer science, and
-    visual art.
+    I am a sophomore at Columbia and a
+    <a href="https://graphicsdesk.github.io">graphics editor</a>
+    at the Columbia Spectator. I like to spend my time doing journalism,
+    computer science, and visual art.
   </p>
   <p class="nutgraf">
     I am a Graphics intern at Bloomberg News. Last summer, I interned on the New
@@ -143,7 +155,7 @@
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
-      <b>Get in touch:</b>
+      <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
       <a href="https://github.com/jsonkao">github.com/jsonkao</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
@@ -180,13 +192,15 @@
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
-      <p>D3, Svelte, Node, Redux, React, GraphQL, TypeScript, Mongo, AWS</p>
-      <p>Illustrator, QGIS, mapshaper, Jupyter, Photoshop, Sketch</p>
-      <p>JavaScript, Python, R, Go, SQL, C++</p>
+      <p>Data pipeline with Python, R, SQL, and AWS.</p>
+      <p>Spatial analysis with mapshaper, <code>...bostock_things</code>, and QGIS.</p>
+      <p>Visualization and interactives with D3, Svelte, and OpenGL.</p>
+      <p>Web development with JavaScript, Node, GraphQL, <code>...frameworks</code>, and TypeScript.</p>
+      <p>Graphics and design with Illustrator and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
-    <p class="updated-text">Updated May 24, 2020.</p>
+    <p class="updated-text">Updated June 2020.</p>
   </footer>
 
 </main>
