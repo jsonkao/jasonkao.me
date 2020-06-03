@@ -36,10 +36,10 @@
     width: 50%;
     margin: 0 auto 21px;
 
-    &>a {
+    & > a {
       color: #121212;
       border-bottom: 1px solid #121212;
-      transition-duration: .15s;
+      transition-duration: 0.15s;
       &:hover {
         text-decoration: none;
         border-bottom-color: #e4e4e4;
@@ -144,7 +144,13 @@
 
   <p class="nutgraf">
     I am a sophomore at Columbia and a
-    <a href="https://graphicsdesk.github.io">graphics editor</a>
+    <a
+      href="https://graphicsdesk.github.io"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      graphics editor
+    </a>
     at the Columbia Spectator. I like to spend my time doing journalism,
     computer science, and visual art.
   </p>
@@ -193,9 +199,17 @@
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
       <p>Data pipeline with Python, R, SQL, and AWS.</p>
-      <p>Spatial analysis with mapshaper, <code>...bostock_things</code>, and QGIS.</p>
+      <p>
+        Spatial analysis with mapshaper,
+        <code>...bostock_things</code>
+        , and QGIS.
+      </p>
       <p>Visualization and interactives with D3, Svelte, and OpenGL.</p>
-      <p>Web development with JavaScript, Node, GraphQL, <code>...frameworks</code>, and TypeScript.</p>
+      <p>
+        Web development with JavaScript, Node, GraphQL,
+        <code>...frameworks</code>
+        , and TypeScript.
+      </p>
       <p>Graphics and design with Illustrator and Photoshop.</p>
     </div>
 
