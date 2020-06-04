@@ -204,11 +204,11 @@
         <code>...bostock_things</code>
         , and QGIS.
       </p>
-      <p>Visualization and interactives with D3, Svelte, and OpenGL.</p>
+      <p>Visualization and interactives with D3, Svelte, and WebGL.</p>
       <p>
-        Web development with JavaScript, Node, GraphQL,
+        Web development with JavaScript, Svelte, Node,
         <code>...frameworks</code>
-        , and TypeScript.
+        , GraphQL, and TypeScript.
       </p>
       <p>Graphics and design with Illustrator and Photoshop.</p>
     </div>
