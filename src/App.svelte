@@ -202,7 +202,7 @@
       <p>
         Spatial analysis with mapshaper,
         <code>...bostock_things</code>
-        , and QGIS.
+        , QGIS, and GDAL.
       </p>
       <p>Visualization and interactives with D3, Svelte, and WebGL.</p>
       <p>
