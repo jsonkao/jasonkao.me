@@ -202,8 +202,8 @@
       <p>Data pipeline with Python, R, SQL, and AWS.</p>
       <p>
         Spatial analysis with mapshaper,
-        <code>...bostock_stuff</code>
-        , GDAL, and QGIS.
+        <code>...bostock_things</code>
+        , QGIS, and GDAL.
       </p>
       <p>
         Web development with JavaScript, Svelte, Node,
