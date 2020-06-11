@@ -1,7 +1,7 @@
 export default {
   topLevel: [
     {
-      name: 'Graphics at The New York Times (click for more)',
+      name: 'Graphics at The New York Times',
       image: 'images/nyt-top-level.webp',
       description:
         'Visualization, reporting, and visual production during NYT internship.',
@@ -91,13 +91,13 @@ export default {
       name: 'The Stuyvesant Spectator (high school paper)',
       image: 'images/stuyspec.gif',
       description:
-        'Led the creation of a React website, a Postgres database, an API, and a CMS in Go.',
+        'Led the creation of a React website, a Postgres database, a GraphQL API, and a Go CMS.',
       url: 'https://github.com/stuyspec',
     },
     {
-      name: 'More of our Spec work at <code>@graphicsdesk</code>',
+      name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
       image: 'images/spec.webp',
-      url: 'https://github.com/graphicsdesk',
+      url: 'https://graphicsdesk.github.io',
     },
   ],
   openSource: [

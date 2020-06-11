@@ -33,7 +33,7 @@
   }
 
   .nutgraf {
-    width: 50%;
+    width: 53%;
     margin: 0 auto 21px;
 
     & > a {
@@ -143,20 +143,20 @@
   </header>
 
   <p class="nutgraf">
-    I am a sophomore at Columbia and a
+    I am a sophomore at Columbia and a deputy
     <a
       href="https://graphicsdesk.github.io"
       target="_blank"
       rel="noopener noreferrer"
     >
-      graphics editor
+      graphics
     </a>
-    at the Columbia Spectator. I like to spend my time doing journalism,
+    editor at the Columbia Spectator. I like to spend my time doing journalism,
     computer science, and visual art.
   </p>
   <p class="nutgraf">
-    I am a Graphics intern at Bloomberg News. Last summer, I interned on the New
-    York Times Graphics desk.
+    I am a Graphics intern at Bloomberg News and a former intern on the New York
+    Times Graphics desk.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
@@ -198,13 +198,13 @@
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
+      <p>Visualization with D3 and WebGL.</p>
       <p>Data pipeline with Python, R, SQL, and AWS.</p>
       <p>
         Spatial analysis with mapshaper,
-        <code>...bostock_things</code>
-        , and QGIS.
+        <code>...bostock_stuff</code>
+        , GDAL, and QGIS.
       </p>
-      <p>Visualization and interactives with D3, Svelte, and WebGL.</p>
       <p>
         Web development with JavaScript, Svelte, Node,
         <code>...frameworks</code>
