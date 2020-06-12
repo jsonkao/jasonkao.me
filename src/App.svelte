@@ -33,7 +33,7 @@
   }
 
   .nutgraf {
-    width: 53%;
+    width: 50%;
     margin: 0 auto 21px;
 
     & > a {
@@ -46,6 +46,9 @@
         background: #e4e4e4;
       }
     }
+  }
+
+  .less-important {
   }
 
   .contact {
@@ -143,7 +146,15 @@
   </header>
 
   <p class="nutgraf">
-    I am a sophomore at Columbia and a deputy
+    I like creating journalism with computer science and different mediums. I am
+    currently a graphics intern with Bloomberg News. I also really enjoyed my
+    internship last summer on the New York Times Graphics desk.
+  </p>
+
+  <p class="nutgraf less-important">
+    Additionally...
+    <br />
+    - deputy
     <a
       href="https://graphicsdesk.github.io"
       target="_blank"
@@ -151,12 +162,9 @@
     >
       graphics
     </a>
-    editor at the Columbia Spectator. I like to spend my time doing journalism,
-    computer science, and visual art.
-  </p>
-  <p class="nutgraf">
-    I am a Graphics intern at Bloomberg News and a former intern on the New York
-    Times Graphics desk.
+    editor at the Columbia Spectator
+    <br />
+    - sophomore at Columbia, CS + interactive media
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
