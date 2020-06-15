@@ -160,11 +160,10 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      graphics
-    </a>
+      graphics</a>
     editor at the Columbia Spectator
     <br />
-    - sophomore at Columbia, CS + interactive media
+    - sophomore at Columbia
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
