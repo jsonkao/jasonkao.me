@@ -152,7 +152,7 @@
   </p>
 
   <p class="nutgraf less-important">
-    Additionally...
+    Additionally
     <br />
     - deputy
     <a
