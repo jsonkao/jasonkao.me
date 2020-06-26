@@ -146,13 +146,14 @@
   </header>
 
   <p class="nutgraf">
-    I like creating journalism with computer science and different mediums. I am
-    currently a graphics intern with Bloomberg News. I also really enjoyed my
-    internship last summer on the New York Times Graphics desk.
+    I like creating journalism that brings together different mediums. I am
+    currently a graphics intern with Bloomberg News.
   </p>
 
   <p class="nutgraf less-important">
     Additionally
+    <br />
+    - ex graphics intern at The New York Times
     <br />
     - deputy
     <a
@@ -160,10 +161,11 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      graphics</a>
+      graphics
+    </a>
     editor at the Columbia Spectator
     <br />
-    - sophomore at Columbia
+    - sophomore at Columbia, computer science
   </p>
 
   <div class="nutgraf contact" class:contactFocused>

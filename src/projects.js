@@ -53,7 +53,7 @@ export default {
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
       image: 'images/clint.webp',
       description:
-        'Investigative reporting and graphics on the Clint Border Patrol Station.',
+        'Investigating and showing where children were held in the Clint Border Patrol Station.',
       url:
         'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
     },
@@ -62,7 +62,7 @@ export default {
         'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
       image: 'images/hong-kong.webp',
       description:
-        'Multimedia and map elements depict the scale of early protests in Hong Kong.',
+        'Multimedia maps depict the scale of early protests in Hong Kong last summer.',
       url:
         'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
     },
