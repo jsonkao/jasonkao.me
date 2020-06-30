@@ -5,8 +5,11 @@
   import { MAX_WIDTH } from './constants';
   import projects from './projects';
 
-  let email;
-  onMount(() => (email = 'jason.kao@columbia.edu'));
+  let bbgEmail, email;
+  onMount(() => {
+    bbgEmail = 'jkao52@bloomberg.net';
+    email = 'jason.kao@columbia.edu';
+  });
 
   let contactFocused = false;
 </script>
@@ -161,8 +164,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      graphics
-    </a>
+      graphics</a>
     editor at the Columbia Spectator
     <br />
     - sophomore at Columbia, computer science
@@ -171,6 +173,7 @@
   <div class="nutgraf contact" class:contactFocused>
     <p>
       <b>Contact:</b>
+      <a href="mailto:{bbgEmail}">{bbgEmail}</a>
       <a href="mailto:{email}">{email}</a>
       <a href="https://github.com/jsonkao">github.com/jsonkao</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
