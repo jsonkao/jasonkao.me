@@ -150,7 +150,7 @@
 
   <p class="nutgraf">
     I like creating journalism that brings together different mediums. I am
-    currently a graphics intern with Bloomberg News.
+    currently a reporter with Bloomberg News.
   </p>
 
   <p class="nutgraf less-important">
@@ -167,7 +167,7 @@
       graphics</a>
     editor at the Columbia Spectator
     <br />
-    - sophomore at Columbia, computer science
+    - Columbia, computer science
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
