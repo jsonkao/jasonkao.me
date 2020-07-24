@@ -150,7 +150,7 @@
 
   <p class="nutgraf">
     I like creating journalism that brings together different mediums. I am
-    currently a reporter with Bloomberg News.
+    currently a <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">reporter</a> with Bloomberg News.
   </p>
 
   <p class="nutgraf less-important">
