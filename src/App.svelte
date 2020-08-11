@@ -149,8 +149,8 @@
   </header>
 
   <p class="nutgraf">
-    I like creating journalism that brings together different mediums. I am
-    currently a <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">reporter</a> with Bloomberg News.
+    I like creating journalism that brings together different mediums. I
+    currently do <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">graphics</a> at Bloomberg News.
   </p>
 
   <p class="nutgraf less-important">
