@@ -151,12 +151,11 @@
   <p class="nutgraf">
     I like creating journalism that brings together different mediums. I
     currently do <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">graphics</a> at Bloomberg News.
+    I used to do <a href="https://www.nytimes.com/by/jason-kao">graphics</a> at The New York Times.
   </p>
 
   <p class="nutgraf less-important">
     Additionally
-    <br />
-    - ex graphics intern at The New York Times
     <br />
     - deputy
     <a
@@ -184,6 +183,7 @@
 
   <SectionHeader id="extended-portfolio" centered>
     More work at
+    <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">Bloomberg News</a>,
     <a href="https://www.nytimes.com/by/jason-kao">The New York Times</a>
     and
     <a href="https://www.columbiaspectator.com/contributors/Jason-Kao">
@@ -191,12 +191,8 @@
     </a>
   </SectionHeader>
   <Grid
-    projects={projects.secondLevel.slice(0, projects.secondLevel.length - 1)}
+    projects={projects.secondLevel}
     columns={2}
-  />
-  <Grid
-    projects={projects.secondLevel.slice(projects.secondLevel.length - 1)}
-    columns={1}
   />
 
   <div class="skinny">
@@ -210,23 +206,22 @@
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
-      <p>Visualization with D3 and WebGL.</p>
-      <p>Data pipeline with Python, R, SQL, and AWS.</p>
+      <p>Data stuff with Python, R, SQL, and AWS.</p>
       <p>
         Spatial analysis with mapshaper,
         <code>...bostock_things</code>
         , QGIS, and GDAL.
       </p>
       <p>
-        Web development with JavaScript, Svelte, Node,
+        Web stuff with JavaScript, D3, WebGL, Svelte, Node,
         <code>...frameworks</code>
         , GraphQL, and TypeScript.
       </p>
-      <p>Graphics and design with Illustrator and Photoshop.</p>
+      <p>Visuals and design with Illustrator and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
-    <p class="updated-text">Updated June 2020.</p>
+    <p class="updated-text">Updated August 2020.</p>
   </footer>
 
 </main>

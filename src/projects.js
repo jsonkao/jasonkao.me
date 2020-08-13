@@ -1,53 +1,20 @@
 export default {
   topLevel: [
     {
-      name: 'Graphics at The New York Times',
-      image: 'images/nyt-top-level.webp',
-      description:
-        'Visualization, reporting, and visual production during NYT internship.',
-      url: '#extended-portfolio',
+      name: 'New York City Reopening Splits Along Lines of Wealth and Race',
+      image: 'images/nyc-reopen.webp',
+      description: '“It’s very clear that social distancing is a privilege that not everyone can afford."',
+      url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
     },
     {
-      name: 'Uncertainty Looms as Student Jobs Disappear',
-      image: 'images/job-loss.webp',
+      name:
+        'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
+      image: 'images/flood-risk.webp',
       description:
-        'Analyzing the industries losing jobs during the coronavirus recession.',
+        'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%',
       url:
-        'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
+        'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
     },
-    {
-      name: 'U.S. and Ivy League schools were late to respond to COVID-19',
-      image: 'images/ivy-response.mp4',
-      url:
-        'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
-    },
-    {
-      name: 'Gerrymandering playground',
-      image: 'images/gerry.gif',
-      description:
-        'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
-      url: 'https://github.com/gerry-app',
-    },
-    {
-      name: 'Sex Diversity Among Graduate Students Is Stagnating',
-      image: 'images/graduate-sex-diversity.mp4',
-      url:
-        'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
-    },
-    {
-      name: 'Moral Foundations in Political Debates',
-      image: 'images/properly_partisan.gif',
-      url: 'https://github.com/brtacks',
-    },
-    {
-      name: 'React Scrollama',
-      image: 'images/react-scrollama.mp4',
-      description:
-        'Scrollytelling library with the IntersectionObserver in React.',
-      url: 'https://jsonkao.github.io/react-scrollama',
-    },
-  ],
-  secondLevel: [
     {
       name:
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
@@ -76,16 +43,42 @@ export default {
         'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
     },
     {
-      name: 'More NYT at <code>nytimes.com/by/jason-kao</code>',
+      name: 'Uncertainty Looms as Student Jobs Disappear',
+      image: 'images/job-loss.webp',
+      description:
+        'Analyzing the industries losing jobs during the coronavirus recession.',
+      url:
+        'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
+    },
+    {
+      name: 'U.S. and Ivy League schools were late to respond to COVID-19',
+      image: 'images/ivy-response.mp4',
+      url:
+        'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
+    },
+    {
+      name: 'Gerrymandering playground',
+      image: 'images/gerry.gif',
+      description:
+        'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
+      url: 'https://github.com/gerry-app',
+    },
+  ],
+  secondLevel: [
+    {
+      name: 'More at <code>nytimes.com/by/jason-kao</code>',
       image: 'images/nyt-byline-refer.webp',
       url: 'https://www.nytimes.com/by/jason-kao',
     },
     {
-      name: 'East Asian Genealogical Records',
-      image: 'images/genealogical-records.mp4',
-      description:
-        'A feature exploring Columbia Libraries’ East Asian genealogical records.',
-      url: 'https://www.columbiaspectator.com/eye/2019/03/26/genealogy/',
+      name: 'More at <code>bloomberg.com/authors/jason-kao</code>',
+      image: 'images/bloomberg-byline-refer.webp',
+      url: 'https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao',
+    },
+    {
+      name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
+      image: 'images/spec.webp',
+      url: 'https://graphicsdesk.github.io',
     },
     {
       name: 'The Stuyvesant Spectator (high school paper)',
@@ -95,9 +88,15 @@ export default {
       url: 'https://github.com/stuyspec',
     },
     {
-      name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
-      image: 'images/spec.webp',
-      url: 'https://graphicsdesk.github.io',
+      name: 'Moral Foundations in Political Debates',
+      image: 'images/properly_partisan.gif',
+      url: 'https://github.com/brtacks',
+    },
+    {
+      name: 'Sex Diversity Among Graduate Students Is Stagnating',
+      image: 'images/graduate-sex-diversity.mp4',
+      url:
+        'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
     },
   ],
   openSource: [
