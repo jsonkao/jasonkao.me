@@ -76,7 +76,7 @@
 >
   {#each projects as { name, image, description, url }, index}
     <div >
-      <a href={url} style="color: {color(index)}">
+      <a href={url} style="color: {color(index)}" target="_blank" rel="noopener noreferrer">
         <div class="media" style="height: {Math.round(mediaHeight)}px">
           {#if image.includes('.mp4')}
             <video autoPlay playsInline muted loop>
