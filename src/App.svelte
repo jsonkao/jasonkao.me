@@ -166,7 +166,7 @@
       graphics</a>
     editor at the Columbia Spectator
     <br />
-    - Columbia, computer science
+    - junior at Columbia; computer science, multimedia
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
