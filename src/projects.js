@@ -1,7 +1,7 @@
 export default {
   topLevel: [
     {
-      name: 'New York City Reopening Splits Along Lines of Wealth and Race',
+      name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
       image: 'images/nyc-reopen.webp',
       description: '“It’s very clear that social distancing is a privilege that not everyone can afford."',
       url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
