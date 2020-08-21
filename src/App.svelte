@@ -5,9 +5,9 @@
   import { MAX_WIDTH } from './constants';
   import projects from './projects';
 
-  let bbgEmail, email;
+  let specEmail, email;
   onMount(() => {
-    bbgEmail = 'jkao52@bloomberg.net';
+    specEmail = 'jason.kao@columbiaspectator.com';
     email = 'jason.kao@columbia.edu';
   });
 
@@ -149,31 +149,22 @@
   </header>
 
   <p class="nutgraf">
-    I like creating journalism that brings together different mediums. I
-    currently do <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">graphics</a> at Bloomberg News.
-    I used to do <a href="https://www.nytimes.com/by/jason-kao">graphics</a> at The New York Times.
+    I like creating journalism that brings together different mediums. I used to report for Bloomberg News and The New York Times. I am a junior at Columbia.
   </p>
 
   <p class="nutgraf less-important">
     Additionally
     <br />
-    - deputy
-    <a
-      href="https://graphicsdesk.github.io"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      graphics</a>
-    editor at the Columbia Spectator
+    - deputy graphics editor at the Columbia Spectator
     <br />
-    - junior at Columbia; computer science, multimedia
+    - Columbia computer science, multimedia
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
       <b>Contact:</b>
-      <a href="mailto:{bbgEmail}">{bbgEmail}</a>
       <a href="mailto:{email}">{email}</a>
+      <a href="mailto:{specEmail}">{specEmail}</a>
       <a href="https://github.com/jsonkao">github.com/jsonkao</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
     </p>
