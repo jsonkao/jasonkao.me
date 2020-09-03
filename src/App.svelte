@@ -164,9 +164,9 @@
     <p>
       <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
-      <a href="https://github.com/jsonkao">github.com/jsonkao</a>
-      <a href="mailto:{specEmail}">{specEmail}</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
+      <a href="mailto:{specEmail}">{specEmail}</a>
+      <a href="https://github.com/jsonkao">github.com/jsonkao</a>
     </p>
   </div>
 
