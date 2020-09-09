@@ -117,6 +117,7 @@
     font-family: Inconsolata;
     font-size: 16px;
     font-weight: 500;
+    line-height: 24px;
     color: #aaa;
   }
 
@@ -133,7 +134,6 @@
 </style>
 
 <main style="max-width: {MAX_WIDTH}px">
-
   <header>
     <div>
       <p>Jason Kao</p>
@@ -149,15 +149,13 @@
   </header>
 
   <p class="nutgraf">
-    I like creating journalism that brings together different mediums. I used to report for Bloomberg News and The New York Times. I am a junior at Columbia.
+    I like creating journalism that brings together different mediums. I used to
+    report for Bloomberg News and The New York Times. I am a junior at Columbia.
   </p>
 
   <p class="nutgraf less-important">
-    Additionally
-    <br />
-    - deputy graphics editor at the Columbia Spectator
-    <br />
-    - Columbia computer science, multimedia
+    Additionally <br /> - deputy graphics editor at the Columbia Spectator <br
+    /> - Columbia computer science, multimedia
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
@@ -173,23 +171,17 @@
   <Grid projects={projects.topLevel} />
 
   <SectionHeader id="extended-portfolio" centered>
-    More work at
-    <a href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao">Bloomberg News</a>,
-    <a href="https://www.nytimes.com/by/jason-kao">The New York Times</a>
-    and
-    <a href="https://www.columbiaspectator.com/contributors/Jason-Kao">
-      the Columbia Spectator
-    </a>
+    More work at <a
+      href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao"
+    >Bloomberg News</a>, <a href="https://www.nytimes.com/by/jason-kao">The New
+      York Times</a> and <a href="https://www.columbiaspectator.com/contributors/Jason-Kao"> the
+      Columbia Spectator </a>
   </SectionHeader>
-  <Grid
-    projects={projects.secondLevel}
-    columns={2}
-  />
+  <Grid projects={projects.secondLevel} columns={2} />
 
   <div class="skinny">
     <SectionHeader centered>
-      <a href="https://www.github.com/jsonkao">Open source</a>
-      software
+      <a href="https://www.github.com/jsonkao">Open source</a> software
     </SectionHeader>
   </div>
   <Grid projects={projects.openSource} columns={3} />
@@ -199,20 +191,22 @@
     <div class="buzzwords">
       <p>Data stuff with Python, R, SQL, and AWS.</p>
       <p>
-        Spatial analysis with mapshaper,
-        <code>...bostock_things</code>
-        , QGIS, and GDAL.
+        Spatial analysis with mapshaper, <code>...bostock_things</code> , QGIS, and
+        GDAL.
       </p>
       <p>
-        Web stuff with JavaScript, D3, WebGL, Svelte, Node,
-        <code>...frameworks</code>
-        , GraphQL, and TypeScript.
+        Web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
+        >...frameworks</code> , GraphQL, and TypeScript.
       </p>
       <p>Visuals and design with Illustrator and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
-    <p class="updated-text">Updated August 2020.</p>
+    <p class="updated-text">Updated August 2020. <span style="text-transform: none;">
+      You are welcome to use this code/design for your own website under the <a
+        rel="license"
+        href="http://creativecommons.org/licenses/by-sa/4.0/"
+      >Creative Commons Attribution-ShareAlike 4.0 International License</a>.</span>
+    </p>
   </footer>
-
 </main>
