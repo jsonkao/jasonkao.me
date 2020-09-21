@@ -139,7 +139,7 @@
       <p>Jason Kao</p>
     </div>
     <div>
-      <p>Portfolio.</p>
+      <p>About.</p>
       <p class="gray">
         <button on:click={() => (contactFocused = !contactFocused)}>
           Contact.
@@ -149,22 +149,15 @@
   </header>
 
   <p class="nutgraf">
-    I like creating journalism that brings together different mediums. I used to
-    report for Bloomberg News and The New York Times. I am a junior at Columbia.
-  </p>
-
-  <p class="nutgraf less-important">
-    Additionally <br /> - deputy graphics editor at the Columbia Spectator <br
-    /> - Columbia computer science, multimedia
+    Mediums and methods of journalism
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
       <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
-      <a href="https://twitter.com/jsonkao">@jsonkao</a>
+      <a href="https://github.com/jsonkao">github</a>
       <a href="mailto:{specEmail}">{specEmail}</a>
-      <a href="https://github.com/jsonkao">github.com/jsonkao</a>
     </p>
   </div>
 
