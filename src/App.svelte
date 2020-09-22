@@ -149,7 +149,7 @@
   </header>
 
   <p class="nutgraf">
-    Mediums and methods of journalism
+    I want to create journalism that brings together different mediums and methods.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
