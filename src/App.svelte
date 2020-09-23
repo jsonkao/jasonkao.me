@@ -196,7 +196,7 @@
 
     <SectionHeader empty />
     <p class="updated-text">Updated August 2020. <span style="text-transform: none;">
-      You are welcome to use this code/design for your own website under the <a
+      All are welcome to use this code/design under the <a
         rel="license"
         href="http://creativecommons.org/licenses/by-sa/4.0/"
       >Creative Commons Attribution-ShareAlike 4.0 International License</a>.</span>
