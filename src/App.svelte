@@ -182,16 +182,12 @@
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
-      <p>Data stuff with Python, R, SQL, and AWS.</p>
+      <p>Data analysis with Python, R, SQL, QGIS, GDAL, mapshaper, and AWS.</p>
       <p>
-        Spatial analysis with mapshaper, <code>...bostock_things</code> , QGIS, and
-        GDAL.
-      </p>
-      <p>
-        Web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
+        Visualizations and web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
         >...frameworks</code> , GraphQL, and TypeScript.
       </p>
-      <p>Visuals and design with Illustrator and Photoshop.</p>
+      <p>Design with Illustrator and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
