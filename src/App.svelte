@@ -164,11 +164,14 @@
   <Grid projects={projects.topLevel} />
 
   <SectionHeader id="extended-portfolio" centered>
+    Another section
+    <!--
     More work at <a
       href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao"
     >Bloomberg News</a>, <a href="https://www.nytimes.com/by/jason-kao">The New
       York Times</a> and <a href="https://www.columbiaspectator.com/contributors/Jason-Kao"> the
       Columbia Spectator </a>
+    -->
   </SectionHeader>
   <Grid projects={projects.secondLevel} columns={2} />
 
