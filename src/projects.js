@@ -43,18 +43,18 @@ export default {
         'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
     },
     {
+      name: 'U.S. and Ivy League schools were late to respond to COVID-19',
+      image: 'images/ivy-response.mp4',
+      url:
+        'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
+    },
+    {
       name: 'Uncertainty Looms as Student Jobs Disappear',
       image: 'images/job-loss.webp',
       description:
         'Analyzing the industries losing jobs during the coronavirus recession.',
       url:
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
-    },
-    {
-      name: 'U.S. and Ivy League schools were late to respond to COVID-19',
-      image: 'images/ivy-response.mp4',
-      url:
-        'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
     },
     {
       name: 'Gerrymandering playground',
