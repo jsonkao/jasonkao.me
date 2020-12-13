@@ -156,7 +156,7 @@
     <p>
       <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
-      <a href="https://github.com/jsonkao">github</a>
+      <a href="https://github.com/jsonkao">github/jsonkao</a>
       <a href="mailto:{specEmail}">{specEmail}</a>
     </p>
   </div>
