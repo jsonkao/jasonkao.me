@@ -109,7 +109,7 @@
   }
 
   footer.skinny {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   .updated-text {
