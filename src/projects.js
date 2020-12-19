@@ -57,7 +57,7 @@ export default {
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
     },
     {
-      name: 'Gerrymandering playground',
+      name: 'Gerrymandering playground (2018)',
       image: 'images/gerry.gif',
       description:
         'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
@@ -88,7 +88,7 @@ export default {
       url: 'https://github.com/stuyspec',
     },
     {
-      name: 'Moral Foundations in Political Debates',
+      name: 'Moral Foundations in Political Debates (2018)',
       image: 'images/properly_partisan.gif',
       url: 'https://github.com/brtacks',
     },
