@@ -57,6 +57,13 @@ export default {
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
     },
     {
+      name: 'Broken windows policing & gentrification harmed Black community, strengthened Columbia’s reputation',
+      image: 'https://graphicsdesk.github.io/videos/steph.mov',
+      description: 'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
+      url:
+        'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
+    },
+    {
       name: 'Gerrymandering playground (2018)',
       image: 'images/gerry.gif',
       description:
