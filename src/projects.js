@@ -58,7 +58,7 @@ export default {
     },
     {
       name: 'Broken windows policing & gentrification harmed Black community, strengthened Columbia’s reputation',
-      image: 'https://graphicsdesk.github.io/videos/steph.mov',
+      image: 'images/deeds.mov',
       description: 'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
       url:
         'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
