@@ -185,12 +185,13 @@
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>
     <div class="buzzwords">
-      <p>Data analysis with Python, R, SQL, QGIS, GDAL, mapshaper, and AWS.</p>
+      <p>Data and spatial analysis with Python, R, SQL, QGIS, mapshaper, and AWS.</p>
       <p>
         Visualizations and web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
         >...frameworks</code> , GraphQL, and TypeScript.
       </p>
       <p>Design with Illustrator and Photoshop.</p>
+      <p>Earth imagery and raster processing with GDAL and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
