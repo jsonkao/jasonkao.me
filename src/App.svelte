@@ -190,8 +190,8 @@
         Visualizations and web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
         >...frameworks</code> , GraphQL, and TypeScript.
       </p>
+      <p>Raster and Earth imagery processing with GDAL and Photoshop.</p>
       <p>Design with Illustrator and Photoshop.</p>
-      <p>Earth imagery and raster processing with GDAL and Photoshop.</p>
     </div>
 
     <SectionHeader empty />
