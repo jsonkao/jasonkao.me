@@ -57,7 +57,7 @@ export default {
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
     },
     {
-      name: 'Broken windows policing & gentrification harmed Black community, strengthened Columbia’s reputation',
+      name: 'Broken windows policing & gentrification harmed Black community, strengthened Columbia',
       image: 'images/deeds.mov',
       description: 'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
       url:
