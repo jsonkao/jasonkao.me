@@ -20,7 +20,7 @@ export default {
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
       image: 'images/clint.webp',
       description:
-        'Investigating and showing where children were held in the Clint Border Patrol Station.',
+        'Investigating and mapping where children were held. Model by <a href="http://blueshirt.com">Jeremy White</a>.',
       url:
         'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
     },
