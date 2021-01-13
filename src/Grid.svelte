@@ -67,6 +67,11 @@
   .description {
     color: #888;
   }
+  
+  .description a {
+    color: #888;
+    text-decoration: underline;
+  }
 </style>
 
 <div
@@ -94,7 +99,7 @@
         <p>{@html name}</p>
       </a>
       {#if description}
-        <p class="description">{description}</p>
+        <p class="description">{@html description}</p>
       {/if}
     </div>
   {/each}
