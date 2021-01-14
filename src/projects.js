@@ -29,7 +29,7 @@ export default {
         'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
       image: 'images/hong-kong.webp',
       description:
-        'Multimedia maps depict the scale of early protests in Hong Kong last summer.',
+        'Multimedia maps depict the scale of 2019 protests in Hong Kong. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.',
       url:
         'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
     },
