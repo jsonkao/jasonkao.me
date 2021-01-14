@@ -34,7 +34,7 @@ jobs:
         with:
           args: --acl public-read --cache-control "max-age=86400"
         env:
-          AWS_S3_BUCKET: 's3://jasonkao.me'
+          AWS_S3_BUCKET: 'jasonkao.me'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: 'public'
