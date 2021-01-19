@@ -67,7 +67,7 @@ export default {
       name: 'Gerrymandering playground (2018)',
       image: 'images/gerry.gif',
       description:
-        'Interactive mapping as an educational tool for gerrymandering in congressional districts.',
+        'Interactive mapping as an educational tool for gerrymandering congressional districts.',
       url: 'https://github.com/gerry-app',
     },
   ],
