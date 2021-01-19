@@ -5,9 +5,8 @@
   import { MAX_WIDTH } from './constants';
   import projects from './projects';
 
-  let specEmail, email;
+  let email;
   onMount(() => {
-    specEmail = 'jason.kao@columbiaspectator.com';
     email = 'jason.kao@columbia.edu';
   });
 
@@ -157,7 +156,6 @@
       <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
       <a href="https://github.com/jsonkao">github/jsonkao</a>
-      <a href="mailto:{specEmail}">{specEmail}</a>
     </p>
   </div>
 
