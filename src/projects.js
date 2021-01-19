@@ -91,7 +91,7 @@ export default {
       name: 'The Stuyvesant Spectator (high school paper)',
       image: 'images/stuyspec.gif',
       description:
-        'Led the creation of a React website, a Postgres database, a GraphQL API, and a Go CMS.',
+        'Led the creation of a React site, Postgres database, Rails/GraphQL API, and Go CMS.',
       url: 'https://github.com/stuyspec',
     },
     {
