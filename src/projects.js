@@ -122,7 +122,7 @@ export default {
       url: 'https://www.columbiaspectator.com/news/net-price-inequity',
     },
     {
-      name: 'A simple low-level GraphQL HTTP client for Go',
+      name: 'GraphQL HTTP client for Go',
       image: 'https://i.imgur.com/4Vz0dPa.png',
       description: '',
       url: 'https://github.com/machinebox/graphql',
