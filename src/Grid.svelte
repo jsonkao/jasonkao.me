@@ -75,6 +75,7 @@
   
   .people {
     font-family: Inconsolata;
+    color: #888;
     font-size: 19px;
     font-weight: 600;
     opacity: 0.45;
