@@ -5,7 +5,7 @@ export default {
       image: 'images/nyc-reopen.webp',
       description: '“It’s very clear that social distancing is a privilege that not everyone can afford.”',
       url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-      people: 'Andre Tartar, Paul Murray, Jeremy Lin, Elena Popina, Eugene Reznik, Yue Qiu, Alex Tribou, Makada Henry-Nickie'
+      people: 'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
     },
     {
       name:
@@ -85,19 +85,19 @@ export default {
       name: 'More at <code>nytimes.com/by/jason-kao</code>',
       image: 'images/nyt-byline-refer.webp',
       url: 'https://www.nytimes.com/by/jason-kao',
-      people: 'Simone Landon, Archie Tse, Tom Giratikanon, Joe Ward, Denise Lu, K.K. Rebecca Lai, Jugal Patel',
+      people: 'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Joe Ward, Denise Lu, K.K. Rebecca Lai, Jugal Patel',
     },
     {
       name: 'More at <code>bloomberg.com/authors/jason-kao</code>',
       image: 'images/bloomberg-byline-refer.webp',
       url: 'https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao',
-      people: 'Yue Qiu, Alex Tribou',
+      people: 'Yue Qiu, Alex Tribou, Mira Rojanasakul',
     },
     {
       name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
       image: 'images/spec.webp',
       url: 'https://graphicsdesk.github.io',
-      people: 'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia',
+      people: 'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz',
     },
     {
       name: 'The Stuyvesant Spectator (high school paper)',
@@ -111,6 +111,7 @@ export default {
       name: 'Moral Foundations in Political Debates (2018)',
       image: 'images/properly_partisan.gif',
       url: 'https://github.com/brtacks',
+      people: 'Russel Goldenberg and Matt Daniels’ works'
     },
     {
       name: 'Sex Diversity Among Graduate Students Is Stagnating',
