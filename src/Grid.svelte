@@ -86,7 +86,7 @@
   style="grid-template-columns: {gridColumns}; column-gap: {columns > 1 ? 25 : 0}px; {columns === 1 && 'text-align: center'}"
   bind:clientWidth
 >
-  {#each projects as { name, image, description, url }, index}
+  {#each projects as { name, image, description, url, people }, index}
     <div >
       <a href={url} style="color: {color(index)}" target="_blank" rel="noopener noreferrer">
         <div class="media" style="height: {Math.round(mediaHeight)}px">
