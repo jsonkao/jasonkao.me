@@ -1,11 +1,14 @@
 export default {
   topLevel: [
     {
-      name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
+      name:
+        'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
       image: 'images/nyc-reopen.webp',
-      description: '“It’s very clear that social distancing is a privilege that not everyone can afford.”',
+      description:
+        '“It’s very clear that social distancing is a privilege that not everyone can afford.”',
       url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-      people: 'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
+      people:
+        'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie',
     },
     {
       name:
@@ -13,8 +16,7 @@ export default {
       image: 'images/flood-risk.webp',
       description:
         'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%.',
-      url:
-        'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
+      url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
       people: 'Mira Rojanasakul, Hayley Warren',
     },
     {
@@ -25,7 +27,8 @@ export default {
         'Investigating and mapping where children were held. Model by <a href="http://blueshirt.com">Jeremy White</a>.',
       url:
         'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
-      people: 'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jeremy White, Jugal Patel'
+      people:
+        'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jeremy White, Jugal Patel',
     },
     {
       name:
@@ -35,7 +38,7 @@ export default {
         'Multimedia maps depict the scale of 2019 protests in Hong Kong. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.',
       url:
         'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
-      people: 'Jin Wu, Anjali Singhvi, Archie Tse'
+      people: 'Jin Wu, Anjali Singhvi, Archie Tse',
     },
     {
       name:
@@ -45,14 +48,16 @@ export default {
         'Visualizations explaining the impact of the metering and Remain in Mexico programs.',
       url:
         'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
-      people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
+      people:
+        'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert',
     },
     {
       name: 'U.S. and Ivy League schools were late to respond to COVID-19',
       image: 'images/ivy-response.mp4',
       url:
         'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
-      people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia'
+      people:
+        'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
     },
     {
       name: 'Uncertainty Looms as Student Jobs Disappear',
@@ -61,15 +66,17 @@ export default {
         'Analyzing the industries losing jobs during the coronavirus recession.',
       url:
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
-      people: 'Eve Washington, Charlotte Li, Chaitanya Reddy Gurijala'
+      people: 'Eve Washington, Charlotte Li, Chaitanya Reddy Gurijala',
     },
     {
-      name: 'Broken windows policing & gentrification harmed Black community, strengthened Columbia',
+      name:
+        'Broken windows policing & gentrification harmed Black community, strengthened Columbia',
       image: 'images/deeds.mov',
-      description: 'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
+      description:
+        'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
       url:
         'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
-      people: 'Sofia Kwon, Stephanie Lai'
+      people: 'Sofia Kwon, Stephanie Lai',
     },
     {
       name: 'Gerrymandering playground (2018)',
@@ -77,7 +84,7 @@ export default {
       description:
         'Interactive mapping as an educational tool for gerrymandering congressional districts.',
       url: 'https://github.com/gerry-app',
-      people: 'Patrick Chan, Billy Wong'
+      people: 'Patrick Chan, Billy Wong',
     },
   ],
   secondLevel: [
@@ -85,7 +92,8 @@ export default {
       name: 'More at <code>nytimes.com/by/jason-kao</code>',
       image: 'images/nyt-byline-refer.webp',
       url: 'https://www.nytimes.com/by/jason-kao',
-      people: 'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Joe Ward, Denise Lu, K.K. Rebecca Lai, Jugal Patel',
+      people:
+        'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Joe Ward, Denise Lu, K.K. Rebecca Lai, Jugal Patel',
     },
     {
       name: 'More at <code>bloomberg.com/authors/jason-kao</code>',
@@ -97,7 +105,8 @@ export default {
       name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
       image: 'images/spec.webp',
       url: 'https://graphicsdesk.github.io',
-      people: 'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz',
+      people:
+        'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz',
     },
     {
       name: 'The Stuyvesant Spectator (high school paper)',
@@ -111,14 +120,14 @@ export default {
       name: 'Moral Foundations in Political Debates (2018)',
       image: 'images/properly_partisan.gif',
       url: 'https://github.com/brtacks',
-      people: 'Russel Goldenberg and Matt Daniels’ works'
+      people: 'Russel Goldenberg and Matt Daniels’ works',
     },
     {
       name: 'Sex Diversity Among Graduate Students Is Stagnating',
       image: 'images/graduate-sex-diversity.mp4',
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
-      people: 'Gavrielle Jacobovitz, Julian Shen-Berro, Rahil Kamath'
+      people: 'Gavrielle Jacobovitz, Julian Shen-Berro, Rahil Kamath',
     },
   ],
   openSource: [

@@ -67,18 +67,19 @@
   .description {
     color: #888;
   }
-  
+
   .description :global(a) {
     color: #888;
     text-decoration: underline;
   }
-  
+
   .people {
     font-family: Inconsolata;
-    color: #888;
+    color: #aaa;
     font-size: 19px;
-    font-weight: 600;
-    opacity: 0.45;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 2px;
   }
 </style>
 
@@ -107,12 +108,11 @@
         <p>{@html name}</p>
       </a>
       {#if description}
-        <p class="description">{@html description} <span class="people">Made possible by {@html people}</span></p>
-      {:else}
+        <p class="description">{@html description}</p>
+      {/if}
       <p class="people">
         Made possible by {@html people}
       </p>
-      {/if}
     </div>
   {/each}
 </div>

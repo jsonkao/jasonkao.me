@@ -5,16 +5,14 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
-    "predeploy": "npm run build",
-    "deploy": "aws s3 sync public s3://jasonkao.me"
+    "start": "sirv public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "eslint": "^7.0.0",
     "eslint-plugin-svelte3": "^2.7.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
