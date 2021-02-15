@@ -107,7 +107,6 @@
       </a>
       {#if description}
         <p class="description">{@html description} <span class="people">Made possible by {@html people}</span></p>
-      {/if}
       {:else}
       <p class="people">
         Made possible by {@html people}
