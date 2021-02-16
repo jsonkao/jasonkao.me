@@ -193,7 +193,7 @@
     </div>
 
     <SectionHeader empty />
-    <p class="updated-text">Updated August 2020. <span style="text-transform: none;">
+    <p class="updated-text">Updated February 2020. <span style="text-transform: none;">
       All are welcome to use this <a href="https://github.com/jsonkao/jasonkao.me">code/design</a> under the <a
         rel="license"
         href="http://creativecommons.org/licenses/by-sa/4.0/"
