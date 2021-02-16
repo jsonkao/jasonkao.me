@@ -188,7 +188,7 @@
         Visualizations and web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
         >...frameworks</code> , GraphQL, and TypeScript.
       </p>
-      <p>Raster and Earth imagery processing with GDAL and Photoshop.</p>
+      <p>Satellite imagery processing with GDAL, Python, Google Earth Engine and Google Cloud Platform.</p>
       <p>Design with Illustrator and Photoshop.</p>
     </div>
 
