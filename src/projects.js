@@ -41,6 +41,14 @@ export default {
       people: 'Jin Wu, Anjali Singhvi, Archie Tse',
     },
     {
+      name: 'Comparative Ethnic Studies Final Project',
+      image: 'images/location-data-flow.mov',
+      description:
+        'Visualizing sampling bias in location data accompanied by an exposition and report.',
+      url: '',
+      people: 'Frances Negrón-Muntaner',
+    },
+    {
       name:
         'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
       image: 'images/asylum-seekers.webp',
@@ -93,7 +101,7 @@ export default {
       image: 'images/nyt-byline-refer.webp',
       url: 'https://www.nytimes.com/by/jason-kao',
       people:
-        'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Joe Ward, Denise Lu, K.K. Rebecca Lai, Jugal Patel',
+        'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Wilson Andrews, Jugal Patel, Joe Ward, Denise Lu, K.K. Rebecca Lai',
     },
     {
       name: 'More at <code>bloomberg.com/authors/jason-kao</code>',
