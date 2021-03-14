@@ -78,10 +78,10 @@ export default {
     },
     {
       name:
-        'Broken windows policing & gentrification harmed Black community, strengthened Columbia',
+        'How broken windows policing & gentrification harmed Black community, strengthened Columbia',
       image: 'images/deeds.mov',
       description:
-        'Scraped and processed all NYC deeds since 1966 to understand Columbia’s expansion.',
+        'Involved scraping and processing all NYC deeds since 1966 to understand Columbia’s expansion.',
       url:
         'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
       people: 'Sofia Kwon, Stephanie Lai',
