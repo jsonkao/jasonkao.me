@@ -148,7 +148,7 @@
   </header>
 
   <p class="nutgraf">
-    I want to create journalism that brings together different mediums and methods.
+    I am an Asian-American journalist hoping to bring together different mediums and methods.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
