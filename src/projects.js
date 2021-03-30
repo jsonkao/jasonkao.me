@@ -41,14 +41,6 @@ export default {
       people: 'Jin Wu, Anjali Singhvi, Archie Tse',
     },
     {
-      name: 'Comparative Ethnic Studies Final Project',
-      image: 'images/location-data-flow.mov',
-      description:
-        'Visualizing sampling bias in location data accompanied by an exposition and report.',
-      url: '',
-      people: 'Frances Negrón-Muntaner',
-    },
-    {
       name:
         'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
       image: 'images/asylum-seekers.webp',
@@ -58,6 +50,30 @@ export default {
         'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
       people:
         'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert',
+    },
+    {
+      name: 'Visual Databases Final Project',
+      image: 'images/heat.webp',
+      description:
+        'Analyzing redlining\'s legacy in heat across 200 cities over 40 years.',
+      url: '',
+      people: 'Prof. John Kender',
+    },
+    {
+      name: 'Comparative Ethnic Studies Final Project',
+      image: 'images/location-data-flow.mov',
+      description:
+        'Visualizing sampling bias in location data accompanied by an exposition and report.',
+      url: 'https://jsonkao.github.io/location-data-flow',
+      people: 'Prof. Frances Negrón-Muntaner',
+    },
+    {
+      name: 'The Title\'s in a Puddle',
+      image: 'images/puddle.webp',
+      description:
+        'Arab & Asian Diaspora Project. A multimedia essay on being an Asian-American.',
+      url: '',
+      people: 'Prof. Nathalie Handal',
     },
     {
       name: 'U.S. and Ivy League schools were late to respond to COVID-19',
