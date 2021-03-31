@@ -161,8 +161,13 @@
 
   <Grid projects={projects.topLevel} />
 
+  <SectionHeader id="school" centered>
+    Class projects
+  </SectionHeader>
+  <Grid projects={projects.school} />
+
   <SectionHeader id="extended-portfolio" centered>
-    Another section
+    Misc.
     <!--
     More work at <a
       href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao"
@@ -171,7 +176,7 @@
       Columbia Spectator </a>
     -->
   </SectionHeader>
-  <Grid projects={projects.secondLevel} columns={2} />
+  <Grid projects={projects.secondLevel}/>
 
   <div class="skinny">
     <SectionHeader centered>

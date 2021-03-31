@@ -52,30 +52,6 @@ export default {
         'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert',
     },
     {
-      name: 'Visual Databases Final Project',
-      image: 'images/heat.webp',
-      description:
-        'Analyzing redlining\'s legacy in heat across 200 cities over 40 years.',
-      url: '',
-      people: 'Prof. John Kender',
-    },
-    {
-      name: 'Comparative Ethnic Studies Final Project',
-      image: 'images/location-data-flow.mov',
-      description:
-        'Visualizing sampling bias in location data accompanied by an exposition and report.',
-      url: 'https://jsonkao.github.io/location-data-flow',
-      people: 'Prof. Frances Negrón-Muntaner',
-    },
-    {
-      name: 'The Title\'s in a Puddle',
-      image: 'images/puddle.webp',
-      description:
-        'Arab & Asian Diaspora Project. A multimedia essay on being an Asian-American.',
-      url: '',
-      people: 'Prof. Nathalie Handal',
-    },
-    {
       name: 'U.S. and Ivy League schools were late to respond to COVID-19',
       image: 'images/ivy-response.mp4',
       url:
@@ -102,8 +78,33 @@ export default {
         'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
       people: 'Sofia Kwon, Stephanie Lai',
     },
+  ],
+  school: [
     {
-      name: 'Gerrymandering playground (2018)',
+      name: "Visual Databases: Redlining's Legacy in Heat",
+      image: 'images/heat.webp',
+      description:
+        'Calculated, analyzed, and visualized temperature data across 200 cities over 40 years.',
+      url: 'https://jsonkao.github.io/redlining-heat/',
+      people: 'Prof. John Kender',
+    },
+    {
+      name: 'Arab & Asian Diaspora in Literature and Film',
+      image: 'images/puddle.webp',
+      description: 'One Asian-American essay.',
+      url: 'https://jsonkao.github.io/diaspora-puddle/',
+      people: 'Prof. Nathalie Handal',
+    },
+    {
+      name: 'Comparative Ethnic Studies: Location Bias',
+      image: 'images/location-data-flow.mov',
+      description:
+        'Visualizing sampling bias in location data accompanied by an exposition and report.',
+      url: 'https://jsonkao.github.io/location-data-flow',
+      people: 'Prof. Frances Negrón-Muntaner',
+    },
+    {
+      name: 'Gerrymandering playground',
       image: 'images/gerry.gif',
       description:
         'Interactive mapping as an educational tool for gerrymandering congressional districts.',
@@ -120,25 +121,11 @@ export default {
         'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Wilson Andrews, Jugal Patel, Joe Ward, Denise Lu, K.K. Rebecca Lai',
     },
     {
-      name: 'More at <code>bloomberg.com/authors/jason-kao</code>',
-      image: 'images/bloomberg-byline-refer.webp',
-      url: 'https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao',
-      people: 'Yue Qiu, Alex Tribou, Mira Rojanasakul',
-    },
-    {
       name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
       image: 'images/spec.webp',
       url: 'https://graphicsdesk.github.io',
       people:
         'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz',
-    },
-    {
-      name: 'The Stuyvesant Spectator (high school paper)',
-      image: 'images/stuyspec.gif',
-      description:
-        'Led the creation of a React site, Postgres database, Rails/GraphQL API, and Go CMS.',
-      url: 'https://github.com/stuyspec',
-      people: 'Nicholas Yang, Darius Jankauskas, Jason Lin, Cathy Cai',
     },
     {
       name: 'Moral Foundations in Political Debates (2018)',
