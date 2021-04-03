@@ -84,7 +84,7 @@ export default {
       name: "Visual Databases: Redlining's Legacy in Heat",
       image: 'images/heat.webp',
       description:
-        'Calculated, analyzed, and visualized temperature data across 200 cities over 40 years.',
+        'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality.',
       url: 'https://jsonkao.github.io/redlining-heat/',
       people: 'Prof. John Kender',
     },
