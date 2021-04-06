@@ -79,7 +79,7 @@
       }
     }
     a:not(:last-child) {
-      margin-right: 6px;
+      margin-right: 12px;
     }
 
     &.contactFocused {
@@ -156,6 +156,7 @@
       <b>Contact:</b>
       <a href="mailto:{email}">{email}</a>
       <a href="https://github.com/jsonkao">github/jsonkao</a>
+      <a href="https://twitter.com/jsonkao">@jsonkao</a>
     </p>
   </div>
 
