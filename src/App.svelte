@@ -79,7 +79,7 @@
       }
     }
     a:not(:last-child) {
-      margin-right: 12px;
+      margin-right: 6px;
     }
 
     &.contactFocused {
