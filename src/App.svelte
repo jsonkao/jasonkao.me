@@ -168,7 +168,7 @@
   <Grid projects={projects.school} />
 
   <SectionHeader id="extended-portfolio" centered>
-    Misc.
+    Misc.; <a href="https://www.github.com/jsonkao">Open source</a> software
     <!--
     More work at <a
       href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao"
@@ -178,13 +178,6 @@
     -->
   </SectionHeader>
   <Grid projects={projects.secondLevel}/>
-
-  <div class="skinny">
-    <SectionHeader centered>
-      <a href="https://www.github.com/jsonkao">Open source</a> software
-    </SectionHeader>
-  </div>
-  <Grid projects={projects.openSource} columns={3} />
 
   <footer class="skinny">
     <SectionHeader>Buzzwords</SectionHeader>

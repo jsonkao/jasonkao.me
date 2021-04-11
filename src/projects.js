@@ -58,6 +58,7 @@ export default {
         'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
       people:
         'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
+      award: true,
     },
     {
       name: 'Uncertainty Looms as Student Jobs Disappear',
@@ -67,6 +68,7 @@ export default {
       url:
         'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
       people: 'Eve Washington, Charlotte Li, Chaitanya Reddy Gurijala',
+      award: true,
     },
     {
       name:
@@ -81,7 +83,7 @@ export default {
   ],
   school: [
     {
-      name: "Visual Databases: Redlining's Legacy in Heat",
+      name: '[Visual Databases] Redlining’s Legacy in Heat',
       image: 'images/heat.webp',
       description:
         'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality.',
@@ -89,27 +91,25 @@ export default {
       people: 'Prof. John Kender',
     },
     {
-      name: 'Arab & Asian Diaspora in Literature and Film',
+      name:
+        '[Arab & Asian Diaspora in Literature and Film] One Asian-American essay',
       image: 'images/puddle.webp',
-      description: 'One Asian-American essay.',
       url: 'https://jsonkao.github.io/diaspora-puddle/',
       people: 'Prof. Nathalie Handal',
     },
     {
-      name: 'Comparative Ethnic Studies: Location Bias',
-      image: 'images/location-data-flow.mov',
-      description:
-        'Visualizing sampling bias in location data accompanied by an exposition and report.',
-      url: 'https://jsonkao.github.io/location-data-flow',
-      people: 'Prof. Frances Negrón-Muntaner',
+      name:
+        '[Internet Technology, Economics & Policy] A Longitudinal Study of Sampling Bias in Location Data.',
+      image: 'images/itep_paper.webp',
+      url: 'https://github.com/jsonkao/location-data-bias',
+      people: 'Prof. Henning Schulzrinne',
     },
     {
-      name: 'Gerrymandering playground',
-      image: 'images/gerry.gif',
-      description:
-        'Interactive mapping as an educational tool for gerrymandering congressional districts.',
-      url: 'https://github.com/gerry-app',
-      people: 'Patrick Chan, Billy Wong',
+      name:
+        '[Comparative Ethnic Studies] A creative rendering of sampling bias in location data.',
+      image: 'images/location-data-flow.mov',
+      url: 'https://jsonkao.github.io/location-data-flow',
+      people: 'Prof. Frances Negrón-Muntaner',
     },
   ],
   secondLevel: [
@@ -128,6 +128,22 @@ export default {
         'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz',
     },
     {
+      name: 'React Scrollama',
+      image: 'images/react-scrollama.mp4',
+      description:
+        'Scrollytelling library with the IntersectionObserver in React.',
+      url: 'https://jsonkao.github.io/react-scrollama',
+      people: 'Nicholas Yang',
+    },
+    {
+      name: 'Gerrymandering playground',
+      image: 'images/gerry.gif',
+      description:
+        'Interactive mapping as an educational tool for gerrymandering congressional districts.',
+      url: 'https://github.com/gerry-app',
+      people: 'Patrick Chan, Billy Wong',
+    },
+    {
       name: 'Moral Foundations in Political Debates (2018)',
       image: 'images/properly_partisan.gif',
       url: 'https://github.com/brtacks',
@@ -139,31 +155,6 @@ export default {
       url:
         'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
       people: 'Gavrielle Jacobovitz, Julian Shen-Berro, Rahil Kamath',
-    },
-  ],
-  openSource: [
-    {
-      name: 'React Scrollama',
-      image: 'images/react-scrollama.mp4',
-      description:
-        'Scrollytelling library with the IntersectionObserver in React.',
-      url: 'https://jsonkao.github.io/react-scrollama',
-      people: 'Nicholas Yang',
-    },
-    {
-      name: 'Free Code Camp',
-      image: 'images/freecodecamp.gif',
-      description:
-        'Contributions to lessons and interactive coding architecture',
-      url: 'https://www.columbiaspectator.com/news/net-price-inequity',
-      people: 'Nicholas Yang',
-    },
-    {
-      name: 'GraphQL HTTP client for Go',
-      image: 'https://i.imgur.com/4Vz0dPa.png',
-      description: '',
-      url: 'https://github.com/machinebox/graphql',
-      people: 'Nicholas Yang',
     },
   ],
 };
