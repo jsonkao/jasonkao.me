@@ -92,6 +92,13 @@ export default {
     },
     {
       name:
+        '[Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
+      image: 'https://i.imgur.com/PUzvm64.png',
+      url: 'https://github.com/jsonkao/fill-vaccine-data/',
+      people: 'Prof. Elizabeth OuYang',
+    },
+    {
+      name:
         '[Arab & Asian Diaspora in Literature and Film] One Asian-American essay',
       image: 'images/puddle.webp',
       url: 'https://jsonkao.github.io/diaspora-puddle/',
