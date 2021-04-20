@@ -86,13 +86,14 @@ export default {
       name: '[Visual Databases] Redlining’s Legacy in Heat',
       image: 'images/heat.webp',
       description:
-        'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality.',
+        'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality. Generated detailed time-series maps for all cities.',
       url: 'https://jsonkao.github.io/redlining-heat/',
       people: 'Prof. John Kender',
     },
     {
       name:
         '[Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
+      description: 'And research on the legal and technological infrastructure that prevents good data collection.',
       image: 'https://i.imgur.com/PUzvm64.png',
       url: 'https://github.com/jsonkao/fill-vaccine-data/',
       people: 'Prof. Elizabeth OuYang',
