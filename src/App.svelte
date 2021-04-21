@@ -38,7 +38,7 @@
   <div class="nutgraf contact" class:contactFocused>
     <p>
       <b>Contact:</b>
-      <a href="mailto:jason.kao@nytimes.com}">jason.kao@nytimes.com</a>
+      <a href="mailto:jason.kao@nytimes.com">jason.kao@nytimes.com</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
       <a href="https://github.com/jsonkao">github/jsonkao</a>
       <a href="mailto:{email}">{email}</a>
