@@ -30,7 +30,9 @@
 
   <p class="nutgraf">
     I am an Asian-American journalist hoping to bring together different mediums
-    and methods. I am a reporter on the New York Times Graphics desk.
+    and methods. I am a reporter on the New York Times <a
+      href="https://twitter.com/nytgraphics">Graphics</a
+    > desk.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
@@ -38,8 +40,8 @@
       <b>Contact:</b>
       <a href="mailto:jason.kao@nytimes.com}">jason.kao@nytimes.com</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
-      <a href="mailto:{email}">{email}</a>
       <a href="https://github.com/jsonkao">github/jsonkao</a>
+      <a href="mailto:{email}">{email}</a>
     </p>
   </div>
 
@@ -119,14 +121,11 @@
       border-bottom: 1px solid #121212;
       transition-duration: 0.15s;
       &:hover {
-        text-decoration: none;
         border-bottom-color: #e4e4e4;
         background: #e4e4e4;
+        text-decoration: none;
       }
     }
-  }
-
-  .less-important {
   }
 
   .contact {
