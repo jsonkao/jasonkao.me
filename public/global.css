@@ -10,8 +10,8 @@ body {
 	color: #121212;
 	margin: 0;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	line-height: 29px;
+	font-size: 21px;
+	line-height: 27.5px;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
@@ -68,15 +68,10 @@ p {
 	margin: 0;
 }
 
-header {
-	font-size: 22px;
-	line-height: 29px;
-}
-
 @media (max-width: 660px) {
 	body {
-		font-size: 21px;
-		line-height: 27px;
+		font-size: 20px;
+		line-height: 26.5px;
 	}
 
 	header {
