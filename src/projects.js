@@ -11,6 +11,15 @@ export default {
         'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie',
     },
     {
+      name: '[Visual Databases] Redlining’s Legacy in Heat',
+      image: 'images/redlining.mov',
+      description:
+        'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality. Generated detailed time-series maps for all cities.',
+      url: 'https://jsonkao.github.io/redlining-heat/',
+      people: 'Prof. John Kender',
+    },
+    /*
+    {
       name:
         'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
       image: 'images/flood-risk.webp',
@@ -19,6 +28,7 @@ export default {
       url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
       people: 'Mira Rojanasakul, Hayley Warren',
     },
+    */
     {
       name:
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
@@ -82,14 +92,6 @@ export default {
     },
   ],
   school: [
-    {
-      name: '[Visual Databases] Redlining’s Legacy in Heat',
-      image: 'images/heat.webp',
-      description:
-        'Derived and analyzed temperatures across 200 cities over 40 years to understand how redlining infrastructure impacted urban heat inequality. Generated detailed time-series maps for all cities.',
-      url: 'https://jsonkao.github.io/redlining-heat/',
-      people: 'Prof. John Kender',
-    },
     {
       name:
         '[Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
