@@ -1,15 +1,6 @@
 export default {
   topLevel: [
     {
-      name: 'There’s a New Definition of ‘Normal’ for Weather',
-      image: 'images/normals.mov',
-      description:
-        'Mapping new temperature averages from NOAA.',
-      url:
-        'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
-      people: 'Henry Fountain, Kenan Davis, Hannah Fairfield',
-    },
-    {
       name:
         'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
       image: 'images/nyc-reopen.webp',
@@ -27,17 +18,15 @@ export default {
       url: 'https://jsonkao.github.io/redlining-heat/',
       people: 'Prof. John Kender',
     },
-    /*
     {
-      name:
-        'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
-      image: 'images/flood-risk.webp',
+      name: 'There’s a New Definition of ‘Normal’ for Weather',
+      image: 'images/normals.mov',
       description:
-        'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%.',
-      url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
-      people: 'Mira Rojanasakul, Hayley Warren',
+        'Mapping new temperature averages from NOAA.',
+      url:
+        'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
+      people: 'Henry Fountain, Kenan Davis, Hannah Fairfield',
     },
-    */
     {
       name:
         'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
@@ -58,6 +47,15 @@ export default {
       url:
         'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
       people: 'Jin Wu, Anjali Singhvi, Archie Tse',
+    },
+    {
+      name:
+        'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
+      image: 'images/flood-risk.webp',
+      description:
+        'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%.',
+      url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
+      people: 'Mira Rojanasakul, Hayley Warren',
     },
     {
       name:
