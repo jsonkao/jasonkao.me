@@ -30,15 +30,13 @@
 
   <p class="nutgraf">
     I am an Asian-American journalist hoping to bring together different mediums
-    and methods. I am a reporter on the New York Times <a
-      href="https://twitter.com/nytgraphics">Graphics</a
-    > desk.
+    and methods. I am a Data Visuals Fellow at The Texas Tribune.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
     <p>
       <b>Contact:</b>
-      <a href="mailto:jason.kao@nytimes.com">jason.kao@nytimes.com</a>
+      <a href="mailto:jason.kao@texastribune.org">jason.kao@texastribune.org</a>
       <a href="https://twitter.com/jsonkao">@jsonkao</a>
       <a href="https://github.com/jsonkao">github/jsonkao</a>
       <a href="mailto:{email}">{email}</a>
