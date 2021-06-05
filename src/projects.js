@@ -1,6 +1,15 @@
 export default {
   topLevel: [
     {
+      name: 'There’s a New Definition of ‘Normal’ for Weather',
+      image: 'images/normals.mov',
+      description:
+        'Mapping new temperature averages from NOAA.',
+      url:
+        'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
+      people: 'Henry Fountain, Kenan Davis, Hannah Fairfield',
+    },
+    {
       name:
         'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
       image: 'images/nyc-reopen.webp',
@@ -95,7 +104,8 @@ export default {
     {
       name:
         '[Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
-      description: 'And research on the legal and technological infrastructure that prevents good data collection.',
+      description:
+        'And research on the legal and technological infrastructure that prevents good data collection.',
       image: 'https://i.imgur.com/PUzvm64.png',
       url: 'https://github.com/jsonkao/fill-vaccine-data/',
       people: 'Prof. Elizabeth OuYang',

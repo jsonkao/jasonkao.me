@@ -37,6 +37,50 @@
   const color = index => colors[(colorOffset + index) % colors.length];
 </script>
 
+<div
+  class="grid"
+  style="grid-template-columns: {gridColumns}; column-gap: {columns > 1
+    ? 25
+    : 0}px; {columns === 1 && 'text-align: center'}"
+  bind:clientWidth
+>
+  {#each projects as { name, image, description, url, people }, index}
+    <div>
+      <a
+        href={url}
+        style="color: {color(index)}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="media" style="height: {Math.round(mediaHeight)}px">
+          {#if image.includes('.mp4') || image.includes('.mov')}
+            {#if image === 'images/normals.mov'}
+              <img src="images/nyt_logo.png" class="logo-overlay" />
+            {/if}
+            <video autoPlay playsInline muted loop>
+              <source src={image} />
+            </video>
+          {:else}
+            <picture>
+              {#if image.includes('.webp')}
+                <source srcset="{image} 1x" type="image/webp" />
+              {/if}
+              <img src={image.replace('.webp', '.png')} alt={name} />
+            </picture>
+          {/if}
+        </div>
+        <p>{@html name}</p>
+      </a>
+      {#if description}
+        <p class="description">{@html description}</p>
+      {/if}
+      <p class="people">
+        Made possible by {@html people}
+      </p>
+    </div>
+  {/each}
+</div>
+
 <style lang="scss">
   .grid {
     display: grid;
@@ -50,13 +94,19 @@
   .media {
     width: 100%;
     margin-bottom: 14px;
-    img,
+    position: relative;
+
+    picture img,
     video {
       object-fit: cover;
       object-position: 50% top;
       width: 100%;
       height: 100%;
       border: 1px solid #000;
+    }
+
+    video {
+      padding-right: 1px;
     }
   }
 
@@ -81,38 +131,13 @@
     line-height: 24px;
     margin-top: 2px;
   }
-</style>
 
-<div
-  class="grid"
-  style="grid-template-columns: {gridColumns}; column-gap: {columns > 1 ? 25 : 0}px; {columns === 1 && 'text-align: center'}"
-  bind:clientWidth
->
-  {#each projects as { name, image, description, url, people }, index}
-    <div >
-      <a href={url} style="color: {color(index)}" target="_blank" rel="noopener noreferrer">
-        <div class="media" style="height: {Math.round(mediaHeight)}px">
-          {#if image.includes('.mp4') || image.includes('.mov')}
-            <video autoPlay playsInline muted loop>
-              <source src={image} />
-            </video>
-          {:else}
-          <picture>
-            {#if image.includes('.webp')}
-              <source srcset="{image} 1x" type="image/webp">
-            {/if}
-            <img src={image.replace('.webp', '.png')} alt={name} />
-          </picture>
-          {/if}
-        </div>
-        <p>{@html name}</p>
-      </a>
-      {#if description}
-        <p class="description">{@html description}</p>
-      {/if}
-      <p class="people">
-        Made possible by {@html people}
-      </p>
-    </div>
-  {/each}
-</div>
+  .logo-overlay {
+    position: absolute;
+    width: 25px;
+    bottom: 12px;
+    left: 13px;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+</style>
