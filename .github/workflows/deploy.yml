@@ -23,11 +23,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: Install dependencies
-        run: npm install
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.0.2
+        run: pnpm install
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
       - name: Sync s3
         uses: jakejarvis/s3-sync-action@master
