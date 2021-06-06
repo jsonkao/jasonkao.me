@@ -8,7 +8,7 @@ specifiers:
   node-sass: ^5.0.0
   rollup: ^1.20.0
   rollup-plugin-livereload: ^1.0.0
-  rollup-plugin-svelte: ^5.0.3
+  rollup-plugin-svelte: ^7.1.0
   rollup-plugin-terser: ^5.1.2
   scroll-behavior-polyfill: ^2.0.13
   sirv-cli: ^0.4.4
@@ -27,7 +27,7 @@ devDependencies:
   node-sass: 5.0.0
   rollup: 1.32.1
   rollup-plugin-livereload: 1.3.0
-  rollup-plugin-svelte: 5.2.3_rollup@1.32.1+svelte@3.38.2
+  rollup-plugin-svelte: 7.1.0_rollup@1.32.1+svelte@3.38.2
   rollup-plugin-terser: 5.3.1_rollup@1.32.1
   svelte: 3.38.2
   svelte-preprocess-sass: 0.2.0
@@ -1662,16 +1662,16 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte/5.2.3_rollup@1.32.1+svelte@3.38.2:
-    resolution: {integrity: sha512-513vOht9A93OV7fvmpIq8mD1JFgTZ5LidmpULKM2Od9P1l8oI5KwvO32fwCnASuVJS1EkRfvCnS7vKQ8DF4srg==}
+  /rollup-plugin-svelte/7.1.0_rollup@1.32.1+svelte@3.38.2:
+    resolution: {integrity: sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==}
+    engines: {node: '>=10'}
     peerDependencies:
-      rollup: '>=0.60.0'
-      svelte: '*'
+      rollup: '>=2.0.0'
+      svelte: '>=3.5.0'
     dependencies:
       require-relative: 0.8.7
       rollup: 1.32.1
       rollup-pluginutils: 2.8.2
-      sourcemap-codec: 1.4.8
       svelte: 3.38.2
     dev: true
 
