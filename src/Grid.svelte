@@ -134,7 +134,7 @@
 
   .logo-overlay {
     position: absolute;
-    width: 25px;
+    width: 20px;
     bottom: 12px;
     left: 13px;
     opacity: 0.3;

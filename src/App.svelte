@@ -30,7 +30,7 @@
 
   <p class="nutgraf">
     I am an Asian-American journalist hoping to bring together different mediums
-    and methods. I am a Data Visuals Fellow at The Texas Tribune.
+    and methods. I am a Data Visuals Fellow at <a href="https://texastribune.org">The Texas Tribune</a>.
   </p>
 
   <div class="nutgraf contact" class:contactFocused>
@@ -105,8 +105,7 @@
     }
   }
 
-  .gray,
-  .gray a {
+  .gray {
     color: #888;
   }
 

@@ -1,7 +1,5 @@
-const { sass } = require('svelte-preprocess-sass');
+const preprocess = require('svelte-preprocess');
 
 module.exports = {
-  preprocess: {
-    style: sass({}, { name: 'scss' }),
-  },
+  preprocess: preprocess()
 };
