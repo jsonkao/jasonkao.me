@@ -23,7 +23,7 @@ export default {
 			description: 'Mapping new temperature averages from NOAA.',
 			url:
 				'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
-			people: 'Henry Fountain, Kenan Davis, Hannah Fairfield'
+			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
 		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
