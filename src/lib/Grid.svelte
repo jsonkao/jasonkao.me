@@ -91,7 +91,7 @@
 		}
 
 		video {
-			padding-right: 1px;
+			padding-right: 0.1px; /* Unhides border-right */
 		}
 	}
 
