@@ -1,13 +1,10 @@
 export default {
 	topLevel: [
 		{
-			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
-			image: 'images/nyc-reopen.webp',
-			description:
-				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
-			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-			people:
-				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
+			name: 'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race, history and current events',
+			image: 'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
+			url: 'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
+			people: 'Isabella Zou'
 		},
 		{
 			name: '[Visual Databases] Redlining’s Legacy in Heat',
