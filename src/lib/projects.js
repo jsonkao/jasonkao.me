@@ -15,6 +15,15 @@ export default {
 			people: 'Prof. John Kender'
 		},
 		{
+			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
+			image: 'images/nyc-reopen.webp',
+			description:
+				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
+			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
+			people:
+				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
+		},
+		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
 			image: 'images/normals.mov',
 			description: 'Mapping new temperature averages from NOAA.',
