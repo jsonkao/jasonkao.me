@@ -20,23 +20,22 @@
 		<div>
 			<p>About.</p>
 			<p class="gray">
-				<button on:click={() => (contactFocused = !contactFocused)}> Contact. </button>
+				<button on:click={() => (contactFocused = !contactFocused)}>Contact.</button>
 			</p>
 		</div>
 	</header>
 
 	<p class="nutgraf">
-		I am an Asian-American journalist hoping to bring together different mediums and methods. I am a
-		Data Visuals Fellow at <a href="https://texastribune.org">The Texas Tribune</a>.
+		I am an Asian-American journalist hoping to bring together different mediums and methods. I recently
+		wrapped up a fellowship at <a href="https://texastribune.org">The Texas Tribune</a>.
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
 			<b>Contact:</b>
-			<a href="mailto:jason.kao@texastribune.org">jason.kao@texastribune.org</a>
+			<a href="mailto:{email}">{email}</a>
 			<a href="https://twitter.com/jsonkao">@jsonkao</a>
 			<a href="https://github.com/jsonkao">github/jsonkao</a>
-			<a href="mailto:{email}">{email}</a>
 		</p>
 	</div>
 
@@ -75,7 +74,7 @@
 
 		<SectionHeader empty />
 		<p class="updated-text">
-			Updated April 2021. <span style="text-transform: none;"
+			Updated August 2021. <span style="text-transform: none;"
 				><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
 					>Creative Commons CC BY-SA 4.0</a
 				>.</span
