@@ -4,7 +4,7 @@ export default {
 			name: 'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race, history and current events',
 			image: 'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
 			url: 'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
-			people: 'Isabella Zou'
+			people: 'Isabella Zou, Brandon Formby'
 		},
 		{
 			name: '[Visual Databases] Redlining’s Legacy in Heat',
@@ -15,13 +15,11 @@ export default {
 			people: 'Prof. John Kender'
 		},
 		{
-			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
-			image: 'images/nyc-reopen.webp',
-			description:
-				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
-			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-			people:
-				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
+			name: 'Texas’ controversial new social studies law prompts McKinney school officials to cancel Youth and Government class',
+			image: 'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
+			description: '',
+			url: 'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
+			people: 'Brandon Formby, Isabella Zou, Matthew Watkins'
 		},
 		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
@@ -30,6 +28,15 @@ export default {
 			url:
 				'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
+		},
+		{
+			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
+			image: 'images/nyc-reopen.webp',
+			description:
+				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
+			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
+			people:
+				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
 		},
 		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
