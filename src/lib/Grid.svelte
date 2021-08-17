@@ -46,6 +46,9 @@
 							<source src={image} />
 						</video>
 					{:else}
+						{#if url.includes('texastribune.org')}
+							<img src="images/tt_logo.png" class="logo-overlay trib-logo" />
+						{/if}
 						<picture>
 							{#if image.includes('.webp')}
 								<source srcset="{image} 1x" type="image/webp" />
@@ -124,5 +127,19 @@
 		left: 13px;
 		opacity: 0.3;
 		pointer-events: none;
+	}
+
+	.trib-logo {
+		width: 56px;
+		opacity: 1;
+		background: rgba(255,255,255,0.7);
+		padding: 6.5px;
+	}
+
+	@media (max-width: 460px) {
+		.trib-logo {
+			width: 40px;
+			padding: 3px;
+		}
 	}
 </style>
