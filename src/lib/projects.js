@@ -72,6 +72,12 @@ export default {
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
 		},
 		{
+			name: 'Meager Rewards for Workers, Exceptionally Rich Pay for C.E.O.s',
+			image: 'images/pay-ratio.png',
+			url: 'https://www.nytimes.com/2021/06/11/business/ceo-pay-compensation-stock.html',
+			people: 'Peter Eavis, Ashwin Seshagiri'
+		},
+		{
 			name: 'U.S. and Ivy League schools were late to respond to COVID-19',
 			image: 'images/ivy-response.mp4',
 			url:
