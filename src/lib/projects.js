@@ -158,7 +158,7 @@ export default {
 			people: 'Nicholas Yang'
 		},
 		{
-			name: 'Gerrymandering playground',
+			name: 'Gerrymandering playground (2018)',
 			image: 'images/gerry.gif',
 			description:
 				'Interactive mapping as an educational tool for gerrymandering congressional districts.',
