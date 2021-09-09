@@ -30,15 +30,6 @@ export default {
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
 		{
-			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
-			image: 'images/nyc-reopen.webp',
-			description:
-				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
-			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-			people:
-				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
-		},
-		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
 			image: 'images/clint.webp',
 			description:
@@ -46,6 +37,15 @@ export default {
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
 				'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jeremy White, Jugal Patel'
+		},
+		{
+			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
+			image: 'images/nyc-reopen.webp',
+			description:
+				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
+			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
+			people:
+				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
 		},
 		{
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
@@ -117,13 +117,13 @@ export default {
 		},
 		{
 			name:
-				'[Internet Technology, Economics & Policy] A Longitudinal Study of Sampling Bias in Location Data.',
+				'[Internet Technology, Economics & Policy] A Longitudinal Study of Sampling Bias in Location Data',
 			image: 'images/itep_paper.webp',
 			url: 'https://github.com/jsonkao/location-data-bias',
 			people: 'Prof. Henning Schulzrinne'
 		},
 		{
-			name: '[Comparative Ethnic Studies] A creative rendering of sampling bias in location data.',
+			name: '[Comparative Ethnic Studies] A creative rendering of sampling bias in location data',
 			image: 'images/location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
