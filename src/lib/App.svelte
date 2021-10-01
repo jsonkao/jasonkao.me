@@ -26,8 +26,8 @@
 	</header>
 
 	<p class="nutgraf">
-		I am an Asian-American journalist hoping to bring together different mediums and methods. I recently
-		wrapped up a fellowship at <a href="https://texastribune.org">The Texas Tribune</a>.
+		I am an Asian-American journalist hoping to bring together different mediums and methods.
+		I am a senior at Columbia, where I enjoy classes in computer science and the Center for the Study of Ethnicity Race.		
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
