@@ -118,6 +118,10 @@
 		font-weight: 400;
 		line-height: 24px;
 		margin-top: 2px;
+
+		:global(a) {
+			text-decoration: underline;
+		}
 	}
 
 	.logo-overlay {

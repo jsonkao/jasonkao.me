@@ -19,7 +19,7 @@ export default {
 			image: 'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
 			description: '',
 			url: 'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
-			people: 'Brandon Formby, Isabella Zou, Matthew Watkins'
+			people: 'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
 		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
@@ -33,10 +33,10 @@ export default {
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
 			image: 'images/clint.webp',
 			description:
-				'Investigating and mapping where children were held. Model by <a href="http://blueshirt.com">Jeremy White</a>.',
+				'Investigating and mapping where children were held.',
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
-				'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jeremy White, Jugal Patel'
+				'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
 		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
@@ -51,9 +51,9 @@ export default {
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
 			image: 'images/hong-kong.webp',
 			description:
-				'Multimedia maps depict the scale of 2019 protests in Hong Kong. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.',
+				'Multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
-			people: 'Jin Wu, Anjali Singhvi, Archie Tse'
+			people: 'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
