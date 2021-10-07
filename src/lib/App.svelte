@@ -26,8 +26,8 @@
 	</header>
 
 	<p class="nutgraf">
-		I am an Asian-American journalist hoping to bring together different mediums and methods.
-		I am a senior at Columbia, where I like classes in computer science and the Center for the Study of Ethnicity and Race.		
+		I am an Asian American senior at Columbia, where I enjoy classes in computer science and the
+		Center for the Study of Ethnicity and Race.
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
