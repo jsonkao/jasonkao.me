@@ -114,16 +114,16 @@ export default {
 			image: 'images/puddle.webp',
 			url: 'https://jsonkao.github.io/diaspora-puddle/',
 			people: 'Prof. Nathalie Handal'
-		},
+		},/*
 		{
 			name:
 				'[Internet Technology, Economics & Policy] A Longitudinal Study of Sampling Bias in Location Data',
 			image: 'images/itep_paper.webp',
 			url: 'https://github.com/jsonkao/location-data-bias',
 			people: 'Prof. Henning Schulzrinne'
-		},
+		},*/
 		{
-			name: '[Comparative Ethnic Studies] A creative rendering of sampling bias in location data',
+			name: '[Comparative Ethnic Studies] A creative rendering of location data sampling',
 			image: 'images/location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
