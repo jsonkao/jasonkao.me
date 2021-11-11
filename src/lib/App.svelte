@@ -32,18 +32,16 @@
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
-			<b>Contact:</b>
+			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
 			<a href="https://twitter.com/jsonkao">@jsonkao</a>
 			<a href="https://github.com/jsonkao">github/jsonkao</a>
 		</p>
 	</div>
 
-	<Grid projects={projects.topLevel} />
+	<Grid projects={[...projects.topLevel, ...projects.school]} />
 
-	<SectionHeader id="school" centered>Class projects</SectionHeader>
-	<Grid projects={projects.school} />
-
+	<!--
 	<SectionHeader id="extended-portfolio" centered>
 		Misc.; <a href="https://www.github.com/jsonkao">Open source</a> software
 		<!--
@@ -52,23 +50,19 @@
     >Bloomberg News</a>, <a href="https://www.nytimes.com/by/jason-kao">The New
       York Times</a> and <a href="https://www.columbiaspectator.com/contributors/Jason-Kao"> the
       Columbia Spectator </a>
-    -->
 	</SectionHeader>
 	<Grid projects={projects.secondLevel} />
+  -->
 
 	<footer class="skinny">
 		<SectionHeader>Buzzwords</SectionHeader>
 		<div class="buzzwords">
-			<p>Data and spatial analysis with Python, R, SQL, QGIS, mapshaper, and AWS.</p>
+			<p>Data and spatial analysis with Python, R, QGIS, GDAL, and mapshaper.</p>
 			<p>
-				Visualizations and web stuff with JavaScript, D3, WebGL, Svelte, Node, <code
-					>...frameworks</code
-				> , GraphQL, and TypeScript.
+				Data gathering and processing with scraping (Puppeteer, Python) and Google Cloud Platform
+				(Compute, Earth Engine).
 			</p>
-			<p>
-				Satellite imagery processing with GDAL, Python, Google Earth Engine and Google Cloud
-				Platform.
-			</p>
+			<p>Visualizations and web stuff with JavaScript, D3, Svelte, WebGL, and Mapbox.</p>
 			<p>Design with Illustrator and Photoshop.</p>
 		</div>
 
