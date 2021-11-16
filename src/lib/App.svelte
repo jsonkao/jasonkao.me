@@ -58,11 +58,9 @@
 		<SectionHeader>Buzzwords</SectionHeader>
 		<div class="buzzwords">
 			<p>Data and spatial analysis with Python, R, QGIS, GDAL, and mapshaper.</p>
-			<p>
-				Data gathering and processing with scraping (Puppeteer, Python) and Google Cloud Platform
-				(Compute, Earth Engine).
-			</p>
-			<p>Visualizations and web stuff with JavaScript, D3, Svelte, WebGL, and Mapbox.</p>
+                        <p>Processing large-scale datasets with Google Cloud (Earth Engine, Compute) and AWS.
+			<p>Visualizations with JavaScript, D3, Svelte, WebGL, and Mapbox.</p>
+                        <p>Data gathering and scraping with Puppeteer and Python.</p>
 			<p>Design with Illustrator and Photoshop.</p>
 		</div>
 
