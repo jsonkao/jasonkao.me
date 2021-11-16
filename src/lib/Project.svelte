@@ -90,7 +90,7 @@
 	}
 
 	.slides:nth-child(2) {
-		animation: fade 10s infinite;
+		animation: fade 12s infinite;
 	}
 
 	:global(code) {
