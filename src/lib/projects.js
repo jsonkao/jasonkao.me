@@ -83,6 +83,7 @@ export default {
 			image: 'images/asylum-seekers.webp',
 			description:
 				'Visualizations explaining the impact of the metering and Remain in Mexico programs.',
+			description: 'Investigated the magnitude of asylum seekers in Remain in Mexico (MPP): obtained leaked data from a Senate committee; worked with NGOs, shelters, and researchers in every MPP border city.',
 			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
 		},
