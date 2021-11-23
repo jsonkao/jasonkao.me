@@ -106,6 +106,8 @@ export default {
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
 		},
+	],
+	school: [
 		{
 			name: 'Uncertainty Looms as Student Jobs Disappear',
 			image: 'images/job-loss.webp',
@@ -124,9 +126,7 @@ export default {
 			url:
 				'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
 			people: 'Sofia Kwon, Stephanie Lai'
-		}
-	],
-	school: [
+		},
 		{
 			name: '[Course: Arab & Asian Diaspora in Literature and Film] An essay',
 			image: 'images/puddle.webp',

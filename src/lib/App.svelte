@@ -39,7 +39,7 @@
 		</p>
 	</div>
 
-	<Grid projects={[...projects.topLevel, ...projects.school]} />
+	<Grid projects={projects.topLevel} />
 
 	<!--
 	<SectionHeader id="extended-portfolio" centered>
