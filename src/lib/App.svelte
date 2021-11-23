@@ -12,7 +12,7 @@
 	let contactFocused = false;
 </script>
 
-<main style="max-width: 1038px">
+<main style="max-width: 1098px">
 	<header>
 		<div>
 			<p>Jason Kao</p>

@@ -7,7 +7,8 @@ export default {
 				'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
 			url:
 				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
-			people: 'Isabella Zou, Brandon Formby'
+			description: 'Isabella Zou and I talked to 25 teachers about a new law.',
+			people: 'Brandon Formby, Darla Cameron'
 		},
 		{
 			name: '[Course: Visual Databases] Redlining’s Legacy in Heat',
@@ -22,7 +23,7 @@ export default {
 				'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
 			image:
 				'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
-			description: '',
+			description: 'For this breaking investigation, I spoke with teachers, students in the class, and district lawyers, and FOIA’d for district communications.',
 			url:
 				'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
@@ -32,11 +33,13 @@ export default {
 			name: 'Redistricting',
 			image: [
 				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526195.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
-				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
+				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1'
 			],
-			description: 'Building tools to communicate, collaborate on, and research redistricting objectives.',
+			description:
+				'Building tools to communicate, collaborate on, and research redistricting objectives. I use the website to explain the ongoing redistricting process at town halls and press conferences in Asian American communities.',
 			url: 'https://jsonkao.github.io/asam-redistricting-maps/',
-			people: 'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
+			people:
+				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
 		},
 		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
@@ -48,16 +51,16 @@ export default {
 		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
 			image: 'images/clint.webp',
-			description: 'Investigating and mapping where children were held.',
+			description: 'Investigating and mapping where children were detained.',
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
-				'Caitlin Dickerson, Simon Romero, Zolan Kanno-Youngs, Manny Fernandez, Simone Landon, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
+				'Simone Landon, Caitlin Dickerson, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
 		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
 			image: 'images/nyc-reopen.webp',
 			description:
-				'“It’s very clear that social distancing is a privilege that not everyone can afford.”',
+				'I detailed the class- and race-based movement disparities in the first summer of the pandemic by processing hundreds of gigabytes of aggregated location data.',
 			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
 			people:
 				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
@@ -65,27 +68,35 @@ export default {
 		{
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
 			image: 'images/hong-kong.webp',
-			description: 'Multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
+			description: 'I helped find photos for and lay out multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
 			people:
 				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
 		{
-			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
-			image: 'images/flood-risk.webp',
-			description:
-				'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%.',
-			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
-			people: 'Mira Rojanasakul, Hayley Warren'
-		},
-		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
 			image: 'images/asylum-seekers.webp',
 			description:
-				'Visualizations explaining the impact of the metering and Remain in Mexico programs.',
-			description: 'Investigated the magnitude of asylum seekers in Remain in Mexico (MPP): obtained leaked data from a Senate committee; worked with NGOs, shelters, and researchers in every MPP border city.',
+				'I investigated the magnitude of asylum seekers in Remain in Mexico (MPP). I obtained leaked data from a Senate committee; worked with NGOs, shelters, and researchers in every MPP border city; wrote the story; and visualized the data with Denise Lu.',
 			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
+		},
+		{
+			name:
+				'[Course: Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
+			description:
+				'And research on the legal and technological infrastructure that prevents good data collection.',
+			image: 'https://i.imgur.com/PUzvm64.png',
+			url: 'https://github.com/jsonkao/fill-vaccine-data/',
+			people: 'Prof. Elizabeth OuYang'
+		},
+		{
+			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
+			image: 'images/flood-risk.webp',
+			description:
+				'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%. I built visualizations and investigated bias in FEMA’ maps.',
+			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
+			people: 'Mira Rojanasakul, Hayley Warren'
 		},
 		{
 			name: 'U.S. and Ivy League schools were late to respond to COVID-19',
@@ -117,15 +128,6 @@ export default {
 	],
 	school: [
 		{
-			name:
-				'[Course: Constitutional Challenges Affecting Communities of Color] Reconstructing missing race/ethnicity vaccine data using location data',
-			description:
-				'And research on the legal and technological infrastructure that prevents good data collection.',
-			image: 'https://i.imgur.com/PUzvm64.png',
-			url: 'https://github.com/jsonkao/fill-vaccine-data/',
-			people: 'Prof. Elizabeth OuYang'
-		},
-		{
 			name: '[Course: Arab & Asian Diaspora in Literature and Film] An essay',
 			image: 'images/puddle.webp',
 			url: 'https://jsonkao.github.io/diaspora-puddle/',
@@ -139,7 +141,8 @@ export default {
 			people: 'Prof. Henning Schulzrinne'
 		},*/,
 		{
-			name: '[Course: Comparative Ethnic Studies] A creative rendering of location data sampling and representation',
+			name:
+				'[Course: Comparative Ethnic Studies] A creative rendering of location data sampling and representation',
 			image: 'images/location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'

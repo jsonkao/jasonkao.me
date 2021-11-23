@@ -98,11 +98,11 @@
 	}
 
 	.description {
-		color: #888;
+		color: #434343;
 	}
 
 	.description :global(a) {
-		color: #888;
+		color: #434343;
 		text-decoration: underline;
 	}
 
