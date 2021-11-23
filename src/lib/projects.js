@@ -94,7 +94,7 @@ export default {
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
 			image: 'images/flood-risk.webp',
 			description:
-				'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%. I built visualizations and investigated bias in FEMA’ maps.',
+				'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%. I built visualizations and investigated bias in FEMA’s maps.',
 			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
 			people: 'Mira Rojanasakul, Hayley Warren'
 		},
