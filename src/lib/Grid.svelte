@@ -11,7 +11,7 @@
 	let colorOffset = totalItems;
 	totalItems += projects.length;
 
-	const colors = ['#A32251', '#0041FF', '#1A1A57', '#D91F25', '#004F50', '#EBAB3D'];
+	const colors = ['#A32251', '#0041FF', 'rgb(7, 7, 126)', '#D91F25', '#004F50', '#EBAB3D'];
 
 	const minFr = 600 - 100 * columns;
 

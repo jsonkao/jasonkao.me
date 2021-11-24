@@ -66,7 +66,7 @@
 
 		<SectionHeader empty />
 		<p class="updated-text">
-			Updated August 2021. <span style="text-transform: none;"
+			Updated November 2021. <span style="text-transform: none;"
 				><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
 					>Creative Commons CC BY-SA 4.0</a
 				>.</span

@@ -7,7 +7,7 @@
 <div style="--height: {mediaHeight}px">
 	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
 		<div class="media" class:slides-container={Array.isArray(image) && image.length > 1}>
-			{#if image.includes('.mp4') || image.includes('.mov')}
+			{#if ['mp4', 'mov', 'webm'].some(e => image.endsWith && image.endsWith(e))}
 				{#if image === 'images/normals.mov'}
 					<img src="images/nyt_logo.png" class="logo-overlay" alt="New York Times logo" />
 				{/if}
