@@ -13,11 +13,12 @@
 </script>
 
 <main style="max-width: 1098px">
+
 	<header>
 		<div>
 			<p>Jason Kao</p>
 		</div>
-		<div>
+		<div style="visibility: hidden;">
 			<p>About.</p>
 			<p class="gray">
 				<button on:click={() => (contactFocused = !contactFocused)}>Contact.</button>
@@ -25,6 +26,7 @@
 		</div>
 	</header>
 
+	<!--
 	<p class="nutgraf">
 		I am an Asian American senior at Columbia, where I enjoy classes in computer science and the
 		Center for the Study of Ethnicity and Race.
@@ -38,6 +40,8 @@
 			<a href="https://github.com/jsonkao">github/jsonkao</a>
 		</p>
 	</div>
+
+	-->
 
 	<Grid projects={projects.topLevel} />
 </main>
