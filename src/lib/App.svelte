@@ -132,10 +132,6 @@
 		margin: 0 auto;
 	}
 
-	footer.skinny {
-		padding-bottom: 40px;
-	}
-
 	.updated-text {
 		text-transform: uppercase;
 		font-family: Inconsolata;
