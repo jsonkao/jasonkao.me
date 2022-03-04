@@ -40,39 +40,6 @@
 	</div>
 
 	<Grid projects={projects.topLevel} />
-
-	<!--
-	<SectionHeader id="extended-portfolio" centered>
-		Misc.; <a href="https://www.github.com/jsonkao">Open source</a> software
-		<!--
-    More work at <a
-      href="https://www.bloomberg.com/authors/AUy6CJsqwxM/jason-kao"
-    >Bloomberg News</a>, <a href="https://www.nytimes.com/by/jason-kao">The New
-      York Times</a> and <a href="https://www.columbiaspectator.com/contributors/Jason-Kao"> the
-      Columbia Spectator </a>
-	</SectionHeader>
-	<Grid projects={projects.secondLevel} />
-  -->
-
-	<footer class="skinny">
-		<SectionHeader>Buzzwords</SectionHeader>
-		<div class="buzzwords">
-			<p>Data and spatial analysis with Python, R, QGIS, GDAL, and mapshaper.</p>
-                        <p>Processing large-scale datasets with Google Cloud (Earth Engine, Compute) and AWS.
-			<p>Visualizations with JavaScript, D3, Svelte, WebGL, and Mapbox.</p>
-                        <p>Data gathering and scraping with Puppeteer and Python.</p>
-			<p>Design with Illustrator and Photoshop.</p>
-		</div>
-
-		<SectionHeader empty />
-		<p class="updated-text">
-			Updated November 2021. <span style="text-transform: none;"
-				><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
-					>Creative Commons CC BY-SA 4.0</a
-				>.</span
-			>
-		</p>
-	</footer>
 </main>
 
 <style lang="scss">
