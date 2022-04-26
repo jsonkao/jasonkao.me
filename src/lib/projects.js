@@ -5,7 +5,7 @@ export default {
 				'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
 			image:
 				'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
-			description: 'An investigation revealing an early consequence of the new race law’s ban on activism.',
+			description: 'An investigation revealing an early consequence of the new race/social studies law.',
 			url:
 				'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
@@ -15,24 +15,20 @@ export default {
 			name: 'Redlining’s Legacy in Heat [Course: Visual Databases]',
 			image: 'images/redlining.webm',
 			description:
-				'Mapped temperatures across 200 cities over 40 years to show how redlining infrastructure impacts urban heat.',
+				'Analyzed temperatures across all HOLC cities over 40 years.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
 		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
 			image: 'images/nyc-reopen.webp',
-			description:
-				'I detailed the class- and race-based movement disparities in the first summer of the pandemic by processing hundreds of gigabytes of aggregated location data.',
 			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
 			people:
 				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
 		},
 		{
 			name:
-				'Reconstructing unknown race and ethnicity vaccination breakdowns using location data [Course: Constitutional Challenges Affecting Communities of Color]',
-			description:
-				'And research on the legal and technological infrastructure that prevents good data collection.',
+				'Estimating unknown race and ethnicity vaccination breakdowns using location data',
 			image: 'https://i.imgur.com/PUzvm64.png',
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
@@ -48,7 +44,7 @@ export default {
 		{
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
 			image: 'images/hong-kong.webp',
-			description: 'I helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
+			description: 'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
 			people:
 				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
@@ -62,13 +58,13 @@ export default {
 				'Simone Landon, Caitlin Dickerson, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
 		},
 		{
-			name: 'Redistricting',
+			name: 'Redistricting, NYC 2021',
 			image: [
 				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526195.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
 				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1'
 			],
 			description:
-				'Building tools to communicate, collaborate on, and research redistricting objectives. I use the website to explain the ongoing redistricting process at town halls and press conferences in Asian American communities.',
+				'Building tools to communicate, organize, and research redistricting objectives.',
 			url: 'https://jsonkao.github.io/asam-redistricting-maps/',
 			people:
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
@@ -93,8 +89,6 @@ export default {
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
 			image: 'images/flood-risk.webp',
-			description:
-				'A new analysis shows FEMA flood zone maps underestimate properties in danger by 67%. I built visualizations and investigated bias in FEMA’s maps.',
 			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
 			people: 'Mira Rojanasakul, Hayley Warren'
 		},
