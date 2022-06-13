@@ -6,14 +6,13 @@
 
 	let email;
 	onMount(() => {
-		email = 'jason.kao@columbia.edu';
+		email = 'jason.kao@nytimes.com';
 	});
 
 	let contactFocused = false;
 </script>
 
 <main style="max-width: 1098px">
-
 	<header>
 		<div>
 			<p>Jason Kao</p>
@@ -26,10 +25,15 @@
 		</div>
 	</header>
 
-	<!--
 	<p class="nutgraf">
-		I am an Asian American senior at Columbia, where I enjoy classes in computer science and the
-		Center for the Study of Ethnicity and Race.
+		I am a fellow at The New York Times reporting from the graphics department. (The graphics
+		department covers visual stories across any topic in the news. It uses data and visualization to
+		break news and do its own investigations.)
+	</p>
+	<p class="nutgraf">
+		In the past, I've reported on "critical race theory"
+		laws in Texas, climate change and inequity, the U.S.-Mexico border, and protests. At school, I
+		studied computer science and ethnic studies.
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
@@ -37,11 +41,8 @@
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
 			<a href="https://twitter.com/jsonkao">@jsonkao</a>
-			<a href="https://github.com/jsonkao">github/jsonkao</a>
 		</p>
 	</div>
-
-	-->
 
 	<Grid projects={projects.topLevel} />
 </main>
