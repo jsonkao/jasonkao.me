@@ -9,7 +9,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "1.0.0-next.34",
+		"@sveltejs/adapter-static": "latest",
 		"@sveltejs/kit": "next",
 		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^8.1.0",
@@ -17,8 +17,8 @@
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
 		"sass": "^1.34.1",
-		"svelte": "^3.48.0",
-		"svelte-preprocess": "^4.7.3"
+		"svelte": "latest",
+		"svelte-preprocess": "latest"
 	},
 	"type": "module"
 }

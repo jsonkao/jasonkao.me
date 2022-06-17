@@ -123,32 +123,8 @@
 		}
 	}
 
-	.buzzwords {
-		p {
-			max-width: 600px;
-		}
-		p:not(:last-child) {
-			margin-bottom: 15px;
-		}
-	}
-
-	.skinny {
-		width: 56%;
-		margin: 0 auto;
-	}
-
-	.updated-text {
-		text-transform: uppercase;
-		font-family: Inconsolata;
-		font-size: 16px;
-		font-weight: 500;
-		line-height: 24px;
-		color: #999;
-	}
-
 	@media (max-width: 600px) {
-		.nutgraf,
-		.skinny {
+		.nutgraf {
 			width: 100%;
 		}
 	}
