@@ -31,16 +31,15 @@
 		break news and do its own investigations.)
 	</p>
 	<p class="nutgraf">
-		In the past, I've reported on "critical race theory"
-		laws in Texas, climate change and inequity, the U.S.-Mexico border, and protests. At school, I
-		studied computer science and ethnic studies.
+		In the past, I've reported on "critical race theory" laws in Texas, climate change and inequity,
+		the U.S.-Mexico border, and protests. At school, I studied computer science and ethnic studies.
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
-			<a href="https://twitter.com/jsonkao">@jsonkao</a>
+			<a href="https://twitter.com/jasonYkao">@jasonYkao</a>
 		</p>
 	</div>
 
