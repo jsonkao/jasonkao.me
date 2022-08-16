@@ -26,13 +26,13 @@
 	</header>
 
 	<p class="nutgraf">
-		I am a fellow at The New York Times reporting from the graphics department. (The graphics
-		department covers visual stories across any topic in the news. It uses data and visualization to
+		I am a fellow at The New York Times reporting out of the Graphics department. (Graphics
+		covers visual stories across any topic in the news. It uses data and visualization to
 		break news and do its own investigations.)
 	</p>
 	<p class="nutgraf">
-		In the past, I've reported on "critical race theory" laws in Texas, climate change and inequity,
-		the U.S.-Mexico border, and protests. At school, I studied computer science and ethnic studies.
+		In the past, I've reported on the U.S.-Mexico border, Texas laws that regulate how race is taught, climate change and inequity,
+		and protests in Hong Kong and Puerto Rico. At school, I studied computer science and ethnic studies.
 	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
