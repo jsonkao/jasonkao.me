@@ -27,11 +27,12 @@ export default {
 				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
 		},
 		{
-			name:
-				'Estimating unknown race and ethnicity vaccination breakdowns using location data',
-			image: 'https://i.imgur.com/PUzvm64.png',
-			url: 'https://github.com/jsonkao/fill-vaccine-data/',
-			people: 'Prof. Elizabeth OuYang'
+			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
+			image: 'images/hong-kong.webp',
+			description: 'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
+			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
+			people:
+				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
 		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
@@ -40,14 +41,6 @@ export default {
 				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
 			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
-		},
-		{
-			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
-			image: 'images/hong-kong.webp',
-			description: 'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
-			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
-			people:
-				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
 		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
@@ -140,7 +133,14 @@ export default {
 			image: 'images/location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
-		}
+		},
+		{
+			name:
+				'Estimating unknown race and ethnicity vaccination breakdowns using location data',
+			image: 'https://i.imgur.com/PUzvm64.png',
+			url: 'https://github.com/jsonkao/fill-vaccine-data/',
+			people: 'Prof. Elizabeth OuYang'
+		},
 	],
 	secondLevel: [
 		{
