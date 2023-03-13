@@ -7,8 +7,8 @@
 <div style="--height: {mediaHeight}px">
 	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
 		<div class="media" class:slides-container={Array.isArray(image) && image.length > 1}>
-			{#if ['mp4', 'mov', 'webm'].some(e => image.endsWith && image.endsWith(e))}
-				{#if image === 'images/normals.mov'}
+			{#if ['mp4', 'mov', 'webm'].some((e) => image.endsWith && image.endsWith(e))}
+				{#if image === 'images/normals.mov' || image === 'images/ASIAN-VOTE-3X2.mp4'}
 					<img src="images/nyt_logo.png" class="logo-overlay" alt="New York Times logo" />
 				{/if}
 				<video autoPlay playsInline muted loop>
@@ -33,9 +33,11 @@
 	{#if description}
 		<p class="description">{@html description}</p>
 	{/if}
+	<!-- 
 	<p class="people">
 		Made possible by {@html people}
 	</p>
+	-->
 </div>
 
 <style lang="scss">

@@ -1,26 +1,44 @@
 export default {
 	topLevel: [
 		{
+			name: 'Where New York’s Asian Neighborhoods Shifted to the Right (The New York Times)',
+			description:
+				'A story about the largest electoral shift in Asian neighborhoods in the last 2 decades.',
+			image: 'images/ASIAN-VOTE-3X2.mp4',
+			url:
+				'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
+			people:
+				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
+		},
+		{
 			name:
 				'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
 			image:
 				'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
-			description: 'An investigation revealing an early consequence of the new race/social studies law.',
+			description:
+				'An investigation revealing an early consequence of the new race/social studies law.',
 			url:
 				'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
 		{
+			name: 'Breaking news coverage on killing by police',
+			url:
+				'https://www.nytimes.com/interactive/2023/01/27/us/tyre-nichols-police-beating-timeline.html',
+			description: '',
+			people: 'Kennedy Elliott',
+			image: 'images/scoop-memphis-timeline-master.webp'
+		},
+		{
 			name: 'Redlining’s Legacy in Heat [Course: Visual Databases]',
 			image: 'images/redlining.webm',
-			description:
-				'Analyzed temperatures across all HOLC cities over 40 years.',
+			description: 'Analyzed temperatures nationwide over 4 decades.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
 		},
 		{
-			name: 'Low-income, Black, Hispanic Communities Rebounded Weeks Faster in Movement',
+			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home',
 			image: 'images/nyc-reopen.webp',
 			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
 			people:
@@ -29,10 +47,24 @@ export default {
 		{
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
 			image: 'images/hong-kong.webp',
-			description: 'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
+			description:
+				'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
 			people:
 				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
+		},
+		{
+			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
+			image: 'images/georgia.webm',
+			url:
+				'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
+			people: 'Christine Zhang, Denise Lu'
+		},
+		{
+			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
+			image: 'https://i.imgur.com/PUzvm64.png',
+			url: 'https://github.com/jsonkao/fill-vaccine-data/',
+			people: 'Prof. Elizabeth OuYang'
 		},
 		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
@@ -92,7 +124,7 @@ export default {
 				'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
-		},
+		}
 	],
 	school: [
 		{
@@ -135,12 +167,11 @@ export default {
 			people: 'Prof. Frances Negrón-Muntaner'
 		},
 		{
-			name:
-				'Estimating unknown race and ethnicity vaccination breakdowns using location data',
+			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
 			image: 'https://i.imgur.com/PUzvm64.png',
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
-		},
+		}
 	],
 	secondLevel: [
 		{
