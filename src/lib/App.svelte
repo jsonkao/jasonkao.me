@@ -26,14 +26,15 @@
 	</header>
 
 	<p class="nutgraf">
-		I am a fellow at The New York Times reporting out of the Graphics department. (Graphics
-		covers visual stories across any topic in the news. It uses data and visualization to
-		break news and do its own investigations.)
+		I am a member of the 2022–2023 New York Times fellowship class. In the Graphics department, I
+		use data and visualization to cover any topic in the news.
 	</p>
 	<p class="nutgraf">
-		In the past, I've reported on the U.S.-Mexico border, Texas laws that regulate how race is taught, climate change and inequity,
-		and protests in Hong Kong and Puerto Rico. At school, I studied computer science and ethnic studies.
+		I’ve reported on the Asian American vote, the U.S.-Mexico border, Texas laws that regulate how
+		race is taught, climate change and inequity, and protests. At
+		school, I studied computer science and ethnic studies.
 	</p>
+	<p class="nutgraf">I’m looking for a job :) My contact info is below, and <a href="/Resume_20230409.pdf">here is my resume</a>.</p>
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
@@ -49,7 +50,7 @@
 <style lang="scss">
 	main {
 		margin: 0 auto;
-		padding: 0 30px;
+		padding: 0 20px;
 	}
 
 	header {
