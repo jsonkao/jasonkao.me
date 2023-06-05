@@ -5,11 +5,9 @@
 	import projects from './projects';
 
 	let email;
-	onMount(() => {
-		email = 'jason.kao@nytimes.com';
-	});
-
 	let contactFocused = false;
+	
+	onMount(() => email = 'jason.kao@columbia.edu');
 </script>
 
 <main style="max-width: 1098px">
