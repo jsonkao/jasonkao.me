@@ -38,7 +38,7 @@
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
-			<a href="https://twitter.com/jasonYkao">@jasonYkao</a>
+			<a href="https://twitter.com/cow_portal">Twitter</a>
 		</p>
 	</div>
 
