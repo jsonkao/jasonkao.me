@@ -11,26 +11,11 @@
 </script>
 
 <main style="max-width: 1098px">
-	<header>
-		<div>
-			<p>Jason Kao</p>
-		</div>
-		<div style="visibility: hidden;">
-			<p>About.</p>
-			<p class="gray">
-				<button on:click={() => (contactFocused = !contactFocused)}>Contact.</button>
-			</p>
-		</div>
-	</header>
-
 	<p class="nutgraf">
-		I am a member of the 2022–2023 New York Times fellowship class. In the Graphics department, I
-		use data and visualization to cover any topic in the news.
+		<b>Jason Kao</b>
 	</p>
 	<p class="nutgraf">
-		I’ve reported on the Asian American vote, the U.S.-Mexico border, Texas laws that regulate how
-		race is taught, climate change and inequity, and protests. At
-		school, I studied computer science and ethnic studies.
+		I am a data journalist and visual journalist based in New York City. I was a member of the 2022–2023 New York Times fellowship class, and I’ve interned at The Texas Tribune and Bloomberg News.
 	</p>
 	<p class="nutgraf">I’m looking for a job :) My contact info is below, and <a href="/Resume_20230409.pdf">here is my resume</a>.</p>
 
@@ -47,18 +32,8 @@
 
 <style lang="scss">
 	main {
-		margin: 0 auto;
+		margin: 22px auto 0;
 		padding: 0 20px;
-	}
-
-	header {
-		display: flex;
-		justify-content: space-between;
-		margin: 18px 0 22px;
-
-		div:last-child {
-			text-align: right;
-		}
 	}
 
 	.gray {
@@ -82,7 +57,7 @@
 	}
 
 	.contact {
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 		font-family: Inconsolata;
 		font-size: 17px;
 		font-weight: 500;
