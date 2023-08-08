@@ -11,6 +11,16 @@ export default {
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
 		},
 		{
+			name: 'Noise Could Take Years Off Your Life. Here’s How. (The New York Times)',
+			description:
+				'We used a professional sound meter to measure the din of daily life and talked to scientists about the health risks it can pose.',
+			image: 'images/noise-hp-promo.mp4',
+			url:
+				'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
+			people:
+				'Emily TK'
+		},
+		{
 			name:
 				'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
 			image:

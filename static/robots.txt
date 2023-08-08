@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /Resume.pdf
+Disallow: /Jason_Kao_Resume 2023-07-26.pdf

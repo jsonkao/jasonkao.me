@@ -17,7 +17,7 @@
 	<p class="nutgraf">
 		I am a data journalist and visual journalist based in New York City. I was a member of the 2022–2023 New York Times fellowship class, and I’ve interned at The Texas Tribune and Bloomberg News.
 	</p>
-	<p class="nutgraf">I’m looking for a job :) My contact info is below, and <a href="/Resume_20230409.pdf">here is my resume</a>.</p>
+	<p class="nutgraf">I’m looking for a job :) My contact info is below, and <a href="/Jason_Kao_Resume 2023-07-26.pdf">here is my resume</a>.</p>
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
