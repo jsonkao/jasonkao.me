@@ -1,13 +1,12 @@
 <script>
 	import { onMount } from 'svelte';
 	import Grid from './Grid.svelte';
-	import SectionHeader from './SectionHeader.svelte';
 	import projects from './projects';
 
 	let email;
 	let contactFocused = false;
-	
-	onMount(() => email = 'jason.kao@columbia.edu');
+
+	onMount(() => (email = 'jason.kao@columbia.edu'));
 </script>
 
 <main style="max-width: 1098px">
@@ -15,15 +14,21 @@
 		<b>Jason Kao</b>
 	</p>
 	<p class="nutgraf">
-		I am a data journalist and visual journalist based in New York City. I was a member of the 2022–2023 New York Times fellowship class, and I’ve interned at The Texas Tribune and Bloomberg News.
+		I am currently a contract graphics editor at ProPublica. I was a member of the 2022–2023 New
+		York Times fellowship class, and I’ve interned at The Texas Tribune and Bloomberg.
 	</p>
-	<p class="nutgraf">I’m looking for a job :) My contact info is below, and <a href="/Jason_Kao_Resume 2023-07-26.pdf">here is my resume</a>.</p>
+	<p class="nutgraf">
+		I’m looking for a job :) My contact info is below, and <a
+			href="/Jason_Kao_Resume 2023-07-26.pdf">here is my resume</a
+		>.
+	</p>
 
 	<div class="nutgraf contact" class:contactFocused>
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
 			<a href="https://twitter.com/cow_portal">Twitter</a>
+			<a href="https://github.com/jsonkao">GitHub</a>
 		</p>
 	</div>
 
@@ -32,12 +37,8 @@
 
 <style lang="scss">
 	main {
-		margin: 22px auto 0;
+		margin: 42px auto 0;
 		padding: 0 20px;
-	}
-
-	.gray {
-		color: #888;
 	}
 
 	.nutgraf {
