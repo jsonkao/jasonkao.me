@@ -32,7 +32,7 @@ export default {
 			people:
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
-		{
+		/* {
 			name: 'Breaking news coverage on killing by police',
 			url:
 				'https://www.nytimes.com/interactive/2023/01/27/us/tyre-nichols-police-beating-timeline.html',
@@ -46,7 +46,7 @@ export default {
 			description: 'Analyzed temperatures nationwide over 4 decades.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
-		},
+		}, */
 		{
 			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home',
 			image: 'images/nyc-reopen.webp',
@@ -76,7 +76,7 @@ export default {
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
 		},
-		{
+		/* {
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
 			image: 'images/asylum-seekers.webp',
 			description:
@@ -91,7 +91,7 @@ export default {
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
 				'Simone Landon, Caitlin Dickerson, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
-		},
+		}, */
 		{
 			name: 'Redistricting, NYC 2021',
 			image: [
@@ -111,7 +111,7 @@ export default {
 				'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
-		{
+		/* {
 			name:
 				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
 			image:
@@ -120,7 +120,7 @@ export default {
 				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
 			description: 'Isabella Zou and I talked to 25 teachers about HB 3979.',
 			people: 'Brandon Formby, Darla Cameron'
-		},
+		}, */
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
 			image: 'images/flood-risk.webp',

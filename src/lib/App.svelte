@@ -3,10 +3,9 @@
 	import Grid from './Grid.svelte';
 	import projects from './projects';
 
-	let email;
-	let contactFocused = false;
+	let email = '';
 
-	onMount(() => (email = 'jason.kao@columbia.edu'));
+	onMount(() => (email = 'jason.kao@propublica.org'));
 </script>
 
 <main style="max-width: 1098px">
@@ -14,20 +13,16 @@
 		<b>Jason Kao</b>
 	</p>
 	<p class="nutgraf">
-		I am currently a contract graphics editor at ProPublica. I was a member of the 2022–2023 New
-		York Times fellowship class, and I’ve interned at The Texas Tribune and Bloomberg.
-	</p>
-	<p class="nutgraf">
-		I’m looking for a job :) My contact info is below, and <a
-			href="/Jason_Kao_Resume 2023-07-26.pdf">here is my resume</a
-		>.
+		I am currently on the graphics team at ProPublica, where I make charts, maps, and other data
+		visualizations. At school, I majored in computer science. I've been a graphics intern at Bloomberg News, The New York Times,
+		and The Texas Tribune.
 	</p>
 
-	<div class="nutgraf contact" class:contactFocused>
+	<div class="nutgraf contact">
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
-			<a href="https://twitter.com/cow_portal">Twitter</a>
+			<!-- <a href="https://twitter.com/cow_portal">Twitter</a> -->
 			<a href="https://github.com/jsonkao">GitHub</a>
 		</p>
 	</div>
@@ -84,16 +79,6 @@
 		}
 		a:not(:last-child) {
 			margin-right: 6px;
-		}
-
-		&.contactFocused {
-			p {
-				background-color: #fbe1c4;
-			}
-			a {
-				transition-duration: 0.1s;
-				border-bottom-color: rgba(0, 0, 0, 0.8);
-			}
 		}
 	}
 
