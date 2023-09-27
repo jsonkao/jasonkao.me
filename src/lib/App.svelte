@@ -13,9 +13,9 @@
 		<b>Jason Kao</b>
 	</p>
 	<p class="nutgraf">
-		I am currently on the graphics team at ProPublica, where I make charts, maps, and other data
-		visualizations. At school, I majored in computer science. I've been a graphics intern at Bloomberg News, The New York Times,
-		and The Texas Tribune.
+		I am currently on the graphics team at ProPublica, where I analyze data and visualize it in
+		charts and maps. I graduated from Columbia in 2022 with a degree in computer science. I've
+		worked on data visualizations at Bloomberg News, The New York Times, and The Texas Tribune.
 	</p>
 
 	<div class="nutgraf contact">
