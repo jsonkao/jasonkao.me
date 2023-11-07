@@ -5,30 +5,32 @@ export default {
 			description:
 				'A story about the largest electoral shift in Asian neighborhoods in the last 2 decades.',
 			image: 'images/ASIAN-VOTE-3X2.mp4',
-			url:
-				'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
+			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
+		},
+		{
+			name: 'The Scandal That Never Happened (ProPublica) — Interactive Opener',
+			description:
+				'The the all-white judges of a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners, most of them Black, who claimed they had been unjustly convicted.',
+			image: 'images/la-5th.webm',
+			url: 'https://www.propublica.org/article/louisiana-judges-ignored-prisoners-petitions-without-review-fifth-circuit'
 		},
 		{
 			name: 'Noise Could Take Years Off Your Life. Here’s How. (The New York Times)',
 			description:
 				'We used a professional sound meter to measure the din of daily life and talked to scientists about the health risks it can pose.',
 			image: 'images/noise-hp-promo.mp4',
-			url:
-				'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
-			people:
-				'Emily TK'
+			url: 'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
+			people: 'Emily TK'
 		},
 		{
-			name:
-				'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
+			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
 			image:
 				'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
 			description:
 				'An investigation revealing an early consequence of the new race/social studies law.',
-			url:
-				'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
+			url: 'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
@@ -39,14 +41,14 @@ export default {
 			description: '',
 			people: 'Kennedy Elliott',
 			image: 'images/scoop-memphis-timeline-master.webp'
-		},
+		}, */
 		{
 			name: 'Redlining’s Legacy in Heat [Course: Visual Databases]',
 			image: 'images/redlining.webm',
 			description: 'Analyzed temperatures nationwide over 4 decades.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
-		}, */
+		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home',
 			image: 'images/nyc-reopen.webp',
@@ -66,8 +68,7 @@ export default {
 		{
 			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
 			image: 'images/georgia.webm',
-			url:
-				'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
+			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
 			people: 'Christine Zhang, Denise Lu'
 		},
 		{
@@ -107,8 +108,7 @@ export default {
 		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
 			image: 'images/normals.mov',
-			url:
-				'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
+			url: 'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
 		/* {
@@ -130,8 +130,7 @@ export default {
 		{
 			name: 'U.S. and Ivy League schools were late to respond to COVID-19',
 			image: 'images/ivy-response.mp4',
-			url:
-				'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
+			url: 'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
 		}
@@ -141,19 +140,16 @@ export default {
 			name: 'Uncertainty Looms as Student Jobs Disappear',
 			image: 'images/job-loss.webp',
 			description: 'Analyzing the industries losing jobs during the coronavirus recession.',
-			url:
-				'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
+			url: 'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
 			people: 'Eve Washington, Charlotte Li, Chaitanya Reddy Gurijala',
 			award: true
 		},
 		{
-			name:
-				'How broken windows policing & gentrification harmed Black community, strengthened Columbia',
+			name: 'How broken windows policing & gentrification harmed Black community, strengthened Columbia',
 			image: 'images/deeds.mov',
 			description:
 				'Involved scraping and processing all NYC deeds since 1966 to understand Columbia’s expansion.',
-			url:
-				'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
+			url: 'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
 			people: 'Sofia Kwon, Stephanie Lai'
 		},
 		{
@@ -170,8 +166,7 @@ export default {
 			people: 'Prof. Henning Schulzrinne'
 		},*/,
 		{
-			name:
-				'[Course: Comparative Ethnic Studies] A creative rendering of location data sampling and representation',
+			name: '[Course: Comparative Ethnic Studies] A creative rendering of location data sampling and representation',
 			image: 'images/location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
@@ -222,8 +217,7 @@ export default {
 		{
 			name: 'Sex Diversity Among Graduate Students Is Stagnating',
 			image: 'images/graduate-sex-diversity.mp4',
-			url:
-				'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
+			url: 'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
 			people: 'Gavrielle Jacobovitz, Julian Shen-Berro, Rahil Kamath'
 		}
 	]

@@ -40,25 +40,24 @@
 	-->
 </div>
 
-<style lang="scss">
+<style>
 	.media {
 		width: 100%;
 		margin-bottom: 14px;
 		position: relative;
 		height: var(--height);
+	}
+	picture img,
+	video {
+		object-fit: cover;
+		object-position: 50% top;
+		width: 100%;
+		height: 100%;
+		border: 1px solid #000;
+	}
 
-		picture img,
-		video {
-			object-fit: cover;
-			object-position: 50% top;
-			width: 100%;
-			height: 100%;
-			border: 1px solid #000;
-		}
-
-		video {
-			padding-right: 0.1px; /* Unhides border-right */
-		}
+	video {
+		padding-right: 0.1px; /* Unhides border-right */
 	}
 
 	@keyframes fade {
@@ -83,12 +82,12 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
+	}
 
-		* {
-			grid-column: 1 / 2;
-			grid-row: 1 / 2;
-			height: var(--height);
-		}
+	.slides-container > * {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+		height: var(--height);
 	}
 
 	.slides:nth-child(2) {
@@ -115,10 +114,10 @@
 		font-weight: 400;
 		line-height: 24px;
 		margin-top: 2px;
+	}
 
-		:global(a) {
-			text-decoration: underline;
-		}
+	.people :global(a) {
+		text-decoration: underline;
 	}
 
 	.logo-overlay {

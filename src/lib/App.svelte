@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import Grid from './Grid.svelte';
-	import projects from './projects';
+	import projects from './projects.js';
 
 	let email = '';
 
@@ -30,7 +30,7 @@
 	<Grid projects={projects.topLevel} />
 </main>
 
-<style lang="scss">
+<style>
 	main {
 		margin: 42px auto 0;
 		padding: 0 20px;
@@ -39,17 +39,18 @@
 	.nutgraf {
 		width: 50%;
 		margin: 0 auto 21px;
+	}
 
-		& > a {
-			color: #121212;
-			border-bottom: 1px solid #121212;
-			transition-duration: 0.15s;
-			&:hover {
-				border-bottom-color: #e4e4e4;
-				background: #e4e4e4;
-				text-decoration: none;
-			}
-		}
+	.nutgraf a {
+		color: #121212;
+		border-bottom: 1px solid #121212;
+		transition-duration: 0.15s;
+	}
+
+	.nutgraf a:hover {
+		border-bottom-color: #e4e4e4;
+		background: #e4e4e4;
+		text-decoration: none;
 	}
 
 	.contact {
@@ -58,28 +59,30 @@
 		font-size: 17px;
 		font-weight: 500;
 		line-height: 24px;
+	}
 
-		p {
-			display: inline-block;
-			padding: 3px 0;
-			transition-duration: 0.1s;
-		}
+	.contact p {
+		display: inline-block;
+		padding: 3px 0;
+		transition-duration: 0.1s;
+	}
 
-		b {
-			font-weight: 800;
-		}
+	.contact b {
+		font-weight: 800;
+	}
 
-		a {
-			color: #121212;
-			text-decoration: none;
-			border-bottom: 1px solid #ccc;
-			&:hover {
-				border-bottom-color: #121212;
-			}
-		}
-		a:not(:last-child) {
-			margin-right: 6px;
-		}
+	.contact a {
+		color: #121212;
+		text-decoration: none;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.contact a:hover {
+		border-bottom-color: #121212;
+	}
+
+	.contact a:not(:last-child) {
+		margin-right: 6px;
 	}
 
 	@media (max-width: 600px) {

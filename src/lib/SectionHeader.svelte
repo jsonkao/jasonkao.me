@@ -14,7 +14,7 @@
 	</p>
 {/if}
 
-<style lang="scss">
+<style>
 	hr {
 		background-color: #ccc;
 		height: 1px;
@@ -29,18 +29,16 @@
 		font-family: Inconsolata;
 		font-size: 18px;
 		font-weight: 600;
-
-		:global(a) {
-			color: #fff;
-			background: #121212;
-			text-decoration: underline;
-			padding: 2px 4px;
-
-			&:hover {
-				color: #121212;
-				background: #e4e4e4;
-			}
-		}
+	}
+	p :global(a) {
+		color: #fff;
+		background: #121212;
+		text-decoration: underline;
+		padding: 2px 4px;
+	}
+	p :global(a:hover) {
+		color: #121212;
+		background: #e4e4e4;
 	}
 
 	.centered {
