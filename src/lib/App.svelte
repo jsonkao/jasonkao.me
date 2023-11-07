@@ -22,7 +22,7 @@
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
-			<!-- <a href="https://twitter.com/cow_portal">Twitter</a> -->
+			<a href="https://twitter.com/cow_portal">Twitter</a>
 			<a href="https://github.com/jsonkao">GitHub</a>
 		</p>
 	</div>
