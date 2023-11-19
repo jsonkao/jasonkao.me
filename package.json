@@ -4,17 +4,20 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "latest",
-		"@sveltejs/kit": "^1.27.3",
-		"eslint": "^7.22.0",
-		"eslint-config-prettier": "^8.1.0",
-		"prettier": "~3.0.3",
-		"prettier-plugin-svelte": "^3.0.3",
-		"svelte": "^4.2.2",
-		"vite": "^4.5.0"
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.27.4",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^3.0.0",
+		"prettier-plugin-svelte": "^3.0.0",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
 	},
 	"type": "module"
 }
