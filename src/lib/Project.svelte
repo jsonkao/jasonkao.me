@@ -1,43 +1,48 @@
 <script>
 	export let project, mediaHeight, color;
 
-	let { name, image, description, url, people } = project;
+	let { name, image, description, url } = project;
+	let isVideo = ['mp4', 'mov', 'webm'].some((e) => image.endsWith(e));
+
+	const modules = import.meta.glob('./images/*.{png,jpg,webp}', { query: { enhanced: true } });
+
+	let imagePromise =
+		!isVideo && './images/' + image in modules ? modules['./images/' + image]() : null;
 </script>
 
 <div style="--height: {mediaHeight}px">
 	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
-		<div class="media" class:slides-container={Array.isArray(image) && image.length > 1}>
-			{#if ['mp4', 'mov', 'webm'].some((e) => image.endsWith && image.endsWith(e))}
-				{#if image === 'images/normals.mov' || image === 'images/ASIAN-VOTE-3X2.mp4'}
-					<img src="images/nyt_logo.png" class="logo-overlay" alt="New York Times logo" />
+		<div class="media">
+			{#if isVideo}
+				{#if image === 'normals.mov' || image === 'ASIAN-VOTE-3X2.mp4'}
+					<img src="./assets/nyt_logo.png" class="logo-overlay" alt="New York Times logo" />
 				{/if}
 				<video autoPlay playsInline muted loop>
-					<source src={image} />
+					<source src={'./videos/' + image} />
 				</video>
 			{:else}
 				{#if url.includes('texastribune.org')}
-					<img src="images/tt_logo.png" class="logo-overlay trib-logo" alt="Texas Tribune logo" />
+					<img src="./assets/tt_logo.png" class="logo-overlay trib-logo" alt="Texas Tribune logo" />
 				{/if}
-				{#each Array.isArray(image) ? image : [image] as img}
-					<picture class:slides={Array.isArray(image) && image.length > 1}>
-						{#if img.includes('.webp')}
-							<source srcset="{image} 1x" type="image/webp" />
-						{/if}
-						<img src={img.replace('.webp', '.png')} alt={name} />
-					</picture>
-				{/each}
+				{#await imagePromise}
+					loading
+				{:then imageModule}
+					{#if imageModule}
+						<enhanced:img class="image" src={imageModule.default} alt={name} />
+					{:else}
+						<img class="image" src={image} alt={name} />
+					{/if}
+				{:catch error}
+					{error}
+				{/await}
 			{/if}
 		</div>
 		<p>{@html name}</p>
 	</a>
+
 	{#if description}
 		<p class="description">{@html description}</p>
 	{/if}
-	<!-- 
-	<p class="people">
-		Made possible by {@html people}
-	</p>
-	-->
 </div>
 
 <style>
@@ -47,12 +52,14 @@
 		position: relative;
 		height: var(--height);
 	}
-	picture img,
+
+	.image,
 	video {
 		object-fit: cover;
 		object-position: 50% top;
 		width: 100%;
 		height: 100%;
+		display: block;
 		border: 1px solid #000;
 	}
 
@@ -78,22 +85,6 @@
 		}
 	}
 
-	.slides-container {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr;
-	}
-
-	.slides-container > * {
-		grid-column: 1 / 2;
-		grid-row: 1 / 2;
-		height: var(--height);
-	}
-
-	.slides:nth-child(2) {
-		animation: fade 12s infinite;
-	}
-
 	:global(code) {
 		font-family: Inconsolata;
 	}
@@ -104,19 +95,6 @@
 
 	.description :global(a) {
 		color: #434343;
-		text-decoration: underline;
-	}
-
-	.people {
-		font-family: Inconsolata;
-		color: #aaa;
-		font-size: 19px;
-		font-weight: 400;
-		line-height: 24px;
-		margin-top: 2px;
-	}
-
-	.people :global(a) {
 		text-decoration: underline;
 	}
 

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Grid from '$lib/Grid.svelte';
 	import projects from '$lib/projects.js';
-  import '../app.css';
+	import '../app.css';
 
 	let email = '';
 
@@ -15,8 +15,8 @@
 	</p>
 	<p class="nutgraf">
 		I am currently on the graphics team at ProPublica, where I analyze data and visualize it in
-		charts and maps. I graduated from Columbia in 2022 with a degree in computer science. I've
-		worked on data visualizations at Bloomberg News, The New York Times, and The Texas Tribune.
+		charts and maps. I've previously worked at The New York Times, Bloomberg News, and The Texas
+		Tribune.
 	</p>
 
 	<div class="nutgraf contact">
@@ -56,16 +56,16 @@
 
 	.contact {
 		margin-bottom: 30px;
-		font-family: Inconsolata;
-		font-size: 17px;
-		font-weight: 500;
-		line-height: 24px;
 	}
 
 	.contact p {
 		display: inline-block;
 		padding: 3px 0;
 		transition-duration: 0.1s;
+		font-family: Inconsolata;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
 	}
 
 	.contact b {

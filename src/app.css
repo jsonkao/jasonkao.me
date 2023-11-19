@@ -73,13 +73,8 @@ p {
 }
 
 @media (max-width: 660px) {
-	body {
-		font-size: 20px;
-		line-height: 26.5px;
-	}
-
-	header {
-		font-size: 19px;
-		line-height: 26px;
+	p {
+		font-size: 18px;
+		line-height: 23px;
 	}
 }

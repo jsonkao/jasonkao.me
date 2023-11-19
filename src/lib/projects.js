@@ -1,10 +1,10 @@
 export default {
 	topLevel: [
 		{
-			name: 'Where New York’s Asian Neighborhoods Shifted to the Right (The New York Times)',
+			name: 'Where New York’s Asian Neighborhoods Shifted to the Right',
 			description:
 				'A story about the largest electoral shift in Asian neighborhoods in the last 2 decades.',
-			image: 'images/ASIAN-VOTE-3X2.mp4',
+			image: 'ASIAN-VOTE-3X2.mp4',
 			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
@@ -13,52 +13,50 @@ export default {
 			name: 'The Scandal That Never Happened (ProPublica) — Interactive Opener',
 			description:
 				'The the all-white judges of a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners, most of them Black, who claimed they had been unjustly convicted.',
-			image: 'images/la-5th.webm',
+			image: 'la-5th.webm',
 			url: 'https://www.propublica.org/article/louisiana-judges-ignored-prisoners-petitions-without-review-fifth-circuit'
 		},
 		{
-			name: 'Noise Could Take Years Off Your Life. Here’s How. (The New York Times)',
+			name: 'Noise Could Take Years Off Your Life. Here’s How.',
 			description:
 				'We used a professional sound meter to measure the din of daily life and talked to scientists about the health risks it can pose.',
-			image: 'images/noise-hp-promo.mp4',
+			image: 'noise-hp-promo.mp4',
 			url: 'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
 			people: 'Emily TK'
 		},
 		{
 			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
-			image:
-				'https://thumbnails.texastribune.org/VUqIbVvPmeGpTGX7HbYZ-ZckK0A=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/8a36f70291ac72f9a9c4da11289addac/Judith%20Bruess%20EL%20TT%205211.jpg',
+			image: 'Judith-Bruess-EL-TT-5211.webp',
 			description:
 				'An investigation revealing an early consequence of the new race/social studies law.',
 			url: 'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
-		/* {
+		{
 			name: 'Breaking news coverage on killing by police',
-			url:
-				'https://www.nytimes.com/interactive/2023/01/27/us/tyre-nichols-police-beating-timeline.html',
+			url: 'https://www.nytimes.com/interactive/2023/01/27/us/tyre-nichols-police-beating-timeline.html',
 			description: '',
 			people: 'Kennedy Elliott',
-			image: 'images/scoop-memphis-timeline-master.webp'
-		}, */
+			image: 'scoop-memphis-timeline-master.png'
+		},
 		{
 			name: 'Redlining’s Legacy in Heat [Course: Visual Databases]',
-			image: 'images/redlining.webm',
+			image: 'redlining.webm',
 			description: 'Analyzed temperatures nationwide over 4 decades.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
 		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home',
-			image: 'images/nyc-reopen.webp',
+			image: 'nyc-reopen.png',
 			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
 			people:
 				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
 		},
 		{
 			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
-			image: 'images/hong-kong.webp',
+			image: 'hong-kong.png',
 			description:
 				'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
@@ -67,19 +65,19 @@ export default {
 		},
 		{
 			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
-			image: 'images/georgia.webm',
+			image: 'georgia.webm',
 			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
 			people: 'Christine Zhang, Denise Lu'
 		},
 		{
 			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
-			image: 'https://i.imgur.com/PUzvm64.png',
+			image: 'vaccination-report.png',
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
 		},
 		/* {
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
-			image: 'images/asylum-seekers.webp',
+			image: 'asylum-seekers.webp',
 			description:
 				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
 			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
@@ -87,7 +85,7 @@ export default {
 		},
 		{
 			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
-			image: 'images/clint.webp',
+			image: 'clint.webp',
 			description: 'Investigating and mapping where children were detained.',
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
@@ -95,10 +93,9 @@ export default {
 		}, */
 		{
 			name: 'Redistricting, NYC 2021',
-			image: [
+			image:
 				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526195.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
-				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1'
-			],
+			// 'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1'
 			description:
 				'Building tools to communicate, organize, and research redistricting objectives.',
 			url: 'https://jsonkao.github.io/asam-redistricting-maps/',
@@ -107,7 +104,7 @@ export default {
 		},
 		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
-			image: 'images/normals.mov',
+			image: 'normals.mov',
 			url: 'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
@@ -123,13 +120,13 @@ export default {
 		}, */
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
-			image: 'images/flood-risk.webp',
+			image: 'flood-risk.png',
 			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
 			people: 'Mira Rojanasakul, Hayley Warren'
 		},
 		{
 			name: 'U.S. and Ivy League schools were late to respond to COVID-19',
-			image: 'images/ivy-response.mp4',
+			image: 'ivy-response.mp4',
 			url: 'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
@@ -138,7 +135,7 @@ export default {
 	school: [
 		{
 			name: 'Uncertainty Looms as Student Jobs Disappear',
-			image: 'images/job-loss.webp',
+			image: 'job-loss.webp',
 			description: 'Analyzing the industries losing jobs during the coronavirus recession.',
 			url: 'https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown',
 			people: 'Eve Washington, Charlotte Li, Chaitanya Reddy Gurijala',
@@ -146,7 +143,7 @@ export default {
 		},
 		{
 			name: 'How broken windows policing & gentrification harmed Black community, strengthened Columbia',
-			image: 'images/deeds.mov',
+			image: 'deeds.mov',
 			description:
 				'Involved scraping and processing all NYC deeds since 1966 to understand Columbia’s expansion.',
 			url: 'https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/',
@@ -154,20 +151,13 @@ export default {
 		},
 		{
 			name: '[Course: Arab & Asian Diaspora in Literature and Film] An essay',
-			image: 'images/puddle.webp',
+			image: 'puddle.png',
 			url: 'https://jsonkao.github.io/diaspora-puddle/',
 			people: 'Prof. Nathalie Handal'
-		} /*
-		{
-			name:
-				'[Internet Technology, Economics & Policy] A Longitudinal Study of Sampling Bias in Location Data',
-			image: 'images/itep_paper.webp',
-			url: 'https://github.com/jsonkao/location-data-bias',
-			people: 'Prof. Henning Schulzrinne'
-		},*/,
+		},
 		{
 			name: '[Course: Comparative Ethnic Studies] A creative rendering of location data sampling and representation',
-			image: 'images/location-data-flow.mov',
+			image: 'location-data-flow.mov',
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
 		},
@@ -181,28 +171,28 @@ export default {
 	secondLevel: [
 		{
 			name: 'More at <code>nytimes.com/by/jason-kao</code>',
-			image: 'images/nyt-byline-refer.webp',
+			image: 'nyt-byline-refer.webp',
 			url: 'https://www.nytimes.com/by/jason-kao',
 			people:
 				'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Wilson Andrews, Jugal Patel, Joe Ward, Denise Lu, K.K. Rebecca Lai'
 		},
 		{
 			name: 'More of our Spec work at <code>graphicsdesk.github.io</code>',
-			image: 'images/spec.webp',
+			image: 'spec.webp',
 			url: 'https://graphicsdesk.github.io',
 			people:
 				'Raeedah Wahid, Charlotte Li, Jun Yi Zhang, Karen Xia, Julian Shen-Berro, Gavrielle Jacobovitz'
 		},
 		{
 			name: 'React Scrollama',
-			image: 'images/react-scrollama.mp4',
+			image: 'react-scrollama.mp4',
 			description: 'Scrollytelling library with the IntersectionObserver in React.',
 			url: 'https://jsonkao.github.io/react-scrollama',
 			people: 'Nicholas Yang'
 		},
 		{
 			name: 'Gerrymandering playground (2018)',
-			image: 'images/gerry.gif',
+			image: 'gerry.gif',
 			description:
 				'Interactive mapping as an educational tool for gerrymandering congressional districts.',
 			url: 'https://github.com/gerry-app',
@@ -210,13 +200,13 @@ export default {
 		},
 		{
 			name: 'Moral Foundations in Political Debates (2018)',
-			image: 'images/properly_partisan.gif',
+			image: 'properly_partisan.gif',
 			url: 'https://github.com/brtacks',
 			people: 'Russel Goldenberg and Matt Daniels’ works'
 		},
 		{
 			name: 'Sex Diversity Among Graduate Students Is Stagnating',
-			image: 'images/graduate-sex-diversity.mp4',
+			image: 'graduate-sex-diversity.mp4',
 			url: 'https://www.columbiaspectator.com/eye-lead/2019/05/04/in-certain-science-and-engineering-fields-sex-diversity-among-graduate-students-is-stagnating-in-others-its-getting-worse',
 			people: 'Gavrielle Jacobovitz, Julian Shen-Berro, Rahil Kamath'
 		}
