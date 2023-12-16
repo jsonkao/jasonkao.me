@@ -3,6 +3,8 @@
 </script>
 
 <script>
+	import { onMount } from 'svelte';
+
 	import Project from './Project.svelte';
 
 	export let projects;
@@ -11,7 +13,7 @@
 	let colorOffset = totalItems;
 	totalItems += projects.length;
 
-	const colors = ['#A32251', '#0041FF', 'rgb(7, 7, 126)', '#D91F25', '#004F50', '#EBAB3D'];
+	const allColors = ['#A32251', '#0041FF', 'rgb(7, 7, 126)', '#D91F25', '#004F50', '#EBAB3D'];
 
 	const minFr = 600 - 100 * columns;
 
@@ -27,7 +29,11 @@
 		mediaHeight = Math.round(fr * (2 / 3));
 	}
 
-	const color = (index) => colors[(colorOffset + index) % colors.length];
+	let colors;
+	const randomizeColors = () => {
+		colors = allColors.sort(() => Math.random() - 0.5);
+	}
+	randomizeColors();
 </script>
 
 <div
@@ -37,7 +43,7 @@
 	bind:clientWidth
 >
 	{#each projects as project, i}
-		<Project {project} {mediaHeight} color={color(i)} />
+		<Project {project} {mediaHeight} color={colors[i % colors.length]} />
 	{/each}
 </div>
 

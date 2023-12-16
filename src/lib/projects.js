@@ -1,73 +1,78 @@
 export default {
 	topLevel: [
 		{
-			name: 'Where New York’s Asian Neighborhoods Shifted to the Right',
+			name: 'When the Coast Guard Intercepts Unaccompanied Kids (ProPublica & The New York Times Magazine)',
+			url: 'https://www.propublica.org/article/when-the-coast-guard-intercepts-unaccompanied-kids',
+			description: 'Data reporting for a story about a boy detained at sea.',
+			image: 'coast-guard-opener.png',
+			people: 'Seth Freed Wessler, Hannah Fresques'
+		},
+		{
+			name: 'Where New York’s Asian Americans Neighborhoods Shifted to the Right (The New York Times)',
 			description:
-				'A story about the largest electoral shift in Asian neighborhoods in the last 2 decades.',
+				'A story about the largest electoral shift in the city’s Asian neighborhoods in the last 2 decades.',
 			image: 'ASIAN-VOTE-3X2.mp4',
 			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
 		},
 		{
-			name: 'The Scandal That Never Happened (ProPublica) — Interactive Opener',
+			name: 'The Scandal That Never Happened (ProPublica)',
 			description:
-				'The the all-white judges of a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners, most of them Black, who claimed they had been unjustly convicted.',
+				'An interactive opener for a story about how a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners.',
 			image: 'la-5th.webm',
 			url: 'https://www.propublica.org/article/louisiana-judges-ignored-prisoners-petitions-without-review-fifth-circuit'
 		},
 		{
-			name: 'Noise Could Take Years Off Your Life. Here’s How.',
+			name: 'Noise Could Take Years Off Your Life. Here’s How. (The New York Times)',
 			description:
-				'We used a professional sound meter to measure the din of daily life and talked to scientists about the health risks it can pose.',
+				'We measured the din of daily life and talked to scientists about the health risks it can pose.',
 			image: 'noise-hp-promo.mp4',
 			url: 'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
 			people: 'Emily TK'
 		},
 		{
-			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
+			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class (The Texas Tribune)',
 			image: 'Judith-Bruess-EL-TT-5211.webp',
 			description:
-				'An investigation revealing an early consequence of the new race/social studies law.',
+				'An investigation revealing an early consequence of the “critical race theory” law.',
 			url: 'https://www.texastribune.org/2021/08/17/texas-social-studies-mckinney-youth-government/',
 			people:
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
 		{
-			name: 'Breaking news coverage on killing by police',
-			url: 'https://www.nytimes.com/interactive/2023/01/27/us/tyre-nichols-police-beating-timeline.html',
-			description: '',
-			people: 'Kennedy Elliott',
-			image: 'scoop-memphis-timeline-master.png'
+			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets (The New York Times)',
+			image: 'hong-kong.png',
+			description: 'A story depicting the scale of the 2019 protests in Hong Kong.',
+			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
+			people:
+				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
-		{
-			name: 'Redlining’s Legacy in Heat [Course: Visual Databases]',
+		/* {
+			name: 'Redlining’s Legacy in Heat (Undergraduate course: Visual Databases)',
 			image: 'redlining.webm',
 			description: 'Analyzed temperatures nationwide over 4 decades.',
 			url: 'https://jsonkao.github.io/redlining-heat/',
 			people: 'Prof. John Kender'
 		},
 		{
-			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home',
+			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home (Bloomberg News)',
 			image: 'nyc-reopen.png',
 			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
 			people:
-				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik, Makada Henry-Nickie'
-		},
-		{
-			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
-			image: 'hong-kong.png',
-			description:
-				'Helped design and find photos for multimedia maps depicting the scale of the 2019 protests in Hong Kong.',
-			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
-			people:
-				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
-		},
+				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik'
+		}, */
 		{
 			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
 			image: 'georgia.webm',
 			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
 			people: 'Christine Zhang, Denise Lu'
+		},
+		/* {
+			name: 'More New York Times work',
+			url: 'https://www.nytimes.com/by/jason-kao',
+			description: '',
+			image: 'scoop-memphis-timeline-master.png'
 		},
 		{
 			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
@@ -75,7 +80,7 @@ export default {
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
 		},
-		/* {
+		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
 			image: 'asylum-seekers.webp',
 			description:
@@ -94,21 +99,21 @@ export default {
 		{
 			name: 'Redistricting, NYC 2021',
 			image:
-				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526195.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
-			// 'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1'
+				// 'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526195.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
+				'https://pgw.worldjournal.com/gw/photo.php?u=https://uc.udn.com.tw/photo/wj/paper/2021/11/10/14526194.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=700&exp=3600&q=100&nt=1',
 			description:
 				'Building tools to communicate, organize, and research redistricting objectives.',
 			url: 'https://jsonkao.github.io/asam-redistricting-maps/',
 			people:
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
-		},
-		{
+		}
+		/* {
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
 			image: 'normals.mov',
 			url: 'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
-		/* {
+		{
 			name:
 				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
 			image:
@@ -117,7 +122,7 @@ export default {
 				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
 			description: 'Isabella Zou and I talked to 25 teachers about HB 3979.',
 			people: 'Brandon Formby, Darla Cameron'
-		}, */
+		}, 
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
 			image: 'flood-risk.png',
@@ -130,7 +135,7 @@ export default {
 			url: 'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
-		}
+		} */
 	],
 	school: [
 		{

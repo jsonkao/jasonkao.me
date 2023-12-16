@@ -72,9 +72,9 @@ p {
 	margin: 0;
 }
 
-@media (max-width: 660px) {
-	p {
-		font-size: 18px;
-		line-height: 23px;
+@media (max-width: 460px) {
+	body {
+		font-size: 17px;
+		line-height: 22px;
 	}
 }

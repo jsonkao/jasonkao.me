@@ -14,16 +14,15 @@
 		<b>Jason Kao</b>
 	</p>
 	<p class="nutgraf">
-		I am currently on the graphics team at ProPublica, where I analyze data and visualize it in
-		charts and maps. I've previously worked at The New York Times, Bloomberg News, and The Texas
-		Tribune.
+		I currently work at ProPublica, where I analyze data and visualize it in charts and maps. I've
+		previously worked at The New York Times, Bloomberg News, and The Texas Tribune.
 	</p>
 
 	<div class="nutgraf contact">
 		<p>
 			<b>Contacts:</b>
 			<a href="mailto:{email}">{email}</a>
-			<a href="https://twitter.com/cow_portal">Twitter</a>
+			<!-- <a href="https://twitter.com/cow_portal">Twitter</a> -->
 			<a href="https://github.com/jsonkao">GitHub</a>
 		</p>
 	</div>
@@ -34,7 +33,7 @@
 <style>
 	main {
 		margin: 42px auto 0;
-		padding: 0 20px 42px;
+		padding: 0 20px 60px;
 	}
 
 	.nutgraf {
