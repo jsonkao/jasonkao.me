@@ -85,9 +85,13 @@
 		margin-right: 6px;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 460px) {
 		.nutgraf {
 			width: 100%;
+		}
+
+		.contact p {
+			font-size: 15px;
 		}
 	}
 </style>

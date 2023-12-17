@@ -10,24 +10,16 @@
 
 	let imagePromise =
 		!isVideo && './images/' + image in modules ? modules['./images/' + image]() : null;
-	
-	// TODO: Replace asian vote promo
 </script>
 
 <div>
 	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
 		<div class="media">
 			{#if isVideo}
-				<!-- {#if image === 'normals.mov' || image === 'ASIAN-VOTE-3X2.mp4'}
-					<img src="./assets/nyt_logo.png" class="logo-overlay" alt="" />
-				{/if} -->
 				<video autoPlay playsInline muted loop>
 					<source src={'./videos/' + image} />
 				</video>
 			{:else}
-				<!-- {#if url.includes('texastribune.org')}
-					<img src="./assets/tt_logo.png" class="logo-overlay trib-logo" alt="" />
-				{/if} -->
 				{#await imagePromise then imageModule}
 					{#if imageModule}
 						<enhanced:img class="image" src={imageModule.default} {alt} />
