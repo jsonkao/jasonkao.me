@@ -11,7 +11,7 @@ export default {
 			name: 'Where New York’s Asian Americans Neighborhoods Shifted to the Right (The New York Times)',
 			description:
 				'A story about the largest electoral shift in the city’s Asian neighborhoods in the last 2 decades.',
-			image: 'ASIAN-VOTE-3X2.mp4',
+			image: 'asam-vote-promo.jpg',
 			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
@@ -48,54 +48,14 @@ export default {
 			people:
 				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
-		/* {
-			name: 'Redlining’s Legacy in Heat (Undergraduate course: Visual Databases)',
-			image: 'redlining.webm',
-			description: 'Analyzed temperatures nationwide over 4 decades.',
-			url: 'https://jsonkao.github.io/redlining-heat/',
-			people: 'Prof. John Kender'
-		},
 		{
-			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home (Bloomberg News)',
-			image: 'nyc-reopen.png',
-			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
-			people:
-				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik'
-		}, */
-		{
-			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
-			image: 'georgia.webm',
-			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
-			people: 'Christine Zhang, Denise Lu'
-		},
-		/* {
-			name: 'More New York Times work',
-			url: 'https://www.nytimes.com/by/jason-kao',
-			description: '',
-			image: 'scoop-memphis-timeline-master.png'
-		},
-		{
-			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
-			image: 'vaccination-report.png',
-			url: 'https://github.com/jsonkao/fill-vaccine-data/',
-			people: 'Prof. Elizabeth OuYang'
-		},
-		{
-			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
-			image: 'asylum-seekers.webp',
-			description:
-				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
-			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
-			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
-		},
-		{
-			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
-			image: 'clint.webp',
+			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex. (The New York Times)',
+			image: 'clint.png',
 			description: 'Investigating and mapping where children were detained.',
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
 			people:
 				'Simone Landon, Caitlin Dickerson, Juliette Love, Jugal Patel. Model by <a href="http://blueshirt.com">Jeremy White</a>.'
-		}, */
+		},
 		{
 			name: 'Redistricting, NYC 2021',
 			image:
@@ -106,8 +66,30 @@ export default {
 			url: 'https://jsonkao.github.io/asam-redistricting-maps/',
 			people:
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
-		}
-		/* {
+		},
+		{
+			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico (The New York Times)',
+			image: 'asylum-seekers.png',
+			description:
+				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
+			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
+			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
+		},
+		/*
+		{
+			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
+			image: 'georgia.webm',
+			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
+			people: 'Christine Zhang, Denise Lu'
+		},
+		{
+			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home (Bloomberg News)',
+			image: 'nyc-reopen.png',
+			url: 'https://www.bloomberg.com/graphics/2020-new-york-city-reopening/',
+			people:
+				'Andre Tartar, Paul Murray, Jeremy Lin, Yue Qiu, Alex Tribou, Elena Popina, Eugene Reznik'
+		},
+		{
 			name: 'There’s a New Definition of ‘Normal’ for Weather',
 			image: 'normals.mov',
 			url: 'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
@@ -129,15 +111,16 @@ export default {
 			url: 'https://www.bloomberg.com/graphics/2020-flood-risk-zone-us-map/',
 			people: 'Mira Rojanasakul, Hayley Warren'
 		},
+		*/
+	],
+	school: [
 		{
 			name: 'U.S. and Ivy League schools were late to respond to COVID-19',
 			image: 'ivy-response.mp4',
 			url: 'https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better',
 			people: 'Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid, Hong Sen Du, Karen Xia',
 			award: true
-		} */
-	],
-	school: [
+		},
 		{
 			name: 'Uncertainty Looms as Student Jobs Disappear',
 			image: 'job-loss.webp',
@@ -166,18 +149,28 @@ export default {
 			url: 'https://jsonkao.github.io/location-data-flow',
 			people: 'Prof. Frances Negrón-Muntaner'
 		},
+
 		{
 			name: 'Estimating unknown race and ethnicity vaccination breakdowns using location data',
-			image: 'https://i.imgur.com/PUzvm64.png',
+			image: 'vaccination-report.png',
 			url: 'https://github.com/jsonkao/fill-vaccine-data/',
 			people: 'Prof. Elizabeth OuYang'
+		},
+		{
+			name: 'Redlining’s Legacy in Heat (Undergraduate course: Visual Databases)',
+			image: 'redlining.webm',
+			description: 'Analyzed temperatures nationwide over 4 decades.',
+			url: 'https://jsonkao.github.io/redlining-heat/',
+			people: 'Prof. John Kender'
 		}
 	],
 	secondLevel: [
+		
 		{
-			name: 'More at <code>nytimes.com/by/jason-kao</code>',
-			image: 'nyt-byline-refer.webp',
+			name: 'More New York Times work',
 			url: 'https://www.nytimes.com/by/jason-kao',
+			description: '',
+			image: 'scoop-memphis-timeline-master.png',
 			people:
 				'Simone Landon, Archie Tse, Stuart Thompson, Tom Giratikanon, Wilson Andrews, Jugal Patel, Joe Ward, Denise Lu, K.K. Rebecca Lai'
 		},

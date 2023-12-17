@@ -3,7 +3,7 @@
 </script>
 
 <script>
-	export let project, mediaHeight, color;
+	export let project, color;
 
 	let { name, image = '', description, url, alt = '' } = project;
 	let isVideo = ['mp4', 'mov', 'webm'].some((e) => image.endsWith(e));
@@ -14,7 +14,7 @@
 	// TODO: Replace asian vote promo
 </script>
 
-<div style="--height: {mediaHeight}px">
+<div>
 	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
 		<div class="media">
 			{#if isVideo}
@@ -52,6 +52,7 @@
 		width: 100%;
 		margin-bottom: 14px;
 		position: relative;
+		aspect-ratio: 3 / 2;
 	}
 
 	.image,
@@ -62,7 +63,6 @@
 		height: 100%;
 		display: block;
 		border: 1px solid #000;
-		box-sizing: border-box;
 	}
 
 	video {
