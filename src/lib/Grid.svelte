@@ -3,9 +3,7 @@
 
 	export let projects;
 
-	const colors = ['#A32251', '#0041FF', 'rgb(7, 7, 126)', '#D91F25', '#004F50', '#EBAB3D'].sort(
-		() => Math.random() - 0.5
-	);
+	const colors = ['#A32251', 'rgb(7, 7, 126)', '#004F50', '#D91F25', '#0041FF', '#EBAB3D'];
 </script>
 
 <div class="grid">
@@ -25,6 +23,7 @@
 	@media (max-width: 460px) {
 		.grid {
 			grid-template-columns: 1fr;
+			row-gap: 30px;
 		}
 	}
 </style>

@@ -31,20 +31,22 @@
 				{/await}
 			{/if}
 		</div>
-		<p class="project-name">{@html name}</p>
+		<div class="text">
+			<p>{@html name}</p>
+			{#if description}
+				<p class="description">{@html description}</p>
+			{/if}
+		</div>
 	</a>
-
-	{#if description}
-		<p class="description">{@html description}</p>
-	{/if}
 </div>
 
 <style>
 	.media {
 		width: 100%;
-		margin-bottom: 14px;
+		margin-bottom: 10px;
 		position: relative;
 		aspect-ratio: 3 / 2;
+		border: 1px solid #000;
 	}
 
 	.image,
@@ -54,73 +56,33 @@
 		width: 100%;
 		height: 100%;
 		display: block;
-		border: 1px solid #000;
 	}
 
 	video {
 		padding-right: 0.1px; /* Unhides border-right */
 	}
 
-	.project-name {
-		transition: color 0.5s ease;
-	}
-
-	@keyframes fade {
-		0% {
-			opacity: 1;
-		}
-		45% {
-			opacity: 1;
-		}
-		50% {
-			opacity: 0;
-		}
-		95% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
-
-	:global(code) {
-		font-family: Inconsolata;
-	}
-
 	.description {
-		color: #434343;
+		opacity: 0.5;
 		margin-top: 1px;
 	}
 
 	.description :global(a) {
-		color: #434343;
+		color: inherit;
 		text-decoration: underline;
 	}
 
-	.logo-overlay {
-		position: absolute;
-		width: 20px;
-		bottom: 12px;
-		left: 13px;
-		opacity: 0.3;
-		pointer-events: none;
-	}
-
-	.trib-logo {
-		width: 56px;
-		opacity: 1;
-		background: rgba(255, 255, 255, 0.7);
-		padding: 6.5px;
-	}
-
 	@media (max-width: 460px) {
-		.trib-logo {
-			width: 40px;
-			padding: 3px;
+		.media {
+			margin-bottom: 8px;
 		}
 
 		.description {
-			margin-top: 3px;
+			margin-top: 2px;
+		}
+
+		.text p {
+			display: inline;
 		}
 	}
 </style>

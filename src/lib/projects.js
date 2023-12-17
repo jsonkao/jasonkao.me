@@ -68,6 +68,16 @@ export default {
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
 		},
 		{
+			name:
+				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history (The Texas Tribune)',
+			image:
+				'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
+			url:
+				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
+			description: 'Isabella Zou and I talked to 25 teachers about HB 3979.',
+			people: 'Brandon Formby, Darla Cameron'
+		}, 
+		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico (The New York Times)',
 			image: 'asylum-seekers.png',
 			description:
@@ -95,16 +105,6 @@ export default {
 			url: 'https://www.nytimes.com/interactive/2021/05/12/climate/climate-change-weather-noaa.html',
 			people: 'Henry Fountain, Kenan Davis, Archie Tse, Hannah Fairfield'
 		},
-		{
-			name:
-				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
-			image:
-				'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
-			url:
-				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
-			description: 'Isabella Zou and I talked to 25 teachers about HB 3979.',
-			people: 'Brandon Formby, Darla Cameron'
-		}, 
 		{
 			name: 'Mapping Flood Damage: Millions More U.S. Homes At Risk Than Previously Thought',
 			image: 'flood-risk.png',
