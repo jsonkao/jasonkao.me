@@ -17,6 +17,12 @@ export default {
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
 		},
 		{
+			name: 'Body Cameras Were Sold as a Tool of Police Reform. Ten Years Later, Most of the Footage Is Kept From Public View. (ProPublica)',
+			url: 'https://www.propublica.org/article/body-camera-videos-police-killings-remain-hidden-from-public',
+			image: 'bwc-opener.png',
+			people: 'Umar Farooq'
+		},
+		{
 			name: 'The Scandal That Never Happened (ProPublica)',
 			description:
 				'An interactive opener for a story about how a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners.',
@@ -68,6 +74,12 @@ export default {
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
 		},
 		{
+			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple. (The New York Times)',
+			image: 'georgia.webm',
+			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
+			people: 'Christine Zhang, Denise Lu'
+		},
+		{
 			name:
 				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history (The Texas Tribune)',
 			image:
@@ -86,12 +98,6 @@ export default {
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
 		},
 		/*
-		{
-			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
-			image: 'georgia.webm',
-			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
-			people: 'Christine Zhang, Denise Lu'
-		},
 		{
 			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home (Bloomberg News)',
 			image: 'nyc-reopen.png',
