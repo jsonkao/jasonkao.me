@@ -5,7 +5,7 @@
 <script>
 	export let project, color;
 
-	let { name, image = '', description, url, alt = '' } = project;
+	let { name, image = '', description, url, org, alt = '' } = project;
 	let isVideo = ['mp4', 'mov', 'webm'].some((e) => image.endsWith(e));
 
 	let imagePromise =
@@ -32,7 +32,12 @@
 			{/if}
 		</div>
 		<div class="text">
-			<p>{@html name}</p>
+			<p>
+				{@html name}
+				{#if org}
+					<b>({org})</b>
+				{/if}
+			</p>
 			{#if description}
 				<p class="description">{@html description}</p>
 			{/if}
@@ -72,6 +77,10 @@
 		text-decoration: underline;
 	}
 
+	a:hover {
+		text-decoration: none;
+	}
+
 	@media (max-width: 460px) {
 		.media {
 			margin-bottom: 8px;
@@ -84,5 +93,9 @@
 		.text p {
 			display: inline;
 		}
+	}
+
+	b {
+		font-weight: 400;
 	}
 </style>

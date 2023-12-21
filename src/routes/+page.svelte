@@ -34,7 +34,7 @@
 	}
 
 	p {
-		width: 50%;
+		width: 52%;
 		margin: 0 auto 30px;
 	}
 

@@ -1,14 +1,8 @@
 export default {
 	topLevel: [
 		{
-			name: 'When the Coast Guard Intercepts Unaccompanied Kids (ProPublica & The New York Times Magazine)',
-			url: 'https://www.propublica.org/article/when-the-coast-guard-intercepts-unaccompanied-kids',
-			description: 'Data reporting for a story about a boy detained at sea.',
-			image: 'coast-guard-opener.png',
-			people: 'Seth Freed Wessler, Hannah Fresques'
-		},
-		{
-			name: 'Where New York’s Asian Americans Neighborhoods Shifted to the Right (The New York Times)',
+			name: 'Where New York’s Asian Americans Neighborhoods Shifted to the Right',
+			org: 'The New York Times',
 			description:
 				'A story about the largest electoral shift in the city’s Asian neighborhoods in the last 2 decades.',
 			image: 'asam-vote-promo.jpg',
@@ -17,20 +11,31 @@ export default {
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
 		},
 		{
-			name: 'Body Cameras Were Sold as a Tool of Police Reform. Ten Years Later, Most of the Footage Is Kept From Public View. (ProPublica)',
+			name: 'When the Coast Guard Intercepts Unaccompanied Kids',
+			org: 'ProPublica & The New York Times Magazine',
+			url: 'https://www.propublica.org/article/when-the-coast-guard-intercepts-unaccompanied-kids',
+			description: 'Data reporting for a story about a boy detained at sea.',
+			image: 'coast guard.webm',
+			people: 'Seth Freed Wessler, Hannah Fresques'
+		},
+		{
+			name: 'Body Cameras Were Sold as a Tool of Police Reform. Ten Years Later, Most of the Footage Is Kept From Public View.',
+			org: 'ProPublica',
 			url: 'https://www.propublica.org/article/body-camera-videos-police-killings-remain-hidden-from-public',
 			image: 'bwc-opener.png',
 			people: 'Umar Farooq'
 		},
 		{
-			name: 'The Scandal That Never Happened (ProPublica)',
+			name: 'The Scandal That Never Happened',
+			org: 'ProPublica',
 			description:
 				'An interactive opener for a story about how a Louisiana appellate court decided, in secret, to systematically ignore petitions filed by prisoners.',
 			image: 'la-5th.webm',
 			url: 'https://www.propublica.org/article/louisiana-judges-ignored-prisoners-petitions-without-review-fifth-circuit'
 		},
 		{
-			name: 'Noise Could Take Years Off Your Life. Here’s How. (The New York Times)',
+			name: 'Noise Could Take Years Off Your Life. Here’s How.',
+			org: 'The New York Times',
 			description:
 				'We measured the din of daily life and talked to scientists about the health risks it can pose.',
 			image: 'noise-hp-promo.mp4',
@@ -38,7 +43,8 @@ export default {
 			people: 'Emily TK'
 		},
 		{
-			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class (The Texas Tribune)',
+			name: 'Texas’ new race and social studies law prompts McKinney school officials to cancel Youth and Government class',
+			org: 'The Texas Tribune',
 			image: 'Judith-Bruess-EL-TT-5211.webp',
 			description:
 				'An investigation revealing an early consequence of the “critical race theory” law.',
@@ -47,7 +53,8 @@ export default {
 				'Brandon Formby, Isabella Zou, Matthew Watkins. Photo by <a href="https://www.ericlee.co">Eric Lee</a>.'
 		},
 		{
-			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets (The New York Times)',
+			name: 'A Bird’s-Eye View of How Protesters Have Flooded Hong Kong Streets',
+			org: 'The New York Times',
 			image: 'hong-kong.png',
 			description: 'A story depicting the scale of the 2019 protests in Hong Kong.',
 			url: 'https://www.nytimes.com/interactive/2019/06/20/world/asia/hong-kong-protest-size.html',
@@ -55,7 +62,8 @@ export default {
 				'Jin Wu, Anjali Singhvi, Archie Tse. Conceived by <a href="https://twitter.com/jwf825">Jin Wu</a>.'
 		},
 		{
-			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex. (The New York Times)',
+			name: 'Hungry, Scared and Sick: Inside the Migrant Detention Center in Clint, Tex.',
+			org: 'The New York Times',
 			image: 'clint.png',
 			description: 'Investigating and mapping where children were detained.',
 			url: 'https://www.nytimes.com/interactive/2019/07/06/us/migrants-border-patrol-clint.html',
@@ -74,14 +82,16 @@ export default {
 				'Elizabeth OuYang. Photo by <a href="https://www.worldjournal.com/wj/story/121390/5879776?from=wj_catelistnews">金春香</a>.'
 		},
 		{
-			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple. (The New York Times)',
+			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
+			org: 'The New York Times',
 			image: 'georgia.webm',
 			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
 			people: 'Christine Zhang, Denise Lu'
 		},
 		{
 			name:
-				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history (The Texas Tribune)',
+				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
+				org: 'The Texas Tribune',
 			image:
 				'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
 			url:
@@ -90,7 +100,8 @@ export default {
 			people: 'Brandon Formby, Darla Cameron'
 		}, 
 		{
-			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico (The New York Times)',
+			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
+			org: 'The New York Times',
 			image: 'asylum-seekers.png',
 			description:
 				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
