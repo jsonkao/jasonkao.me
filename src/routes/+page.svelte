@@ -10,11 +10,14 @@
 </script>
 
 <main>
-	<p>
-		<b>Jason Kao; </b>
-		I currently work at ProPublica, where I analyze and visualize data for investigative stories. I've
-		previously worked at The New York Times, Bloomberg News, and The Texas Tribune.
-	</p>
+	<section>
+		<p>
+			<b>Jason Kao; </b>
+			I currently work at ProPublica, where I analyze and visualize data for investigative stories. I've
+			previously worked at The New York Times, Bloomberg News, and The Texas Tribune.
+		</p>
+		<p>I'm looking for a job! I like roles where I interview both datasets and humans.</p>
+	</section>
 
 	<Grid projects={projects.topLevel} />
 
@@ -35,11 +38,11 @@
 
 	p {
 		width: 52%;
-		margin: 0 auto 30px;
+		margin: 0 auto 24px;
 	}
 
-	p:first-child {
-		padding: 36px 0;
+	section {
+		padding: 36px;
 	}
 
 	p a {
@@ -80,11 +83,11 @@
 	@media (max-width: 460px) {
 		p {
 			width: 100%;
-			margin-bottom: 30px;
 		}
 
-		p:first-child {
+		section {
 			padding: 0;
+			padding-bottom: 12px;
 		}
 
 		.contacts {
@@ -93,9 +96,6 @@
 
 		.contacts {
 			font-size: 15px;
-		}
-
-		main {
 		}
 	}
 </style>
