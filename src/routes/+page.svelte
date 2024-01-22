@@ -16,7 +16,6 @@
 			I currently work at ProPublica, where I analyze and visualize data for investigative stories. I've
 			previously worked at The New York Times, Bloomberg News, and The Texas Tribune.
 		</p>
-		<p>I'm looking for a job! I like roles where I interview both datasets and humans.</p>
 	</section>
 
 	<Grid projects={projects.topLevel} />
