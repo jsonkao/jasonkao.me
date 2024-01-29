@@ -6,40 +6,51 @@
 
 	let email = '';
 
-	onMount(() => (email = 'jason.kao@propublica.org'));
+	// Obfuscate email address to prevent bots
+	onMount(() =>
+		setTimeout(() => (email = ['com', 'kao@gmail', 'y', 'jason'].reverse().join('.')), 1000)
+	);
 </script>
 
-<main>
-	<section>
-		<p>
-			<b>Jason Kao; </b>
-			I currently work at ProPublica, where I analyze and visualize data for investigative stories. I've
-			previously worked at The New York Times, Bloomberg News, and The Texas Tribune.
+<div class="container">
+	<main>
+		<section>
+			<p>
+				I (Jason Kao) currently work at ProPublica, where I analyze and visualize data for
+				investigative stories. I've previously worked at The New York Times, Bloomberg News, and The
+				Texas Tribune.
+			</p>
+		</section>
+
+		<Grid projects={projects.topLevel} />
+
+		<p class="contacts">
+			<b>Contacts:</b>
+			<a href="mailto:{email}">{email}</a>
+			<a href="https://twitter.com/cow_portal">Twitter</a>
+			<a href="https://github.com/jsonkao">GitHub</a>
 		</p>
-	</section>
-
-	<Grid projects={projects.topLevel} />
-
-	<p class="contacts">
-		<b>Contacts:</b>
-		<a href="mailto:{email}">{email}</a>
-		<a href="https://twitter.com/cow_portal">Twitter</a>
-		<a href="https://github.com/jsonkao">GitHub</a>
-	</p>
-</main>
+	</main>
+</div>
 
 <style>
 	main {
 		margin: 42px auto 0;
 		padding: 0 20px 60px;
 		max-width: 1100px;
-		--color: wheat;
+		--color: #a32251;
+	}
+
+	.container {
+		border: 1px solid #a32251;
+		box-sizing: border-box;
 	}
 
 	p {
-		width: 52%;
-		margin: 0 auto 24px;
+		width: 58%;
+		margin: 0 0 24px auto;
 		color: var(--color);
+		text-align: right;
 	}
 
 	section {
@@ -73,8 +84,7 @@
 	.contacts a {
 		color: var(--color);
 		text-decoration: none;
-		border-bottom: 1px solid #ccc;
-		margin-right: 6px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
 	.contacts a:hover {
@@ -84,6 +94,7 @@
 	@media (max-width: 460px) {
 		p {
 			width: 100%;
+			text-align: left;
 		}
 
 		section {

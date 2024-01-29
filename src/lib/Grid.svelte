@@ -8,7 +8,7 @@
 
 <div class="grid">
 	{#each projects as project, i}
-		<Project {project} color={colors[i % colors.length]} />
+		<Project {project} color={colors[i % colors.length]} lean={i % 2 === 0 ? 'left' : 'right'}/>
 	{/each}
 </div>
 
@@ -17,7 +17,7 @@
 		display: grid;
 		row-gap: 50px;
 		column-gap: 25px;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 
 	@media (max-width: 460px) {

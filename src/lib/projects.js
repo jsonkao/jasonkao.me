@@ -1,10 +1,10 @@
 export default {
 	topLevel: [
 		{
-			name: 'Where New York’s Asian Americans Neighborhoods Shifted to the Right',
+			name: 'Where New York’s Asian American Neighborhoods Shifted to the Right',
 			org: 'The New York Times',
 			description:
-				'A story about the largest electoral shift in the city’s Asian neighborhoods in the last 2 decades.',
+				'A story about a once-in-two-decade electoral shift in the city’s Asian neighborhoods.',
 			image: 'asam-vote-promo.jpg',
 			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
