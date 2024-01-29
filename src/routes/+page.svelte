@@ -33,11 +33,13 @@
 		margin: 42px auto 0;
 		padding: 0 20px 60px;
 		max-width: 1100px;
+		--color: wheat;
 	}
 
 	p {
 		width: 52%;
 		margin: 0 auto 24px;
+		color: var(--color);
 	}
 
 	section {
@@ -45,14 +47,14 @@
 	}
 
 	p a {
-		color: #121212;
-		border-bottom: 1px solid #121212;
+		color: var(--color);
+		border-bottom: 1px solid var(--color);
 		transition-duration: 0.15s;
 	}
 
 	p a:hover {
 		border-bottom-color: #e4e4e4;
-		background: #e4e4e4;
+		background: black;
 		text-decoration: none;
 	}
 
@@ -69,14 +71,14 @@
 	}
 
 	.contacts a {
-		color: #121212;
+		color: var(--color);
 		text-decoration: none;
 		border-bottom: 1px solid #ccc;
 		margin-right: 6px;
 	}
 
 	.contacts a:hover {
-		border-bottom-color: #121212;
+		border-bottom-color: var(--color);
 	}
 
 	@media (max-width: 460px) {

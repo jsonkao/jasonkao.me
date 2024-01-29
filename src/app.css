@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&display=swap');
 
+html {
+	/* ['#A32251', 'rgb(7, 7, 126)', '#004F50', '#D91F25', '#0041FF', '#EBAB3D'] */
+	background-color: rgb(7, 7, 126);
+	background-color: #004F50;
+	background-color: #A32251;
+}
+
 html,
 body {
 	position: relative;

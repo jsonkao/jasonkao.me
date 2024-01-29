@@ -13,7 +13,7 @@
 </script>
 
 <div>
-	<a href={url} style="color: {color}" target="_blank" rel="noopener noreferrer">
+	<a href={url} style="color: wheat; {color}" target="_blank" rel="noopener noreferrer">
 		<div class="media">
 			{#if isVideo}
 				<video autoPlay playsInline muted loop>
