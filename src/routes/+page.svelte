@@ -38,7 +38,6 @@
 		margin: 42px auto 0;
 		padding: 0 20px 60px;
 		max-width: 1100px;
-		--color: #a32251;
 	}
 
 	.container {
