@@ -26,6 +26,12 @@ export default {
 			people: 'Umar Farooq'
 		},
 		{
+			name: 'A Memorial for the Children Lost to Stillbirth',
+			org: 'ProPublica',
+			image: 'stillborn-memorial.png',
+			url: 'https://projects.propublica.org/stillbirth-memorial/'
+		},
+		{
 			name: 'The Scandal That Never Happened',
 			org: 'ProPublica',
 			description:
@@ -89,16 +95,14 @@ export default {
 			people: 'Christine Zhang, Denise Lu'
 		},
 		{
-			name:
-				'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
-				org: 'The Texas Tribune',
+			name: 'Texas teachers say GOP’s new social studies law will hinder how an entire generation understands race and history',
+			org: 'The Texas Tribune',
 			image:
 				'https://thumbnails.texastribune.org/YHJoX5QPf2TjaRqTaW3hAzx-LZQ=/1550x1038/smart/filters:format(webp):quality(75)/https://static.texastribune.org/media/files/010dc5850ea436ded790bd645de50ba3/CRT%20lead%20v1.png',
-			url:
-				'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
+			url: 'https://www.texastribune.org/2021/08/03/texas-critical-race-theory-social-studies-teachers/',
 			description: 'Isabella Zou and I talked to 25 teachers about HB 3979.',
 			people: 'Brandon Formby, Darla Cameron'
-		}, 
+		},
 		{
 			name: 'How Trump’s Policies Are Leaving Thousands of Asylum Seekers Waiting in Mexico',
 			org: 'The New York Times',
@@ -107,7 +111,7 @@ export default {
 				'An accounting of asylum seekers left waiting in Mexico. A collaboration with NGOs, shelters, researchers, and photographers in every MPP border city.',
 			url: 'https://www.nytimes.com/interactive/2019/08/18/us/mexico-immigration-asylum.html',
 			people: 'Simone Landon, Denise Lu, Archie Tse, Zolan Kanno-Youngs, Stephanie Leutert'
-		},
+		}
 		/*
 		{
 			name: 'Low-income, Black, Hispanic Communities Less Able to Stay Home (Bloomberg News)',
@@ -182,7 +186,6 @@ export default {
 		}
 	],
 	secondLevel: [
-		
 		{
 			name: 'More New York Times work',
 			url: 'https://www.nytimes.com/by/jason-kao',

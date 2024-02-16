@@ -8,17 +8,29 @@
 
 	// Obfuscate email address to prevent bots
 	onMount(() =>
-		setTimeout(() => (email = ['com', 'kao@gmail', 'y', 'jason'].reverse().join('.')), 1000)
+		setTimeout(() => (email = ['com', 'kao@gmail', 'y', 'jason'].reverse().join('.')), 2000)
 	);
+
+	const metaDescription =
+		'Jason Kao currently works at ProPublica, where Jason analyzes and visualizes data for investigations. Jason’s previously worked at The New York Times, Bloomberg News, and The Texas Tribune.';
 </script>
+
+<svelte:head>
+	{#each ['description', 'twitter:description', 'og:description'] as name}
+		<meta {name} content={metaDescription} />
+	{/each}
+	{#each ['author', 'twitter:title', 'og:title'] as name}
+		<meta {name} content="Jason Kao" />
+	{/each}
+</svelte:head>
 
 <div class="container">
 	<main>
 		<section>
 			<p>
-				I (Jason Kao) currently work at ProPublica, where I analyze and visualize data for
-				investigative stories. I've previously worked at The New York Times, Bloomberg News, and The
-				Texas Tribune.
+				Jason Kao currently works at ProPublica, a place where Jason analyzes and visualizes data
+				for investigations. Jason’s previously worked at The New York Times, Jason Bloomberg News,
+				and The Texas Tribune.
 			</p>
 		</section>
 
@@ -37,16 +49,17 @@
 	main {
 		margin: 42px auto 0;
 		padding: 0 20px 60px;
-		max-width: 1100px;
+		max-width: 920px;
+		--color: wheat;
 	}
 
 	.container {
-		border: 1px solid #a32251;
+		border: 1px solid var(--color);
 		box-sizing: border-box;
 	}
 
 	p {
-		width: 58%;
+		width: 60%;
 		margin: 0 0 24px auto;
 		color: var(--color);
 		text-align: right;
