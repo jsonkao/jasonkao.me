@@ -28,9 +28,9 @@
 	<main>
 		<section>
 			<p>
-				Jason Kao currently works at ProPublica, a place where Jason analyzes and visualizes data
-				for investigations. Jason’s previously worked at The New York Times, Jason Bloomberg News,
-				and The Texas Tribune.
+				Hi, my name is Jason Kao. I work in visualization, design, and journalism. Recently, I was
+				at ProPublica, where I analyzed and visualized data for investigations. I’ve previously
+				worked for The New York Times and The Texas Tribune.
 			</p>
 		</section>
 
@@ -59,10 +59,10 @@
 	}
 
 	p {
-		width: 60%;
+		width: 70%;
 		margin: 0 0 24px auto;
 		color: var(--color);
-		text-align: right;
+		text-align: left;
 	}
 
 	section {
