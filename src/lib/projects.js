@@ -1,6 +1,14 @@
 export default {
 	topLevel: [
 		{
+			name: 'When the Coast Guard Intercepts Unaccompanied Kids',
+			org: 'ProPublica & The New York Times Magazine',
+			url: 'https://www.propublica.org/article/when-the-coast-guard-intercepts-unaccompanied-kids',
+			description: 'Data reporting for a story about a boy detained at sea.',
+			image: 'coast guard.webm',
+			people: 'Seth Freed Wessler, Hannah Fresques'
+		},
+		{
 			name: 'Where New York’s Asian American Neighborhoods Shifted to the Right',
 			org: 'The New York Times',
 			description:
@@ -9,14 +17,6 @@ export default {
 			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
-		},
-		{
-			name: 'When the Coast Guard Intercepts Unaccompanied Kids',
-			org: 'ProPublica & The New York Times Magazine',
-			url: 'https://www.propublica.org/article/when-the-coast-guard-intercepts-unaccompanied-kids',
-			description: 'Data reporting for a story about a boy detained at sea.',
-			image: 'coast guard.webm',
-			people: 'Seth Freed Wessler, Hannah Fresques'
 		},
 		{
 			name: 'Body Cameras Were Sold as a Tool of Police Reform. Ten Years Later, Most of the Footage Is Kept From Public View.',
@@ -30,6 +30,12 @@ export default {
 			org: 'ProPublica',
 			image: 'stillborn-memorial.png',
 			url: 'https://projects.propublica.org/stillbirth-memorial/'
+		},
+		{
+			name: 'The Rising Cost of the Oil Industry’s Slow Death',
+			org: 'ProPublica',
+			image: 'oil-cleanup.png',
+			url: 'https://www.propublica.org/article/the-rising-cost-of-the-oil-industrys-slow-death'
 		},
 		{
 			name: 'The Scandal That Never Happened',

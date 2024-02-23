@@ -12,7 +12,7 @@
 	);
 
 	const metaDescription =
-		'Jason Kao currently works at ProPublica, where Jason analyzes and visualizes data for investigations. Jason’s previously worked at The New York Times, Bloomberg News, and The Texas Tribune.';
+		'I work in visualization, design, and journalism. Recently, I was at ProPublica, where I analyzed and visualized data for investigations. I’ve previously worked for The New York Times and The Texas Tribune.';
 </script>
 
 <svelte:head>
@@ -24,38 +24,35 @@
 	{/each}
 </svelte:head>
 
-<div class="container">
-	<main>
-		<section>
-			<p>
-				Hi, my name is Jason Kao. I work in visualization, design, and journalism. Recently, I was
-				at ProPublica, where I analyzed and visualized data for investigations. I’ve previously
-				worked for The New York Times and The Texas Tribune.
-			</p>
-		</section>
-
-		<Grid projects={projects.topLevel} />
-
-		<p class="contacts">
-			<b>Contacts:</b>
-			<a href="mailto:{email}">{email}</a>
-			<a href="https://twitter.com/cow_portal">Twitter</a>
-			<a href="https://github.com/jsonkao">GitHub</a>
+<main>
+	<section>
+		<p>
+			Hi, my name is Jason Kao. I work in visualization, design, and journalism. Recently, I was at
+			ProPublica, where I analyzed and visualized data for investigations. I’ve previously worked
+			for The New York Times and The Texas Tribune.
 		</p>
-	</main>
-</div>
+	</section>
+
+	<Grid projects={projects.topLevel} />
+
+	<p class="contacts">
+		<b>Contacts:</b>
+		<a href="mailto:{email}">{email}</a>
+		<a href="https://twitter.com/cow_portal">Twitter</a>
+		<a href="https://github.com/jsonkao">GitHub</a>
+	</p>
+</main>
 
 <style>
 	main {
+		--color: wheat;
 		margin: 42px auto 0;
 		padding: 0 20px 60px;
 		max-width: 920px;
-		--color: wheat;
 	}
 
-	.container {
-		border: 1px solid var(--color);
-		box-sizing: border-box;
+	section {
+		padding: 36px;
 	}
 
 	p {
@@ -63,10 +60,6 @@
 		margin: 0 0 24px auto;
 		color: var(--color);
 		text-align: left;
-	}
-
-	section {
-		padding: 36px;
 	}
 
 	p a {
