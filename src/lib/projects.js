@@ -14,7 +14,7 @@ export default {
 			description:
 				'A story about a once-in-two-decade electoral shift in the city’s Asian neighborhoods.',
 			image: 'asam-vote-promo.jpg',
-			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html',
+			url: 'https://www.nytimes.com/interactive/2023/03/05/nyregion/election-asians-voting-republicans-nyc.html?unlocked_article_code=bWaa9UtPPK1XY4Az2gMPhR5yPchdO-Hnm_ZrAH7dba8_P_84XV1LTR7XUCkedVCL9nsd0tg_uhmuekDvRnwvaWzQJHF8mWbUr23ewAmX1w9pmwo0yNSeJFLllNT6qh8VbkaZT32pBePsuyR6ahbzkovBNnbxhprJV0QgBudYQMp0iMHGUKT_-aK3WVhYaoGN0XkNClggsAsp9Y5vMI6KR-7IJqTFBZSg-QDsnQBMIVWpIwRVYc3WkoC4zkY9nZQJrSEaBNHL7ges_2aAXJMOPt3zN0MgW6XLXumOWtis5GCYg-LEZJi0mGD-wEO3SC1pIqK1spqHwwRAQ-qERrvCQh-Fpfx1Em67Bevezn6UUAnugANSvM8BFJA6yf4GGJlZpag',
 			people:
 				'<a href="https://twitter.com/christinezhang?lang=en">Christine Zhang</a>, Kenan Davis'
 		},
@@ -51,7 +51,7 @@ export default {
 			description:
 				'We measured the din of daily life and talked to scientists about the health risks it can pose.',
 			image: 'noise-hp-promo.mp4',
-			url: 'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html',
+			url: 'https://www.nytimes.com/interactive/2023/06/09/health/noise-exposure-health-impacts.html?unlocked_article_code=1.bk0.jevJ.JKsTLDs2BbnX&smid=url-share',
 			people: 'Emily TK'
 		},
 		{
@@ -97,7 +97,7 @@ export default {
 			name: 'These Georgia Precincts Were Red. Then Blue. Now They Are Purple.',
 			org: 'The New York Times',
 			image: 'georgia.webm',
-			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html',
+			url: 'https://www.nytimes.com/interactive/2022/12/02/us/elections/georgia-senate-results-analysis.html?unlocked_article_code=1.bk0.YdmH.yyFguTTaNtnI&smid=url-share',
 			people: 'Christine Zhang, Denise Lu'
 		},
 		{
