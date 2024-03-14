@@ -12,7 +12,7 @@
 	);
 
 	const metaDescription =
-		'I work in visualization, design, and journalism. Recently, I was at ProPublica, where I analyzed and visualized data for investigations. I’ve previously worked for The New York Times and The Texas Tribune.';
+		'I am currently a Graphics Reporter at Bloomberg News. I’ve previously worked for ProPublica, The New York Times and The Texas Tribune.';
 </script>
 
 <svelte:head>
@@ -27,9 +27,8 @@
 <main>
 	<section>
 		<p>
-			Hi, my name is Jason Kao. I work in visualization, design, and journalism. Recently, I was at
-			ProPublica, where I analyzed and visualized data for investigations. I’ve previously worked
-			for The New York Times and The Texas Tribune.
+			Hi, my name is Jason Kao. I am currently a Graphics Reporter at Bloomberg News. I’ve previously worked
+			for ProPublica, The New York Times, and The Texas Tribune.
 		</p>
 	</section>
 
